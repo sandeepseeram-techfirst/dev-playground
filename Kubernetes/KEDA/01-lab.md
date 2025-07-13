@@ -1,3 +1,3 @@
 # KEDA (Kubernetes Event-Driven Autoscaler)
 
-### Concepts
+## Concepts
