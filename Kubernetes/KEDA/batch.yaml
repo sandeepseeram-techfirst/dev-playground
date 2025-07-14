@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: publish-job
+  namespace: messaging
+spec:
+  template:
+    spec:
+      containers:
+      - name: publisher
+        image: python:3.11
+        command: ["python", "-c"]
+        args:
+        - |
+          import pika, sys
+          conn = pika.BlockingConnection(pika.URLParameters('amqp://guest:guest@rabbitmq.messaging.svc.cluster.local:5672/'))
+          ch = conn.channel()
+          ch.queue_declare(queue='myqueue', durable=True)
+          for i in range(100):
+              ch.basic_publish(exchange='', routing_key='myqueue', body=f'msg-{i}')
+          conn.close()
+      restartPolicy: Never
+  backoffLimit: 1
