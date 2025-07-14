@@ -1,0 +1,33 @@
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: rabbitmq-scaledobject
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: rabbit-consumer
+  pollingInterval: 15            # seconds to poll the scaler
+  cooldownPeriod: 30             # seconds to wait before scaling down
+  minReplicaCount: 0
+  maxReplicaCount: 10
+  triggers:
+  - type: rabbitmq
+    metadata:
+      queueName: myqueue
+      mode: QueueLength         # mode can be QueueLength or PublishRate depending on scaler
+      value: "5"                # target queue length per pod (if 1 pod = 5 msgs)
+    authenticationRef:
+      name: rabbitmq-auth
+---
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: rabbitmq-auth
+  namespace: default
+spec:
+  secretTargetRef:
+  - parameter: connection
+    name: rabbitmq-conn
+    key: connectionString
