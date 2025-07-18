@@ -9,3 +9,6 @@ Bring external data, such as your files, other applications, and API data, to LL
 
 ### Agents 
 Allows LLMs to interact with its environment via decision making and use LLMs to help decide which action to take next. 
+
+
+Google's foundation models are officially integrated with the LangChain Python SDK, making it convenient to build applications with Google models using LangChain. The Google integrations also offer components for conveniently loading documents from BigQuery, Bigtable, Cloud SQL, Cloud Storage, Google Drive, and more data sources. You can also use many Google databases as vector stores. You can also call other models hosted in Vertex AI's Model Garden, like Anthropic's Claude or Meta's Llama from LangChain.
