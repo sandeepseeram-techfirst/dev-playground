@@ -10,3 +10,5 @@ Globally, there are between 6-7 thousand languages, and yet remarkably, many of 
 
 * Despite their diversity, most languages share common patterns such as syntax (the way words are put together), semantics (the meanings of words and their combinations), and contextual dependencies. These common patterns make them understandable and more importantly, learnable. It is this universal learnability that makes building language models possible.
 
+### The Rise of Language Models
+
