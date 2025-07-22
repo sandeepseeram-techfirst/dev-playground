@@ -16,3 +16,4 @@ Globally, there are between 6-7 thousand languages, and yet remarkably, many of 
 
 * At its core, a language model (LM) is a system that predicts the next word in a sequence based on previous words. This is done by assigning probabilities to all possible next words and then choosing the next word based on these probabilities. The probabilities themselves are generally learned by the model from large amounts of data using machine learning methods, such as deep learning. 
 
+
