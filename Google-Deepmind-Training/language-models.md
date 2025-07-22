@@ -1,1 +1,6 @@
 # 01 - Build your own small language model 
+
+### Language 
+
+Globally, there are between 6-7 thousand languages, and yet remarkably, many of them follow similar patterns. Languages are governed by rules that dictate the order of words and the formation of word groups. This underlying structure means that much of language is predictable.
+
