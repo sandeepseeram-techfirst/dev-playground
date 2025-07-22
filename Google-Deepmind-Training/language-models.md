@@ -14,3 +14,4 @@ Globally, there are between 6-7 thousand languages, and yet remarkably, many of 
 
 * Deep Learning, a sophisticated class of machine learning methods and its the foundation to modern language models (LMs). 
 
+* At its core, a language model (LM) is a system that predicts the next word in a sequence based on previous words
