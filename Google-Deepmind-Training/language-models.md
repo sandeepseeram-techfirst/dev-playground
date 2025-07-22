@@ -7,3 +7,6 @@ Globally, there are between 6-7 thousand languages, and yet remarkably, many of 
 * Language models can be used to generate music or predict weather patterns and simulate our climate. These models can even represent proteins, paving way for breakthroughs in drug discovery.
 
 * Language is one of the most powerful and diverse tools that humans possess. There are estimated to be roughly one million words in the English language including scientific terms
+
+* Despite their diversity, most languages share common patterns such as syntax (the way words are put together), semantics (the meanings of words and their combinations), and contextual dependencies. These common patterns make them understandable and more importantly, learnable. It is this universal learnability that makes building language models possible.
+
