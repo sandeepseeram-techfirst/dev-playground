@@ -12,3 +12,4 @@ Globally, there are between 6-7 thousand languages, and yet remarkably, many of 
 
 ### The Rise of Language Models
 
+* Deep Learning, a sophisticated class of machine learning methods!! 
