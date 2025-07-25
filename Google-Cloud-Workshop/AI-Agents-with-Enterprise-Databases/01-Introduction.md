@@ -4,3 +4,7 @@ Build AI agents that can leverage enterprise databases using the MCP Toolbox for
 
 * Build sophisticated AI agents that securely interact with and reason about proprietary enterprise data.
 * MCP Toolbox for Databases and construct and utilize AI agents that use database tools for intelligent query and semantic search.
+
+### AI Agents 
+
+An AI agent is an autonomous system that perceives natural language requests, reasons about the required data, and acts by executing secure queries.
