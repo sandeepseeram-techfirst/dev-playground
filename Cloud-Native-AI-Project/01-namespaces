@@ -15,5 +15,4 @@ kubectl create ns monitoring
 namespace/ai-system created
 namespace/ai-demo created
 namespace/monitoring created
-
 controlplane:~$ 
