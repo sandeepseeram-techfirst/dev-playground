@@ -2,7 +2,7 @@
 
 ## Namespaces
 
-### ai-system — control-plane (argo, monitoring, minio) 
+### ai-system — control-plane (argo, monitoring, minio)
 
 ### ai-demo — demo workloads (training jobs, model server, frontend)
 
