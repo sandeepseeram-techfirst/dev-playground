@@ -28,3 +28,41 @@ Cloud Native AI/ML enables:
 
 ---
 
+## 🧠 Key Frameworks and Platforms
+
+### **1. Data Processing and Feature Engineering**
+- **Apache Spark**, **Beam**, **Flink**, **Kafka**
+- **Feast** (Feature Store)
+- **Airflow**, **Prefect**, **Dagster**
+
+### **2. Model Training & Development**
+- **TensorFlow**, **PyTorch**, **JAX**
+- **Hugging Face Transformers**, **XGBoost**, **LightGBM**
+- **Horovod** for distributed deep learning
+
+### **3. Model Serving & Inference**
+- **KServe (KFServing)** — Kubernetes-native model serving
+- **Seldon Core** — scalable serving with advanced routing and monitoring
+- **BentoML** — developer-friendly model serving
+- **NVIDIA Triton Inference Server** — optimized GPU-based inference
+
+### **4. MLOps Platforms**
+- **Kubeflow** — end-to-end ML on Kubernetes
+- **MLflow** — experiment tracking, model registry
+- **Vertex AI (GCP)**, **SageMaker (AWS)**, **Azure ML**
+- **Argo Workflows** for pipeline orchestration
+- **Neptune.ai**, **Weights & Biases (W&B)** for experiment tracking
+
+### **5. Observability and Monitoring**
+- **Prometheus + Grafana**
+- **OpenTelemetry**
+- **Model Drift Detection:** EvidentlyAI, WhyLabs, Arize AI
+
+### **6. Cloud Native Stack**
+- **Kubernetes** — core orchestration
+- **Docker / Podman** — containerization
+- **Helm / Kustomize** — deployment management
+- **Istio / Linkerd** — service mesh for model traffic control
+- **Knative / Kubeless** — serverless AI inference
+
+---
