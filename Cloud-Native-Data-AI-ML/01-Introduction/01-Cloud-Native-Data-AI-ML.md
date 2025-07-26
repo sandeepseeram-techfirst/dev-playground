@@ -66,3 +66,31 @@ Cloud Native AI/ML enables:
 - **Knative / Kubeless** — serverless AI inference
 
 ---
+
+## 🚀 Common Use Cases
+
+| Category | Example Applications |
+|-----------|----------------------|
+| **Computer Vision** | Image classification, object detection, defect detection, surveillance |
+| **Natural Language Processing (NLP)** | Chatbots, sentiment analysis, translation, summarization |
+| **Recommendation Systems** | E-commerce, media, content personalization |
+| **Predictive Analytics** | Financial forecasting, predictive maintenance, anomaly detection |
+| **Edge & IoT AI** | Real-time video analytics, autonomous systems |
+| **AI for DevOps / SRE** | Predictive monitoring, anomaly detection in metrics/logs |
+
+---
+
+## 🛠️ Tools and Technologies by Layer
+
+| Layer | Tools |
+|-------|-------|
+| **Data Layer** | BigQuery, Snowflake, Kafka, MinIO, Apache Beam |
+| **Pipeline Orchestration** | Airflow, Argo, Kubeflow Pipelines |
+| **Training** | TensorFlow, PyTorch, JAX, Horovod |
+| **Model Packaging** | Docker, BentoML, ONNX |
+| **Serving & Deployment** | KServe, Seldon Core, Triton, Knative |
+| **Observability** | Prometheus, Grafana, OpenTelemetry |
+| **Infrastructure** | Kubernetes, GPU Nodes, GKE, EKS, AKS |
+| **Security & Compliance** | OPA/Gatekeeper, HashiCorp Vault, RBAC, Binary Authorization |
+
+---
