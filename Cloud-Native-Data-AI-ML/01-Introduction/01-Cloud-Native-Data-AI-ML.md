@@ -11,3 +11,5 @@ Cloud Native AI/ML enables:
 - Managing **data pipelines**, **model training**, and **inference workloads** efficiently using Kubernetes
 - Leveraging **MLOps** to automate the lifecycle of ML models
 - Integrating **GPU acceleration**, **serverless inference**, and **AI-driven observability** within cloud-native infrastructure
+
+
