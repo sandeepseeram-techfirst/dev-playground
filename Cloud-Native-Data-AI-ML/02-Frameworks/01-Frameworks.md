@@ -40,3 +40,11 @@ Data frameworks handle **data ingestion, streaming, batch processing, transforma
   - **Spark-on-Kubernetes** (native integration since Spark 3.x)
   - **Spark Operator** for declarative job submission on K8s
 - **Use Cases:** ETL, large-scale data analytics, distributed ML preprocessing.
+
+### 🌊 Apache Flink
+- **Category:** Stream Processing
+- **Purpose:** Low-latency, high-throughput event stream processing.
+- **Cloud Native Integration:**
+  - **Flink Kubernetes Operator**
+  - Stateful and event-time processing, checkpointing to object stores.
+- **Use Cases:** Real-time analytics, fraud detection, IoT pipelines.
