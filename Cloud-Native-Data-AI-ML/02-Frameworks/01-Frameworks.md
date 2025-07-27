@@ -131,3 +131,55 @@ These frameworks power **model building, distributed training, and evaluation** 
 - **Use Cases:** Structured data ML, ranking systems, predictive analytics.
 
 ---
+
+## 🧠 3. MLOps and Cloud Native ML Orchestration Frameworks
+
+These frameworks bring DevOps-style automation and governance to ML workflows — covering training, deployment, monitoring, and CI/CD.
+
+### 🧭 Kubeflow
+- **Category:** End-to-End ML Platform on Kubernetes
+- **Purpose:** Build, train, and deploy ML models natively in Kubernetes.
+- **Components:**
+  - **Kubeflow Pipelines:** Workflow orchestration
+  - **Katib:** Hyperparameter tuning
+  - **TFJob / PyTorchJob Operators:** Distributed training
+  - **KFServing / KServe:** Model serving
+- **Use Cases:** Reproducible ML workflows, distributed model training, model serving automation.
+
+### 🧰 MLflow
+- **Category:** Experiment Tracking & Model Registry
+- **Purpose:** Track experiments, log metrics, register and serve models.
+- **Cloud Native Integration:**
+  - Runs as a containerized service with backend storage on S3/GCS
+  - Integrated with **Kubeflow**, **Airflow**, and **CI/CD pipelines**
+- **Use Cases:** Versioned ML experiments, model lifecycle management.
+
+### ⚙️ Argo Workflows
+- **Category:** Workflow Orchestrator
+- **Purpose:** Container-native workflow engine for Kubernetes.
+- **Cloud Native Integration:**
+  - Used by Kubeflow Pipelines internally
+  - Define workflows as DAGs (YAML manifests)
+- **Use Cases:** Automate ML data pipelines, model training jobs, or post-processing.
+
+### 🧩 Ray
+- **Category:** Distributed Compute Framework
+- **Purpose:** Parallel and distributed execution for Python and ML workloads.
+- **Key Libraries:**
+  - **Ray Train:** Distributed training
+  - **Ray Serve:** Scalable model serving
+  - **Ray Tune:** Hyperparameter optimization
+- **Cloud Native Integration:**
+  - Deploy Ray clusters on Kubernetes with the **Ray Operator**
+  - Autoscale workers across nodes dynamically
+- **Use Cases:** Scalable ML workloads, reinforcement learning, distributed data preprocessing.
+
+### 📦 Metaflow
+- **Category:** Human-Centric MLOps Framework
+- **Purpose:** Simplify end-to-end ML workflow creation and execution.
+- **Cloud Native Integration:**
+  - Works with Kubernetes and AWS Batch
+  - Stores lineage metadata for reproducibility
+- **Use Cases:** Data science pipelines with versioning and traceability.
+
+---
