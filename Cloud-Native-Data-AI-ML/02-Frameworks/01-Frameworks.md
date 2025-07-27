@@ -71,3 +71,63 @@ Data frameworks handle **data ingestion, streaming, batch processing, transforma
 - **Use Cases:** Reusable features for ML models, feature versioning, consistency between training and inference.
 
 ---
+
+## 🤖 2. Cloud Native AI/ML Frameworks
+
+These frameworks power **model building, distributed training, and evaluation** across GPU/TPU-enabled nodes in Kubernetes clusters.
+
+### 🧬 TensorFlow
+- **Category:** Deep Learning Framework
+- **Purpose:** Build and train deep learning models.
+- **Key Features:**
+  - **Keras API** for high-level modeling
+  - **TF Data API** for scalable input pipelines
+  - **TensorFlow Serving** for production deployment
+- **Cloud Native Integration:**
+  - **TFJob Operator (Kubeflow)** for distributed training
+  - Supports GPU scheduling via Kubernetes device plugins
+- **Use Cases:** Image recognition, NLP, time-series forecasting.
+
+### 🔥 PyTorch
+- **Category:** Deep Learning Framework
+- **Purpose:** Dynamic computational graphs for deep learning research and production.
+- **Key Features:**
+  - **TorchScript** for model serialization
+  - **DistributedDataParallel (DDP)** for parallel training
+- **Cloud Native Integration:**
+  - **TorchElastic** for fault-tolerant distributed training
+  - **KubeTorch / Kubeflow PyTorch Operator**
+  - Deploy with **KServe** or **TorchServe** on Kubernetes
+- **Use Cases:** NLP, CV, reinforcement learning, LLM fine-tuning.
+
+### ⚛️ JAX
+- **Category:** High-Performance ML/Scientific Computing
+- **Purpose:** Autograd + XLA (Accelerated Linear Algebra) for differentiable programming.
+- **Key Features:**
+  - **jit()**, **vmap()**, **pmap()** for distributed, parallel computation
+  - Foundation for frameworks like **Flax** and **Haiku**
+- **Cloud Native Integration:**
+  - Runs efficiently on GPU/TPU clusters
+  - Can scale via **Ray** or **Kubernetes MPI Operator**
+- **Use Cases:** Scientific ML, reinforcement learning, custom differentiable algorithms.
+
+### 🌐 Hugging Face Transformers
+- **Category:** NLP and LLM Framework
+- **Purpose:** Pretrained models for text, audio, and vision.
+- **Key Features:**
+  - Thousands of pretrained models (BERT, GPT, T5)
+  - Integration with **PyTorch**, **TensorFlow**, and **JAX**
+- **Cloud Native Integration:**
+  - Serve models via **KServe**, **Triton**, or **BentoML**
+  - Scale training with **Ray Train** or **Deepspeed**
+- **Use Cases:** Chatbots, summarization, translation, generative AI.
+
+### 🧩 XGBoost / LightGBM / CatBoost
+- **Category:** Gradient Boosting Libraries
+- **Purpose:** Tabular data models for classification/regression.
+- **Cloud Native Integration:**
+  - Train on Kubernetes using **Dask**, **Ray**, or **Kubeflow**
+  - Serve via **MLflow Models** or **BentoML**
+- **Use Cases:** Structured data ML, ranking systems, predictive analytics.
+
+---
