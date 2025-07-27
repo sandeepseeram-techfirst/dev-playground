@@ -48,3 +48,12 @@ Data frameworks handle **data ingestion, streaming, batch processing, transforma
   - **Flink Kubernetes Operator**
   - Stateful and event-time processing, checkpointing to object stores.
 - **Use Cases:** Real-time analytics, fraud detection, IoT pipelines.
+
+### 🧱 Apache Beam
+- **Category:** Unified Data Processing
+- **Purpose:** Provides a unified model for batch and streaming data pipelines.
+- **Execution Engines (Runners):** Spark, Flink, Dataflow (GCP), Samza.
+- **Cloud Native Integration:**
+  - Works seamlessly with **GCP Dataflow** (serverless)
+  - Can be deployed with containerized runners on Kubernetes
+- **Use Cases:** ETL pipelines, streaming analytics, data transformation.
