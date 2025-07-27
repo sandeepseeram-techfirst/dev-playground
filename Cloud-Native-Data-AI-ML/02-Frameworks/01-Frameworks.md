@@ -57,3 +57,17 @@ Data frameworks handle **data ingestion, streaming, batch processing, transforma
   - Works seamlessly with **GCP Dataflow** (serverless)
   - Can be deployed with containerized runners on Kubernetes
 - **Use Cases:** ETL pipelines, streaming analytics, data transformation.
+
+
+### 🧠 Feast (Feature Store)
+- **Category:** Feature Store
+- **Purpose:** Centralized feature management for ML models.
+- **Components:**
+  - **Online Store:** Low-latency feature access (Redis, DynamoDB)
+  - **Offline Store:** Historical feature storage (BigQuery, Snowflake)
+- **Cloud Native Integration:**
+  - Runs as Kubernetes deployments
+  - Integrates with **Kubeflow** and **TensorFlow Serving**
+- **Use Cases:** Reusable features for ML models, feature versioning, consistency between training and inference.
+
+---
