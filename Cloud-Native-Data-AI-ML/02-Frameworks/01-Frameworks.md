@@ -29,3 +29,14 @@ Data frameworks handle **data ingestion, streaming, batch processing, transforma
   - Deployed via **Strimzi Operator** or **Redpanda** on Kubernetes.
   - Integrates with **Flink**, **Spark**, and **Beam** for data processing.
 - **Use Cases:** Event-driven microservices, log aggregation, real-time analytics.
+
+### 🧮 Apache Spark
+- **Category:** Distributed Data Processing
+- **Purpose:** Batch and stream processing at scale.
+- **Key Features:**
+  - Supports **SQL, MLlib (Machine Learning), GraphX**, and **Structured Streaming**
+  - **In-memory computation** for performance
+- **Cloud Native Integration:**
+  - **Spark-on-Kubernetes** (native integration since Spark 3.x)
+  - **Spark Operator** for declarative job submission on K8s
+- **Use Cases:** ETL, large-scale data analytics, distributed ML preprocessing.
