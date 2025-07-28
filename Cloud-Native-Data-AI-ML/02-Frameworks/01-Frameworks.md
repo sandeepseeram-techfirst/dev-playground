@@ -183,3 +183,58 @@ These frameworks bring DevOps-style automation and governance to ML workflows �
 - **Use Cases:** Data science pipelines with versioning and traceability.
 
 ---
+
+## 🚀 4. Cloud Native Model Serving and Inference Frameworks
+
+These frameworks focus on **deploying, scaling, and managing models** in production environments.
+
+### 🧱 KServe (KFServing)
+- **Category:** Model Serving Framework
+- **Purpose:** Serve ML/DL models on Kubernetes at scale.
+- **Key Features:**
+  - Supports TensorFlow, PyTorch, XGBoost, ONNX, and custom containers
+  - Inference graph routing, autoscaling, canary deployments
+  - Model explainer integration
+- **Cloud Native Integration:**
+  - Built on Knative, Istio, and Kubernetes CRDs
+- **Use Cases:** Scalable online inference with autoscaling.
+
+### 🧬 Seldon Core
+- **Category:** ML Deployment Platform
+- **Purpose:** Deploy and monitor ML models in Kubernetes.
+- **Key Features:**
+  - REST/gRPC serving, A/B testing, multi-model routing
+  - Outlier and drift detection with Alibi Detect
+- **Cloud Native Integration:**
+  - Deployed as CRDs on Kubernetes
+  - Integrates with Prometheus and Grafana
+- **Use Cases:** Enterprise model serving, model explainability, drift detection.
+
+### ⚙️ BentoML
+- **Category:** Model Packaging & Serving
+- **Purpose:** Simplifies model deployment and service creation.
+- **Features:**
+  - **bentofile.yaml** for dependency management
+  - Integrates with **MLflow**, **Hugging Face**, **KServe**
+  - Builds portable **Bento containers**
+- **Cloud Native Integration:**
+  - Deploy Bentos to **Kubernetes** or **serverless runtimes**
+- **Use Cases:** Fast prototyping to production ML deployment.
+
+### 🧠 NVIDIA Triton Inference Server
+- **Category:** GPU-Accelerated Model Serving
+- **Purpose:** High-performance inference across multiple frameworks.
+- **Supports:** TensorFlow, PyTorch, ONNX, XGBoost, custom C++/Python models.
+- **Cloud Native Integration:**
+  - Triton Helm charts and K8s deployment
+  - Works with **KServe** or **Seldon** as a backend
+- **Use Cases:** Real-time inference on GPUs for NLP/CV.
+
+### ☁️ Knative
+- **Category:** Serverless Framework for Kubernetes
+- **Purpose:** Autoscale ML inference workloads to zero when idle.
+- **Integration:**
+  - KServe uses Knative for serving endpoints
+- **Use Cases:** On-demand, cost-efficient inference.
+
+---
