@@ -238,3 +238,28 @@ These frameworks focus on **deploying, scaling, and managing models** in product
 - **Use Cases:** On-demand, cost-efficient inference.
 
 ---
+
+## 🔍 5. Observability, Monitoring & Governance Frameworks
+
+| Framework | Description | Integration |
+|------------|--------------|-------------|
+| **Prometheus + Grafana** | Metrics collection and visualization | Integrated with Kubeflow, Seldon, KServe |
+| **EvidentlyAI / WhyLabs / Arize AI** | Model drift and performance monitoring | Integrate via sidecar or SDK |
+| **OpenTelemetry** | Tracing and observability for ML workflows | Add tracing to pipelines and serving endpoints |
+| **OPA / Kyverno** | Policy-based governance in K8s environments | Secure ML pipelines and model deployments |
+| **Great Expectations** | Data validation and quality checks | Plug into data pipelines for quality enforcement |
+
+---
+
+## 🧭 Summary Matrix
+
+| Domain | Frameworks | Cloud Native Feature |
+|--------|-------------|----------------------|
+| **Data Ingestion/Processing** | Kafka, Spark, Flink, Beam | Operators, containerized pipelines |
+| **Feature Management** | Feast | CRD-based feature serving |
+| **Model Development** | TensorFlow, PyTorch, JAX, Hugging Face | GPU/TPU scheduling, distributed jobs |
+| **MLOps** | Kubeflow, MLflow, Argo, Ray, Metaflow | Declarative workflows, autoscaling |
+| **Model Serving** | KServe, Seldon, BentoML, Triton, Knative | Autoscaling, multi-framework serving |
+| **Observability** | Prometheus, EvidentlyAI, OTel | Metrics, drift detection, tracing |
+
+---
