@@ -8,6 +8,12 @@
 
 ### monitoring — Prometheus/Grafana (we'll sometimes install them into ai-system to keep it small)
 
-kubectl create ns ai-system
+controlplane:~$ kubectl create ns ai-system
 kubectl create ns ai-demo
 kubectl create ns monitoring
+
+namespace/ai-system created
+namespace/ai-demo created
+namespace/monitoring created
+
+controlplane:~$ 
