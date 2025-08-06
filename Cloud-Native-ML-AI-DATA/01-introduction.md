@@ -17,6 +17,9 @@ Cloud-Native AI/ML/Data refers to designing, developing, deploying, and operatin
 Instead of running ML models on-premise or static VMs, you build end-to-end pipelines that are scalable, portable, and automated — fully integrated with the cloud ecosystem (e.g., GCP, AWS, Azure).
 
 
+## Cloud Native ML-AI-DATA Stages: 
+
+
 
 | Stage                     | What Happens                                      | Cloud-Native Implementation                                   |
 | ------------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
