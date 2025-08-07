@@ -17,7 +17,7 @@ Cloud-Native AI/ML/Data refers to designing, developing, deploying, and operatin
 Instead of running ML models on-premise or static VMs, you build end-to-end pipelines that are scalable, portable, and automated — fully integrated with the cloud ecosystem (e.g., GCP, AWS, Azure).
 
 
-## Cloud Native ML-AI-DATA Stages: 
+### Cloud Native ML-AI-DATA Stages: 
 
 
 
@@ -29,3 +29,18 @@ Instead of running ML models on-premise or static VMs, you build end-to-end pipe
 | **4. Model Training**     | Train ML models using cloud GPU/TPU/CPU           | Vertex AI, SageMaker, Azure ML, Kubeflow, Ray                 |
 | **5. Model Deployment**   | Deploy as scalable microservices                  | KServe, Seldon Core, Vertex AI Prediction, SageMaker Endpoint |
 | **6. MLOps / Monitoring** | Automate CI/CD, model versioning, drift detection | MLflow, TFX, Kubeflow Pipelines, Prometheus, Grafana          |
+
+
+### Key Cloud-Native Components
+
+| Layer                      | Tools / Frameworks                    |
+| -------------------------- | ------------------------------------- |
+| **Containerization**       | Docker, Buildpacks                    |
+| **Orchestration**          | Kubernetes, GKE, EKS, AKS             |
+| **Pipeline Orchestration** | Kubeflow Pipelines, Airflow, Argo     |
+| **Experiment Tracking**    | MLflow, Vertex AI Experiments         |
+| **Data Transformation**    | Spark, Dataflow, Beam, Flink          |
+| **Model Serving**          | KServe, Seldon Core, BentoML          |
+| **Monitoring**             | Prometheus, Grafana, Cloud Monitoring |
+| **CI/CD for ML**           | GitHub Actions, Tekton, Cloud Build   |
+
