@@ -19,8 +19,8 @@
 
 5. Expose an external service for SQL clients (or kubectl port-forward).
 
-Add monitoring: ClickHouse metrics exporter → Prometheus → Grafana.
+6. Add monitoring: ClickHouse metrics exporter → Prometheus → Grafana.
 
-Scale up/down replicas and observe behavior.
+7. Scale up/down replicas and observe behavior.
 
-Demonstrate backup/snapshot options and cleanup.
+8. Demonstrate backup/snapshot options and cleanup.
