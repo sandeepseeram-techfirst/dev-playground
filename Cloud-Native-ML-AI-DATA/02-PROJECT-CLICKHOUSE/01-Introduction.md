@@ -13,11 +13,11 @@
 
 2. Deploy a small ClickHouse cluster with 1 shard × 2 replicas (for learning about replication + distributed queries).
 
-Create MergeTree tables, a Distributed table, and a Materialized View.
+3. Create MergeTree tables, a Distributed table, and a Materialized View.
 
-Ingest sample data and run OLAP queries (aggregation, filtering).
+4. Ingest sample data and run OLAP queries (aggregation, filtering).
 
-Expose an external service for SQL clients (or kubectl port-forward).
+5. Expose an external service for SQL clients (or kubectl port-forward).
 
 Add monitoring: ClickHouse metrics exporter → Prometheus → Grafana.
 
