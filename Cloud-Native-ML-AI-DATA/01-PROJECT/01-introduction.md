@@ -19,3 +19,14 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 | Data Lake/Lakehouse | Delta Lake, Apache Iceberg, Hudi, BigQuery, Snowflake |
 | Data Pipelines      | Airflow, Prefect, Dagster, dbt                        |
 | Data APIs           | GraphQL, gRPC                                         |
+
+#### ML & MLOps
+
+| Component            | Cloud-Native Frameworks                                        |
+| -------------------- | -------------------------------------------------------------- |
+| Experiment Tracking  | MLflow, Weights & Biases                                       |
+| Feature Store        | Feast, Hopsworks                                               |
+| ML on Kubernetes     | Kubeflow, MLflow, Flyte, Metaflow                              |
+| Model Serving        | KServe, Seldon Core, BentoML, Ray Serve                        |
+| Model Registry       | MLflow, Sagemaker, Vertex AI Model Registry                    |
+| Distributed Training | Ray, PyTorch Distributed, Horovod, Kubeflow Training Operators |
