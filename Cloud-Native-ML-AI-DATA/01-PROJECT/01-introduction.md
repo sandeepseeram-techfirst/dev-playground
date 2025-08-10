@@ -12,3 +12,10 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 ## Common Cloud-Native Frameworks, Platforms & Tools
 
 #### Data Engineering & Streaming
+
+| Category            | Tools                                                 |
+| ------------------- | ----------------------------------------------------- |
+| Data Streaming      | Apache Kafka, Redpanda, Pub/Sub, Kinesis              |
+| Data Lake/Lakehouse | Delta Lake, Apache Iceberg, Hudi, BigQuery, Snowflake |
+| Data Pipelines      | Airflow, Prefect, Dagster, dbt                        |
+| Data APIs           | GraphQL, gRPC                                         |
