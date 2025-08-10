@@ -30,3 +30,5 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 | Model Serving        | KServe, Seldon Core, BentoML, Ray Serve                        |
 | Model Registry       | MLflow, Sagemaker, Vertex AI Model Registry                    |
 | Distributed Training | Ray, PyTorch Distributed, Horovod, Kubeflow Training Operators |
+
+
