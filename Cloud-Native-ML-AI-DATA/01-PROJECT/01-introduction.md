@@ -33,3 +33,10 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 
 
 #### AI, LLM & GenAI
+
+| Component         | Cloud-Native Tools                             |
+| ----------------- | ---------------------------------------------- |
+| Vector DB         | Pinecone, Weaviate, Qdrant, Milvus             |
+| LLM Orchestration | LangChain, LlamaIndex, Haystack                |
+| GPU/LLM on K8s    | NVIDIA NIM, KServe, vLLM, Ray, HuggingFace TGI |
+| AI Agents         | AutoGen, CrewAI, LangGraph                     |
