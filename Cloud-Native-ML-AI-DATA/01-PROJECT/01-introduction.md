@@ -41,3 +41,10 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 | GPU/LLM on K8s    | NVIDIA NIM, KServe, vLLM, Ray, HuggingFace TGI |
 | AI Agents         | AutoGen, CrewAI, LangGraph                     |
 
+#### Kubernetes
+
+| Area          | Tools                                    |
+| ------------- | ---------------------------------------- |
+| Kubernetes    | GKE, EKS, AKS, OpenShift                 |
+| Observability | Prometheus, Grafana, Loki, OpenTelemetry |
+| IaC           | Terraform, Helm, Argo CD, GitOps         |
