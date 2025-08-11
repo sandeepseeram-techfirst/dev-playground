@@ -32,3 +32,4 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 | Distributed Training | Ray, PyTorch Distributed, Horovod, Kubeflow Training Operators |
 
 
+#### AI, LLM & GenAI
