@@ -40,3 +40,4 @@ Cloud-Native AI/ML/Data: ingestion, storage, processing, feature store, training
 | LLM Orchestration | LangChain, LlamaIndex, Haystack                |
 | GPU/LLM on K8s    | NVIDIA NIM, KServe, vLLM, Ray, HuggingFace TGI |
 | AI Agents         | AutoGen, CrewAI, LangGraph                     |
+
