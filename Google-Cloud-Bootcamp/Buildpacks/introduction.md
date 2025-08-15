@@ -2,7 +2,7 @@
 
 Buildpacks are tools that automatically build container images (Docker images) for your application without you writing a Dockerfile.
 
-* You give them your source code, and they: 
+You give them your source code, and they: 
 
 - Detect what language or framework your app uses (like Node.js, Python, Java, etc.),
 
