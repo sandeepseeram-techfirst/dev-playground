@@ -14,3 +14,6 @@ N+1 redundancy = Sufficient components to meet full load (N) + 1 spare that can 
 So, in simple terms:
 
 You have all the components you need to run normally (N), plus one extra to take over if any single component fails.
+
+###  🔁 Comparison with Other Redundancy Levels
+
