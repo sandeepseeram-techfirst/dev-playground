@@ -1,1 +1,2 @@
 # Zero Trust Security 
+Zero trust is a security model used to secure an organization based on the idea that no person or device should be trusted by default, even if they are already inside an organization’s network.
