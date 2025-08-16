@@ -40,3 +40,25 @@ also known as public-key cryptography, uses two separate keys to encrypt and dec
 - Free to use (not patented), used in tools like PGP.
 
 - Secure and efficient for both hardware and software.
+
+
+### Asymmetric Encryption
+
+1. RSA
+
+- Introduced in 1977 (named after Rivest, Shamir, Adleman).
+
+- Uses a pair of keys: public to encrypt, private to decrypt.
+
+- Keys are very large (commonly 2048 or 4096 bits) and slower than symmetric encryption.
+
+- Often used to encrypt symmetric keys rather than large data.
+
+2. ECC (Elliptic Curve Cryptography)
+
+- More advanced and efficient than RSA.
+
+- Provides strong security with much smaller key sizes
+(e.g., 256-bit ECC ≈ 3072-bit RSA security).
+
+- Commonly used for digital signatures and securing symmetric keys.
