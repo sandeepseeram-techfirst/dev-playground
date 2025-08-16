@@ -62,3 +62,15 @@ also known as public-key cryptography, uses two separate keys to encrypt and dec
 (e.g., 256-bit ECC ≈ 3072-bit RSA security).
 
 - Commonly used for digital signatures and securing symmetric keys.
+
+
+### Regulations 
+Many data privacy and security regulations require strong encryption. 
+
+That includes healthcare data with the 
+- Health Insurance Portability and Accountability Act (HIPAA), 
+credit and debit card transactions with the 
+- Payment Card Industry Data Security Standard (PCI DSS), 
+- General Data Protection Regulations (GDPR), and 
+retail transaction data with the 
+- Fair Credit Practices Act (FCPA).
