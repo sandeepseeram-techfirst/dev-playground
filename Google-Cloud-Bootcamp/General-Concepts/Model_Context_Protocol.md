@@ -8,3 +8,4 @@ The Model Context Protocol (MCP) is an open standard designed to solve this. Int
 
 * "The MCP creates a standardized, two-way connection for AI applications, allowing LLMs to easily connect with various data sources and tools. MCP builds on existing concepts like tool use and function calling but standardizes them. This reduces the need for custom connections for each new AI model and external system. It enables LLMs to use current, real-world data, perform actions, and access specialized features not included in their original training." * 
 
+### MCP Architecture and Components 
