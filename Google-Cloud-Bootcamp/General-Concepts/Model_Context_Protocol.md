@@ -24,3 +24,6 @@ The transport layer uses JSON-RPC 2.0 messages to communicate between the client
 
 - Standard input/output (stdio): Works well for local resources, offering fast, synchronous message transmission
 - Server-sent events (SSE): Preferred for remote resources, allowing efficient, real-time data streaming
+
+
+## How does the MCP work?
