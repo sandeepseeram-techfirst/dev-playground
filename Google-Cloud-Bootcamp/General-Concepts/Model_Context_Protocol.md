@@ -28,3 +28,15 @@ The transport layer uses JSON-RPC 2.0 messages to communicate between the client
 
 ## How does the MCP work?
 At its core, the Model Context Protocol allows an LLM to request help from external tools to answer a query or complete a task.
+
+Here is a simplified look at how MCP would handle this:
+
+- Request and tool discovery: The LLM understands it cannot access a database or send emails on its own. It uses the MCP client to search for available tools, where it finds two relevant tools registered on MCP servers: a database_query tool and an email_sender tool.
+
+- Tool invocation: The LLM generates a structured request to use these tools. First, it calls the database_query tool, specifying the report name. The MCP client then sends this request to the appropriate MCP server.
+
+- External action and data return: The MCP server receives the request, translates it into a secure SQL query for the company's database, and retrieves the sales report. It then formats this data and sends it back to the LLM.
+
+- Second action and response generation: Now equipped with the report data, the LLM calls the email_sender tool, providing the manager's email address and the report content. After the email is sent, the MCP server confirms the action was completed.
+
+- Final confirmation: The LLM provides a final response to you: "I have found the latest sales report and emailed it to your manager."
