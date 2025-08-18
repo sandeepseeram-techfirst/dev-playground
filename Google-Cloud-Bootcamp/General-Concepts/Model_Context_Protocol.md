@@ -13,7 +13,7 @@ The Model Context Protocol (MCP) is an open standard designed to solve this. Int
 ### MCP host
 The LLM is contained within the MCP host, an AI application or environment such as an AI-powered IDE or conversational AI. This is typically the user's interaction point, where the MCP host uses the LLM to process requests that may require external data or tools.
 
-* MCP client
+### MCP client
 The MCP client, located within the MCP host, helps the LLM and MCP server communicate with each other. It translates the LLM's requests for the MCP and converts the MCP's replies for the LLM. It also finds and uses available MCP servers.
 
 * MCP server
