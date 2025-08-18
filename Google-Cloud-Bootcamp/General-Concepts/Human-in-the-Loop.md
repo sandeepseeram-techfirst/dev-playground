@@ -7,3 +7,12 @@ Humans interact with AI systems through:
 - **Data Labeling** – Humans annotate data for training.
 - **Model Evaluation** – Humans review outputs to verify correctness.
 - **Feedback Loop** – Human feedback is used to retrain or fine-tune models.
+
+**Common HITL Methods:**
+
+| Method | Description |
+|--------|--------------|
+| **Active Learning** | The model identifies uncertain data and sends it to humans for labeling. |
+| **Reinforcement Learning** | Humans provide feedback or rewards to improve model behavior. |
+
+---
