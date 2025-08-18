@@ -17,6 +17,7 @@ These techniques, like Soundex or Metaphone, encode words based on their pronunc
 
 
 ## How is fuzzy search implemented?
+
 Implementing fuzzy search typically involves the following steps:
 
 ### Data preprocessing: 
