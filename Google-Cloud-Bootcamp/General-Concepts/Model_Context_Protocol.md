@@ -27,3 +27,4 @@ The transport layer uses JSON-RPC 2.0 messages to communicate between the client
 
 
 ## How does the MCP work?
+At its core, the Model Context Protocol allows an LLM to request help from external tools to answer a query or complete a task.
