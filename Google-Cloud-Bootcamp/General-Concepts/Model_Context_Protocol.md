@@ -16,10 +16,10 @@ The LLM is contained within the MCP host, an AI application or environment such 
 ### MCP client
 The MCP client, located within the MCP host, helps the LLM and MCP server communicate with each other. It translates the LLM's requests for the MCP and converts the MCP's replies for the LLM. It also finds and uses available MCP servers.
 
-* MCP server
+### MCP server
 The MCP server is the external service that provides context, data, or capabilities to the LLM. It helps LLMs by connecting to external systems like databases and web services, translating their responses into a format the LLM can understand which helps developers provide diverse functionalities.
 
-* Transport layer
+### Transport layer
 The transport layer uses JSON-RPC 2.0 messages to communicate between the client and server, mainly through two transport methods:
 
 - Standard input/output (stdio): Works well for local resources, offering fast, synchronous message transmission
