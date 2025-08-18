@@ -20,14 +20,14 @@ These techniques, like Soundex or Metaphone, encode words based on their pronunc
 
 Implementing fuzzy search typically involves the following steps:
 
-### Data preprocessing: 
+### 1. Data preprocessing: 
 This step involves cleaning and standardizing the data to a certain extent. This might include converting text to lowercase, removing punctuation, or applying stemming techniques. While fuzzy search is tolerant to variations, basic preprocessing can improve its efficiency.
 
-### Indexing: 
+### 2. Indexing: 
 The preprocessed data is indexed, often using specialized data structures like inverted indexes or trie structures. These structures allow for fast retrieval of potential matches for a given query.
 
-### Similarity calculation: 
+### 3. Similarity calculation: 
 When a user submits a query, the fuzzy search algorithm calculates the similarity scores between the query and the indexed data. This involves using algorithms like Levenshtein distance, cosine similarity, or phonetic algorithms to quantify the degree of match.
 
-### Ranking and retrieval: 
+### 4. Ranking and retrieval: 
 The potential matches are ranked based on their similarity scores, and the top-ranking results are retrieved and presented to the user.
