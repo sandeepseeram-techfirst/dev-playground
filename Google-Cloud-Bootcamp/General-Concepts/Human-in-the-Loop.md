@@ -1,1 +1,2 @@
 # Human-in-the-Loop (HITL) 
+Human-in-the-loop (HITL) machine learning is a collaborative approach that integrates human input and expertise into the lifecycle of machine learning (ML) and artificial intelligence systems.
