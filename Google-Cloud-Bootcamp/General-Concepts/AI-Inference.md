@@ -25,10 +25,12 @@ Typical steps when a model does inference:
 ---
 
 ### Types of Inference & Deployment Modes  
-- **Cloud Inference**: Runs in remote servers/data centres – good for scale and heavy computation. :contentReference[oaicite:9]{index=9}  
-  - *Real-time (online)*: Immediate responses for single requests. :contentReference[oaicite:10]{index=10}  
-  - *Batch (offline)*: Many inputs processed together, not necessarily instantly. :contentReference[oaicite:11]{index=11}  
-- **Edge Inference**: The model runs on device (mobile, IoT) – less reliance on network, lower latency. :contentReference[oaicite:12]{index=12}  
+
+- **Cloud Inference**: Runs in remote servers/data centres – good for scale and heavy computation.  
+  - *Real-time (online)*: Immediate responses for single requests.  
+  - *Batch (offline)*: Many inputs processed together, not necessarily instantly. 
+
+- **Edge Inference**: The model runs on device (mobile, IoT) – less reliance on network, lower latency.  
 
 ---
 
