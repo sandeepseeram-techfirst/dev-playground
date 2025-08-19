@@ -18,9 +18,9 @@ AI inference is the phase where a trained AI model is used to make predictions o
 
 ### How AI Inference Works  
 Typical steps when a model does inference:  
-1. **Input preparation** – The new data (e.g., a photo, text input) is formatted and pre-processed for the model. :contentReference[oaicite:6]{index=6}  
-2. **Model execution** – The model performs a forward pass using its learned parameters to generate an output. :contentReference[oaicite:7]{index=7}  
-3. **Output generation** – The model returns a prediction or decision (for example, “dog: 95%”) which the application can use. :contentReference[oaicite:8]{index=8}
+1. **Input preparation** – The new data (e.g., a photo, text input) is formatted and pre-processed for the model.   
+2. **Model execution** – The model performs a forward pass using its learned parameters to generate an output.  
+3. **Output generation** – The model returns a prediction or decision (for example, “dog: 95%”) which the application can use.  
 
 ---
 
