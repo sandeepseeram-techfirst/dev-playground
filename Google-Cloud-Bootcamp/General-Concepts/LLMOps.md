@@ -6,6 +6,7 @@ LLMOps (Large Language Model Operations) refers to the set of practices, workflo
 ---
 
 ### Key Components of LLMOps  
+
 - **Data preparation & preprocessing** – cleaning, labeling, and structuring large datasets for LLM fine-tuning.   
 - **Model fine-tuning & customization** – adapting pre-trained foundation models to specific tasks/domains.  
 - **Deployment & serving** – putting LLMs into production, handling inference scale, latency, cost.    
