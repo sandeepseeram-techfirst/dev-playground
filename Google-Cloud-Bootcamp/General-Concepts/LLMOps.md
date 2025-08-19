@@ -14,3 +14,13 @@ LLMOps (Large Language Model Operations) refers to the set of practices, workflo
 - **Prompt engineering & context management** – managing prompts, context windows, retrieval systems like vector stores.  
 
 ---
+
+### How LLMOps differs from traditional MLOps  
+| Factor | MLOps | LLMOps |
+|--------|--------|--------|
+| Model size & complexity | Typical ML models | Large language models with massive parameters and context windows   |
+| Training & fine-tuning | Often from scratch or transfer learning | Heavy reliance on foundation models and fine-tuning/adapter methods  |
+| Human feedback & prompting | Less central | Prompt engineering and human feedback (e.g., RLHF) are critical   |
+| Deployment & inference constraints | Standard ML serving | Higher compute, memory, latency/cost concerns; specialized hardware often needed |
+
+---
