@@ -2,7 +2,7 @@
 
 ### Definition  
 Agentic AI refers to an advanced form of artificial intelligence that goes beyond responding to commands or analysing data. Instead, it can **set goals**, **plan** and **execute tasks autonomously**, with minimal human intervention.  
-This marks a shift from reactive systems to proactive, autonomous agents. :contentReference[oaicite:1]{index=1}
+This marks a shift from reactive systems to proactive, autonomous agents.  
 
 ---
 
