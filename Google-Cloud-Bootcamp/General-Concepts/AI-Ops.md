@@ -15,10 +15,10 @@ It gathers data from many IT sources (logs, metrics, traces, events) and uses it
 ---
 
 ### Key Benefits  
-- **Reduced downtime & improved resilience** – detects issues early and handles them proactively. :contentReference[oaicite:6]{index=6}  
-- **Reduced alert noise** – filters irrelevant alerts and focuses operations teams on what matters. :contentReference[oaicite:7]{index=7}  
-- **Efficiency and cost-savings** – automates manual operational tasks and scales complexity. :contentReference[oaicite:8]{index=8}  
-- **Better visibility and insights** – across hybrid/multi-cloud environments, many data sources. :contentReference[oaicite:9]{index=9}  
+- **Reduced downtime & improved resilience** – detects issues early and handles them proactively.  
+- **Reduced alert noise** – filters irrelevant alerts and focuses operations teams on what matters. 
+- **Efficiency and cost-savings** – automates manual operational tasks and scales complexity.  
+- **Better visibility and insights** – across hybrid/multi-cloud environments, many data sources.  
 
 ---
 
