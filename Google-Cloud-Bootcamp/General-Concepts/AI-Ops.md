@@ -8,8 +8,8 @@ It gathers data from many IT sources (logs, metrics, traces, events) and uses it
 ---
 
 ### How It Works  
-- Collect telemetry: metrics, logs, events, traces from across infrastructure and applications. :contentReference[oaicite:3]{index=3}  
-- Analyse and correlate: Use ML/NLP to link data, detect anomalies, identify root causes. :contentReference[oaicite:4]{index=4}  
+- Collect telemetry: metrics, logs, events, traces from across infrastructure and applications.  
+- Analyse and correlate: Use ML/NLP to link data, detect anomalies, identify root causes.   
 - Automate response: Use insights to trigger remediation, reduce alert noise, speed up incident handling. :contentReference[oaicite:5]{index=5}  
 
 ---
