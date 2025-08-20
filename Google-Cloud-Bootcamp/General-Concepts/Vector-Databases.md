@@ -1,7 +1,7 @@
 # What is a Vector Database? 
 
 ## Definition  
-A **vector database** is a database designed to store, index, and query **vector embeddings**—numerical representations of unstructured data like text, images, or audio.  
+A **vector database** is a database designed to store, index, and query **vector embeddings** — numerical representations of unstructured data like text, images, or audio.  
 
 ## What are Vector Embeddings?  
 - These are numerical vectors (lists of numbers) that capture semantics of the data: items that are similar semantically end up close in vector-space.  
