@@ -11,7 +11,8 @@ A **vector database** is a database designed to store, index, and query **vector
 ## How It Works   
 - Since vectors don’t have a natural linear ordering (unlike numbers or text), you need specialized indexes.  
 - Common query: “Find the *k* nearest vectors to this query vector” by metrics like cosine similarity, dot product, Euclidean distance.  
-- Indexing strategies include: clustering vectors, graphs connecting nearest neighbours, trees partitioning vector space, etc.  
+- Indexing strategies include: clustering vectors, graphs connecting nearest neighbours, trees partitioning vector space, etc. 
+ 
 - Example: ScaNN (from Google Research) is used under the hood of Google’s “Vector Search” to power efficient nearest-neighbour queries.
 
 ## Why It Matters  
