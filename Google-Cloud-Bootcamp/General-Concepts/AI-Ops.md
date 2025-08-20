@@ -2,7 +2,7 @@
 ## What is AIOps?
 
 ### Definition  
-AIOps stands for **Artificial Intelligence for IT Operations**. It uses AI/machine-learning and analytics to automate and improve how IT systems are operated and monitored. :contentReference[oaicite:1]{index=1}  
+AIOps stands for **Artificial Intelligence for IT Operations**. It uses AI/machine-learning and analytics to automate and improve how IT systems are operated and monitored.  
 It gathers data from many IT sources (logs, metrics, traces, events) and uses it to detect patterns, streamline operations, and support decision-making. :contentReference[oaicite:2]{index=2}  
 
 ---
