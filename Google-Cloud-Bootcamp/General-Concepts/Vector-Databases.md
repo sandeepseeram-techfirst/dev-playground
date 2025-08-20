@@ -8,7 +8,7 @@ A **vector database** is a database designed to store, index, and query **vector
 - Allows things like “find items that are similar to this query” based on distance in that space.  
 - Vector databases enable storage and retrieval of those embeddings for building things like semantic search, recommendation, knowledge-base retrieval.
 
-## How It Works  
+## How It Works   
 - Since vectors don’t have a natural linear ordering (unlike numbers or text), you need specialized indexes.  
 - Common query: “Find the *k* nearest vectors to this query vector” by metrics like cosine similarity, dot product, Euclidean distance.  
 - Indexing strategies include: clustering vectors, graphs connecting nearest neighbours, trees partitioning vector space, etc.  
