@@ -37,7 +37,10 @@ Typical steps when a model does inference:
 ---
 
 ### Why it Matters  
-Inference is where the value of an AI model is realised — you train or fine-tune a model, but unless it's used in production via inference it doesn’t deliver business value. Key operational concerns include:  
+
+Inference is where the value of an AI model is realised — you train or fine-tune a model, but unless it's used in production via inference it doesn’t deliver business value. 
+
+Key operational concerns include:  
 - Latency: how quickly a prediction is returned  
 - Scale: how many requests can be handled  
 - Cost and compute efficiency: running inference might be less demanding than training, but handling many requests still requires infrastructure. :contentReference[oaicite:13]{index=13}  
