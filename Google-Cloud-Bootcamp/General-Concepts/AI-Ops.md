@@ -31,8 +31,10 @@ It gathers data from many IT sources (logs, metrics, traces, events) and uses it
 
 ---
 
-### Building AIOps with Google Cloud  
+### Building AIOps with Google Cloud: 
+
 On Google Cloud you can build AIOps solutions using three layers:  
+
 - **Observe**: Collect telemetry using services like Cloud Logging, Cloud Monitoring, Cloud Trace.  
 - **Engage**: Analyze and diagnose using BigQuery (for large-scale analytics) and Vertex AI (for ML models). 
 - **Act**: Automate remediation with Cloud Functions, Cloud Run, and Workflows to trigger actions and orchestrate operations.  
