@@ -43,12 +43,13 @@ Inference is where the value of an AI model is realised — you train or fine-tu
 Key operational concerns include:  
 - Latency: how quickly a prediction is returned  
 - Scale: how many requests can be handled  
-- Cost and compute efficiency: running inference might be less demanding than training, but handling many requests still requires infrastructure. :contentReference[oaicite:13]{index=13}  
+- Cost and compute efficiency: running inference might be less demanding than training, but handling many requests still requires infrastructure.  
 
 ---
 
 ### Considerations for Infrastructure/Operations  
-- Choose appropriate hardware (GPUs, TPUs, accelerators) for inference workloads. :contentReference[oaicite:14]{index=14}  
+
+- Choose appropriate hardware (GPUs, TPUs, accelerators) for inference workloads.  
 - Optimize deployment: consider latency, throughput, batch vs online processing.  
 - Decide: cloud vs edge depending on connectivity, privacy, cost, latency requirements.  
 - Monitor and scale: inference endpoints may require autoscaling, monitoring of performance and cost.  
