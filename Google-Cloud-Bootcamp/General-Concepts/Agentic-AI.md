@@ -7,16 +7,16 @@ This marks a shift from reactive systems to proactive, autonomous agents.
 ---
 
 ### How Agentic AI Works  
-- It understands a higher-level objective, breaks it down into steps, and may manage those steps possibly using tools or interacting with systems. :contentReference[oaicite:2]{index=2}  
-- It maintains some context or “memory” across tasks to adapt and progress rather than only reacting to one prompt. :contentReference[oaicite:3]{index=3}  
-- It can integrate with external services, platforms, or workflows to carry out multi-step tasks. :contentReference[oaicite:4]{index=4}
+- It understands a higher-level objective, breaks it down into steps, and may manage those steps possibly using tools or interacting with systems.  
+- It maintains some context or “memory” across tasks to adapt and progress rather than only reacting to one prompt.   
+- It can integrate with external services, platforms, or workflows to carry out multi-step tasks. 
 
 ---
 
 ### Why It Matters  
-- Agentic AI can automate **complex workflows** rather than just single tasks, boosting scalability and productivity in enterprise settings. :contentReference[oaicite:5]{index=5}  
+- Agentic AI can automate **complex workflows** rather than just single tasks, boosting scalability and productivity in enterprise settings.  
 - It enables systems to act with greater autonomy and initiative, reducing the need for constant human oversight.  
-- It supports multi-agent ecosystems and coordination where multiple autonomous agents collaborate. :contentReference[oaicite:6]{index=6}
+- It supports multi-agent ecosystems and coordination where multiple autonomous agents collaborate.  
 
 ---
 
