@@ -1,7 +1,7 @@
 ## What is Multimodal AI? 
 
 ### Overview
-Multimodal AI refers to AI models that can work with **multiple types of input and output**—such as text, images, audio, and video—at the same time.  
+Multimodal AI refers to AI models that can work with **multiple types of input and output** — such as text, images, audio, and video—at the same time.  
 Example: Upload a picture of cookies and ask the AI to generate a recipe for it.
 
 ---
