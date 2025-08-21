@@ -31,7 +31,7 @@ This marks a shift from reactive systems to proactive, autonomous agents.
 - Ensuring proper governance, safety, and oversight when systems act autonomously.  
 - Managing memory, context, and long-lived workflows effectively.  
 - Integrating with enterprise data, tools, and diverse systems securely and reliably.  
-- Deciding when to use agentic workflows vs traditional AI workflows. :contentReference[oaicite:8]{index=8}
+- Deciding when to use agentic workflows vs traditional AI workflows.  
 
 ---
 
