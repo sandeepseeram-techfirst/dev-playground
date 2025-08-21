@@ -47,4 +47,4 @@ Example: Upload a picture of cookies and ask the AI to generate a recipe for it.
 ---
 
 ### Summary
-Multimodal AI allows models to understand and generate information across text, visuals, audio, and video. It enables richer, more human-like interactions, powering next-generation applications like smart search, AI assistants, and intelligent content generation across multiple formats.
+Multimodal AI allows models to understand and generate information across text, visuals, audio, and video. It enables richer, more human-like interactions, powering next-generation applications like smart search, AI assistants, and intelligent content generation across multiple formats. 
