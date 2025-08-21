@@ -13,7 +13,7 @@ Example: Upload a picture of cookies and ask the AI to generate a recipe for it.
 
 ---
 
-### Why It Matters
+### Why It Matters 
 - Enables more **natural and rich interactions** with AI (you can show, speak, or type).
 - Supports **more advanced, real-world applications** that involve mixed forms of data.
 - Helps build more intuitive and context-aware user experiences.
