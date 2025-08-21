@@ -23,7 +23,7 @@ This marks a shift from reactive systems to proactive, autonomous agents.
 ### Key Use Cases  
 - Business process automation: agents that manage multi-step enterprise workflows end to end.  
 - Autonomous assistants that go beyond answering questions—they initiate tasks, monitor progress, and close loops.  
-- Multi-agent coordination: systems where agents communicate and cooperate across platforms and domains. :contentReference[oaicite:7]{index=7}
+- Multi-agent coordination: systems where agents communicate and cooperate across platforms and domains.  
 
 ---
 
