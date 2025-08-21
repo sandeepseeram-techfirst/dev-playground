@@ -7,9 +7,9 @@ It provides a vendor-neutral instrumentation API and signal model so teams can i
 ---
 
 ### Why It’s Used  
-- Modern distributed systems are complex; collecting telemetry from many services, containers, serverless functions, etc., is challenging. OpenTelemetry simplifies this by offering a unified framework. :contentReference[oaicite:3]{index=3}  
-- Helps monitor health of microservices: you can capture how services are performing (latency, errors, throughput) via metrics and traces. :contentReference[oaicite:4]{index=4}  
-- Enables attributing resource usage or issues to specific user groups or services — useful for billing, performance isolation, SRE/DevOps work. :contentReference[oaicite:5]{index=5}  
+- Modern distributed systems are complex; collecting telemetry from many services, containers, serverless functions, etc., is challenging. OpenTelemetry simplifies this by offering a unified framework.  
+- Helps monitor health of microservices: you can capture how services are performing (latency, errors, throughput) via metrics and traces.  
+- Enables attributing resource usage or issues to specific user groups or services — useful for billing, performance isolation, SRE/DevOps work. 
 
 ---
 
