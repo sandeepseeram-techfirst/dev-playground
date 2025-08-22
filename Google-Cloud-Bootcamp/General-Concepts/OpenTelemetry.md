@@ -2,7 +2,7 @@
 
 ### Definition  
 OpenTelemetry is an open-source standard and set of technologies for capturing and exporting telemetry data — metrics, traces, and logs — from cloud-native applications and infrastructure. 
- 
+
 It provides a vendor-neutral instrumentation API and signal model so teams can instrument once and export to multiple backends or observability platforms.  
 
 ---
@@ -16,7 +16,7 @@ It provides a vendor-neutral instrumentation API and signal model so teams can i
 
 ### Key Components  
 - **SDKs & APIs**: Libraries you use in your application code to create telemetry data (traces, metrics, logs).  
-- **Collector / Agent**: A component (often sidecar or separate service) that receives telemetry data, applies processing, and exports to one or more destinations. :contentReference[oaicite:6]{index=6}  
+- **Collector / Agent**: A component (often sidecar or separate service) that receives telemetry data, applies processing, and exports to one or more destinations.  
 - **Exporters**: Plug-ins or modules that send the telemetry data to back-ends (e.g., monitoring systems, tracing services).  
 - **Signal Types**:  
   - *Metrics*: numeric data over time (e.g., request count, CPU usage).  
