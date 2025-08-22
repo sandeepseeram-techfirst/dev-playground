@@ -1,7 +1,8 @@
 ## What is OpenTelemetry?
 
 ### Definition  
-OpenTelemetry is an open-source standard and set of technologies for capturing and exporting telemetry data — metrics, traces, and logs — from cloud-native applications and infrastructure.  
+OpenTelemetry is an open-source standard and set of technologies for capturing and exporting telemetry data — metrics, traces, and logs — from cloud-native applications and infrastructure. 
+ 
 It provides a vendor-neutral instrumentation API and signal model so teams can instrument once and export to multiple backends or observability platforms.  
 
 ---
