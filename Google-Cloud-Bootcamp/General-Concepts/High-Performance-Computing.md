@@ -8,7 +8,7 @@ Cloud-based HPC offers this power with flexibility and scalability.
 
 ### Why Use HPC in the Cloud?  
 - No need to purchase and maintain dedicated supercomputer hardware — you can scale up when you need it.  
-- Cloud providers offer high-performance compute, storage, and networking optimized for HPC workloads. :contentReference[oaicite:3]{index=3}  
+- Cloud providers offer high-performance compute, storage, and networking optimized for HPC workloads.   
 - Technology advances (e.g., faster interconnects, optimized VM images) help cloud HPC match the performance of on-premises supercomputers. :contentReference[oaicite:4]{index=4}
 
 ---
