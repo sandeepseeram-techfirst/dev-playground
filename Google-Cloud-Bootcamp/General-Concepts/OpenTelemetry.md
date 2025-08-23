@@ -28,7 +28,7 @@ It provides a vendor-neutral instrumentation API and signal model so teams can i
 ### How It Works (Simplified)  
 1. Instrument your application (or use auto-instrumentation) so it emits telemetry data.  
 2. Use the Collector or Agent to receive the data, optionally process it (e.g., batch, filter, add resource attributes).  
-3. Export the processed telemetry to your observability backend (for instance, to Google Cloud Monitoring or Google Cloud Trace). :contentReference[oaicite:9]{index=9}  
+3. Export the processed telemetry to your observability backend (for instance, to Google Cloud Monitoring or Google Cloud Trace).   
 4. Use the backend to view dashboards, trace trees, alerts, and analyze system behavior.
 
 ---
