@@ -41,4 +41,4 @@ Cloud-based HPC offers this power with flexibility and scalability.
 ---
 
 ### Summary  
-HPC in the cloud brings the power of supercomputing to your workloads without the need for owning the hardware. It’s about using massive scale, high-performance infrastructure, and advanced networking and storage to solve problems that are too large or complex for single machines. With modern cloud platforms, you can spin up HPC-optimised clusters on demand, tailor them to your workload, and gain results faster and more flexibly than ever before.
+HPC in the cloud brings the power of supercomputing to your workloads without the need for owning the hardware. It’s about using massive scale, high-performance infrastructure, and advanced networking and storage to solve problems that are too large or complex for single machines. With modern cloud platforms, you can spin up HPC-optimised clusters on demand, tailor them to your workload, and gain results faster and more flexibly than ever before. 
