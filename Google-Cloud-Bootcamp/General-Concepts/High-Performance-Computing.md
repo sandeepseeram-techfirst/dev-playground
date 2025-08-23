@@ -36,7 +36,7 @@ Cloud-based HPC offers this power with flexibility and scalability.
 2. Use high-bandwidth, low-latency networking between nodes.  
 3. Use storage optimised for parallel access (shared file systems, parallel I/O).  
 4. Run your workload with many nodes in parallel, often using MPI or other parallel frameworks.  
-5. Analyse results, scale down when done, avoid idle high-cost resources.
+5. Analyse results, scale down when done, avoid idle high-cost resources. 
 
 ---
 
