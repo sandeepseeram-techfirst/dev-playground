@@ -14,9 +14,9 @@ Cloud-based HPC offers this power with flexibility and scalability.
 ---
 
 ### Key Characteristics & Considerations  
-- **Latency & bandwidth**: HPC workloads often involve many nodes communicating heavily. Low network latency and high bandwidth (e.g., >100 GB/s) are critical. :contentReference[oaicite:5]{index=5}  
-- **Performance-optimized compute**: Often uses specialised VMs or bare-metal machines tuned for HPC (e.g., H3, H4D series on Google Cloud). :contentReference[oaicite:6]{index=6}  
-- **Storage & I/O**: Large data volumes, often with parallel access patterns (e.g., multiple nodes reading/writing concurrently). Parallel file systems play a big role. :contentReference[oaicite:7]{index=7}  
+- **Latency & bandwidth**: HPC workloads often involve many nodes communicating heavily. Low network latency and high bandwidth (e.g., >100 GB/s) are critical.  
+- **Performance-optimized compute**: Often uses specialised VMs or bare-metal machines tuned for HPC (e.g., H3, H4D series on Google Cloud).   
+- **Storage & I/O**: Large data volumes, often with parallel access patterns (e.g., multiple nodes reading/writing concurrently). Parallel file systems play a big role.  
 - **Scalability**: Ability to increase resources (nodes, memory, accelerators) when the workload requires it, and scale down once done.  
 - **Cost & efficiency**: Cloud HPC offers pay-as-you-go models and the ability to optimise utilisation rather than buying big hardware upfront.
 
