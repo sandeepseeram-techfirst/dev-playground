@@ -18,7 +18,7 @@ Cloud-based HPC offers this power with flexibility and scalability.
 - **Performance-optimized compute**: Often uses specialised VMs or bare-metal machines tuned for HPC (e.g., H3, H4D series on Google Cloud).   
 - **Storage & I/O**: Large data volumes, often with parallel access patterns (e.g., multiple nodes reading/writing concurrently). Parallel file systems play a big role.  
 - **Scalability**: Ability to increase resources (nodes, memory, accelerators) when the workload requires it, and scale down once done.  
-- **Cost & efficiency**: Cloud HPC offers pay-as-you-go models and the ability to optimise utilisation rather than buying big hardware upfront.
+- **Cost & efficiency**: Cloud HPC offers pay-as-you-go models and the ability to optimise utilisation rather than buying big hardware upfront. 
 
 ---
 
