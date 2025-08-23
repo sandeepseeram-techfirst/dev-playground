@@ -2,12 +2,12 @@
 
 ### Definition  
 High Performance Computing (HPC) is the practice of solving **very large, computationally intensive problems** by aggregating and coordinating many computing resources (e.g., CPUs, GPUs, memory, storage, network) rather than using a single machine.  
-Cloud-based HPC offers this power with flexibility and scalability. :contentReference[oaicite:1]{index=1}
+Cloud-based HPC offers this power with flexibility and scalability.  
 
 ---
 
 ### Why Use HPC in the Cloud?  
-- No need to purchase and maintain dedicated supercomputer hardware — you can scale up when you need it. :contentReference[oaicite:2]{index=2}  
+- No need to purchase and maintain dedicated supercomputer hardware — you can scale up when you need it.  
 - Cloud providers offer high-performance compute, storage, and networking optimized for HPC workloads. :contentReference[oaicite:3]{index=3}  
 - Technology advances (e.g., faster interconnects, optimized VM images) help cloud HPC match the performance of on-premises supercomputers. :contentReference[oaicite:4]{index=4}
 
