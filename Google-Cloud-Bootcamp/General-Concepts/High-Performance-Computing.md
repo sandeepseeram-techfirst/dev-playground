@@ -26,7 +26,7 @@ Cloud-based HPC offers this power with flexibility and scalability.
 - Scientific simulations (e.g., climate modelling, fluid dynamics)   
 - Genomics and large-scale biology/bioinformatics workloads  
 - Engineering simulations (e.g., automotive crash tests, aerospace) 
-- Financial risk modelling / quantitative research  
+- Financial risk modelling / quantitative research   
 - Rendering, visual effects, media processing  
 
 ---
