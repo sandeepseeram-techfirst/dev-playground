@@ -34,7 +34,7 @@ Apache Iceberg is an open-source table format designed for large-scale analytica
 - There’s extra complexity: you’re not just writing files, you’re managing metadata, catalogs, and formats.  
 - Catalog dependency: you typically need a metadata/catalog service (Hive metastore, Nessie, etc) to track table state.  
 - Overhead for small workloads: If your data set is tiny or you rarely change schema/perform updates, the extra layer may not pay off.  
-- Migration effort: Moving from simpler formats (CSV, Parquet alone) to Iceberg may require rewriting pipelines, updating tooling and processes.
+- Migration effort: Moving from simpler formats (CSV, Parquet alone) to Iceberg may require rewriting pipelines, updating tooling and processes. 
 
 ---
 
