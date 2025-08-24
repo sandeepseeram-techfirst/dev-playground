@@ -46,4 +46,4 @@ Istio is an open-source **service mesh** that helps organizations manage communi
 ---
 
 ### Summary  
-Istio provides a powerful foundation for managing microservices at scale: it gives you security, observability, and traffic-control in one layer below your applications. As you move towards cloud-native, distributed, microservices-first systems, Istio is a key enabler of reliable, manageable, and secure service-to-service communication.
+Istio provides a powerful foundation for managing microservices at scale: it gives you security, observability, and traffic-control in one layer below your applications. As you move towards cloud-native, distributed, microservices-first systems, Istio is a key enabler of reliable, manageable, and secure service-to-service communication. 
