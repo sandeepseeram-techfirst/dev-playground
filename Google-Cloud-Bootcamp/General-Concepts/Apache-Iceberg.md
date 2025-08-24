@@ -1,8 +1,11 @@
 ## What is Apache Iceberg? 
 
 ### Definition  
-Apache Iceberg is an open-source table format designed for large-scale analytical datasets in data lakes. It brings database-like capabilities—such as schema evolution, time travel, ACID transactions—to what would otherwise be just collections of files.  
-It acts as a metadata layer on top of storage (e.g., object storage) so you can treat your lake as a table-based lakehouse rather than just file blobs.
+Apache Iceberg is an open-source table format designed for large-scale analytical datasets in data lakes. 
+
+- It brings database-like capabilities—such as schema evolution, time travel, ACID transactions—to what would otherwise be just collections of files.  
+
+- It acts as a metadata layer on top of storage (e.g., object storage) so you can treat your lake as a table-based lakehouse rather than just file blobs.
 
 ---
 
