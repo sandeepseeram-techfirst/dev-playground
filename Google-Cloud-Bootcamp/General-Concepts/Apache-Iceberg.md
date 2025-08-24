@@ -45,5 +45,5 @@ Apache Iceberg is an open-source table format designed for large-scale analytica
 ---
 
 ### Summary  
-Apache Iceberg is the bridge between raw data lakes and managed table-oriented systems: It allows you to treat your large data lakes like first-class tables/interfaces, with schema evolution, versioning, performance optimizations, and multi-engine support. For modern analytics and AI workloads, especially in a cloud environment, Iceberg can be a foundational component of your data architecture.
+Apache Iceberg is the bridge between raw data lakes and managed table-oriented systems: It allows you to treat your large data lakes like first-class tables/interfaces, with schema evolution, versioning, performance optimizations, and multi-engine support. For modern analytics and AI workloads, especially in a cloud environment, Iceberg can be a foundational component of your data architecture. 
 
