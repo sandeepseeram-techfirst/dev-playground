@@ -1,1 +1,2 @@
 # Graphics Processing Unit (GPU) 
+is a specialized electronic circuit originally designed to speed up the creation of images and videos. However, its remarkable ability to perform vast numbers of calculations rapidly has led to its adoption in diverse fields, including artificial intelligence and scientific computing, where it excels at handling data-intensive and computationally demanding tasks.
