@@ -5,7 +5,7 @@ Istio is an open-source **service mesh** that helps organizations manage communi
 
 ---
 
-### Key Functions  
+### Key Functions
 - Manages **traffic flows** between services: routing, load balancing, retries, fail-over, circuit breaking.  
 - Provides **security** features: service-to-service authentication and authorization, mutual TLS encryption.  
 - Offers **observability**: telemetry, distributed tracing, logging and metrics for microservices communications.  
