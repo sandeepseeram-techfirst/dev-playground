@@ -20,7 +20,9 @@ Apache Iceberg is an open-source table format designed for large-scale analytica
 ---
 
 ### How It Works (Simplified)
-- Underneath the table format, data is still stored in files (often Parquet) in object storage.  
+
+- Underneath the table format, data is still stored in files (often Parquet) in object storage. 
+
 - Iceberg adds:  
   - A metadata layer: tracks snapshots, manifest lists, file locations, schema versions.  
   - Table operations: you treat the table like a managed object—supporting inserts, updates, deletes, snapshot queries.  
