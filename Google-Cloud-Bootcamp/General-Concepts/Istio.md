@@ -38,7 +38,7 @@ Istio is an open-source **service mesh** that helps organizations manage communi
 
 ---
 
-### Considerations & Trade-Offs  
+### Considerations & Trade-Offs
 - Adds infrastructure overhead: side-car proxies, additional latency, and more configuration surface.  
 - Requires operational maturity: need to manage control plane, understand mesh behaviour, telemetry.  
 - For simple monolithic apps or very few services, the complexity may outweigh benefits.
