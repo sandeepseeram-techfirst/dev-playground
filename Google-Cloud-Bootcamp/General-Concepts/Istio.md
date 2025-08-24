@@ -22,13 +22,15 @@ Istio is an open-source **service mesh** that helps organizations manage communi
 ---
 
 ### Architecture Basics
+
 - **Data Plane**: Each service runs alongside a side-car proxy (commonly Envoy) which intercepts inbound & outbound traffic and enforces policies.  
+
 - **Control Plane**: Manages configuration and policy, pushes rules to the proxies (e.g., via Istiod).  
 - The mesh therefore layers alongside existing applications—minimal or no modification of service code is required.
 
 ---
 
-### Typical Use-Cases  
+### Typical Use-Cases   
 - Introducing service-mesh for Kubernetes services to get observability, security, and traffic control.  
 - Enabling zero-trust-style communication inside a microservices mesh.  
 - Performing advanced traffic scenarios such as A/B testing, canary deployment, fault-injection.  
