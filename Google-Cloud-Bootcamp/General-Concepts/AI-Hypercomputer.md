@@ -17,6 +17,7 @@ AI Hypercomputer is an integrated supercomputing system optimized for large-scal
 - Faster time-to-value — Blueprints, cluster templates and reference architectures enable rapid deployment of AI infrastructure.
 - Scalable from small to massive — supports both individual workloads and large clusters tied together for generative AI training, inference or HPC-style workloads.
 - Designed for hybrid/multicloud and open standards — supports connecting on-premises or multi-cloud infrastructure via high-bandwidth interconnects.
+
 ---
 
 ### Use Cases  
