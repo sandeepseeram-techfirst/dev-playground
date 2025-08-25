@@ -6,7 +6,7 @@ AI Hypercomputer is an integrated supercomputing system optimized for large-scal
 ---
 
 ### Core Components  
-- **Performance-optimized infrastructure**: Accelerators (TPUs/GPUs), storage, networking, and co-located compute blocks configured for low latency and high throughput.   
+- **Performance-optimized infrastructure**: Accelerators (TPUs/GPUs), storage, networking, and co-located compute blocks configured for low latency and high throughput.
 - **Open software stack**: Pre-configured ML frameworks (TensorFlow, PyTorch, JAX), cluster schedulers (e.g., Kubernetes, Slurm, Compute Engine APIs) tuned for AI workloads. 
 - **Flexible consumption models**: Various provisioning options (VMs, managed clusters, Kubernetes) that scale from small experiments to massive production training/inference clusters.
 
