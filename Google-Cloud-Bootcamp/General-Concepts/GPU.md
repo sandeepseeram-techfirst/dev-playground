@@ -13,9 +13,9 @@ is a specialized electronic circuit originally designed to speed up the creation
 ---
 
 ### Key Features on Google Cloud  
-- A broad selection of GPU types available to match different workloads (e.g., training large models vs smaller inference tasks). :contentReference[oaicite:6]{index=6}  
-- Integration with Google Cloud’s infrastructure: storage, networking and analytics systems all support GPU workloads. :contentReference[oaicite:7]{index=7}  
-- Flexibility of machine types: some VM families are optimized for accelerators, enabling you to balance CPU, memory, and GPU based on workload. :contentReference[oaicite:8]{index=8}
+- A broad selection of GPU types available to match different workloads (e.g., training large models vs smaller inference tasks).  
+- Integration with Google Cloud’s infrastructure: storage, networking and analytics systems all support GPU workloads.  
+- Flexibility of machine types: some VM families are optimized for accelerators, enabling you to balance CPU, memory, and GPU based on workload.  
 
 ---
 
