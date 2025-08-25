@@ -22,8 +22,8 @@ is a specialized electronic circuit originally designed to speed up the creation
 ### Choosing GPU Resources – Considerations  
 - **Workload type**: Training very large AI models (e.g., LLMs) demands top-tier GPUs (more memory, higher compute). Smaller or inference-only tasks may use more modest GPUs.  
 - **Cost vs performance**: Higher-end GPUs cost more—but if needed, they pay off by reducing time to train or serve models.  
-- **Region/zone availability**: Not all GPU types may be available in all zones—check availability. :contentReference[oaicite:9]{index=9}  
-- **Software and drivers**: You’ll need appropriate drivers and frameworks (e.g., from NVIDIA) and may use optimized cloud images. :contentReference[oaicite:10]{index=10}
+- **Region/zone availability**: Not all GPU types may be available in all zones—check availability.  
+- **Software and drivers**: You’ll need appropriate drivers and frameworks (e.g., from NVIDIA) and may use optimized cloud images.  
 
 ---
 
