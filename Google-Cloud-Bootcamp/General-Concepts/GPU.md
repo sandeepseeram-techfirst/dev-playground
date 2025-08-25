@@ -35,4 +35,4 @@ is a specialized electronic circuit originally designed to speed up the creation
 ---
 
 ### Summary  
-GPUs are fundamental to modern AI because they deliver massively parallel compute power required for training and inference. With cloud platforms like Google Cloud you can access and scale GPU resources as needed, optimizing for both performance and cost. For a platform/infrastructure engineer or SRE, understanding GPU options and how to integrate them into your architecture is key for supporting AI/ML workloads efficiently.
+GPUs are fundamental to modern AI because they deliver massively parallel compute power required for training and inference. With cloud platforms like Google Cloud you can access and scale GPU resources as needed, optimizing for both performance and cost. For a platform/infrastructure engineer or SRE, understanding GPU options and how to integrate them into your architecture is key for supporting AI/ML workloads efficiently. 
