@@ -36,4 +36,4 @@ AI Hypercomputer is an integrated supercomputing system optimized for large-scal
 ---
 
 ### Summary  
-AI Hypercomputer is Google Cloud’s underlying supercomputing system for AI workloads. If you’re working on large-scale AI or ML infrastructure (which aligns with your interest in SRE/DevOps/Platform Engineering in the cloud), this platform gives you the building blocks — from hardware to orchestration — to design, deploy and operate high-performance AI systems with scale and efficiency.
+AI Hypercomputer is Google Cloud’s underlying supercomputing system for AI workloads. If you’re working on large-scale AI or ML infrastructure (which aligns with your interest in SRE/DevOps/Platform Engineering in the cloud), this platform gives you the building blocks — from hardware to orchestration — to design, deploy and operate high-performance AI systems with scale and efficiency. 
