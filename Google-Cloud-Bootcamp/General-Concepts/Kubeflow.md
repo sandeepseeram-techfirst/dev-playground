@@ -36,6 +36,6 @@ Kubeflow is an open-source machine learning (ML) platform built on top of Kubern
 
 ---
 
-### Summary  
+### Summary
 Kubeflow provides a robust, Kubernetes-native platform for managing the full lifecycle of machine learning workflows — from development to deployment — in a scalable, reproducible way. It aligns well with modern cloud-native, production-oriented ML environments and supports teams looking to operationalize ML at scale.
 
