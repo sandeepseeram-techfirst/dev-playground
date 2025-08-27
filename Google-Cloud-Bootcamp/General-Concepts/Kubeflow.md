@@ -58,7 +58,7 @@ Katib is Kubeflow’s automated hyperparameter tuning system.
 
 ### 3. **KFServing (KServe)**
 KFServing provides a serverless way to deploy ML models for inference.  
-**Why it's useful:**
+**Why it's useful:** 
 - Simplifies model deployment and autoscaling
 - Works with multiple ML frameworks (TensorFlow, PyTorch, scikit-learn, etc.)
 - Supports modern serving features like canary rollout and A/B testing
