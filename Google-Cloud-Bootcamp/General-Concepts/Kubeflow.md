@@ -38,7 +38,7 @@ Kubeflow is an open-source machine learning (ML) platform built on top of Kubern
 
 ## Key Components of Kubeflow
 
-### 1. **Pipelines**
+### 1. **Pipelines** 
 Kubeflow Pipelines let you build, run, and manage end-to-end ML workflows using Docker containers.  
 **Key capabilities:**
 - Create reusable and scalable ML pipelines
