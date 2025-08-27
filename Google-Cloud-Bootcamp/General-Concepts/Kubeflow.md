@@ -70,7 +70,7 @@ Kubeflow Metadata tracks all ML artifacts and lineage.
 **Benefits:**
 - Records datasets, models, experiments, and results
 - Makes ML workflows easier to reproduce and audit
-- Enhances collaboration among ML teams 
+- Enhances collaboration among ML teams
 
 --- 
 
