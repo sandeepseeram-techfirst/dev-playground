@@ -47,7 +47,7 @@ Kubeflow Pipelines let you build, run, and manage end-to-end ML workflows using 
 
 ---
 
-### 2. **Katib**
+### 2. **Katib** 
 Katib is Kubeflow’s automated hyperparameter tuning system.  
 **What it does:**
 - Finds the best model hyperparameters automatically
