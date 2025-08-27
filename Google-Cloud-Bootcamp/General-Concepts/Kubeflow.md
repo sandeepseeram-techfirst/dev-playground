@@ -36,6 +36,44 @@ Kubeflow is an open-source machine learning (ML) platform built on top of Kubern
 
 ---
 
+## Key Components of Kubeflow
+
+### 1. **Pipelines**
+Kubeflow Pipelines let you build, run, and manage end-to-end ML workflows using Docker containers.  
+**Key capabilities:**
+- Create reusable and scalable ML pipelines
+- Visual UI to track experiments, view pipeline runs, logs, and performance
+- Ensures portability and reproducibility across environments
+
+---
+
+### 2. **Katib**
+Katib is Kubeflow’s automated hyperparameter tuning system.  
+**What it does:**
+- Finds the best model hyperparameters automatically
+- Supports multiple tuning methods: grid search, random search, Bayesian optimization
+- Saves time by automating model optimization
+
+---
+
+### 3. **KFServing (KServe)**
+KFServing provides a serverless way to deploy ML models for inference.  
+**Why it's useful:**
+- Simplifies model deployment and autoscaling
+- Works with multiple ML frameworks (TensorFlow, PyTorch, scikit-learn, etc.)
+- Supports modern serving features like canary rollout and A/B testing
+
+---
+
+### 4. **Metadata**
+Kubeflow Metadata tracks all ML artifacts and lineage.  
+**Benefits:**
+- Records datasets, models, experiments, and results
+- Makes ML workflows easier to reproduce and audit
+- Enhances collaboration among ML teams
+
+--- 
+
 ### Summary
 Kubeflow provides a robust, Kubernetes-native platform for managing the full lifecycle of machine learning workflows — from development to deployment — in a scalable, reproducible way. It aligns well with modern cloud-native, production-oriented ML environments and supports teams looking to operationalize ML at scale.
 
