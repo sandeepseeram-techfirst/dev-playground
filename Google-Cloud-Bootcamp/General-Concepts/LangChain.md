@@ -9,7 +9,7 @@ LangChain is an open-source framework for building applications with large langu
 LangChain allows you to chain together components such as:  
 - Document/loaders that pull data from storage or databases 
 - Retrieval mechanisms (e.g., vector search) to find relevant content   
-- LLM invocation steps to process input plus retrieved context  
+- LLM invocation steps to process input plus retrieved context   
 - Decision logic or agents that choose which tools to call and when  
 
 A typical workflow might be:  
