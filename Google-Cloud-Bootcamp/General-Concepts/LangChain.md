@@ -21,7 +21,7 @@ A typical workflow might be:
 
 ---
 
-### Key Features  
+### Key Features
 - **Data connectivity**: Supports integration with many data sources (databases, cloud storage, etc).  
 - **Chains & agents**: Allows composing multiple LLM calls and tools in structured workflows.  
 - **Model abstraction**: Lets developers swap underlying LLMs or embeddings without rewriting major logic.  
