@@ -38,7 +38,7 @@ LangChain is especially useful for:
 
 ---
 
-### Why It Matters for Cloud/Platform Teams  
+### Why It Matters for Cloud/Platform Teams   
 - LangChain helps bridge between LLMs and enterprise data/services — critical for real-world applications.  
 - Use with managed services (like those on Google Cloud) simplifies deployment, scaling, and integration.  
 - Fits well into SRE/DevOps/Platform workflows by enabling modular, traceable, and maintainable AI workflows.
