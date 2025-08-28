@@ -29,7 +29,7 @@ A typical workflow might be:
 
 ---
 
-### Use Cases  
+### Use Cases
 LangChain is especially useful for:  
 - Building chatbots or assistants that access private company data.  
 - Retrieval-augmented generation (RAG) workflows: answering questions from documents or databases.  
