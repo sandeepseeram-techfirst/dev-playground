@@ -1,8 +1,8 @@
-## What is LangChain? 
+## What is LangChain?
 
 ### Overview  
 LangChain is an open-source framework for building applications with large language models (LLMs). It provides tools to connect LLMs with external data sources and computational workflows, enabling more complex, multi-step AI applications rather than just prompt → response.  
-
+ 
 ---
 
 ### How LangChain Works  
