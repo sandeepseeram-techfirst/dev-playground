@@ -44,4 +44,5 @@ Hands-on examples for:
 
 - Apply proven strategies to balance performance with cost efficiency.
 
-- Use Vertex AI optimization tools and model monitoring to reduce operational overhead.
+- Use Vertex AI optimization tools and model monitoring to reduce operational overhead. 
+
