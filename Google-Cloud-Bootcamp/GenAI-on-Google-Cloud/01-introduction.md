@@ -16,19 +16,19 @@ Go beyond experimentation — focus on real-world performance, ROI, and operatio
 
 ### 🏗️ Core Focus Areas
 
-1. LLM Operations (LLMOps)
+### 1. LLM Operations (LLMOps)
 
 - Understand data pipelines, evaluation systems, and responsible AI practices.
 
 - Build workflows that ensure compliance, observability, and scalability.
 
-2. Enterprise AI Architecture
+### 2. Enterprise AI Architecture
 
 - Design multi-agent systems and tool-integrated GenAI platforms.
 
 - Support multimodal data (text, images, video) in robust and production-ready environments.
 
-3. Google Cloud Vertex AI
+### 3. Google Cloud Vertex AI
 
 Hands-on examples for:
 
@@ -40,7 +40,7 @@ Hands-on examples for:
 
 - Integrating with enterprise tools and data systems
 
-4. Optimization and Cost Management
+### 4. Optimization and Cost Management
 
 - Apply proven strategies to balance performance with cost efficiency.
 
