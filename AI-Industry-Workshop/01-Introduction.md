@@ -12,3 +12,7 @@
 #### 2021-2022 
 - Explosion of foundation models and text↔image generative models (DALL·E 2, CLIP, Stable Diffusion). 
 - Developers begin integrating generative features.
+
+#### 2022-2023 
+- LLMs power chatbots and developer tools (Code Assistants). 
+- Enterprises start serious MLOps adoption. Multimodal research accelerates.
