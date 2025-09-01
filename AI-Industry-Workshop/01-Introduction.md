@@ -16,3 +16,7 @@
 #### 2022-2023 
 - LLMs power chatbots and developer tools (Code Assistants). 
 - Enterprises start serious MLOps adoption. Multimodal research accelerates.
+
+#### 2024–2025 
+- Large multimodal models, “agents”, productized LLMs (GPT-4.5 / Gemini / Llama 4 family), a mature MLOps market, and widespread RAG/embedding stacks. 
+- Increased regulation, safety work, and specialization of deployment (on-device quantized models, distilled variants).
