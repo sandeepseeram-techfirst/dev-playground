@@ -2,3 +2,11 @@
 
 ### AI Industry Technology Overview (2025) 
 *Data → Models → Frameworks → Libraries → Infrastructure → Tooling → Deployment → Observability → Safety*
+
+### Timeline
+
+#### 2020 
+- ML/AI largely task-specific (recommendation, CV, NLP pipelines). 
+- Transformers already present but LLMs not yet ubiquitous in consumer apps.
+
+#### 2021
