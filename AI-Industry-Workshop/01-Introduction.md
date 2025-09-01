@@ -1,2 +1,2 @@
-# AI Industry Workshop 
+# AI Industry Workshop Notes 
 
