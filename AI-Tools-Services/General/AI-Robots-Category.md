@@ -15,3 +15,8 @@ The AI Robot category includes:
 - Healthcare robots (e.g., surgical assistants)
 
 - Research and exploration robots (e.g., Mars rovers, underwater drones)
+
+
+
+## Figure AI 
+https://www.figure.ai/company 
