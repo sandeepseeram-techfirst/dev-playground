@@ -20,3 +20,6 @@ The AI Robot category includes:
 
 ## Figure AI 
 https://www.figure.ai/company 
+
+## Drone Deploy 
+https://dronedeploy.com 
