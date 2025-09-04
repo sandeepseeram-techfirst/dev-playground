@@ -14,4 +14,5 @@ These systems are typically used for:
 
 * Adult content detection
 
-* Restricting or flagging inappropriate material
+* Restricting or flagging inappropriate material 
+
