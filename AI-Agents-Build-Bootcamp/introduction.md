@@ -1,5 +1,5 @@
 # Building AI Agents 
 
 - LLM's 
-- RAG 
+- Retrieval-Augmented Generation (RAG)
 - Knowledge Graphs 
