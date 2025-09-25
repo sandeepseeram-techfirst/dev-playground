@@ -8,3 +8,4 @@ Machine learning emerged in the 1950s. It enabled AI to process narrow tasks usi
 #### The next era in AI’s evolution was the deep learning period from 2006 to 2017. 
 
 By 2006, deep learning was gaining traction. It leveraged large, unstructured datasets and relied on neural networks for more complex problem-solving. Deep learning enabled AI to self-learn through unsupervised and reinforcement learning. This strategy led to advancements in image and speech recognition, natural language processing, and advanced detection and classification. In 2015, Google introduced RankBrain, an AI system that enhanced search results using deep learning. During this time, OpenAI, a research organization, was founded to push AI research forward. 
+
