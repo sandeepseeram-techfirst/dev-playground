@@ -1,0 +1,3 @@
+## Evolution 
+
+Machine learning emerged in the 1950s. It enabled AI to process narrow tasks using curated and structured data sources. Early machine learning techniques included supervised, semi-supervised, and reinforcement learning. These techniques relied on algorithmic models to perform tasks such as prediction and forecasting, basic detection, recommendation systems, and data filtering. A defining moment in machine learning occurred in 1997 when IBM’s Deep Blue defeated chess champion Garry Kasparov. The win showcased AI’s ability to analyze vast datasets and make strategic decisions. 
