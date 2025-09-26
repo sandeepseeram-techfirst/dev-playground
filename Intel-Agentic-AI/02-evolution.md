@@ -14,3 +14,11 @@ By 2006, deep learning was gaining traction. It leveraged large, unstructured da
 Generative AI or GenAI reshaped AI by allowing models to create or synthesize new content based on vast structured and unstructured datasets. GenAI employed unsupervised learning with reinforcement, generative adversarial networks, and transformer-based models. This shift to GenAI led to breakthroughs in advanced chatbots, image and video synthesis, and AI-powered assistants. 
 
 A defining moment for GenAI was the launch of ChatGPT by OpenAI in 2022. The product quickly scaled to millions of users, demonstrating the power of large-scale AI-driven conversation. 
+
+#### The Rise of Agentic AI from 2023 to the present. 
+
+By 2023, two key advancements gained prominence: retrieval-augmented generation or RAG and Agentic AI. RAG enhances GenAI by allowing large language models to pull from specialized datasets in real time, improving accuracy and relevance. Through API integration, RAG enables AI to leverage external sources like news, databases, or computational tools. Consider this analogy: GenAI without RAG is like an outside consultant or intern that has limited effectiveness. With RAG, a GenAI model is paired with the company’s unique data, allowing the same model to act more like a seasoned employee.  
+
+Agentic AI marks a fundamental shift in three areas. First, it enables AI to orchestrate multiple specialized agents and tools. Second, Agentic AI operates autonomously in support of complex goals. Third, it adapts to dynamic environments in real-time. 
+
+As the timeline shows, AI has evolved from simple rule-based learning, to deep learning, generative models that reason, to autonomous agentic systems. Agentic AI represents the next leap, moving AI from reactive assistance to proactive problem solving. This transition unlocks new possibilities for automation, decision-making, and collaboration across industries. 
