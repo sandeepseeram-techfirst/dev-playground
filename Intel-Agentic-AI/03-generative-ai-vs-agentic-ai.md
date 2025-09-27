@@ -9,3 +9,5 @@ Large GenAI frontier models typically have a front-end agent that controls multi
 Agentic AI operates differently. The underlying agents in Agentic AI are less tightly integrated with the higher-level orchestrator and with one another. They work independently, adapt to dynamic environments, and synthesize novel data inputs. They also operate autonomously without constant direction from the orchestrator. The result is they can achieve a more complex objective without continual human direction or prompting. 
 
 GenAI typically has memory specific to a single user. This means it does not have breadth of information across many users and agents. Agentic AI has memory across many users and agents. These agents learn from past interactions, adapt over time, and make more informed decisions. This leads to more context-aware, coherent, and strategic execution of tasks. 
+
+![Gen AI vs Agentic AI](genai-vs-agenticai.png)
