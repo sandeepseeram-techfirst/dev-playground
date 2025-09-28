@@ -1,4 +1,4 @@
-
+# Gen AI & Agentic AI Applications 
 
 GenAI and Agentic AI serve distinct purposes and operate in fundamentally different ways. Let’s look at how each works in four common applications. 
 
