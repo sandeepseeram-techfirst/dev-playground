@@ -1,6 +1,8 @@
 # Agentic AI - Use Cases 
 
-Agentic AI transforms nearly every industry, from retail to healthcare to government. How is this achieved? By driving efficiency and automation in a wide range of applications. As Agentic AI evolves, its ability to streamline workflows and improve decision-making makes it an integral part of industry innovation. 
+Agentic AI transforms nearly every industry, from retail to healthcare to government. 
+
+How is this achieved? By driving efficiency and automation in a wide range of applications. As Agentic AI evolves, its ability to streamline workflows and improve decision-making makes it an integral part of industry innovation. 
 
 Let’s take a closer look at two industries where Agentic AI is making a significant impact: healthcare and financial services. 
 
