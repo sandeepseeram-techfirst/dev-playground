@@ -13,3 +13,4 @@ Another application is research and analysis. GenAI research assistants provide 
  
 The final application is cybersecurity. GenAI works as a security operations assistant. It reviews current logs, summarizes incidents, and recommends actions. While helpful, these would fall into the simple task management category. On the other hand, Agentic AI functions as a cyber defender of systems. It reviews the security posture and current health of the systems. This cyber defender proactively adjusts the security posture and responds to specific cyber attacks. It can even loop in specific experts when needed. 
 
+''GenAI assists developers by completing isolated coding tasks, while Agentic AI simulates a full development team handling architecture, coding, testing, and deployment.''
