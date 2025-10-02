@@ -4,9 +4,9 @@
 
 * A key feature of AI agents is their ability to adapt to changing environments. They modify their behavior in response to new information or evolving circumstances. By doing so, they remain effective even as conditions shift. This adaptability is crucial in today's fast-paced world, where static solutions quickly become obsolete.
 
-Moreover, AI agents learn from interactions and experiences. Through continuous engagement with their environment, they refine their understanding and improve their performance over time. This learning capability allows them to become more proficient at their tasks and offer increasingly sophisticated solutions.
+* Moreover, AI agents learn from interactions and experiences. Through continuous engagement with their environment, they refine their understanding and improve their performance over time. This learning capability allows them to become more proficient at their tasks and offer increasingly sophisticated solutions.
 
-AI agents also excel in making autonomous decisions. They evaluate complex scenarios, weigh potential outcomes, and choose the best course of action without human intervention. This autonomy empowers them to solve problems efficiently, freeing humans to focus on higher-level strategic thinking.
+* AI agents also excel in making autonomous decisions. They evaluate complex scenarios, weigh potential outcomes, and choose the best course of action without human intervention. This autonomy empowers them to solve problems efficiently, freeing humans to focus on higher-level strategic thinking.
 
 
 Another key strength of AI agents is contextual understanding. By leveraging large language models and other foundation models, they develop a richer understanding of context. With the ability to interpret nuances and make better-informed decisions based on current conditions, they respond more appropriately in complex scenarios.
