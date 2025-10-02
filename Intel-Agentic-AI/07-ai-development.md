@@ -1,8 +1,8 @@
 # AI Development 
 
-At the heart of Agentic AI lies the AI agent. It’s an advanced system designed to perceive its environment, make decisions, and take actions to achieve specific goals. Unlike traditional software that operates under rigid, predefined instructions, AI agents are dynamic and adaptable.
+* At the heart of Agentic AI lies the AI agent. It’s an advanced system designed to perceive its environment, make decisions, and take actions to achieve specific goals. Unlike traditional software that operates under rigid, predefined instructions, AI agents are dynamic and adaptable.
 
-A key feature of AI agents is their ability to adapt to changing environments. They modify their behavior in response to new information or evolving circumstances. By doing so, they remain effective even as conditions shift. This adaptability is crucial in today's fast-paced world, where static solutions quickly become obsolete.
+* A key feature of AI agents is their ability to adapt to changing environments. They modify their behavior in response to new information or evolving circumstances. By doing so, they remain effective even as conditions shift. This adaptability is crucial in today's fast-paced world, where static solutions quickly become obsolete.
 
 Moreover, AI agents learn from interactions and experiences. Through continuous engagement with their environment, they refine their understanding and improve their performance over time. This learning capability allows them to become more proficient at their tasks and offer increasingly sophisticated solutions.
 
