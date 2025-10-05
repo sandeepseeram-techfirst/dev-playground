@@ -9,4 +9,5 @@
 7. Most frameworks for building AI agents are LLM-agnostic. Developers can choose the LLM that best fits their performance, cost, and domain requirements. This flexibility helps drive innovation and efficiency in their AI initiatives.
 8. Let’s look at a tool that enhances the capabilities of an LLM-based agent. It’s called function calling. When function calling is integrated into an LLM, the LLM shifts from merely processing language to actively solving problems and performing tasks. Function calling also turns an AI agent into a dynamic and versatile tool. The agent not only interprets and responds to queries but also executes functions and retrieves information on demand.
 9. One of the primary benefits of function calling is the ability to produce structured output. Structured output ensures the data is machine-readable. This reduces ambiguity and allows AI agents to parse results reliably and consistently.
-10. 
+10. Function calling also enables the agent to decide which external functions or APIs to use based on user queries. For instance, if a user requests the current weather, the LLM automatically calls the relevant weather API to retrieve up-to-date information. Dynamic access to real-time data leads to relevant answers and user satisfaction.
+11. 
