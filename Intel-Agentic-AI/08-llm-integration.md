@@ -10,4 +10,6 @@
 8. Let’s look at a tool that enhances the capabilities of an LLM-based agent. It’s called function calling. When function calling is integrated into an LLM, the LLM shifts from merely processing language to actively solving problems and performing tasks. Function calling also turns an AI agent into a dynamic and versatile tool. The agent not only interprets and responds to queries but also executes functions and retrieves information on demand.
 9. One of the primary benefits of function calling is the ability to produce structured output. Structured output ensures the data is machine-readable. This reduces ambiguity and allows AI agents to parse results reliably and consistently.
 10. Function calling also enables the agent to decide which external functions or APIs to use based on user queries. For instance, if a user requests the current weather, the LLM automatically calls the relevant weather API to retrieve up-to-date information. Dynamic access to real-time data leads to relevant answers and user satisfaction.
-11. 
+11. The NPHardEval leaderboard offers another important benchmark. It focuses on the reasoning abilities of LLMs through classes of computational complexity. This evaluation determines how effectively an LLM can handle complex problem-solving scenarios.
+
+By leveraging these benchmarks, developers can select the most suitable LLM for their function-calling needs. Their AI agents can then be equipped to act as proactive problem-solvers.
