@@ -1,1 +1,3 @@
 # Evaluating and Measuring Agent Performance
+
+1. Evaluating and measuring the performance of AI agents is a complex but essential task. It is especially important as these systems evolve from simple automation scripts into sophisticated digital entities. To ensure AI agents deliver sustained business value, they must be assessed for accuracy, efficiency, reliability, adaptability, and cost. Let’s dive a little deeper into each of these dimensions.  
