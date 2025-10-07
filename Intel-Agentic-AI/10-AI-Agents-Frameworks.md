@@ -25,3 +25,6 @@ Overall, LangGraph empowers developers to create sophisticated AI agents with co
 
 ## LlamaIndex. 
 LlamaIndex is a powerful framework for developing context-augmented generative AI applications using large language models. It is ideal for use cases such as agentic retrieval-augmented generation, report generation, customer support, and SQL agents.
+LlamaIndex offers sample implementations in both Python and TypeScript to help developers get started quickly. These samples show how to integrate LlamaIndex into existing systems and customize it to meet specific business requirements. 
+
+LlamaIndex provides a range of features that can be tailored to different applications. It also offers opportunities for monetization through premium features, enterprise support, and specialized modules.  
