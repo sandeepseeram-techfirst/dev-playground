@@ -14,3 +14,14 @@
 CrewAI is a framework that orchestrates role-playing and autonomous AI agents. It allows them to collaborate seamlessly to tackle complex tasks. Collective problem-solving capabilities make CrewAI valuable for applications such as multi-agent simulations, strategic planning, and dynamic task allocation.
 
 CrewAI is open source. This allows developers to customize and extend the framework while benefiting from contributions and insights shared by the global developer community.
+
+## LangGraph 
+LangGraph manages diverse control flows in AI agent development, accommodating single- and multi-agent, hierarchical, and sequential setups. Flexibility makes LangGraph an ideal choice for developers who need to implement complex scenarios that require robust coordination and adaptability among agents.
+
+A key feature of LangGraph is a focus on agent reliability. Reliability is achieved through built-in moderation and quality loops. These mechanisms empower agents to consistently deliver reliable results even in challenging environments. LangGraph offers another advantage by allowing users to templatize cognitive architectures. This capability makes it easy to configure tools, prompts, and models.
+
+Overall, LangGraph empowers developers to create sophisticated AI agents with confidence while it streamlines processes for rapid prototyping and deployment.
+
+
+## LlamaIndex. 
+LlamaIndex is a powerful framework for developing context-augmented generative AI applications using large language models. It is ideal for use cases such as agentic retrieval-augmented generation, report generation, customer support, and SQL agents.
