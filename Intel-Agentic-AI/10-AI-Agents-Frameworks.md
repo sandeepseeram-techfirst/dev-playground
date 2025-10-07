@@ -9,3 +9,8 @@
 
 
 # CrewAI, LangGraph, and LlamaIndex
+
+## CrewAI 
+CrewAI is a framework that orchestrates role-playing and autonomous AI agents. It allows them to collaborate seamlessly to tackle complex tasks. Collective problem-solving capabilities make CrewAI valuable for applications such as multi-agent simulations, strategic planning, and dynamic task allocation.
+
+CrewAI is open source. This allows developers to customize and extend the framework while benefiting from contributions and insights shared by the global developer community.
