@@ -9,3 +9,5 @@
 4. Reliability assesses the consistency of the agent's performance over time, ensuring that it can handle varying inputs without degradation. This is particularly important in industries such as healthcare and finance, where consistent performance is critical. 
 
 5. Adaptability measures the agent's ability to adjust to new information and changing environments, its capacity to learn and evolve. This dimension is key to staying relevant in dynamic business landscapes. 
+
+6. Cost evaluates the financial implications of deploying and maintaining the agent, balancing investment against the value generated. 
