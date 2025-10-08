@@ -4,4 +4,6 @@
 
 2. Accuracy involves measuring how well the agent performs its tasks, ensuring correct and relevant outputs. This is crucial for maintaining trust and effectiveness in applications ranging from customer support to data analysis. 
 
-3. 
+3. Efficiency focuses on the agent's ability to perform tasks quickly and with minimal resource consumption. High efficiency translates to faster processing times and lower operational costs, which are vital for scalability. 
+
+4. 
