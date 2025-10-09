@@ -12,4 +12,4 @@ There are four key types of metrics that are crucial for assessing AI agent perf
 
 4. The final metric is tool interaction. This is where AI agents are monitored to see how efficiently and accurately they use external APIs, databases, and applications. Effective tool interaction is critical for agents that must dynamically retrieve information or automate multi-step workflows. With seamless integration to external systems, agents can enhance their capabilities and deliver more comprehensive solutions.
 
-5. 
+
