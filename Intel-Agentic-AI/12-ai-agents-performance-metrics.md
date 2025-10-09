@@ -10,4 +10,6 @@ There are four key types of metrics that are crucial for assessing AI agent perf
 
 3. Another metric is quality control. These metrics evaluate output quality, correctness, and adherence to standards. An example is when an agent catches subtle issues, such as incomplete compliance checks or uneven formatting. The result is that trustworthy agent outputs engender trust, build user confidence, and support long-term engagement.
 
-4. 
+4. The final metric is tool interaction. This is where AI agents are monitored to see how efficiently and accurately they use external APIs, databases, and applications. Effective tool interaction is critical for agents that must dynamically retrieve information or automate multi-step workflows. With seamless integration to external systems, agents can enhance their capabilities and deliver more comprehensive solutions.
+
+5. 
