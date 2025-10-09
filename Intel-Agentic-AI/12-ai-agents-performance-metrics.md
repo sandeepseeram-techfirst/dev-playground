@@ -6,3 +6,8 @@ There are four key types of metrics that are crucial for assessing AI agent perf
 
 1. First is system metrics. These metrics focus on the technical efficiency of the AI agent, including resource consumption and latency. By monitoring system metrics, organizations can ensure their agents run smoothly, even at scale. The goal is to prevent workflow bottlenecks and minimize unnecessary costs. Efficient system performance is vital to maintain high throughput and responsiveness, especially in high-demand environments.
 
+2. The next metric is task completion. This metric assesses whether AI agents successfully achieve their assigned objectives. For example, we see this success when an agent completes claims processing steps or generates accurate tax audits. High task completion rates indicate agents are delivering consistent results without constant human oversight. Such reliability is essential for automating complex processes and freeing up human resources for more strategic tasks.
+
+3. Another metric is quality control. These metrics evaluate output quality, correctness, and adherence to standards. An example is when an agent catches subtle issues, such as incomplete compliance checks or uneven formatting. The result is that trustworthy agent outputs engender trust, build user confidence, and support long-term engagement.
+
+4. 
