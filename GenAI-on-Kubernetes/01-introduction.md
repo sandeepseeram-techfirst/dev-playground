@@ -8,3 +8,4 @@ The GenAI Microservices describes a suite of microservices, each microservice is
 
 Recently, the practices for developing AI solutions have undergone significant transformation. Instead of considering AI model (e.g., a GenAI LLM) as the complete solution, these models are now being integrated into more comprehensive end-to-end AI solutions. These solutions consist of multiple components, including retrieval subsystems with embedding agents, a Vector Database for efficient storage and retrieval, and prompt engines, among others. 
 
+This shift has led to the emergence of Composition Frameworks (such as LangChain or Haystack), which are used to assemble these components into end-to-end GenAI flows, like RAG solutions, for the development and deployment of AI solutions.
