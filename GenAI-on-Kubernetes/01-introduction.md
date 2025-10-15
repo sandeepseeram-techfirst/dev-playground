@@ -11,3 +11,13 @@ Recently, the practices for developing AI solutions have undergone significant t
 This shift has led to the emergence of Composition Frameworks (such as LangChain or Haystack), which are used to assemble these components into end-to-end GenAI flows, like RAG solutions, for the development and deployment of AI solutions.
 
 The ecosystem offers a range of composition frameworks, some are open-source (e.g., LangChain and LlamaIndex), while others are closed-sourced and come bundled with professional services (e.g., ScaleAI). Additionally, some are offered by cloud service providers (e.g. AWS) or hardware/software providers (e.g., NVIDIA).  
+
+
+#### GenAI models – 
+Large Language Models (LLMs), Large Vision Models (LVMs), multimodal models, etc.
+
+#### Other modules - 
+AI system components (other than LLM/LVM models) including Ingest/Data Processing module, Embedding Models/Services, Vector 
+
+#### Databases - 
+(aka Indexing or Graph data stores), Prompt Engines, Memory systems, etc.
