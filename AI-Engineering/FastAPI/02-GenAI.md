@@ -14,3 +14,9 @@ Two nets: generator vs discriminator, competing during training; after training,
 
 * Power large language models (LLMs) such as GPT-based systems.
 
+
+#### Variational autoencoders (VAEs):
+
+* Encode input into a compressed latent space, then decode back.
+
+* Latent space = low-dimensional representation containing the essential information to reconstruct the original input.
