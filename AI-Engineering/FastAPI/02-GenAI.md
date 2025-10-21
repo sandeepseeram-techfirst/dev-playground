@@ -7,3 +7,10 @@
 #### Generative adversarial networks (GANs):
 
 Two nets: generator vs discriminator, competing during training; after training, you keep the generator to produce new samples.
+
+#### Transformers:
+
+* Use self-attention to model long sequences efficiently (texts, code, multimodal inputs).
+
+* Power large language models (LLMs) such as GPT-based systems.
+
