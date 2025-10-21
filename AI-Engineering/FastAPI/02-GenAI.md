@@ -20,3 +20,9 @@ Two nets: generator vs discriminator, competing during training; after training,
 * Encode input into a compressed latent space, then decode back.
 
 * Latent space = low-dimensional representation containing the essential information to reconstruct the original input.
+
+#### Autoregressive models:
+
+* Predict the next element in a sequence from previous ones (text, audio, etc.).
+
+
