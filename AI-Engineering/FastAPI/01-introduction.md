@@ -10,3 +10,12 @@ Project scaffold
 
 
  
+### Fast API 
+
+* High performance and async support, suitable for concurrent AI workloads.
+
+* Strong typing and automatic validation/docs.
+
+* Fits naturally with Python’s ML/AI stack (PyTorch, Transformers, etc.).
+
+* Good developer experience and growing adoption.
