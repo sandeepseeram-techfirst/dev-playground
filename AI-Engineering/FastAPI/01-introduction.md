@@ -19,3 +19,11 @@ Project scaffold
 * Fits naturally with Python’s ML/AI stack (PyTorch, Transformers, etc.).
 
 * Good developer experience and growing adoption.
+
+
+### What FastAPI is? 
+
+* ASGI web framework that runs on uvicorn, supports high‑concurrency async APIs, and integrates Swagger/OpenAPI docs plus data validation via Pydantic.
+​
+* Effectively a lightweight wrapper over Starlette, focused on lean APIs and good developer experience.
+
