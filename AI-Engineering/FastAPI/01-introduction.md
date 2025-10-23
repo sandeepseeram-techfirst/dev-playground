@@ -8,7 +8,6 @@ Project scaffold
     → Central model serving lifecycle
     → Type-safe request/response schemas
 
-
  
 ### Fast API 
 
