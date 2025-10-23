@@ -14,3 +14,17 @@
 - Intermediate‑level practical skill in Cloud‑Native AI
 
 - You will build a realistic ML platform for an “Intelligent Log Analyzer” that predicts anomaly severity from log features.
+
+
+### CNAI Domains	
+- Model Development: Jupyter + PyTorch/Sklearn on K8s
+- Data & Feature Pipelines:	MinIO + Feast
+- Training & Tuning: Kubeflow Training Operator
+Experiment Tracking	MLflow
+Model Registry	MLflow Registry
+Pipelines & Orchestration	Kubeflow Pipelines
+Model Serving	KServe
+Observability	Prometheus + Grafana
+Automation & MLOps	Argo Workflows
+Security & Governance	RBAC, Secrets, NetworkPolicy
+Hardware & Runtime	containerd, CPU optimization
