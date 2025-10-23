@@ -7,3 +7,6 @@ Project scaffold
     → Add gen models (text, audio, vision, 3D)
     → Central model serving lifecycle
     → Type-safe request/response schemas
+
+
+ 
