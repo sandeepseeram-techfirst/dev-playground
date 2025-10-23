@@ -21,10 +21,10 @@
 - Data & Feature Pipelines:	MinIO + Feast
 - Training & Tuning: Kubeflow Training Operator
 - Experiment Tracking:	MLflow
-- Model Registry	MLflow Registry
-Pipelines & Orchestration	Kubeflow Pipelines
-Model Serving	KServe
-Observability	Prometheus + Grafana
-Automation & MLOps	Argo Workflows
-Security & Governance	RBAC, Secrets, NetworkPolicy
-Hardware & Runtime	containerd, CPU optimization
+- Model Registry: MLflow Registry
+- Pipelines & Orchestration: Kubeflow Pipelines
+- Model Serving: KServe
+- Observability: Prometheus + Grafana
+- Automation & MLOps: Argo Workflows
+- Security & Governance: RBAC, Secrets, NetworkPolicy
+- Hardware & Runtime: containerd, CPU optimization
