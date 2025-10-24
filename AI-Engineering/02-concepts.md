@@ -18,7 +18,7 @@ takes a base model and trains it on curated question‑answer pairs so it behave
 ##### Few‑shot prompting 
 improves answers by sending example Q&A pairs along with the user’s query, while Retrieval‑Augmented Generation (RAG) adds relevant documents (like policies or manuals) fetched at runtime.
 
-##### A vector database 
+##### A Vector Database 
 stores document embeddings so the system can find semantically similar documents to a query. 
 
 ### Model Context Protocol (MCP) 
