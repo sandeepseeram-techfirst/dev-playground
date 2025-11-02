@@ -19,3 +19,5 @@ Think of the flow like this:
 ​- That MCP uses JSON‑RPC 2.0 for all requests, responses, and notifications.
 ​- That communication can run over stdio (local processes) or SSE (HTTP streaming), and you must pick based on your deployment.
 ​- That there is an initial capabilities negotiation handshake when a connection starts. 
+
+
