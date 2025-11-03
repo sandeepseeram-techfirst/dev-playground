@@ -21,3 +21,7 @@ AI system components (other than LLM/LVM models) including Ingest/Data Processin
 
 #### Databases - 
 (aka Indexing or Graph data stores), Prompt Engines, Memory systems, etc.
+
+
+#### Audience 
+MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale, observe, and secure LLM services at scale.
