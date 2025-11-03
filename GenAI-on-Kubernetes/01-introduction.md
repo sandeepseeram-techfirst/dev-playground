@@ -25,3 +25,13 @@ AI system components (other than LLM/LVM models) including Ingest/Data Processin
 
 #### Audience 
 MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale, observe, and secure LLM services at scale.
+
+
+### What’s special about LLM workloads?
+
+- Very large models: multi‑GB weights, long init times, complex memory footprints.
+- Specialized hardware: high‑performance GPUs, possibly multi‑GPU per Pod.
+- Varied data paths:
+    - Inference usually sees small prompts;
+    - RAG and batch jobs may read large corpora or process big batches.
+- Scheduling pressure: GPUs are scarce and expensive, so scheduling must be aware of GPU topology and utilization.
