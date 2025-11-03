@@ -29,7 +29,7 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
 
 ### What’s special about LLM workloads?
 
-- Very large models: multi‑GB weights, long init times, complex memory footprints.
+- Very large models: multi‑GB weights, long init times, complex memory footprints. 
 - Specialized hardware: high‑performance GPUs, possibly multi‑GPU per Pod.
 - Varied data paths:
     - Inference usually sees small prompts;
