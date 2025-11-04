@@ -67,3 +67,59 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
         - Secure data pipelines.
         - Network boundaries and RBAC.
         - Protection against model/API misuse.
+
+## Tokens, prompts, and embeddings
+
+### Tokenization
+
+Naive word‑level vocabularies break on unknown words and explode in size, so modern LLMs use **subword tokenization**:
+
+- Text is split into smaller units (tokens) like “regular” + “ization” instead of “regularization” as a single word.
+- The same sentence may become a different token sequence for different models because tokenizers are **model‑specific**.
+
+**Prompt → tokens visualization**
+
+- Input string → tokenizer → `[token_1, token_2, ... token_n]` (integers mapped from a fixed vocabulary).
+
+### Prompt structure and system prompts
+
+- A **prompt** is the full request sent to an LLM, including user text and optional system instructions.
+- A **system prompt** sets behavior, examples:
+    - “You are a friendly AI assistant named John…” (assistant persona).
+    - “Please summarize the following text in ≤500 words…” (summarization task).
+- Changing the prompt to steer output is **prompt engineering**.
+- The tokenizer preserves sentence structure via special tokens for start/end and punctuation, because structure affects meaning.
+
+### How tokens map to words
+
+- Each sentence element (word) maps to one or more tokens to keep vocabulary size fixed.
+- Example:
+    - `tall` → `[tall]`
+    - `taller` → `[tall, er]`
+    - `tallest` → `[tall, est]`
+- Some tokens are **special** (end‑of‑text, system prompt boundaries, etc.).
+
+### Tokenizer implementation
+
+- A tokenizer is an algorithm: sentence in → sequence of token IDs out; each ID has a reversible mapping back to its text piece.
+- Production tokenizers include normalization, language‑specific rules (e.g., for languages without spaces), and high‑performance implementations.
+- Hugging Face’s `tokenizers` library is a common choice.
+- You must use the **same tokenizer** at inference that was used in training, or token IDs will not match the model’s embedding layer.
+
+### Embeddings
+
+Once you have token IDs, you need **embeddings**:
+
+- Embedding maps each token ID to a dense vector capturing semantic meaning.
+- Semantically similar tokens (e.g., “dog” and “puppy”) end up with embedding vectors that are close; dissimilar ones (e.g., “dog” and “car”) are far apart.
+- The embedding matrix is **learned during training**, while the token vocabulary stays fixed.
+- As the model processes a sequence, static token embeddings become **contextual** representations that depend on neighboring tokens.
+- Embeddings are not limited to text—they can represent images, video, and audio for multimodal models.
+
+### Tokens and cost
+
+Most managed LLM services price by **tokens**, not words:
+
+- Rough rule of thumb: in English, ≈4 characters ≈ 1 token (only an approximation).
+- Tokenization is model‑specific, so the same text may yield different token counts for different models.
+- Both **input and output tokens** are billed, and you cannot predict exactly how many output tokens will be generated; you only control a maximum.
