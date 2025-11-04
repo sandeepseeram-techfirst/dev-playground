@@ -66,4 +66,4 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
     - Models may be trained on or process sensitive data, so you need multi‑layer security:
         - Secure data pipelines.
         - Network boundaries and RBAC.
-        - Protection against model/API misuse. 
+        - Protection against model/API misuse.
