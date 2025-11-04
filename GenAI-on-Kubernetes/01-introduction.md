@@ -35,3 +35,15 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
     - Inference usually sees small prompts;
     - RAG and batch jobs may read large corpora or process big batches.
 - Scheduling pressure: GPUs are scarce and expensive, so scheduling must be aware of GPU topology and utilization.
+
+### **High‑level Solution Diagram:**
+
+1. **Platform layer:** Kubernetes cluster, node pools (CPU/GPU), storage, CNI, ingress.
+2. **ML/AI services:**
+    - Model servers (e.g., vLLM) as Deployments.
+    - Tuning/training Jobs on GPU nodes.
+    - Vector DB, feature stores, message queues.
+3. **Application layer:**
+    - Microservices calling LLM APIs.
+    - RAG/agent orchestrators.
+    - Frontends (web/chat) and external integrations.
