@@ -39,7 +39,7 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
 ### **High‑level Solution Diagram:**
 
 1. **Platform layer:** Kubernetes cluster, node pools (CPU/GPU), storage, CNI, ingress.
-2. **ML/AI services:** 
+2. **ML/AI services:**
     - Model servers (e.g., vLLM) as Deployments.
     - Tuning/training Jobs on GPU nodes.
     - Vector DB, feature stores, message queues.
