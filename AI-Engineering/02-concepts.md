@@ -27,6 +27,8 @@ lets models call external tools/servers (e.g., airline APIs) to fetch live data 
 ### Context engineering 
 combines all of this: examples, retrieved documents, MCP tools, plus tricks like summarizing long histories or remembering user preferences so the model always has the right context.
 
+##### AI Agents 
+are long‑running processes that orchestrate LLM calls, tools, and other agents to complete multi‑step tasks (like planning and booking a full trip) instead of just answering one prompt.
 
 
 
