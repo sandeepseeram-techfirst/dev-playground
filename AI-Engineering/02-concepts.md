@@ -24,6 +24,9 @@ stores document embeddings so the system can find semantically similar documents
 ### Model Context Protocol (MCP) 
 lets models call external tools/servers (e.g., airline APIs) to fetch live data or perform actions.
 
+### Context engineering 
+combines all of this: examples, retrieved documents, MCP tools, plus tricks like summarizing long histories or remembering user preferences so the model always has the right context.
+
 
 
 
