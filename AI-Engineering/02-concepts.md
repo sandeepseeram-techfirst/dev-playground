@@ -9,3 +9,7 @@ splits text into tokens (words, subwords, suffixes like “ing”) that models c
 ##### Attention 
 lets the model focus on relevant surrounding words to resolve ambiguity (e.g., “tasty apple” vs “Apple revenue”), and self‑supervised learning trains models by hiding parts of existing data and asking the model to predict them without manual labels.
 
+##### Transformer 
+is the specific architecture that stacks attention and feed‑forward layers to repeatedly refine token representations before predicting the next token.
+
+
