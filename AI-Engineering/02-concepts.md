@@ -12,4 +12,6 @@ lets the model focus on relevant surrounding words to resolve ambiguity (e.g., �
 ##### Transformer 
 is the specific architecture that stacks attention and feed‑forward layers to repeatedly refine token representations before predicting the next token.
 
+##### Fine‑tuning 
+takes a base model and trains it on curated question‑answer pairs so it behaves in a specific way (e.g., medical, financial, or customer‑support assistant).
 
