@@ -31,5 +31,18 @@ combines all of this: examples, retrieved documents, MCP tools, plus tricks like
 are long‑running processes that orchestrate LLM calls, tools, and other agents to complete multi‑step tasks (like planning and booking a full trip) instead of just answering one prompt.
 
 
+##### Reinforcement Learning (often RLHF) 
+adjusts model behavior by rewarding good responses and penalizing bad ones, shaping which “paths” through token space the model prefers.
+​
+
+##### Chain of Thought 
+trains models to show step‑by‑step reasoning; this usually improves accuracy, especially on harder problems, and can scale to more steps when tasks get more complex.
+​
+##### Reasoning models 
+(like newer LLMs) emphasize systematic problem solving, sometimes using patterns like tree‑of‑thought or tool use instead of just one linear explanation.
+
+
+
+
 
 
