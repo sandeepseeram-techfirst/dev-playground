@@ -123,3 +123,5 @@ Most managed LLM services price by **tokens**, not words:
 - Rough rule of thumb: in English, ≈4 characters ≈ 1 token (only an approximation).
 - Tokenization is model‑specific, so the same text may yield different token counts for different models.
 - Both **input and output tokens** are billed, and you cannot predict exactly how many output tokens will be generated; you only control a maximum.
+
+
