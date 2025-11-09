@@ -8,3 +8,11 @@ Similarly, some workloads need low latency for real-time applications, while oth
 
 ### Single GPU Serving Pattern
 The simplest LLM serving pattern uses a single GPU per model instance. This approach is ideal for smaller models (typically under 10B parameters) or when you need to deploy multiple independent model instances.
+
+### Key Components
+A single GPU deployment consists of:
+* A Kubernetes Deployment with one replica
+* A container running your chosen serving framework (vLLM, TGI, etc.)
+* GPU resource requests and limits
+* A Service to expose the model endpoint
+ 
