@@ -20,3 +20,7 @@ Breakdown of T,E,P.
     - Average error between predicted and actual house prices.
 
 Goal: as we feed more and better data (experience), performance on the task improves according to the performance measure.
+
+## **Data to Value pipeline**
+
+[Raw Data Sources] → [Data Collection & Storage] → [ML Models Discover Patterns] → [Dashboards / APIs / Apps] → [Business Decisions & Automation].
