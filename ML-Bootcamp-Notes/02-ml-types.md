@@ -61,7 +61,7 @@ There are three main types of machine learning systems: supervised, unsupervised
 
 ### Visual summary of all types
 
-You can visualize the three main types side‑by‑side:
+You can visualize the three main types side‑by‑side: 
 
 - Supervised: [Inputs + Labels] → learn f(x)→y*f*(*x*)→*y* → predict labels/values for new x*x*.
 - Unsupervised: [Inputs only] → find structure (clusters, low‑dim space, rules) in x*x*.
