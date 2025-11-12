@@ -11,7 +11,7 @@ A microservice is an **autonomous software component** that is independently u
 
 - Shared-nothing data: no shared database tables between services.
 - Communication via stable, versioned, well-documented interfaces (APIs or messages), preferably asynchronous.
-- Deployed as separate runtime processes (e.g., separate Docker containers).
+- Deployed as separate runtime processes (e.g., separate Docker containers). 
 - Instances are stateless so any instance can serve any request.
 
 This allows deploying many small services on multiple smaller servers instead of a single big machine, scaling only the hot services, and upgrading one service without touching the rest.
