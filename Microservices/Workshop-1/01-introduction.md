@@ -7,7 +7,7 @@ Microservice architecture = decomposing a monolith into a set of cooperating aut
 - Faster development and continuous deployment.
 - Easier manual or automatic scaling.
 
-A microservice is an **autonomous software component** that is independently upgradeable, replaceable, and scalable, with these properties:
+A microservice is an **autonomous software component** that is independently upgradeable, replaceable, and scalable, with these properties: 
 
 - Shared-nothing data: no shared database tables between services.
 - Communication via stable, versioned, well-documented interfaces (APIs or messages), preferably asynchronous.
