@@ -9,4 +9,4 @@ AI agents can process novel and unstructured inputs. This includes sensory data,
 
 ### Industry Report 
 
-According to Gartner®, “By 2028, 33% of enterprise software applications will include agentic AI, up from less than 1% in 2024, enabling 15% of day-to-day work decisions to be made autonomously.” This shift highlights the growing role of Agentic AI in driving intelligent automation across industries.
+According to Gartner®, “By 2028, 33% of enterprise software applications will include agentic AI, up from less than 1% in 2024, enabling 15% of day-to-day work decisions to be made autonomously.” This shift highlights the growing role of Agentic AI in driving intelligent automation across industries. 
