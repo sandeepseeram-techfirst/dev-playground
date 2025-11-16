@@ -13,3 +13,5 @@ Using Spring AI, you can connect to popular text, image, and audio models—such
 - **Spring AI** provides:
     - **Abstraction layers**: you write against a common Spring-style API, not each vendor’s custom API.
     - **Deep integration with the Spring ecosystem**: configuration, dependency injection, profiles, etc., work as you already expect in Spring Boot.
+
+
