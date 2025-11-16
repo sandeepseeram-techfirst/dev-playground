@@ -48,7 +48,7 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
     - RAG/agent orchestrators.
     - Frontends (web/chat) and external integrations.
 
-### **Challenges running GenAI at scale**
+### **Challenges running GenAI at scale** 
 
 1. **Model size & resources**
     - Models have billions of parameters, requiring huge GPU memory and storage (tens to hundreds of GB per model).
