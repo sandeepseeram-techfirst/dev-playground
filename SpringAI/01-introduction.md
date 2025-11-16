@@ -10,3 +10,6 @@ Spring AI is a set of abstractions and utilities that make it easy for Spring-ba
 
 Using Spring AI, you can connect to popular text, image, and audio models—such as ChatGPT, image generation models like Stable Diffusion, and speech-to-text systems—through a unified interface. The goal is to let you stay within familiar Spring patterns while hiding the complexity of each underlying AI provider’s API.
 
+- **Spring AI** provides:
+    - **Abstraction layers**: you write against a common Spring-style API, not each vendor’s custom API.
+    - **Deep integration with the Spring ecosystem**: configuration, dependency injection, profiles, etc., work as you already expect in Spring Boot.
