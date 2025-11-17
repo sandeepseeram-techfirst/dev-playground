@@ -15,7 +15,7 @@ Generative AI or GenAI reshaped AI by allowing models to create or synthesize ne
 
 A defining moment for GenAI was the launch of ChatGPT by OpenAI in 2022. The product quickly scaled to millions of users, demonstrating the power of large-scale AI-driven conversation. 
 
-#### The Rise of Agentic AI from 2023 to the present. 
+#### The Rise of Agentic AI from 2023 to the present.
 
 By 2023, two key advancements gained prominence: retrieval-augmented generation or RAG and Agentic AI. RAG enhances GenAI by allowing large language models to pull from specialized datasets in real time, improving accuracy and relevance. Through API integration, RAG enables AI to leverage external sources like news, databases, or computational tools. Consider this analogy: GenAI without RAG is like an outside consultant or intern that has limited effectiveness. With RAG, a GenAI model is paired with the company’s unique data, allowing the same model to act more like a seasoned employee. 
 
