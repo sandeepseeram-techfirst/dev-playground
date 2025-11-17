@@ -22,3 +22,11 @@ Large language model (LLM) AIs (like ChatGPT) can be thought of as **informatio
 - The AI has been trained on huge amounts of text.
 - It **predicts the next words** based on patterns it has seen before.
 - The result is a **probabilistic** answer, not a guaranteed fact.
+
+
+- **Maven** is used as the build tool:
+    - Describes the project with **XML** in a single `pom.xml`.
+    - Very **stable across versions**.
+    - Good for books because:
+        - Fewer moving parts,
+        - Less likely to break in future tool updates.
