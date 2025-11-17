@@ -1,6 +1,6 @@
 # Gen AI & Agentic AI Applications 
 
-GenAI and Agentic AI serve distinct purposes and operate in fundamentally different ways. Let’s look at how each works in four common applications. 
+GenAI and Agentic AI serve distinct purposes and operate in fundamentally different ways. Let’s look at how each works in four common applications.
 
  
 The first application is customer support. GenAI works well as a chatbot, answering specific questions relating to a topic that it has been trained on. Agentic AI acts more as a personalized customer service agent. It draws on past interactions across multiple users and channels to offer suggestions for usage, support, and fixes. It can also make offers for additional services. 
