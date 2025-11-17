@@ -14,5 +14,5 @@ A single GPU deployment consists of:
 * A Kubernetes Deployment with one replica
 * A container running your chosen serving framework (vLLM, TGI, etc.)
 * GPU resource requests and limits
-* A Service to expose the model endpoint 
+* A Service to expose the model endpoint
  
