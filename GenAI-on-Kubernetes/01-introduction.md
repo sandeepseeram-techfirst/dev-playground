@@ -42,7 +42,7 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
 2. **ML/AI services:**
     - Model servers (e.g., vLLM) as Deployments.
     - Tuning/training Jobs on GPU nodes.
-    - Vector DB, feature stores, message queues.
+    - Vector DB, feature stores, message queues. 
 3. **Application layer:**
     - Microservices calling LLM APIs.
     - RAG/agent orchestrators.
@@ -52,7 +52,7 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
 
 1. **Model size & resources**
     - Models have billions of parameters, requiring huge GPU memory and storage (tens to hundreds of GB per model).
-    - Infrastructure must dynamically allocate CPU, GPU, RAM, and storage so performance and reliability are preserved under variable load.
+    - Infrastructure must dynamically allocate CPU, GPU, RAM, and storage so performance and reliability are preserved under variable load. 
 2. **Startup time & latency**
     - Long **warm‑up**: loading weights into memory and optimizing for inference takes much longer than starting a typical web app.
     - High **per‑request latency**: text is generated token‑by‑token, so responses are slower than simple REST calls.
