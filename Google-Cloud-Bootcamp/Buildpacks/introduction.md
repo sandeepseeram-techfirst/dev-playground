@@ -6,7 +6,7 @@ You give them your source code, and they:
 
 - Detect what language or framework your app uses (like Node.js, Python, Java, etc.),
 
-- Install all dependencies, 
+- Install all dependencies,
 
 - Set up the runtime environment,
 
