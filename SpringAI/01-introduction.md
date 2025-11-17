@@ -16,3 +16,9 @@ Using Spring AI, you can connect to popular text, image, and audio models—such
 
 In short: Spring AI unifies how you connect to multiple AI models and services, so you can stay in familiar Spring patterns and move faster. 
 
+Large language model (LLM) AIs (like ChatGPT) can be thought of as **information blenders**:
+
+- You give them a **prompt** (your question or instruction).
+- The AI has been trained on huge amounts of text.
+- It **predicts the next words** based on patterns it has seen before.
+- The result is a **probabilistic** answer, not a guaranteed fact.
