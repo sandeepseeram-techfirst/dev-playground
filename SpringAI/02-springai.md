@@ -2,7 +2,7 @@
 
 #### 1. Spring AI’s Core Idea: The `Model`
 
-##### 1.1 What is a Model?
+##### 1.1 What is a Model? 
 
 In Spring AI, everything is built around the concept of a **Model**:
 
