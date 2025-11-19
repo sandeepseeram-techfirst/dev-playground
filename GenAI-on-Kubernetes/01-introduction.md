@@ -36,7 +36,7 @@ MLOps Engineers, Platform/Kubernetes Engineers, and Architects who deploy, scale
     - RAG and batch jobs may read large corpora or process big batches.
 - Scheduling pressure: GPUs are scarce and expensive, so scheduling must be aware of GPU topology and utilization.
 
-### **High‑level Solution Diagram:**
+### **High‑level Solution Diagram:** 
 
 1. **Platform layer:** Kubernetes cluster, node pools (CPU/GPU), storage, CNI, ingress.
 2. **ML/AI services:**
