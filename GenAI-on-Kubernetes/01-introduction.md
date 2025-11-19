@@ -96,7 +96,7 @@ Naive word‑level vocabularies break on unknown words and explode in size, so m
 - Example:
     - `tall` → `[tall]`
     - `taller` → `[tall, er]`
-    - `tallest` → `[tall, est]`
+    - `tallest` → `[tall, est]` 
 - Some tokens are **special** (end‑of‑text, system prompt boundaries, etc.).
 
 ### Tokenizer implementation
