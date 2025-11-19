@@ -22,7 +22,7 @@ Types of models include:
 
 #### 1.2 Blocking vs Streaming Chat Models
 
-For **chat models**, there are two variants:
+For **chat models**, there are two variants: 
 
 1. **Blocking chat model**
    - Returns a **complete answer** in one go.
