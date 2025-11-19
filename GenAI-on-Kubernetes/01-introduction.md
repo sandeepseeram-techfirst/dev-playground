@@ -106,7 +106,7 @@ Naive word‑level vocabularies break on unknown words and explode in size, so m
 - Hugging Face’s `tokenizers` library is a common choice.
 - You must use the **same tokenizer** at inference that was used in training, or token IDs will not match the model’s embedding layer.
 
-### Embeddings
+### Embeddings 
 
 Once you have token IDs, you need **embeddings**:
 
