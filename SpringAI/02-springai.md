@@ -18,3 +18,16 @@ Types of models include:
 - A general **`Model` abstraction** exists to handle future or custom mechanisms.
 
 > Think of **“Model”** as: *“a configured AI service that takes some input and produces an output.”*
+
+
+#### 1.2 Blocking vs Streaming Chat Models
+
+For **chat models**, there are two variants:
+
+1. **Blocking chat model**
+   - Returns a **complete answer** in one go.
+   - You call it, and it responds when the entire message is ready.
+
+2. **Streaming chat model**
+   - Returns the answer in **pieces**, as they are generated.
+   - Feels like watching someone type the answer.
