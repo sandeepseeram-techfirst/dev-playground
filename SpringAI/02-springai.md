@@ -31,3 +31,13 @@ For **chat models**, there are two variants:
 2. **Streaming chat model**
    - Returns the answer in **pieces**, as they are generated.
    - Feels like watching someone type the answer.
+
+   
+#### Visualization: Chat Model Types
+
+```text
+User Prompt
+   │
+   ├─► Blocking Chat Model ─► Whole answer at once
+   │
+   └─► Streaming Chat Model ─► Answer arrives chunk by chunk
