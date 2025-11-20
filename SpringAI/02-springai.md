@@ -45,7 +45,7 @@ For **chat models**, there are two variants:
 
 #### Open AI vs. Ollama 
 
-OpenAI (used in book)
+OpenAI 
    - ✔ Predictable performance
    - ✔ No special hardware needed
    - ✖ Paid (usage-based costs)
