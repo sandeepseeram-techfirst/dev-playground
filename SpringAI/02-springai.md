@@ -40,4 +40,4 @@ User Prompt
    │
    ├─► Blocking Chat Model ─► Whole answer at once
    │
-   └─► Streaming Chat Model ─► Answer arrives chunk by chunk 
+   └─► Streaming Chat Model ─► Answer arrives chunk by chunk
