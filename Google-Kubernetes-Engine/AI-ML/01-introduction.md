@@ -6,7 +6,7 @@
 
 Similarly, some workloads need low latency for real-time applications, while others prioritize throughput for batch processing.
 
-### Single GPU Serving Pattern
+### Single GPU Serving Pattern 
 The simplest LLM serving pattern uses a single GPU per model instance. This approach is ideal for smaller models (typically under 10B parameters) or when you need to deploy multiple independent model instances.
 
 ### Key Components
