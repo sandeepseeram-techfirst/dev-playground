@@ -51,5 +51,5 @@ For **chat models**, there are two variants:
 
 **Ollama (alternative)**
    - ✔ Free per request
-   - ✖ Needs strong local hardware
+   - ✖ Needs strong local hardware 
    - ✖ Performance depends on your machine
