@@ -1,7 +1,7 @@
 ## Cloud-Native AI Hands-on Lab 
 - Audience: Cloud / Platform / SRE / DevOps engineers moving into AI/ML on Kubernetes
 - Level: Beginner → Intermediate
-- Cluster: 3‑node Kubernetes (CPU only) 
+- Cluster: 3‑node Kubernetes (CPU only)
 
 #### By the end of this lab, you will have:
 
