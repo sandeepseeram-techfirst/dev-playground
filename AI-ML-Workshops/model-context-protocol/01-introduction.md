@@ -12,7 +12,7 @@ Think of the flow like this:
 - LLM Client (e.g., Claude Desktop) ⇄ Host (plugin / bridge) ⇄ MCP Server (your code exposing resources/tools).
 - Messages are JSON‑RPC requests/responses flowing both ways, wrapped by the chosen transport (stdio or SSE).
 
-### MCP 
+### MCP
 
 - Why MCP exists: to avoid building separate custom connectors for every LLM + data source combination by standardizing how data providers talk to LLM clients.
 - That there are three main roles: Client, Host, and Server, each with clear responsibilities.
