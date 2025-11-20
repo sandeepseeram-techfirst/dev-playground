@@ -42,15 +42,14 @@ For **chat models**, there are two variants:
    └─► Streaming Chat Model ─► Answer arrives chunk by chunk
 
 
-
 #### Open AI vs. Ollama 
 
-OpenAI 
+**OpenAI** 
    - ✔ Predictable performance
    - ✔ No special hardware needed
    - ✖ Paid (usage-based costs)
 
-Ollama (alternative)
+**Ollama (alternative)**
    - ✔ Free per request
    - ✖ Needs strong local hardware
    - ✖ Performance depends on your machine
