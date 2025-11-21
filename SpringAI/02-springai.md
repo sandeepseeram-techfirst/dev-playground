@@ -53,3 +53,5 @@ For **chat models**, there are two variants:
    - ✔ Free per request
    - ✖ Needs strong local hardware
    - ✖ Performance depends on your machine
+
+
