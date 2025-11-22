@@ -54,4 +54,12 @@ For **chat models**, there are two variants:
    - ✖ Needs strong local hardware
    - ✖ Performance depends on your machine 
 
-
+- **Spring AI Model abstraction**:
+    - General “request → response” concept; chat, image, audio, etc.
+    - Chat models can be **blocking** or **streaming**.
+- **Provider choice**:
+    - Book uses **OpenAI** for:
+        - Predictability,
+        - Scalability,
+        - Hardware-independence.
+    - **Ollama** is possible but requires strong local hardware.
