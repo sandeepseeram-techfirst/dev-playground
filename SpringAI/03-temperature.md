@@ -50,7 +50,7 @@ similarity=∣
 
 ---
 
-## 3. Jaccard similarity service (core idea)
+#### 3. Jaccard similarity service (core idea)
 
 Service does:
 
@@ -58,8 +58,6 @@ Service does:
 2. Build all n‑grams.
 3. Make 2 sets (text1, text2).
 4. Return intersection/union.
-
-(Real code in the chapter, but concept is just that.)
 
 ---
 
