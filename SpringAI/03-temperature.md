@@ -1,6 +1,6 @@
 ### Temperature
 
-## 1. What are `temperature` and `top_p`?
+#### 1. What are `temperature` and `top_p`?
 
 - Both control **how different** the model’s answers are each time.
 - `temperature` (0.0–2.0, usually 0–1):
@@ -20,9 +20,7 @@ Use **one** of them (usually `temperature`), not both.
 
 ---
 
-## 2. How do we measure “how different” responses are?
-
-The chapter uses:
+#### 2. How do we measure “how different” responses are?
 
 - **n‑grams** = chunks of `n` words in order (e.g., 2‑grams, 3‑grams).
 - **Jaccard similarity** between two sets of n‑grams:
