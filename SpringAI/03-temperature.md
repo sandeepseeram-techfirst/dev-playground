@@ -11,7 +11,7 @@
     - Limits choices to the **top p% of likely tokens**.
     - Lower → safer, more focused; higher → more variety.
 
-Use **one** of them (usually `temperature`), not both.
+Use **one** of them (usually `temperature`), not both. 
 
 `javavar options = OpenAiChatOptions.builder()
     .withModel("gpt-4o")
