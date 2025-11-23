@@ -73,7 +73,7 @@ This proves the metric behaves as expected.
 
 ---
 
-## 5. Variability tests for `temperature` and `top_p`
+#### 5. Variability tests for `temperature` and `top_p`
 
 For each parameter (`temperature` or `top_p`):
 
@@ -95,7 +95,7 @@ There’s also a tiny text “bar graph” with `*` characters in the logs to 
 
 ---
 
-## One-sentence recap
+#### One-sentence recap
 
 - `temperature` / `top_p` = knobs for randomness,
 - Jaccard + n‑grams = way to **measure** how much answers change,
