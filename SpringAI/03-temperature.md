@@ -61,7 +61,7 @@ Service does:
 
 ---
 
-## 4. Basic tests for the Jaccard service
+#### 4. Basic tests for the Jaccard service
 
 They test 3 cases:
 
