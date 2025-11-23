@@ -6,8 +6,8 @@
 - `temperature` (0.0–2.0, usually 0–1):
     - `0.0` → almost same answer every time (good for tests).
     - Higher → more creative / random.
-    
-- `top_p` (0.0–1.0):
+
+- `top_p` (0.0–1.0): 
     - Limits choices to the **top p% of likely tokens**.
     - Lower → safer, more focused; higher → more variety.
 
