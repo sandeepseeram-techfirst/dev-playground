@@ -2,7 +2,7 @@
 - This workshop notes is about writing software that directly talks to and extends Kubernetes. 
 Kubernetes is written in Go. 
 
-#### Types of Apps on K8S 
+#### Types of Apps on K8S
 
 +--------------------------------------------------------------+
 |                 Apps running on Kubernetes                   |
