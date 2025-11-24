@@ -42,7 +42,7 @@ For **chat models**, there are two variants:
    └─► Streaming Chat Model ─► Answer arrives chunk by chunk
 
 
-#### Open AI vs. Ollama 
+#### Open AI vs. Ollama
 
 **OpenAI** 
    - ✔ Predictable performance
@@ -52,7 +52,7 @@ For **chat models**, there are two variants:
 **Ollama (alternative)**
    - ✔ Free per request
    - ✖ Needs strong local hardware 
-   - ✖ Performance depends on your machine 
+   - ✖ Performance depends on your machine
 
 - **Spring AI Model abstraction**:
     - General “request → response” concept; chat, image, audio, etc.
