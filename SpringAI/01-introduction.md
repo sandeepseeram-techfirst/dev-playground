@@ -20,7 +20,7 @@ Large language model (LLM) AIs (like ChatGPT) can be thought of as **informatio
 
 - You give them a **prompt** (your question or instruction).
 - The AI has been trained on huge amounts of text.
-- It **predicts the next words** based on patterns it has seen before.
+- It **predicts the next words** based on patterns it has seen before. 
 - The result is a **probabilistic** answer, not a guaranteed fact.
 
 
