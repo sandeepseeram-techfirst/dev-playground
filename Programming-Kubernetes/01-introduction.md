@@ -13,7 +13,7 @@ Kubernetes is written in Go.
 
 #### Ways to Extend Kubernetes (Extension Patterns)
 
-Kubernetes is designed to be extensible.  
+Kubernetes is designed to be extensible.
 
 - **Cloud providers**
     - Historically in-tree code in the controller manager.
