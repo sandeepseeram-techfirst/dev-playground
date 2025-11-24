@@ -1,6 +1,6 @@
 ### Interacting with Data 
 
-For the most part, AIs consist of data and a reasoning process about that data. 
+For the most part, AIs consist of data and a reasoning process about that data.
 
 The model tends to be fairly static, as creating a model is expensive in terms of resources, and models tend to be focused on spheres of knowledge. 
 
