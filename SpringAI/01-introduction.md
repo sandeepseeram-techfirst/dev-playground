@@ -14,13 +14,13 @@ Using Spring AI, you can connect to popular text, image, and audio models—such
     - **Abstraction layers**: you write against a common Spring-style API, not each vendor’s custom API.
     - **Deep integration with the Spring ecosystem**: configuration, dependency injection, profiles, etc., work as you already expect in Spring Boot.
 
-In short: Spring AI unifies how you connect to multiple AI models and services, so you can stay in familiar Spring patterns and move faster. 
+In short: Spring AI unifies how you connect to multiple AI models and services, so you can stay in familiar Spring patterns and move faster.
 
 Large language model (LLM) AIs (like ChatGPT) can be thought of as **information blenders**:
 
 - You give them a **prompt** (your question or instruction).
 - The AI has been trained on huge amounts of text.
-- It **predicts the next words** based on patterns it has seen before. 
+- It **predicts the next words** based on patterns it has seen before.
 - The result is a **probabilistic** answer, not a guaranteed fact.
 
 
