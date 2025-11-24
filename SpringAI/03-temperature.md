@@ -1,6 +1,6 @@
 ### Temperature
 
-#### 1. What are `temperature` and `top_p`?
+#### 1. What are `temperature` and `top_p`? 
 
 - Both control **how different** the model’s answers are each time.
 - `temperature` (0.0–2.0, usually 0–1):
