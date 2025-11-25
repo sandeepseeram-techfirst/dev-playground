@@ -6,7 +6,7 @@ The Spring ecosystem, known for its robust and developer-friendly frameworks, ha
 
 ### What Is Spring AI?
 
-Spring AI is a set of abstractions and utilities that make it easy for Spring-based applications to work with major AI platforms. Instead of integrating separately with many different proprietary APIs and dealing with varying data formats, Spring AI offers a standardized, Spring-style programming model.
+Spring AI is a set of abstractions and utilities that make it easy for Spring-based applications to work with major AI platforms. Instead of integrating separately with many different proprietary APIs and dealing with varying data formats, Spring AI offers a standardized, Spring-style programming model. 
 
 Using Spring AI, you can connect to popular text, image, and audio models—such as ChatGPT, image generation models like Stable Diffusion, and speech-to-text systems—through a unified interface. The goal is to let you stay within familiar Spring patterns while hiding the complexity of each underlying AI provider’s API.
 
