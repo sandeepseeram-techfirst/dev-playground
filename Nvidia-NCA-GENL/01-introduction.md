@@ -22,4 +22,5 @@
 - The certification validates your **foundational skills** in:
     - Developing AI-driven applications
     - Integrating generative AI and large language models (LLMs) into applications
-    - Maintaining such AI-enabled systems over time 
+    - Maintaining such AI-enabled systems over time
+
