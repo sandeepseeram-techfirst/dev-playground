@@ -23,4 +23,3 @@
     - Developing AI-driven applications
     - Integrating generative AI and large language models (LLMs) into applications
     - Maintaining such AI-enabled systems over time
-
