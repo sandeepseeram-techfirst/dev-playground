@@ -4,7 +4,7 @@ Kubernetes is written in Go.
 
 #### Types of Apps on K8S
 
-Apps running on Kubernetes   
+Apps running on Kubernetes
  1. COTS apps         
  2. Bespoke apps      
  3. K8s-native 
