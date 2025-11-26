@@ -38,4 +38,4 @@ Kubernetes is designed to be extensible.
 - **Scheduler extensions**
     - E.g., a scheduler extender via webhooks to influence placement decisions.
 - **Authentication webhooks**
-    - Integrate custom auth systems.
+    - Integrate custom auth systems. 
