@@ -16,3 +16,10 @@
 - Software development
 - Python libraries for LLMs
 - LLM integration and deployment
+
+## **NVIDIA-Certified Associate: Generative AI and LLMs (NCA-GENL)**
+
+- The certification validates your **foundational skills** in:
+    - Developing AI-driven applications
+    - Integrating generative AI and large language models (LLMs) into applications
+    - Maintaining such AI-enabled systems over time
