@@ -15,3 +15,11 @@ Machine learning is about learning patterns from data to make predictions or dec
 ​
 3. Reinforcement learning trains an agent that interacts with an environment, receiving rewards and learning a policy to maximize long‑term reward.
 
+### Core concepts: overfitting and bias–variance
+
+1. Overfitting occurs when a model fits noise in the training data, achieving low training error but high test error; underfitting is the opposite (too simple to capture patterns).
+
+2. Bias measures how strongly a model’s assumptions oversimplify the true relationships; variance measures sensitivity to fluctuations in the training set.
+
+3. The bias–variance tradeoff is choosing model complexity that keeps both bias and variance reasonably low so the model generalizes well.
+
