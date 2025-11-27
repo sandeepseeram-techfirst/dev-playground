@@ -7,3 +7,4 @@ Machine learning is about learning patterns from data to make predictions or dec
 2. A typical workflow involves collecting data, choosing features, selecting an algorithm, training a model, evaluating it, and then deploying it.
 ​
 3. The core goal is generalization: performing well on new, unseen data, not just memorizing the training examples.
+
