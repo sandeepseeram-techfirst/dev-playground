@@ -8,3 +8,10 @@ Machine learning is about learning patterns from data to make predictions or dec
 ​
 3. The core goal is generalization: performing well on new, unseen data, not just memorizing the training examples.
 
+### Main learning paradigms
+1. Supervised learning uses labeled data (input–output pairs) to learn a mapping; common tasks are **classification** and **regression**.
+
+Unsupervised learning uses only inputs (no labels) to discover patterns such as clusters or lower‑dimensional structure.
+​
+
+Reinforcement learning trains an agent that interacts with an environment, receiving rewards and learning a policy to maximize long‑term reward.
