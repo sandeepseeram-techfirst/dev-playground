@@ -14,3 +14,4 @@ Machine learning is about learning patterns from data to make predictions or dec
 2. Unsupervised learning uses only inputs (no labels) to discover patterns such as clusters or lower‑dimensional structure.
 ​
 3. Reinforcement learning trains an agent that interacts with an environment, receiving rewards and learning a policy to maximize long‑term reward.
+
