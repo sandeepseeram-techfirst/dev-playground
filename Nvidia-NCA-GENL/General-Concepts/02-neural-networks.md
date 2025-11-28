@@ -13,6 +13,6 @@ In forward propagation, data flows from input to output layer, with each layer a
 
 1. Training adjusts weights and biases to minimize the loss on the training data, typically using gradient descent or its variants.
 
-Backpropagation efficiently computes gradients of the loss with respect to all parameters by applying the chain rule layer by layer from output back to input.
+2. Backpropagation efficiently computes gradients of the loss with respect to all parameters by applying the chain rule layer by layer from output back to input.
 
 The training loop iterates: forward pass → loss computation → backpropagation → weight update, repeated over many epochs until performance converges.
