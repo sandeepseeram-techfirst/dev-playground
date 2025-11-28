@@ -1,2 +1,9 @@
 ### AI/ML Use Cases 
 **Industry-wise AI use cases**
+
+### Automotive and autonomous vehicles
+1. Real-time object detection and classification from cameras and sensors (cars detect lanes, pedestrians, other vehicles).
+​
+Autonomous decision making for driving actions (braking, steering, lane changes).
+
+Large-scale simulation for design and testing of vehicles and driving policies before deployment in the real world.
