@@ -7,3 +7,6 @@
 2. Autonomous decision making for driving actions (braking, steering, lane changes).
 
 3. Large-scale simulation for design and testing of vehicles and driving policies before deployment in the real world.
+
+#### Architecture Sketch
+Sensors (cameras, LiDAR) → Edge AI module with NVIDIA GPU → Perception models (detection/classification) → Decision logic (path planning, control) → Actuators (steering, brakes).
