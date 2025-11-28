@@ -10,3 +10,15 @@
 
 #### Architecture Sketch
 Sensors (cameras, LiDAR) → Edge AI module with NVIDIA GPU → Perception models (detection/classification) → Decision logic (path planning, control) → Actuators (steering, brakes).
+
+
+### Healthcare and Genomics
+1. Automated medical image analysis pipelines (X‑ray, CT, MRI analysis).
+​
+2. Anomaly detection to spot tumors, lesions, or other abnormalities.
+
+Clinical inference with low latency so doctors get faster diagnostic outputs.
+​
+
+Pipeline mental model
+Medical imaging devices → Image preprocessing → AI inference on GPU (detection/segmentation models) → Clinical report support system.
