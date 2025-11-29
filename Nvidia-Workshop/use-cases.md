@@ -51,3 +51,5 @@ Cameras/sensors on production line → Edge/central GPU nodes → Vision/QC mode
 **AI pipeline**: Ingestion → preprocessing → AI models (often running on NVIDIA GPUs) → post‑processing.
 
 **Business layer**: Applications that use AI outputs (autonomous driving systems, clinician tools, fraud engines, recommender systems, factory control, logistics dashboards).
+
+### Drivers of AI Stack
