@@ -53,3 +53,24 @@ Cameras/sensors on production line → Edge/central GPU nodes → Vision/QC mode
 **Business layer**: Applications that use AI outputs (autonomous driving systems, clinician tools, fraud engines, recommender systems, factory control, logistics dashboards).
 
 ### Drivers of AI Stack
+
+**Data pillar**:
+
+Source: Internet activity, mobile apps, sensors, IoT.
+
+Effect: Huge training datasets → better model accuracy and robustness.
+​
+
+**Compute pillar**:
+
+Source: GPUs, TPUs, large cloud clusters.
+
+Effect: Ability to train large models (GPT, diffusion models) in reasonable time by parallel processing.
+​
+
+**Algorithms pillar**:
+
+Source: Neural networks, transformers, diffusion models, reinforcement learning, better training techniques.
+
+Effect: Models that can actually use all that data and compute effectively.
+​
