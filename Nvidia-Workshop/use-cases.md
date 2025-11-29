@@ -21,3 +21,4 @@ Sensors (cameras, LiDAR) → Edge AI module with NVIDIA GPU → Perception model
 ​
 #### Pipeline  
 Medical imaging devices → Image preprocessing → AI inference on GPU (detection/segmentation models) → Clinical report support system.
+
