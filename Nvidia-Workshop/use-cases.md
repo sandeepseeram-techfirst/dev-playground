@@ -32,3 +32,4 @@ Medical imaging devices → Image preprocessing → AI inference on GPU (detecti
 ​
 #### Conceptual flow
 Transaction stream → Feature extraction → Fraud detection model on GPU → Score/decision → Approve, flag, or block.
+
