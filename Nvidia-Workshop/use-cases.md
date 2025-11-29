@@ -17,8 +17,7 @@ Sensors (cameras, LiDAR) → Edge AI module with NVIDIA GPU → Perception model
 ​
 2. Anomaly detection to spot tumors, lesions, or other abnormalities.
 
-Clinical inference with low latency so doctors get faster diagnostic outputs.
+3. Clinical inference with low latency so doctors get faster diagnostic outputs.
 ​
-
-Pipeline mental model
+#### Pipeline  
 Medical imaging devices → Image preprocessing → AI inference on GPU (detection/segmentation models) → Clinical report support system.
