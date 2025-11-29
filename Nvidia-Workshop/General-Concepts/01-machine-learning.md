@@ -1,5 +1,5 @@
 ### Machine Learning 
-Machine learning is about learning patterns from data to make predictions or decisions, and neural networks are one powerful family of models that do this by stacking simple “neurons” into layered architectures.
+Machine learning is about learning patterns from data to make predictions or decisions, and neural networks are one powerful family of models that do this by stacking simple “neurons” into layered architectures. 
 
 ### What machine learning is? 
 1. Machine learning is a subset of AI where systems improve performance on a task by learning from data rather than being explicitly programmed.
