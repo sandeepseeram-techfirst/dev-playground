@@ -33,3 +33,12 @@ Medical imaging devices → Image preprocessing → AI inference on GPU (detecti
 #### Conceptual flow
 Transaction stream → Feature extraction → Fraud detection model on GPU → Score/decision → Approve, flag, or block.
 
+### Manufacturing
+1. Automated quality control using computer vision on production lines.
+​
+2. Defect detection in products and processes.
+
+3. Predictive simulation and supply chain logistics optimization.
+​
+#### Factory AI Architecture
+Cameras/sensors on production line → Edge/central GPU nodes → Vision/QC models → Quality flags and defect reports → Feedback into process control and logistics.
