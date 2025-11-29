@@ -44,11 +44,10 @@ Transaction stream → Feature extraction → Fraud detection model on GPU → S
 Cameras/sensors on production line → Edge/central GPU nodes → Vision/QC models → Quality flags and defect reports → Feedback into process control and logistics.
 
 
-### 
+### Common AI Pattern
 
 **Data sources**: Cameras, sensors, transactions, logs, medical images, retail data.
 ​
+**AI pipeline**: Ingestion → preprocessing → AI models (often running on NVIDIA GPUs) → post‑processing.
 
-AI pipeline: Ingestion → preprocessing → AI models (often running on NVIDIA GPUs) → post‑processing.
-
-Business layer: Applications that use AI outputs (autonomous driving systems, clinician tools, fraud engines, recommender systems, factory control, logistics dashboards).
+**Business layer**: Applications that use AI outputs (autonomous driving systems, clinician tools, fraud engines, recommender systems, factory control, logistics dashboards).
