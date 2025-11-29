@@ -22,3 +22,13 @@ Sensors (cameras, LiDAR) → Edge AI module with NVIDIA GPU → Perception model
 #### Pipeline  
 Medical imaging devices → Image preprocessing → AI inference on GPU (detection/segmentation models) → Clinical report support system.
 
+### Finance and Banking
+
+1. Real-time fraud detection on transactions.
+​
+2. Transaction scoring at scale (risk scores per transaction or customer).
+​
+3. Ultra‑low latency inference to approve or block transactions instantly.
+​
+#### Conceptual flow
+Transaction stream → Feature extraction → Fraud detection model on GPU → Score/decision → Approve, flag, or block.
