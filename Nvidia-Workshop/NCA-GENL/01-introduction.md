@@ -48,3 +48,12 @@ A typical enterprise solution can be imagined as:
 **NVIDIA software stack → Ensuring workloads are scheduled efficiently and run fast on GPUs.**
 
 **Business applications → Consuming AI results (recommendation engines, chatbots, analytics dashboards, generative AI tools).**
+
+### Architecture Layers 
+Input layer: Massive data streams (logs, text, images, sensor data).
+
+Processing layer: Large compute clusters with GPUs/TPUs in the cloud or data center.
+
+Model layer: Advanced algorithms (transformers, diffusion models, RL) that run on those clusters.
+
+Output layer: Predictions, recommendations, generated text/images, etc
