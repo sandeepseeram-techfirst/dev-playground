@@ -14,3 +14,7 @@ DL is a subset of ML that uses artificial neural networks (ANNs) inspired by the
 These layers learn increasingly complex features (edges → shapes → objects in vision, for example).
 ​This is how machines “process data in a way inspired by the human brain.” 
 
+### Generative AI (Gen AI)
+Gen AI uses AI/ML/DL models to create new, original content such as text, images, audio, or code based on learned data and patterns.
+​Example: If a model has learned Shakespeare’s works, you can ask it to create a new drama in that style.
+​Example: If it has learned many chemical compounds, you can ask it to propose a new compound.
