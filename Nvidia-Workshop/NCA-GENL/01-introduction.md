@@ -50,7 +50,8 @@ A typical enterprise solution can be imagined as:
 **Business applications → Consuming AI results (recommendation engines, chatbots, analytics dashboards, generative AI tools).**
 
 ### Architecture Layers 
-Input layer: Massive data streams (logs, text, images, sensor data).
+
+**Input layer**: Massive data streams (logs, text, images, sensor data).
 
 Processing layer: Large compute clusters with GPUs/TPUs in the cloud or data center.
 
