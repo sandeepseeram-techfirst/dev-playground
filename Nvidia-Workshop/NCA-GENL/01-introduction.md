@@ -53,7 +53,7 @@ A typical enterprise solution can be imagined as:
 
 **Input layer**: Massive data streams (logs, text, images, sensor data).
 
-Processing layer: Large compute clusters with GPUs/TPUs in the cloud or data center.
+**Processing layer**: Large compute clusters with GPUs/TPUs in the cloud or data center.
 
 Model layer: Advanced algorithms (transformers, diffusion models, RL) that run on those clusters.
 
