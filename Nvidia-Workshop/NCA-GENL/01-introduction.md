@@ -24,7 +24,6 @@
     - Integrating generative AI and large language models (LLMs) into applications
     - Maintaining such AI-enabled systems over time
 
-
 ### High-level NVIDIA AI Stack
 
 **User layer**: Data scientists, ML engineers, application developers running AI workloads.
@@ -34,7 +33,6 @@
 **NVIDIA software layer**: CUDA, cuDNN, NVIDIA AI libraries, orchestration and management tools that make AI workloads performant and manageable.
 
 **Hardware layer**: NVIDIA GPUs in workstations, servers, and cloud instances that provide acceleration for training and inference.
-
 
 
 ### Enterprise AI Solution  
