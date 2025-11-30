@@ -55,6 +55,6 @@ A typical enterprise solution can be imagined as:
 
 **Processing layer**: Large compute clusters with GPUs/TPUs in the cloud or data center.
 
-Model layer: Advanced algorithms (transformers, diffusion models, RL) that run on those clusters.
+**Model layer**: Advanced algorithms (transformers, diffusion models, RL) that run on those clusters.
 
-Output layer: Predictions, recommendations, generated text/images, etc
+**Output layer**: Predictions, recommendations, generated text/images, etc
