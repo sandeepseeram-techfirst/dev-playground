@@ -18,3 +18,11 @@ These layers learn increasingly complex features (edges → shapes → objects i
 Gen AI uses AI/ML/DL models to create new, original content such as text, images, audio, or code based on learned data and patterns.
 **​Example**: If a model has learned Shakespeare’s works, you can ask it to create a new drama in that style.
 **​Example**: If it has learned many chemical compounds, you can ask it to propose a new compound.
+
+
+### Gen AI workflow
+
+Training data (text/images/audio/code) → Deep learning model (e.g., large neural network) → Model learns patterns.
+​
+**At use time**:
+Prompt/query → Model → Newly generated text/image/audio/code (not a copy, but a new combination based on learned patterns).
