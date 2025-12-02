@@ -21,7 +21,6 @@ Gen AI uses AI/ML/DL models to create new, original content such as text, images
 
 
 ### Gen AI workflow
-
 Training data (text/images/audio/code) → Deep learning model (e.g., large neural network) → Model learns patterns.
 ​
 **At use time**:
