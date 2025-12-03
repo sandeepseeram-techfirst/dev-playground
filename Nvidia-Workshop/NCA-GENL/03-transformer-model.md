@@ -14,3 +14,7 @@ It encodes each word (quick, brown, fox, jumps, over, the, lazy) into a vector i
 ​It evaluates both semantic compatibility and statistical frequency learned from huge text corpora.
 
 Each step is run in parallel across tokens, which is why transformers can scale to long sequences and large models.
+
+### Autoregressive Generation Flow 
+Prompt → Model predicts next token → Append token → Feed back into model → Repeat, forming longer text.
+​
