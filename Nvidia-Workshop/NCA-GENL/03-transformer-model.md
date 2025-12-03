@@ -12,3 +12,5 @@ Text input (tokens) → Embeddings (vectors) → Transformer layers with attenti
 It encodes each word (quick, brown, fox, jumps, over, the, lazy) into a vector in some high‑dimensional space.
 ​It uses attention to compare how strongly each word relates to potential next words (person, rabbit, dog, etc.).
 ​It evaluates both semantic compatibility and statistical frequency learned from huge text corpora.
+
+Each step is run in parallel across tokens, which is why transformers can scale to long sequences and large models.
