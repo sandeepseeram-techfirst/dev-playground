@@ -7,3 +7,8 @@ Its key strength is **attention**, which lets the model understand relationships
 
 #### High-level Architecture  
 Text input (tokens) → Embeddings (vectors) → Transformer layers with attention → Probability distribution over next token → Chosen next word.
+
+#### How the model reasons (conceptually)
+It encodes each word (quick, brown, fox, jumps, over, the, lazy) into a vector in some high‑dimensional space.
+​It uses attention to compare how strongly each word relates to potential next words (person, rabbit, dog, etc.).
+​It evaluates both semantic compatibility and statistical frequency learned from huge text corpora.
