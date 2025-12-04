@@ -17,5 +17,5 @@ Each step is run in parallel across tokens, which is why transformers can scale 
 
 ### Autoregressive Generation Flow 
 Prompt → Model predicts next token → Append token → Feed back into model → Repeat, forming longer text.
-This loop, powered by the transformer architecture and attention on large datasets, is the core mechanism behind modern generative text models. 
+This loop, powered by the transformer architecture and attention on large datasets, is the core mechanism behind modern generative text models.
 ​
