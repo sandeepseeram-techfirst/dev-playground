@@ -25,6 +25,6 @@ Holds training data (existing datasets) and newly generated data (logs, checkpoi
 Must deliver high throughput to keep GPUs fed with data.
 ​
 
-Support infrastructure
+**Support infrastructure**
 
 Power delivery, cooling systems, physical security, and facility services that keep everything running.
