@@ -28,3 +28,17 @@ Must deliver high throughput to keep GPUs fed with data.
 **Support infrastructure**
 
 Power delivery, cooling systems, physical security, and facility services that keep everything running.
+
+
+### What makes it AI‑centric (vs traditional)
+Traditional data center: Often CPU‑centric, mixed enterprise workloads, moderate power and cooling density.
+
+AI‑centric data center:
+1. High‑density GPU racks.
+
+Very power‑hungry and heat‑intensive workloads.
+
+Needs higher bandwidth network and storage to keep accelerators utilized.
+​
+
+So the basic components are familiar, but their capacity and constraints are very different.
