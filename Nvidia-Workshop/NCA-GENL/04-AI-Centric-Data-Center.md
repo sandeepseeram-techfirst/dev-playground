@@ -69,3 +69,4 @@ When you deploy high‑density GPU workloads, three main constraints dominate de
 
 * Space constraints can cap how many GPU nodes you can deploy, limiting cluster scale.
 
+### Power Usage Effectiveness
