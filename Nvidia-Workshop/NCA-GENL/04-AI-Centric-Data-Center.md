@@ -41,3 +41,32 @@ AI‑centric data center:
 3. Needs higher bandwidth network and storage to keep accelerators utilized.
 ​
 So the basic components are familiar, but their capacity and constraints are very different.
+
+
+### Key constraints for high‑density GPU deployments
+When you deploy high‑density GPU workloads, three main constraints dominate design.
+​
+
+Power capacity
+
+Each rack has a maximum electrical capacity (kW per rack).
+
+GPU‑heavy racks can approach or exceed traditional per‑rack power limits.
+
+GPUs need high, consistent power delivery; brownouts or undersized feeds directly reduce performance or reliability.
+​
+
+Cooling
+
+Dense GPU clusters generate a lot of heat.
+
+Traditional data centers may not have enough cooling capacity per rack or per room.
+
+You must plan for advanced cooling (higher airflow, hot/cold aisles, liquid cooling, etc.) so cooling does not become the bottleneck.
+​
+
+Physical space (floor space)
+
+Even if you have enough power and cooling on paper, you still need physical room for racks and their airflow envelopes.
+
+Space constraints can cap how many GPU nodes you can deploy, limiting cluster scale.
