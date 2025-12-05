@@ -70,3 +70,12 @@ When you deploy high‑density GPU workloads, three main constraints dominate de
 * Space constraints can cap how many GPU nodes you can deploy, limiting cluster scale.
 
 ### Power Usage Effectiveness
+
+PUE explains how efficiently a data center uses power, especially important for GPU‑heavy AI workloads.
+
+#### What PUE measures
+- AI data centers consume huge electricity; power goes to IT gear (servers/GPUs), cooling, power conversion/distribution, lighting, fire systems, displays, etc.
+
+- Old/traditional DCs: About 50% of power goes to IT equipment and the other 50% to cooling, power conversion, and “other,” so only half the power produces compute work.
+
+Modern DCs aim for ~90% of power to IT equipment and only ~10% to cooling/other through better design, efficient cooling, and efficient hardware.
