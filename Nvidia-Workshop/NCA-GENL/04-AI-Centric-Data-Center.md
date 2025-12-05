@@ -48,24 +48,23 @@ When you deploy high‑density GPU workloads, three main constraints dominate de
 ​
 **Power capacity**
 
-Each rack has a maximum electrical capacity (kW per rack).
+* Each rack has a maximum electrical capacity (kW per rack).
 
-GPU‑heavy racks can approach or exceed traditional per‑rack power limits.
+* GPU‑heavy racks can approach or exceed traditional per‑rack power limits.
 
-GPUs need high, consistent power delivery; brownouts or undersized feeds directly reduce performance or reliability.
+* GPUs need high, consistent power delivery; brownouts or undersized feeds directly reduce performance or reliability.
+​
+**Cooling**
+
+* Dense GPU clusters generate a lot of heat.
+
+* Traditional data centers may not have enough cooling capacity per rack or per room.
+
+* You must plan for advanced cooling (higher airflow, hot/cold aisles, liquid cooling, etc.) so cooling does not become the bottleneck.
 ​
 
-Cooling
+**Physical space (floor space)**
 
-Dense GPU clusters generate a lot of heat.
+* Even if you have enough power and cooling on paper, you still need physical room for racks and their airflow envelopes.
 
-Traditional data centers may not have enough cooling capacity per rack or per room.
-
-You must plan for advanced cooling (higher airflow, hot/cold aisles, liquid cooling, etc.) so cooling does not become the bottleneck.
-​
-
-Physical space (floor space)
-
-Even if you have enough power and cooling on paper, you still need physical room for racks and their airflow envelopes.
-
-Space constraints can cap how many GPU nodes you can deploy, limiting cluster scale.
+* Space constraints can cap how many GPU nodes you can deploy, limiting cluster scale.
