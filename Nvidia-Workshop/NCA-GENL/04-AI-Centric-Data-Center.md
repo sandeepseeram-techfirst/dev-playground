@@ -68,3 +68,4 @@ When you deploy high‑density GPU workloads, three main constraints dominate de
 * Even if you have enough power and cooling on paper, you still need physical room for racks and their airflow envelopes.
 
 * Space constraints can cap how many GPU nodes you can deploy, limiting cluster scale.
+
