@@ -46,8 +46,7 @@ So the basic components are familiar, but their capacity and constraints are ver
 ### Key constraints for high‑density GPU deployments
 When you deploy high‑density GPU workloads, three main constraints dominate design.
 ​
-
-Power capacity
+**Power capacity**
 
 Each rack has a maximum electrical capacity (kW per rack).
 
