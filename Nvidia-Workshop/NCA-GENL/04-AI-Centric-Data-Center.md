@@ -36,9 +36,8 @@ Traditional data center: Often CPU‑centric, mixed enterprise workloads, modera
 AI‑centric data center:
 1. High‑density GPU racks.
 
-Very power‑hungry and heat‑intensive workloads.
+2. Very power‑hungry and heat‑intensive workloads.
 
-Needs higher bandwidth network and storage to keep accelerators utilized.
+3. Needs higher bandwidth network and storage to keep accelerators utilized.
 ​
-
 So the basic components are familiar, but their capacity and constraints are very different.
