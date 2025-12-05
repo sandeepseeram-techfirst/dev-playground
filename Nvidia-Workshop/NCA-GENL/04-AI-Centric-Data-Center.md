@@ -1,0 +1,2 @@
+### AI Centric Data Center 
+An AI‑centric data center has the same basic blocks as a traditional one, but they are stressed much harder by GPU‑heavy AI workloads, so design and constraints change noticeably.
