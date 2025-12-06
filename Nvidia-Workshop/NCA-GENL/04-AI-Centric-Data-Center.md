@@ -112,3 +112,11 @@ Means for every 1 kW consumed by IT, another 1 kW goes to cooling/other overhead
 
 Lower PUE → greener, cheaper operation; higher PUE → more waste and cost.
 
+#### Why PUE matters for AI data centers
+GPU‑dense AI racks draw very high power and generate a lot of heat, so poor efficiency wastes a huge amount of energy and money.
+
+PUE helps you:
+
+1. Measure energy efficiency.
+
+2. Guide design choices in cooling, power distribution, and facility layout to reduce overhead and keep more power available for GPUs/IT gear.
