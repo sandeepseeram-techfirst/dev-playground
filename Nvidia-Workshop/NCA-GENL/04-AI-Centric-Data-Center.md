@@ -79,3 +79,18 @@ PUE explains how efficiently a data center uses power, especially important for 
 - Old/traditional DCs: About 50% of power goes to IT equipment and the other 50% to cooling, power conversion, and “other,” so only half the power produces compute work.
 
 - Modern DCs aim for ~90% of power to IT equipment and only ~10% to cooling/other through better design, efficient cooling, and efficient hardware.
+
+PUE definition and formula
+Power Usage Effectiveness (PUE) =
+
+PUE
+=
+Total facility energy
+IT equipment energy
+--------------------
+IT equipment energy
+Total facility energy
+ 
+where “IT equipment” = servers, storage, and network gear.
+
+It compares everything the building consumes vs what actually feeds computing equipment, giving a single efficiency metric.
