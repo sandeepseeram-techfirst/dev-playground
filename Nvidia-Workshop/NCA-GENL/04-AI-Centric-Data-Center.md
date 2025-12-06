@@ -94,3 +94,4 @@ Total facility energy
 where “IT equipment” = servers, storage, and network gear.
 
 It compares everything the building consumes vs what actually feeds computing equipment, giving a single efficiency metric.
+
