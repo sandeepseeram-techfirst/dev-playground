@@ -115,7 +115,7 @@ Lower PUE → greener, cheaper operation; higher PUE → more waste and cost.
 #### Why PUE matters for AI data centers
 GPU‑dense AI racks draw very high power and generate a lot of heat, so poor efficiency wastes a huge amount of energy and money.
 
-PUE helps you:
+**PUE helps you:**
 
 1. Measure energy efficiency.
 
