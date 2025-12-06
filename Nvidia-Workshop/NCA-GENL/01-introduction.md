@@ -34,3 +34,17 @@
 **NVIDIA software layer**: CUDA, cuDNN, NVIDIA AI libraries, orchestration and management tools that make AI workloads performant and manageable.
 
 **Hardware layer**: NVIDIA GPUs in workstations, servers, and cloud instances that provide acceleration for training and inference.
+
+
+
+### Enterprise AI Solution  
+
+A typical enterprise solution can be imagined as:
+
+**Data sources → Ingested into storage and pipelines.**
+
+**AI/ML platforms → Running on clusters of NVIDIA GPU‑equipped servers.**
+
+**NVIDIA software stack → Ensuring workloads are scheduled efficiently and run fast on GPUs.**
+
+**Business applications → Consuming AI results (recommendation engines, chatbots, analytics dashboards, generative AI tools).**
