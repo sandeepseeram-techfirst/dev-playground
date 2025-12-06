@@ -80,7 +80,7 @@ PUE explains how efficiently a data center uses power, especially important for 
 
 - Modern DCs aim for ~90% of power to IT equipment and only ~10% to cooling/other through better design, efficient cooling, and efficient hardware.
 
-PUE definition and formula
+#### PUE definition and formula
 Power Usage Effectiveness (PUE) =
 
 PUE
