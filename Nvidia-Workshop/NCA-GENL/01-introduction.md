@@ -25,7 +25,7 @@
     - Maintaining such AI-enabled systems over time
 
 
-### High-level NVIDIA AI stack
+### High-level NVIDIA AI Stack
 
 **User layer**: Data scientists, ML engineers, application developers running AI workloads.
 
