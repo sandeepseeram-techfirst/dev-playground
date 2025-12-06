@@ -95,3 +95,19 @@ where “IT equipment” = servers, storage, and network gear.
 
 It compares everything the building consumes vs what actually feeds computing equipment, giving a single efficiency metric.
 
+#### How to interpret PUE values? 
+Ideal (theoretical) PUE = 1.0 → all energy goes to IT; impossible in practice because some overhead is always needed.
+
+**PUE ≈ 1.2**
+
+Highly efficient, ~80% of power to IT, ~20% to overhead.
+
+Considered “very green” and cost‑efficient; hyperscalers like AWS, Google, Microsoft aim for PUE < 1.2.
+
+PUE = 2.0
+
+Total energy is twice the IT load.
+
+Means for every 1 kW consumed by IT, another 1 kW goes to cooling/other overhead.
+
+Lower PUE → greener, cheaper operation; higher PUE → more waste and cost.
