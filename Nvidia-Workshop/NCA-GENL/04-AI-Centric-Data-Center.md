@@ -104,7 +104,7 @@ Highly efficient, ~80% of power to IT, ~20% to overhead.
 
 Considered “very green” and cost‑efficient; hyperscalers like AWS, Google, Microsoft aim for PUE < 1.2.
 
-PUE = 2.0
+**PUE = 2.0**
 
 Total energy is twice the IT load.
 
