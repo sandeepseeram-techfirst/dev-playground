@@ -111,3 +111,4 @@ Total energy is twice the IT load.
 Means for every 1 kW consumed by IT, another 1 kW goes to cooling/other overhead.
 
 Lower PUE → greener, cheaper operation; higher PUE → more waste and cost.
+
