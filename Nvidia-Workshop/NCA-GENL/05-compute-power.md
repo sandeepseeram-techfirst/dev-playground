@@ -36,3 +36,5 @@ Mapped to compute:
 **CPU:** Few, very powerful cores, excellent for diverse, complex, general‑purpose tasks.
 
 **GPU:** Many simpler cores, excellent for massively parallel tasks where many similar operations are done at once.
+
+
