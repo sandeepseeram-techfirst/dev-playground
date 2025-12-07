@@ -9,3 +9,6 @@ What “compute” means here
 **Above it:** AI workloads (training, inference).
 
 **Below it:** Power, cooling, and physical infrastructure.
+
+
+2006: NVIDIA released CUDA (Compute Unified Device Architecture). 
