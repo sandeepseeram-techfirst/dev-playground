@@ -19,3 +19,14 @@ What “compute” means here
 **CPU: orchestration, sequential logic.**
 
 **GPU: massively parallel numeric workloads (matrix multiplications, convolutions) → ideal for ML/DL training.**
+
+
+#### Why GPUs matter in AI‑centric data centers? 
+GPUs can run thousands of operations in parallel, which matches the math of neural networks (matrix/vector ops).
+​
+
+In AI‑centric data centers:
+
+Compute ≈ “how many and what kind of GPUs (plus CPUs) you have.”
+
+The rest of the architecture (network, storage, power, cooling) must be sized so these GPUs stay fully utilized.
