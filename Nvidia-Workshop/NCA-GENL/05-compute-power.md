@@ -24,9 +24,8 @@ What “compute” means here
 #### Why GPUs matter in AI‑centric data centers? 
 GPUs can run thousands of operations in parallel, which matches the math of neural networks (matrix/vector ops).
 ​
+**In AI‑centric data centers:**
 
-In AI‑centric data centers:
+1. Compute ≈ “how many and what kind of GPUs (plus CPUs) you have.”
 
-Compute ≈ “how many and what kind of GPUs (plus CPUs) you have.”
-
-The rest of the architecture (network, storage, power, cooling) must be sized so these GPUs stay fully utilized.
+2. The rest of the architecture (network, storage, power, cooling) must be sized so these GPUs stay fully utilized.
