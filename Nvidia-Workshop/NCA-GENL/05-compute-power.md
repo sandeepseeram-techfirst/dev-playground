@@ -11,4 +11,7 @@ What “compute” means here
 **Below it:** Power, cooling, and physical infrastructure.
 
 
-2006: NVIDIA released CUDA (Compute Unified Device Architecture). 
+### CUDA 
+**2006: NVIDIA released CUDA (Compute Unified Device Architecture)**
+1. CUDA let developers program GPUs for general purpose computing, not only graphics pipelines.
+2. ​This opened GPUs to broader workloads: numerical computing, simulations, and eventually ML/DL.
