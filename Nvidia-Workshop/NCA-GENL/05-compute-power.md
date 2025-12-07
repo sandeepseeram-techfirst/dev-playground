@@ -15,3 +15,7 @@ What “compute” means here
 **2006: NVIDIA released CUDA (Compute Unified Device Architecture)**
 1. CUDA let developers program GPUs for general purpose computing, not only graphics pipelines.
 2. ​This opened GPUs to broader workloads: numerical computing, simulations, and eventually ML/DL.
+
+**CPU: orchestration, sequential logic.**
+
+**GPU: massively parallel numeric workloads (matrix multiplications, convolutions) → ideal for ML/DL training.**
