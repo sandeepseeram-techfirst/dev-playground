@@ -29,3 +29,10 @@ GPUs can run thousands of operations in parallel, which matches the math of neur
 1. Compute ≈ “how many and what kind of GPUs (plus CPUs) you have.”
 
 2. The rest of the architecture (network, storage, power, cooling) must be sized so these GPUs stay fully utilized.
+
+### CPU vs GPU 
+Mapped to compute:
+
+**CPU:** Few, very powerful cores, excellent for diverse, complex, general‑purpose tasks.
+
+**GPU:** Many simpler cores, excellent for massively parallel tasks where many similar operations are done at once.
