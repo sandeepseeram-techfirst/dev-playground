@@ -45,6 +45,4 @@ Mapped to compute:
 
 **GPU**
 1. Many cores: hundreds to thousands; a typical modern NVIDIA GPU may have 5,000–10,000 cores.
-​
-
-Cores are simpler and specialized for doing the same kind of operation repeatedly across large datasets.
+​2. Cores are simpler and specialized for doing the same kind of operation repeatedly across large datasets.
