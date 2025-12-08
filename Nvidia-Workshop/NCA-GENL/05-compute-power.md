@@ -51,3 +51,6 @@ Mapped to compute:
 **CPU: Low latency, quick responses for individual tasks or small sets of tasks (e.g., handling user input, system calls).**
 ​
 **GPU: High throughput, bulk processing of large amounts of similar work, which is key for ML/DL and Gen AI workloads.**
+
+### Architecture Diagram 
+
