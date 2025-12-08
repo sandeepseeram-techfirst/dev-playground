@@ -37,4 +37,10 @@ Mapped to compute:
 
 **GPU:** Many simpler cores, excellent for massively parallel tasks where many similar operations are done at once.
 
+#### Number and type of cores
+
+**CPU**
+1. Few cores (dual‑core, quad‑core, etc.).
+​2. Each core is very powerful and optimized for complex, branching logic and general‑purpose computing (OS, applications).
+
 
