@@ -56,7 +56,7 @@ Mapped to compute:
 
 **Top:** Applications and AI frameworks decide what to compute.
 
-**Middle:**
+**Middle:** 
 
 CPU: Orchestrates tasks, runs OS and general logic, handles small complex work.
 
