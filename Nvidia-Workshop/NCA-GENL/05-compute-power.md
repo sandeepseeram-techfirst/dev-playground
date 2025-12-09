@@ -64,3 +64,4 @@ GPU: Executes large batches of parallel numeric operations (e.g., model training
 
 **Bottom:** Memory, storage, network, and power feed both CPU and GPU.
 
+In AI‑centric systems, the CPU is the **flexible coordinator,** and the GPU is the **high‑throughput engine** that processes many similar operations in parallel, just like a commercial flight moving many passengers or many painters working on the fence at once.
