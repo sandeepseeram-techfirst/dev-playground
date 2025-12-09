@@ -63,3 +63,4 @@ CPU: Orchestrates tasks, runs OS and general logic, handles small complex work.
 GPU: Executes large batches of parallel numeric operations (e.g., model training steps, inference batches).
 
 **Bottom:** Memory, storage, network, and power feed both CPU and GPU.
+
