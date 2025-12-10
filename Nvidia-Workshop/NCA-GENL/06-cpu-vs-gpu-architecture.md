@@ -31,3 +31,4 @@ A GPU also has:
 Control units to coordinate core execution. Instead of a handful of powerful cores, a GPU has massively many smaller cores optimized for parallel processing.
 
 **Example given: RTX 4090 class GPU with around 16,000 cores.**
+
