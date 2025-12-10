@@ -17,3 +17,20 @@ L3 cache (larger shared cache for all cores).
 ​
 **Example mentioned: Intel i9 CPU with 24 cores in a single package.**
 This makes CPUs great at complex, general‑purpose tasks with sophisticated control but relatively few cores.
+
+
+#### GPU internal architecture (simplified)
+A GPU also has:
+
+Many cores (thousands).
+
+Its own GPU memory (VRAM).
+
+Caches: L1 and L2.
+
+Control units to coordinate core execution.
+​
+
+Instead of a handful of powerful cores, a GPU has massively many smaller cores optimized for parallel processing.
+
+Example given: RTX 4090 class GPU with around 16,000 cores.
