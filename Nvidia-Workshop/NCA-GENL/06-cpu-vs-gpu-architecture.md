@@ -32,3 +32,11 @@ Control units to coordinate core execution. Instead of a handful of powerful cor
 
 **Example given: RTX 4090 class GPU with around 16,000 cores.**
 
+1. Large GPU memory (VRAM) shared by many cores.
+
+2. L2 cache (global to many cores), plus L1 caches associated with core groups.
+
+3. Thousands of GPU cores arranged in blocks, all doing similar operations in parallel.
+​
+
+Where CPU might have 24 cores (Intel i9 example), a GPU of this class may have ~16,000 cores, illustrating why GPUs are so strong for parallel workloads.
