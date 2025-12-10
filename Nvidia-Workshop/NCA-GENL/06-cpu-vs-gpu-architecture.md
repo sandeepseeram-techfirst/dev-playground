@@ -22,15 +22,12 @@ This makes CPUs great at complex, general‑purpose tasks with sophisticated con
 #### GPU Internal Architecture  
 A GPU also has:
 
-Many cores (thousands).
+1. Many cores (thousands).
 
-Its own GPU memory (VRAM).
+2. Its own GPU memory (VRAM).
 
-Caches: L1 and L2.
+3. Caches: L1 and L2.
 
-Control units to coordinate core execution.
-​
-
-Instead of a handful of powerful cores, a GPU has massively many smaller cores optimized for parallel processing.
+Control units to coordinate core execution. Instead of a handful of powerful cores, a GPU has massively many smaller cores optimized for parallel processing.
 
 Example given: RTX 4090 class GPU with around 16,000 cores.
