@@ -16,3 +16,4 @@ L2 cache (often per core or shared by a small group of cores).
 L3 cache (larger shared cache for all cores).
 ​
 **Example mentioned: Intel i9 CPU with 24 cores in a single package.**
+This makes CPUs great at complex, general‑purpose tasks with sophisticated control but relatively few cores.
