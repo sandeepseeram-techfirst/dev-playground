@@ -19,7 +19,7 @@ L3 cache (larger shared cache for all cores).
 This makes CPUs great at complex, general‑purpose tasks with sophisticated control but relatively few cores.
 
 
-#### GPU internal architecture (simplified)
+#### GPU Internal Architecture  
 A GPU also has:
 
 Many cores (thousands).
