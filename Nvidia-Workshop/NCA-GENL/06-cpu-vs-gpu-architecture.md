@@ -39,3 +39,9 @@ Control units to coordinate core execution. Instead of a handful of powerful cor
 3. Thousands of GPU cores arranged in blocks, all doing similar operations in parallel.
 ​
 **Where CPU might have 24 cores (Intel i9 example), a GPU of this class may have ~16,000 cores, illustrating why GPUs are so strong for parallel workloads.**
+
+#### Why this matters for AI workloads
+
+**CPU: Limited number of powerful cores + deep cache hierarchy → best at orchestration, control, and diverse logic.**
+**GPU: Huge number of smaller cores + wide memory bandwidth → best at massively parallel numeric operations needed for ML/DL training and inference.**
+​
