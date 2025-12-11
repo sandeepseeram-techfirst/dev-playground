@@ -4,3 +4,34 @@ A Data Processing Unit (DPU) is a specialized processor that offloads data‑cen
 #### What a DPU actually does? 
 DPU = specialized processor for data‑centric tasks in an AI data center.
 ​
+Main offloaded domains:
+
+**Networking**
+​
+Packet creation and processing.
+
+Load balancing.
+
+Overlay/underlay networking.
+
+RDMA (Remote Direct Memory Access) operations.
+
+Storage
+​
+
+Compression and decompression.
+
+Encryption and decryption.
+
+Deduplication.
+
+Security
+​
+
+Firewall and packet inspection.
+
+IPsec / TLS offload.
+
+Multi‑tenant isolation.
+
+Zero‑trust policy enforcement.
