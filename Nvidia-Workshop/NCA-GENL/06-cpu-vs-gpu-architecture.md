@@ -38,5 +38,4 @@ Control units to coordinate core execution. Instead of a handful of powerful cor
 
 3. Thousands of GPU cores arranged in blocks, all doing similar operations in parallel.
 ​
-
-Where CPU might have 24 cores (Intel i9 example), a GPU of this class may have ~16,000 cores, illustrating why GPUs are so strong for parallel workloads.
+**Where CPU might have 24 cores (Intel i9 example), a GPU of this class may have ~16,000 cores, illustrating why GPUs are so strong for parallel workloads.**
