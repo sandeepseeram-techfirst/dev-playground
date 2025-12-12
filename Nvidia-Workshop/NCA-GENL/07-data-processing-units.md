@@ -46,12 +46,6 @@ Main offloaded domains:
 A DPU is a hardware device/card (e.g., NVIDIA DPU) designed specifically for offloading, accelerating, and isolating infrastructure workloads such as networking, security, and storage. 
 
 #### Modern AI‑centric server
-CPU: OS, application control flows, orchestrating workloads.
-​
-
-GPU: AI and data‑intensive compute:
-
-Data analytics, ML training and inference, remote visualization, collaboration, etc.
-​
-
-DPU: Software‑defined security, networking, storage offload, encryption, firewall, multi‑tenant isolation.
+**CPU:** OS, application control flows, orchestrating workloads.
+**​GPU:** AI and data‑intensive compute: Data analytics, ML training and inference, remote visualization, collaboration, etc.
+**​DPU:** Software‑defined security, networking, storage offload, encryption, firewall, multi‑tenant isolation.
