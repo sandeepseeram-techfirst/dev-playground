@@ -24,13 +24,12 @@ Main offloaded domains:
 
 3. Deduplication.
 
-Security
+**Security**
 ​
+1. Firewall and packet inspection.
 
-Firewall and packet inspection.
+2. IPsec / TLS offload.
 
-IPsec / TLS offload.
+3. Multi‑tenant isolation.
 
-Multi‑tenant isolation.
-
-Zero‑trust policy enforcement.
+4. Zero‑trust policy enforcement.
