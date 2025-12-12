@@ -8,13 +8,13 @@ Main offloaded domains:
 
 **Networking**
 ​
-Packet creation and processing.
+1. Packet creation and processing.
 
-Load balancing.
+2. Load balancing.
 
-Overlay/underlay networking.
+3. Overlay/underlay networking.
 
-RDMA (Remote Direct Memory Access) operations.
+4. RDMA (Remote Direct Memory Access) operations.
 
 Storage
 ​
