@@ -16,14 +16,13 @@ Main offloaded domains:
 
 4. RDMA (Remote Direct Memory Access) operations.
 
-Storage
-​
+**Storage**
 
-Compression and decompression.
+​1. Compression and decompression.
 
-Encryption and decryption.
+2. Encryption and decryption.
 
-Deduplication.
+3. Deduplication.
 
 Security
 ​
