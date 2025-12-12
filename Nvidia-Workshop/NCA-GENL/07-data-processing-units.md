@@ -33,3 +33,12 @@ Main offloaded domains:
 3. Multi‑tenant isolation.
 
 4. Zero‑trust policy enforcement.
+
+
+#### Architecture 
+ 
+**CPU:** Application logic, OS, decision flows.
+
+GPU: Parallel math for AI training/inference.
+
+DPU: Network, storage, security, and infrastructure offload (data movement + control).
