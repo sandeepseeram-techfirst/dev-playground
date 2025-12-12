@@ -36,9 +36,9 @@ Main offloaded domains:
 
 
 #### Architecture 
- 
+
 **CPU:** Application logic, OS, decision flows.
 
-GPU: Parallel math for AI training/inference.
+**GPU:** Parallel math for AI training/inference.
 
-DPU: Network, storage, security, and infrastructure offload (data movement + control).
+**DPU:** Network, storage, security, and infrastructure offload (data movement + control).
