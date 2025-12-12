@@ -42,3 +42,5 @@ Main offloaded domains:
 **GPU:** Parallel math for AI training/inference.
 
 **DPU:** Network, storage, security, and infrastructure offload (data movement + control).
+
+A DPU is a hardware device/card (e.g., NVIDIA DPU) designed specifically for offloading, accelerating, and isolating infrastructure workloads such as networking, security, and storage.
