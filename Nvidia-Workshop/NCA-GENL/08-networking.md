@@ -1,1 +1,2 @@
-### Networking 
+### Networking
+Inside an AI‑centric data center, network architecture is split into multiple specialized networks **(fabrics)** to handle different kinds of traffic efficiently, reliably, and securely.
