@@ -14,22 +14,14 @@ Dedicated network that connects compute nodes to storage systems so all nodes ca
 **Goal:** high throughput, predictable performance, so GPUs never starve for data.
 **Flow:** Compute node → Storage fabric → Data lakes / NAS / object stores, and back, at high speed.
 ​
-In‑band management network
+**In‑band management network**
+“Configuration/operations” network inside the running infrastructure. Used when the OS on servers is up and reachable.
 
-“Configuration/operations” network inside the running infrastructure.
-​
-
-Used when the OS on servers is up and reachable.
-
-Typical uses:
-
-OS and application updates.
-
-Configuration changes.
-
-Monitoring agents sending metrics/logs.
-
-Separation from compute/storage keeps management tools from competing with application traffic.
+**Typical uses:**
+1. OS and application updates.
+2. Configuration changes.
+3. Monitoring agents sending metrics/logs.
+4. Separation from compute/storage keeps management tools from competing with application traffic.
 ​
 
 Out‑of‑band (OOB) management network
