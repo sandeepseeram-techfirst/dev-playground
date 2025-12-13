@@ -1,2 +1,70 @@
 ### Networking
 Inside an AI‑centric data center, network architecture is split into multiple specialized networks **(fabrics)** to handle different kinds of traffic efficiently, reliably, and securely.
+
+#### NVIDIA’s four network fabrics
+NVIDIA defines four key fabrics inside an AI‑centric data center:
+​
+
+Compute network
+
+Carries application traffic between compute nodes (servers/GPUs) running AI workloads.
+​
+
+Used for: model training communication, parameter exchange, distributed compute coordination.
+
+This is the main “conversation channel” for machines doing calculations and sharing results.
+
+Text view:
+App on Node A ↔ App on Node B ↔ App on Node C (all AI nodes talking over the compute network).
+​
+
+Storage network
+
+Dedicated network that connects compute nodes to storage systems so all nodes can access large datasets without bottlenecks.
+​
+
+Goal: high throughput, predictable performance, so GPUs never starve for data.
+
+Flow:
+Compute node → Storage fabric → Data lakes / NAS / object stores, and back, at high speed.
+​
+
+In‑band management network
+
+“Configuration/operations” network inside the running infrastructure.
+​
+
+Used when the OS on servers is up and reachable.
+
+Typical uses:
+
+OS and application updates.
+
+Configuration changes.
+
+Monitoring agents sending metrics/logs.
+
+Separation from compute/storage keeps management tools from competing with application traffic.
+​
+
+Out‑of‑band (OOB) management network
+
+Used when the OS is down or crashed and traditional remote access (RDP, SSH, etc.) does not work.
+​
+
+Relies on the BMC (Baseboard Management Controller) on each server.
+​
+
+Through BMC, you can:
+
+Power cycle the server.
+
+View console output.
+
+Monitor hardware status and logs.
+
+Purpose: remote control and recovery even if the server OS is dead or powered off.
+​
+
+Text diagram:
+Admin workstation → OOB network → BMC on server → Power, console, low‑level management.
