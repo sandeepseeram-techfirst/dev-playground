@@ -5,27 +5,15 @@ Inside an AI‑centric data center, network architecture is split into multiple 
 NVIDIA defines four key fabrics inside an AI‑centric data center:
 ​
 **Compute Network**
-1. Carries application traffic between compute nodes (servers/GPUs) running AI workloads.
-​
-Used for: model training communication, parameter exchange, distributed compute coordination.
+Carries application traffic between compute nodes (servers/GPUs) running AI workloads.
+**Used for:** model training communication, parameter exchange, distributed compute coordination.
+This is the main “conversation channel” for machines doing calculations and sharing results.​
 
-This is the main “conversation channel” for machines doing calculations and sharing results.
-
-Text view:
-App on Node A ↔ App on Node B ↔ App on Node C (all AI nodes talking over the compute network).
-​
-
-Storage network
-
+**Storage network**
 Dedicated network that connects compute nodes to storage systems so all nodes can access large datasets without bottlenecks.
+**Goal:** high throughput, predictable performance, so GPUs never starve for data.
+**Flow:** Compute node → Storage fabric → Data lakes / NAS / object stores, and back, at high speed.
 ​
-
-Goal: high throughput, predictable performance, so GPUs never starve for data.
-
-Flow:
-Compute node → Storage fabric → Data lakes / NAS / object stores, and back, at high speed.
-​
-
 In‑band management network
 
 “Configuration/operations” network inside the running infrastructure.
