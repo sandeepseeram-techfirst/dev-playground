@@ -4,12 +4,9 @@ Inside an AI‑centric data center, network architecture is split into multiple 
 #### NVIDIA’s four network fabrics
 NVIDIA defines four key fabrics inside an AI‑centric data center:
 ​
-
-Compute network
-
-Carries application traffic between compute nodes (servers/GPUs) running AI workloads.
+**Compute Network**
+1. Carries application traffic between compute nodes (servers/GPUs) running AI workloads.
 ​
-
 Used for: model training communication, parameter exchange, distributed compute coordination.
 
 This is the main “conversation channel” for machines doing calculations and sharing results.
