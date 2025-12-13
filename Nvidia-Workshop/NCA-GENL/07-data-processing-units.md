@@ -49,3 +49,5 @@ A DPU is a hardware device/card (e.g., NVIDIA DPU) designed specifically for off
 **CPU:** OS, application control flows, orchestrating workloads.
 **​GPU:** AI and data‑intensive compute: Data analytics, ML training and inference, remote visualization, collaboration, etc.
 **​DPU:** Software‑defined security, networking, storage offload, encryption, firewall, multi‑tenant isolation.
+
+
