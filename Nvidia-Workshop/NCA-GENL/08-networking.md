@@ -36,3 +36,13 @@ Through BMC, you can:
 3. Monitor hardware status and logs.
 
 Purpose: remote control and recovery even if the server OS is dead or powered off.
+
+#### Network Fabrics 
+
+**Compute fabric:** east–west traffic among AI servers (training/inference clusters).
+
+**Storage fabric:** compute‑to‑storage high‑bandwidth lanes.
+
+In‑band management fabric: config/monitoring traffic while OS is healthy.
+
+Out‑of‑band management fabric: hardware‑level access via BMC when OS is not responding.
