@@ -24,24 +24,15 @@ Dedicated network that connects compute nodes to storage systems so all nodes ca
 4. Separation from compute/storage keeps management tools from competing with application traffic.
 ​
 
-Out‑of‑band (OOB) management network
-
-Used when the OS is down or crashed and traditional remote access (RDP, SSH, etc.) does not work.
+**Out‑of‑band (OOB) management network**
+Used when the OS is down or crashed and traditional remote access (RDP, SSH, etc.) does not work. Relies on the BMC (Baseboard Management Controller) on each server.
 ​
-
-Relies on the BMC (Baseboard Management Controller) on each server.
-​
-
 Through BMC, you can:
 
-Power cycle the server.
+1. Power cycle the server.
 
-View console output.
+2. View console output.
 
-Monitor hardware status and logs.
+3. Monitor hardware status and logs.
 
 Purpose: remote control and recovery even if the server OS is dead or powered off.
-​
-
-Text diagram:
-Admin workstation → OOB network → BMC on server → Power, console, low‑level management.
