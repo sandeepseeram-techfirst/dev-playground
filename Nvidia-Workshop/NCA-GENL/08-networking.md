@@ -48,4 +48,6 @@ Purpose: remote control and recovery even if the server OS is dead or powered of
 **Out‑of‑band management fabric:** hardware‑level access via BMC when OS is not responding.
 
 ### Compute Network Fabric
+GPU‑to‑GPU communication within a node and across nodes. Backbone for training and inference jobs in distributed AI clusters.
+**Implementation** - Built using high‑speed interconnects such as InfiniBand or NVIDIA’s NVLink/NVSwitch‑based fabrics.
 
