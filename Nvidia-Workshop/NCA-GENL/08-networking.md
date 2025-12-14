@@ -43,6 +43,6 @@ Purpose: remote control and recovery even if the server OS is dead or powered of
 
 **Storage fabric:** compute‑to‑storage high‑bandwidth lanes.
 
-In‑band management fabric: config/monitoring traffic while OS is healthy.
+**In‑band management fabric:** config/monitoring traffic while OS is healthy.
 
-Out‑of‑band management fabric: hardware‑level access via BMC when OS is not responding.
+**Out‑of‑band management fabric:** hardware‑level access via BMC when OS is not responding.
