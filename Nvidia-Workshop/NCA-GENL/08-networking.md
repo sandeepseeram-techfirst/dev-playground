@@ -47,3 +47,5 @@ Purpose: remote control and recovery even if the server OS is dead or powered of
 
 **Out‑of‑band management fabric:** hardware‑level access via BMC when OS is not responding.
 
+### Compute Network Fabric
+
