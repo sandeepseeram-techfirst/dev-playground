@@ -56,3 +56,5 @@ Connects compute nodes (GPU/CPU servers) to storage appliances such as storage a
 ​**Implementation** - Typically built with InfiniBand or Ethernet with RDMA (RoCE), or a combination.
 
 
+
+
