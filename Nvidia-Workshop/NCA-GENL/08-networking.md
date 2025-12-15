@@ -51,5 +51,10 @@ Purpose: remote control and recovery even if the server OS is dead or powered of
 GPU‑to‑GPU communication within a node and across nodes. Backbone for training and inference jobs in distributed AI clusters.
 **Implementation** - Built using high‑speed interconnects such as InfiniBand or NVIDIA’s NVLink/NVSwitch‑based fabrics.
 
+### Storage Network Fabric
+Connects compute nodes (GPU/CPU servers) to storage appliances such as storage arrays, file servers, HDFS, or parallel file systems. Carries file system traffic, checkpoints, and I/O for training and inference data.
+​Implementation
+
+Typically built with InfiniBand or Ethernet with RDMA (RoCE), or a combination.
 
 
