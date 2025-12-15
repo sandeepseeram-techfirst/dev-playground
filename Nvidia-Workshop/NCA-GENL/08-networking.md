@@ -63,3 +63,5 @@ Handles control‑plane traffic while the OS on nodes is up.
 2. SSH access, DNS, package repositories, code repositories.
 3. Applying patches, downloading dependencies.
 **Implementation** - Usually Ethernet‑based leaf–spine network. Uses logical isolation like VLANs, VXLANs, or VPNs for separation.
+
+### 
