@@ -56,5 +56,10 @@ Connects compute nodes (GPU/CPU servers) to storage appliances such as storage a
 ​**Implementation** - Typically built with InfiniBand or Ethernet with RDMA (RoCE), or a combination.
 
 
-
+### In‑Band Management Network Fabric
+Handles control‑plane traffic while the OS on nodes is up.
+**Examples:**
+1. Cluster management and job scheduling.
+2. SSH access, DNS, package repositories, code repositories.
+3. Applying patches, downloading dependencies.
 
