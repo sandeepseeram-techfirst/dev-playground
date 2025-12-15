@@ -62,4 +62,4 @@ Handles control‑plane traffic while the OS on nodes is up.
 1. Cluster management and job scheduling.
 2. SSH access, DNS, package repositories, code repositories.
 3. Applying patches, downloading dependencies.
-
+**Implementation** - Uses logical isolation like VLANs, VXLANs, or VPNs for separation.
