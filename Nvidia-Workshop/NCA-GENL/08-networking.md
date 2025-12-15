@@ -53,8 +53,6 @@ GPU‑to‑GPU communication within a node and across nodes. Backbone for traini
 
 ### Storage Network Fabric
 Connects compute nodes (GPU/CPU servers) to storage appliances such as storage arrays, file servers, HDFS, or parallel file systems. Carries file system traffic, checkpoints, and I/O for training and inference data.
-​Implementation
-
-Typically built with InfiniBand or Ethernet with RDMA (RoCE), or a combination.
+​**Implementation** - Typically built with InfiniBand or Ethernet with RDMA (RoCE), or a combination.
 
 
