@@ -65,4 +65,4 @@ Handles control‑plane traffic while the OS on nodes is up.
 **Implementation** - Usually Ethernet‑based leaf–spine network. Uses logical isolation like VLANs, VXLANs, or VPNs for separation.
 
 ### Out‑of‑band (OOB) Management Network Fabric
-Provides remote management when the OS is not reachable (crashed, powered off). Used for: power control, serial console, low‑level recovery.
+Provides remote management when the OS is not reachable (crashed, powered off). Used for: power control, serial console, low‑level recovery. Uses dedicated hardware such as a BMC (Baseboard Management Controller) or add‑on management card on each server.
