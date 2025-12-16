@@ -64,4 +64,5 @@ Handles control‑plane traffic while the OS on nodes is up.
 3. Applying patches, downloading dependencies.
 **Implementation** - Usually Ethernet‑based leaf–spine network. Uses logical isolation like VLANs, VXLANs, or VPNs for separation.
 
-### 
+### Out‑of‑band (OOB) Management Network Fabric
+Provides remote management when the OS is not reachable (crashed, powered off).
