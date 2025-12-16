@@ -13,5 +13,11 @@ Ethernet and InfiniBand are both high‑speed data‑center networks, but they t
 
 **Both Ethernet and InfiniBand can run from 1 Gbps up to 400 Gbps, depending on implementation.** 
 
+**Latency**
+
+**Ethernet:** higher latency, typically about 10–100 microseconds.
+​
+**InfiniBand:** extremely low latency, around 1–2 microseconds.
+
 
 
