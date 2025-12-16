@@ -8,4 +8,7 @@ Ethernet and InfiniBand are both high‑speed data‑center networks, but they t
 #### InfiniBand
 * Specialized interconnect for high‑performance computing (HPC) and AI clusters.
 ​* Born ~2000, remains niche but essential for top‑end supercomputing and AI training networks. 
+**InfiniBand:**
+* Primarily high‑speed fiber and QSFP (quad small form‑factor pluggable) connectors.
+
 
