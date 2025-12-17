@@ -24,4 +24,13 @@ Ethernet and InfiniBand are both high‑speed data‑center networks, but they t
 Converged Ethernet (CE) lets a single Ethernet-based network carry multiple specialized traffic types (LAN, storage, and HPC/AI) with high bandwidth and low latency, often combined with RDMA over Converged Ethernet (RoCE) to bypass CPUs and improve performance.
 **“Converged”** simply means different network functions come together on one physical Ethernet infrastructure.
 
+#### RDMA and RoCE on CE
+RDMA (Remote Direct Memory Access) lets one system directly read/write memory on another system without involving the remote CPU, reducing latency and CPU overhead. RDMA is not only for GPUs; it is also used by network devices and storage stacks to accelerate data movement.
+​
+RoCE (RDMA over Converged Ethernet) runs RDMA over an Ethernet fabric:
 
+- Uses the same converged Ethernet network.
+
+- Bypasses CPUs on the data path for faster transfers.
+
+- Useful for GPU-to-GPU, server-to-server, and storage traffic.
