@@ -22,3 +22,4 @@ Ethernet and InfiniBand are both high‑speed data‑center networks, but they t
 
 ### Converged Ethernet 
 Converged Ethernet (CE) lets a single Ethernet-based network carry multiple specialized traffic types (LAN, storage, and HPC/AI) with high bandwidth and low latency, often combined with RDMA over Converged Ethernet (RoCE) to bypass CPUs and improve performance.
+
