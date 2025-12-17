@@ -34,3 +34,4 @@ RoCE (RDMA over Converged Ethernet) runs RDMA over an Ethernet fabric:
 - Bypasses CPUs on the data path for faster transfers.
 
 - Useful for GPU-to-GPU, server-to-server, and storage traffic.
+
