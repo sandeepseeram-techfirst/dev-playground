@@ -29,4 +29,4 @@ GPU roots: All of this initially targets gaming and rich visual experiences for 
 **Layer 4:** Core GPU Libraries (CUDA C libs, NCCL for multi-GPU)
 **Layer 3:** OS & GPU Virtualization (DGX OS, GPU drivers, vGPU)
 **Layer 2:** Data Movement (NVLink, RDMA, InfiniBand, Ethernet/RoCE)
-**Layer 1:** Physical Layer (CPUs, GPU systems, nodes, switches, NICs) 
+**Layer 1:** Physical Layer (CPUs, GPU systems, nodes, switches, NICs)
