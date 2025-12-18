@@ -10,3 +10,5 @@ GPU roots: All of this initially targets gaming and rich visual experiences for 
 **Programmability:** NVIDIA realizes GPUs are highly parallel and can be programmed for non‑graphics tasks, leading to GPU core programmability (e.g., CUDA era conceptually).
 ​
 **Parallel Compute Architecture:** NVIDIA designs architectures explicitly for parallel workloads, not just rendering frames.
+
+**A100: A widely used data center GPU for AI and HPC workloads.**
