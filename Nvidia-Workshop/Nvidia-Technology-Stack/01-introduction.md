@@ -20,4 +20,4 @@ GPU roots: All of this initially targets gaming and rich visual experiences for 
 ​
 **HPC workloads:** Scientific computing, simulations, and numerical analysis benefit from massive parallelism in Tesla/A100‑class GPUs.
 ​
-**Data‑center AI platforms:** Cloud and on‑prem providers deploy NVIDIA superchips and reference architectures to build AI‑ready data centers for enterprise customers.
+**Data‑center AI platforms:** Cloud and on‑prem providers deploy NVIDIA superchips and reference architectures to build AI‑ready data centers for enterprise customers. 
