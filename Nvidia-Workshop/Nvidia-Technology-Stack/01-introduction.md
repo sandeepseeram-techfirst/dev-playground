@@ -13,3 +13,12 @@ GPU roots: All of this initially targets gaming and rich visual experiences for 
 
 **A100: A widely used data center GPU for AI and HPC workloads.**
 **Blackwell‑generation CPU: A recent CPU architecture from NVIDIA aimed at data‑center/AI integration.** 
+
+#### Scenarios and use cases
+
+**AI/ML training and inference:** Large models in vision, NLP, and generative AI run on multi‑GPU systems (DGX‑class) built on GPUs like A100 and successors.
+​
+**HPC workloads:** Scientific computing, simulations, and numerical analysis benefit from massive parallelism in Tesla/A100‑class GPUs.
+​
+
+Data‑center AI platforms: Cloud and on‑prem providers deploy NVIDIA superchips and reference architectures to build AI‑ready data centers for enterprise customers.
