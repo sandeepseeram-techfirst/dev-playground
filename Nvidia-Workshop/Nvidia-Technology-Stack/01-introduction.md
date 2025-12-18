@@ -12,4 +12,4 @@ GPU roots: All of this initially targets gaming and rich visual experiences for 
 **Parallel Compute Architecture:** NVIDIA designs architectures explicitly for parallel workloads, not just rendering frames.
 
 **A100: A widely used data center GPU for AI and HPC workloads.**
-**Blackwell‑generation CPU: A recent CPU architecture from NVIDIA aimed at data‑center/AI integration.**
+**Blackwell‑generation CPU: A recent CPU architecture from NVIDIA aimed at data‑center/AI integration.** 
