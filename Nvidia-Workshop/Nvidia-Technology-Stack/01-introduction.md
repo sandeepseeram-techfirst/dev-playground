@@ -23,6 +23,7 @@ GPU roots: All of this initially targets gaming and rich visual experiences for 
 **Data‑center AI platforms:** Cloud and on‑prem providers deploy NVIDIA superchips and reference architectures to build AI‑ready data centers for enterprise customers. 
 
 #### Nvidia 6 Layer Technology Stack 
+
 **Layer 6:** Vertical / Domain Solutions (Clara, Merlin, NVIDIA AI apps)
 **Layer 5:** Management & Monitoring (DCGM, nvidia-smi, etc.)
 **Layer 4:** Core GPU Libraries (CUDA C libs, NCCL for multi-GPU)
