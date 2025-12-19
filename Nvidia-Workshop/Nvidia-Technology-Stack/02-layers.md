@@ -55,7 +55,7 @@ RDMA over InfiniBand – Remote Direct Memory Access across nodes with low laten
 General InfiniBand networking for GPU‑accelerated clusters.
 ​
 
-Text diagram – Data movement
+**Text diagram – Data movement**
 
 Inside a node: multiple GPUs connected by NVLink (lines between GPU boxes).
 
