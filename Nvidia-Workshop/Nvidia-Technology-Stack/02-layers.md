@@ -113,7 +113,6 @@ Here you monitor health, performance, and utilization of your NVIDIA infrastruct
 
 Main tools:
 ​
-
 NVIDIA’s DCGM (Data Center GPU Manager) and related management tools.
 
 Base command/management utilities that expose metrics and control options for GPUs.
@@ -128,26 +127,22 @@ DCGM and NVIDIA management agents collecting metrics.
 Dashboards or scripts consuming this data for alerts and reports.
 ​
 
-Use case: An operations team uses DCGM to watch GPU health in a production cluster, react to overheating or failures, and analyze utilization trends.
+**Use case:** An operations team uses DCGM to watch GPU health in a production cluster, react to overheating or failures, and analyze utilization trends.
 ​
 
-Layer 6 – Vertical solutions and ecosystem integrations
+#### Layer 6 – Vertical solutions and ecosystem integrations
 At the top, NVIDIA provides higher‑level application stacks and integrates with the broader IT ecosystem.
 ​
-
 NVIDIA vertical solutions (examples in the video):
 ​
-
 Clara – Healthcare, medical imaging, life sciences.
 
 Merlin – Recommender systems.
 
 NVIDIA NIM – Application‑level/vertical AI services (e.g., inference microservices).
 ​
-
 Ecosystem integrations:
 ​
-
 Containerization/orchestration: Docker, Kubernetes.
 
 ML frameworks: TensorFlow, PyTorch.
@@ -159,7 +154,7 @@ Monitoring: Prometheus, Grafana, integrated with NVIDIA metrics.
 Certified partners: Storage, networking, compute vendors that provide NVIDIA‑validated solutions.
 ​
 
-Text diagram – Top layer ecosystem
+**Text diagram – Top layer ecosystem**
 
 Vertical solutions (Clara, Merlin, NIM) as blocks sitting on NVIDIA libraries and drivers.
 
@@ -175,10 +170,8 @@ Prometheus/Grafana for dashboards.
 
 Partner hardware solutions for storage and networking.
 ​
-
-Use cases:
+**Use cases:** 
 
 A hospital deploys Clara on NVIDIA GPUs orchestrated by Kubernetes, monitored via Prometheus/Grafana, scheduled by Slurm, and backed by certified storage/network solutions.
 ​
-
 An e‑commerce company builds a recommendation engine on Merlin, packages it in Docker containers, schedules jobs with Slurm, and monitors GPU usage with DCGM plus Grafana.
