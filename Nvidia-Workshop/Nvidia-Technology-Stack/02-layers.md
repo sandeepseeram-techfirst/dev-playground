@@ -93,7 +93,7 @@ C‑language libraries to program and use GPUs for general‑purpose computing.
 NCCL (NVIDIA Collective Communications Library) for GPU‑to‑GPU communication (collective ops like all‑reduce) across GPUs and nodes.
 ​
 
-Text diagram – Core libraries
+**Text diagram – Core libraries**
 
 Application code calls C libraries for GPU compute.
 
