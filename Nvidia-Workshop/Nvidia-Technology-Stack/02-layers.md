@@ -119,7 +119,7 @@ NVIDIA’s DCGM (Data Center GPU Manager) and related management tools.
 Base command/management utilities that expose metrics and control options for GPUs.
 ​
 
-Text diagram – Monitoring
+**Text diagram – Monitoring**
 
 GPUs and nodes at bottom emitting metrics (temperature, utilization, errors).
 
