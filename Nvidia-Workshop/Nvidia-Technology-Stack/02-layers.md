@@ -44,10 +44,8 @@ Use case: Building an AI cluster or lab environment where you choose NVIDIA GPU 
 #### Layer 2 – Data movement layer
 This layer explains how devices communicate quickly and efficiently.
 ​
-
 Key NVIDIA technologies:
 ​
-
 NVLink – High‑bandwidth interconnect between GPUs in the same node.
 
 RDMA over InfiniBand – Remote Direct Memory Access across nodes with low latency.
@@ -61,14 +59,12 @@ Inside a node: multiple GPUs connected by NVLink (lines between GPU boxes).
 
 Between nodes: InfiniBand links, with RDMA enabling direct memory access from one node’s GPU to another’s memory.
 ​
-
 Use case: Multi‑GPU training where gradients and parameters must move quickly between GPUs and across nodes.
 ​
 
 #### Layer 3 – OS, GPU drivers, virtualization
 This layer focuses on software that makes the hardware usable.
 ​
-
 Operating system on DGX nodes or GPU servers.
 
 NVIDIA GPU drivers that expose GPU capabilities to the OS and applications.
@@ -76,7 +72,7 @@ NVIDIA GPU drivers that expose GPU capabilities to the OS and applications.
 GPU virtualization technologies that allow sharing/partitioning GPUs across workloads.
 ​
 
-Text diagram – System software
+**Text diagram – System software**
 
 Hardware at bottom (CPUs, GPUs, network).
 
