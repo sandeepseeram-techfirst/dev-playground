@@ -107,7 +107,7 @@ A C/C++ program offloads matrix multiplication to the GPU via NVIDIA GPU librari
 The same program uses NCCL all‑reduce to aggregate gradients across 8 GPUs during training.
 ​
 
-Layer 5 – Monitoring and management
+**Layer 5 – Monitoring and Management**
 Here you monitor health, performance, and utilization of your NVIDIA infrastructure.
 ​
 
