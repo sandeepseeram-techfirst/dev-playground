@@ -6,7 +6,7 @@
 ​
 GPU roots: All of this initially targets gaming and rich visual experiences for consumers.
 
-**From graphics to general compute**
+**From graphics to general compute** 
 **Programmability:** NVIDIA realizes GPUs are highly parallel and can be programmed for non‑graphics tasks, leading to GPU core programmability (e.g., CUDA era conceptually).
 ​
 **Parallel Compute Architecture:** NVIDIA designs architectures explicitly for parallel workloads, not just rendering frames.
