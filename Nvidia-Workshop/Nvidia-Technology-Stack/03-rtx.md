@@ -12,6 +12,6 @@ The same base architecture is tuned into different product lines:
 
 1. Gaming GPUs (e.g., RTX 40‑series desktop cards).
 
-2. Professional workstation GPUs.
+2. Professional workstation GPUs. 
 
 3. Some data center RTX GPUs (e.g., L40 class) used for visualization and virtual workstations.
