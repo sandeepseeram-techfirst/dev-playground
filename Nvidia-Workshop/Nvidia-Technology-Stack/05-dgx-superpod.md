@@ -1,1 +1,2 @@
-### Nvidia DGX Superpod 
+### Nvidia DGX SuperPOD 
+
