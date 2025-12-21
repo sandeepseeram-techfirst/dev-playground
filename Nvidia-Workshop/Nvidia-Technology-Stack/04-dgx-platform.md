@@ -3,14 +3,11 @@ The NVIDIA DGX platform is a data center AI system built to run large‑scale tr
 
 #### What a DGX system is? 
 DGX is a platform, i.e., a complete AI server/node, not just a GPU.
+​It is designed for AI training, inference, and high‑throughput analytics in data centers.
 ​
+**Example shown: DGX A100 system with:**
 
-It is designed for AI training, inference, and high‑throughput analytics in data centers.
-​
-
-Example shown: DGX A100 system with:
-
-8 NVIDIA A100 GPUs.
+1. 8 NVIDIA A100 GPUs.
 
 High‑speed interconnect between the GPUs.
 
