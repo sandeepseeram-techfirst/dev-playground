@@ -7,4 +7,17 @@ DGX SuperPOD is a large‑scale AI supercomputing architecture built by intercon
 * ​It is meant for massive model training (e.g., LLMs, foundation models) and global‑scale HPC/AI.
 
 #### Architecture and components
+**DGX nodes**
+Many DGX systems (the “small boxes” in the diagram) act as compute nodes in the SuperPOD.
+​
+**High‑speed network (InfiniBand)**
+DGX nodes are logically connected using InfiniBand fabric for low‑latency, high‑bandwidth communication.
+​
+**System “spine” / core fabric**
+A system “spine” (core network topology) interconnects racks of DGX nodes to scale out the cluster.
+​
+**Inbound and outbound management**
+Management network and services provide cluster control, monitoring, and user access.
+​
+Often includes a jump box (bastion host) through which admins or users securely connect to the DGX nodes.
 
