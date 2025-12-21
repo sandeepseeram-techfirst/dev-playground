@@ -21,5 +21,33 @@ Management network and services provide cluster control, monitoring, and user ac
 ​
 Often includes a jump box (bastion host) through which admins or users securely connect to the DGX nodes.
 
+#### Main use cases and scenarios
+DGX SuperPOD is explicitly aimed at very large, multi‑tenant, multi‑cluster environments:
+​
+
+Training large language models (LLMs) and other foundation models at scale.
+​
+
+Running large‑scale HPC workloads that need many DGX nodes.
+​
+
+Multi‑tenancy: multiple users, teams, or organizations sharing the same SuperPOD safely.
+​
+
+Federated learning across global infrastructure
+
+SuperPOD acts as a central or regional AI supercomputing resource in a global FL setup.
+​
+
+Suitable for:
+
+Enterprises building an AI center of excellence.
+
+National labs.
+
+Large research organizations needing global‑scale model training and deployment.
+
+Environments that require multi‑user, multi‑cluster HPC and AI.
+​
 
 
