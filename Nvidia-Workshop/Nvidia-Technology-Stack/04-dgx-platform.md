@@ -22,15 +22,13 @@ You can think of a DGX as a “ready‑made AI supercomputer in a box” that yo
 #### Primary use cases
 DGX systems are used when you need heavy, multi‑GPU AI or HPC workloads:
 ​
-
-AI / ML training
+**AI / ML training** 
 
 Massive deep learning models (e.g., NLP, CV, speech).
 
 Multi‑user, multi‑workload AI environments in one or more DGX nodes.
 ​
-
-AI inference at scale
+**AI inference at scale**
 
 Serve many inference requests for NLP, computer vision, and speech models from the same DGX infrastructure.
 ​
