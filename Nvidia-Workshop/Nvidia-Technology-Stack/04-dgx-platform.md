@@ -13,7 +13,7 @@ DGX is a platform, i.e., a complete AI server/node, not just a GPU.
 
 3. 15 TB of NVMe SSD storage.
 
-4. NVSwitch for intra‑node GPU communication.
+4. NVSwitch for intra‑node GPU communication. 
 
 5. Advanced cooling and power modules.
 ​
