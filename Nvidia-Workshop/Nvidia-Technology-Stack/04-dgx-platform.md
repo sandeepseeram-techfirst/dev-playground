@@ -32,15 +32,13 @@ Multi‑user, multi‑workload AI environments in one or more DGX nodes.
 
 Serve many inference requests for NLP, computer vision, and speech models from the same DGX infrastructure.
 ​
-
-High‑performance computing (HPC)
+**High‑performance computing (HPC)**
 
 Scientific workloads.
 
 Analytics workloads with very high throughput demands.
 ​
-
-Federated learning deployments
+**Federated learning deployments**
 
 Enterprise setups where training is distributed across sites but DGX nodes form the central high‑power training resource.
 ​
