@@ -42,7 +42,8 @@ Analytics workloads with very high throughput demands.
 
 Enterprise setups where training is distributed across sites but DGX nodes form the central high‑power training resource.
 ​
-
-Cloud‑native/containerized AI
+**Cloud‑native/containerized AI**
 
 Run workloads in containers, orchestrated by cloud‑native tooling, on top of DGX nodes.
+
+
