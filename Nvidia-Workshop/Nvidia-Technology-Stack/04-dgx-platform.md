@@ -9,13 +9,12 @@ DGX is a platform, i.e., a complete AI server/node, not just a GPU.
 
 1. 8 NVIDIA A100 GPUs.
 
-High‑speed interconnect between the GPUs.
+2. High‑speed interconnect between the GPUs.
 
-15 TB of NVMe SSD storage.
+3. 15 TB of NVMe SSD storage.
 
-NVSwitch for intra‑node GPU communication.
+4. NVSwitch for intra‑node GPU communication.
 
-Advanced cooling and power modules.
+5. Advanced cooling and power modules.
 ​
-
 You can think of a DGX as a “ready‑made AI supercomputer in a box” that you rack and connect into your data center.
