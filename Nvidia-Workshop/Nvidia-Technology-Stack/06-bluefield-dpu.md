@@ -7,5 +7,12 @@ BlueField DPUs (also called BlueField SuperNICs) are smart NICs that combine net
 ​* Free CPUs/GPUs to focus on application and AI computation, not low‑level infrastructure work.
 ​* They are programmed and managed using the DOCA (Data Center Infrastructure on a Chip Architecture) software framework.
 
+#### Ecosystem and variants
+
+BlueField DPUs come in various options for:
+1. Hyperscale data centers.
+2. HPC.
+3. AI and cloud computing.
+4. Storage acceleration.
 
 
