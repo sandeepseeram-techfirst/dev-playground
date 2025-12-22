@@ -43,6 +43,8 @@ SuperPOD acts as a central or regional AI supercomputing resource in a global FL
 * Large research organizations needing global‑scale model training and deployment.
 
 * Environments that require multi‑user, multi‑cluster HPC and AI.
+
+
 ​
 
 
