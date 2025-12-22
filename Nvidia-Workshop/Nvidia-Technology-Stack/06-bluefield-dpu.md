@@ -15,4 +15,5 @@ BlueField DPUs come in various options for:
 3. AI and cloud computing.
 4. Storage acceleration.
 
-
+#### Design rule of thumb:
+Use BlueField DPU when you want a programmable, offload‑capable NIC to handle infrastructure tasks (network, storage, security) so that your main compute (CPU/GPU) can focus on core workloads and AI.
