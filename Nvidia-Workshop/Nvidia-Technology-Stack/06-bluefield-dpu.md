@@ -17,3 +17,5 @@ BlueField DPUs come in various options for:
 
 #### Design rule of thumb:
 Use BlueField DPU when you want a programmable, offload‑capable NIC to handle infrastructure tasks (network, storage, security) so that your main compute (CPU/GPU) can focus on core workloads and AI.
+
+
