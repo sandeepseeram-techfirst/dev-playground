@@ -18,3 +18,4 @@ CUDA cores, Tensor Cores, and RT (ray tracing) Cores.
 ​* Compute realistic lighting, shadows, and reflections in games and visualization.
 ​
 **Use case:** High‑fidelity real‑time graphics (e.g., modern AAA games, cinematic rendering).
+
