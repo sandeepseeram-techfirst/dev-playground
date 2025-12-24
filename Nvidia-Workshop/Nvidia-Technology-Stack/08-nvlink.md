@@ -14,7 +14,6 @@ It is both:
 ​
 Effect: Faster, more efficient data transfer and memory sharing between GPUs than standard PCIe, especially when many GPUs are present.
 
-
 #### Issues 
 * PCIe can become a bottleneck if multiple GPUs and devices share the bus.
 ​* Latency and bandwidth are not optimal for heavy inter‑GPU communication (e.g., large‑model training).
