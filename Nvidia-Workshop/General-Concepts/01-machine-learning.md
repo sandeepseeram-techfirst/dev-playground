@@ -21,5 +21,5 @@ Machine learning is about learning patterns from data to make predictions or dec
 
 2. Bias measures how strongly a model’s assumptions oversimplify the true relationships; variance measures sensitivity to fluctuations in the training set.
 
-3. The bias–variance tradeoff is choosing model complexity that keeps both bias and variance reasonably low so the model generalizes well.
+3. The bias–variance tradeoff is choosing model complexity that keeps both bias and variance reasonably low so the model generalizes well. 
 
