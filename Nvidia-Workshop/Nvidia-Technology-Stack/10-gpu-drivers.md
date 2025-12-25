@@ -20,11 +20,8 @@ DGX OS is not just a bare Linux kernel; it includes a comprehensive software sta
 **Key components:**
 
 * GPU driver (NVIDIA driver, matched to the hardware).
-​* CUDA toolkit for GPU programming and acceleration.
+​* CUDA toolkit for GPU programming and acceleration.\
 ​* cuDNN, NCCL, CUDA‑X‑type libraries (for deep learning, communications, etc.).
+​* Docker engine: container runtime so you can run AI workloads as containers out of the box.
 ​
-
-Docker engine: container runtime so you can run AI workloads as containers out of the box.
-​
-
 Other commonly used components that make the system ready for AI/ML and analytics use.
