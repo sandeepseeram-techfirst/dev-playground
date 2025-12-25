@@ -6,3 +6,9 @@
 ​This OS is called **DGX OS.**
 
 Generic OSes (Windows, generic Linux, generic hypervisors) are not optimized for DGX’s heavy AI/ML workloads.
+
+#### DGX OS has an NVIDIA‑optimized kernel tuned for:
+
+* AI/ML
+* Analytics
+* High GPU utilization on DGX hardware.
