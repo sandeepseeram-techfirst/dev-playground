@@ -33,6 +33,6 @@ Other commonly used components that make the system ready for AI/ML and analytic
   - Install Docker manually
   - Manually tune kernel & networking
 
-**DGX OS:**
+**DGX OS:** 
   - Comes with all of the above pre-installed,
     version-aligned, and tuned for DGX AI workloads.
