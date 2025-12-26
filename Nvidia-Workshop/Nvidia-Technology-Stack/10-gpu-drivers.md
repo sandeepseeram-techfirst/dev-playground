@@ -25,3 +25,14 @@ DGX OS is not just a bare Linux kernel; it includes a comprehensive software sta
 ​* Docker engine: container runtime so you can run AI workloads as containers out of the box.
 ​
 Other commonly used components that make the system ready for AI/ML and analytics use.
+
+**Generic Ubuntu server:**
+  - Install NVIDIA driver manually
+  - Install CUDA manually
+  - Install cuDNN, NCCL manually
+  - Install Docker manually
+  - Manually tune kernel & networking
+
+**DGX OS:**
+  - Comes with all of the above pre-installed,
+    version-aligned, and tuned for DGX AI workloads.
