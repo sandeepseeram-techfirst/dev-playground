@@ -1,4 +1,4 @@
-### GPU OS, Drivers & Virtualization 
+### DGX OS 
 
 #### DGX Operating System (DGX OS)
 - NVIDIA provides a customized Ubuntu Long Term Support OS specifically for DGX systems.
