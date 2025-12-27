@@ -11,3 +11,8 @@ Any OS and application running inside the VM can now use this virtual GPU as if 
 ​**Shared vGPU:** one GPU divided across multiple VMs → performance varies based on slice size, contention, and implementation.
 
 ### GPU Virtualization Methods
+
+**vGPU (virtual GPU)**
+**MIG (Multi‑Instance GPU)**
+
+These mechanisms implement the actual “slicing” of a physical GPU into multiple isolated virtual GPUs with different performance and capacity characteristics.
