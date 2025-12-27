@@ -20,3 +20,15 @@ A GPU driver is software that connects the NVIDIA GPU to the OS and to applicati
    - GPU utilization
    - Memory usage
    - Active GPU processes
+
++-------------------------------------------+
+| User apps / containers (AI, analytics)    |
++-------------------------------------------+
+| CUDA, frameworks (TF, PyTorch, etc.)      |
++-------------------------------------------+
+| NVIDIA GPU driver                         |
++----------------------+--------------------+
+| Operating System     |  nvidia-smi tool   |
++----------------------+--------------------+
+| GPU hardware (Tesla T4, A100, H100, etc.) |
++-------------------------------------------+
