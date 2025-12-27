@@ -9,3 +9,5 @@ Any OS and application running inside the VM can now use this virtual GPU as if 
 
 **Pass‑through:** one physical GPU given directly to one VM → near‑native performance.
 ​**Shared vGPU:** one GPU divided across multiple VMs → performance varies based on slice size, contention, and implementation.
+
+### GPU Virtualization Methods
