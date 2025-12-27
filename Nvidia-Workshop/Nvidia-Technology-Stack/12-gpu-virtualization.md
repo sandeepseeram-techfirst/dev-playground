@@ -29,3 +29,4 @@ MIG = Multi‑Instance GPU, a hardware‑level isolation mechanism.
 ​
 Each instance has its own GPU compute resources and GPU memory block.
 
+
