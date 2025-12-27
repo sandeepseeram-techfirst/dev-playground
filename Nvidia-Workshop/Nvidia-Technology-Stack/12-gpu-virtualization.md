@@ -16,3 +16,11 @@ Any OS and application running inside the VM can now use this virtual GPU as if 
 **MIG (Multi‑Instance GPU)**
 
 These mechanisms implement the actual “slicing” of a physical GPU into multiple isolated virtual GPUs with different performance and capacity characteristics.
+
+#### MIG (Multi‑Instance GPU): hardware‑level isolation
+
+**What MIG is?**
+MIG = Multi‑Instance GPU, a hardware‑level isolation mechanism.
+​Instead of a hypervisor doing the slicing, the GPU itself is partitioned into multiple hardware instances.
+​
+Each instance has its own GPU compute resources and GPU memory block.
