@@ -20,3 +20,5 @@ GPU can be used for:
 * Machine learning and AI workloads (training and inference, where many matrix operations run in parallel).
 ​
 * Financial modeling and simulations (Monte Carlo, risk calculations, etc.).
+
+CUDA is called a programming model because it defines how you structure and think about parallel code for GPUs.
