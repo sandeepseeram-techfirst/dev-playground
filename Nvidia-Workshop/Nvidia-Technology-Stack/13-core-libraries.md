@@ -32,3 +32,4 @@ CUDA is called a programming model because it defines how you structure and thin
 * It launches thousands of threads (workers) on the GPU to perform those tasks simultaneously.
 ​
 * When all threads finish, CUDA collects and aggregates the results so your program can continue.
+
