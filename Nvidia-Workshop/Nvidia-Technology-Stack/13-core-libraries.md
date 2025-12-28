@@ -9,3 +9,14 @@ CUDA = Compute Unified Device Architecture.
 CUDA has revolutionized GPU usage by making parallel programming on GPUs straightforward from languages like C/C++ and Python.
 
 
+#### CUDA:
+
+GPU can be used for:
+
+* Graphics rendering (as before).
+​
+* Image and video processing (e.g., filters, transformations, encoding/decoding accelerations).
+​
+* Machine learning and AI workloads (training and inference, where many matrix operations run in parallel).
+​
+* Financial modeling and simulations (Monte Carlo, risk calculations, etc.).
