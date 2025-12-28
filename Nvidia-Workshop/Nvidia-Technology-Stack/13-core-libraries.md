@@ -33,3 +33,6 @@ CUDA is called a programming model because it defines how you structure and thin
 ​
 * When all threads finish, CUDA collects and aggregates the results so your program can continue.
 
+#### Key Summary 
+
+* CUDA is NVIDIA-only, tightly coupled to NVIDIA GPUs and drivers.
