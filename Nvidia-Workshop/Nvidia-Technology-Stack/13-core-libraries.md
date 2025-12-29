@@ -39,3 +39,5 @@ CUDA is called a programming model because it defines how you structure and thin
 * It is a parallel computing platform + API + programming model to run general-purpose compute on GPUs.
 ​* Most AI developers use it indirectly through frameworks like TensorFlow, PyTorch, NCCL, and RAPIDS, which sit on top of CUDA.
 ​* Typical use cases include AI/ML training and inference, data analytics, simulations, and any workload with many similar operations that benefit from parallel execution.
+
+#### CUDA Installation 
