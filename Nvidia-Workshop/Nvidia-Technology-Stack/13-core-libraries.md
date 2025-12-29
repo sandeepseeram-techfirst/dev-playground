@@ -65,3 +65,12 @@ Use the nvidia-smi command to check the installed CUDA version and GPU status.
 ​* Driver version and GPU details.
 ​* Memory capacity and current utilization.
 ​* Compute capability, GPU utilization, and power usage.
+
+[nvidia-smi]
+     |
+     +--> Driver version
+     +--> CUDA version
+     +--> GPU count & names
+     +--> Memory total / used
+     +--> Utilization (%)
+     +--> Power draw
