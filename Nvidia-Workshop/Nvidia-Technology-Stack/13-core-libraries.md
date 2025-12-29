@@ -41,3 +41,4 @@ CUDA is called a programming model because it defines how you structure and thin
 ​* Typical use cases include AI/ML training and inference, data analytics, simulations, and any workload with many similar operations that benefit from parallel execution.
 
 #### CUDA Installation 
+CUDA installation is mainly about meeting basic requirements, installing the CUDA Toolkit, and using nvidia-smi to verify the version and GPU details.
