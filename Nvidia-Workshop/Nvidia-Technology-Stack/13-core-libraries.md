@@ -54,3 +54,14 @@ CUDA installation is mainly about meeting basic requirements, installing the CUD
 3. Download CUDA Toolkit from NVIDIA
 4. Run installer (per NVIDIA docs)
 5. Verify installation with nvidia-smi
+
+#### Verifying CUDA installation with nvidia-smi
+Use the nvidia-smi command to check the installed CUDA version and GPU status.
+
+**​nvidia-smi shows:**
+
+* CUDA version installed (e.g., “CUDA Version 13”).
+​* Number of GPUs in the system.
+​* Driver version and GPU details.
+​* Memory capacity and current utilization.
+​* Compute capability, GPU utilization, and power usage.
