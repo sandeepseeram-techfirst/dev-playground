@@ -48,3 +48,9 @@ CUDA installation is mainly about meeting basic requirements, installing the CUD
 [Tools]     -->  GCC compiler (on Linux)
                         +
                 CUDA Toolkit installer
+
+1. Check GPU + OS support
+2. Ensure prerequisites (e.g., GCC)
+3. Download CUDA Toolkit from NVIDIA
+4. Run installer (per NVIDIA docs)
+5. Verify installation with nvidia-smi
