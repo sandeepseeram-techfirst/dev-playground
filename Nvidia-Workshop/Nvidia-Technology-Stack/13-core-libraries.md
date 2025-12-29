@@ -42,3 +42,9 @@ CUDA is called a programming model because it defines how you structure and thin
 
 #### CUDA Installation 
 CUDA installation is mainly about meeting basic requirements, installing the CUDA Toolkit, and using nvidia-smi to verify the version and GPU details.
+
+[Hardware]  -->  NVIDIA GPU (supported model)
+[OS]        -->  Supported Linux / Windows
+[Tools]     -->  GCC compiler (on Linux)
+                        +
+                CUDA Toolkit installer
