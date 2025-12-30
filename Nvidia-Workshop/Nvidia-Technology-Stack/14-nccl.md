@@ -18,3 +18,5 @@ It hides communication complexity and provides high‑level collective operation
 **broadcast**
 **all_gather**
 **reduce_scatter**
+
+**The key mental model: NCCL = “orchestrator and optimizer” of GPU‑to‑GPU communication, built on top of whatever physical links (NVLink, NVSwitch, PCIe, RDMA) your system provides.**
