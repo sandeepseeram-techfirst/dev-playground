@@ -19,4 +19,15 @@ It hides communication complexity and provides high‑level collective operation
 **all_gather**
 **reduce_scatter**
 
+#### APIs and operations (use cases)
+NCCL offers simple collective API calls that correspond to typical distributed training needs:
+​
+* All‑reduce: sum/average gradients across all GPUs so each has the same updated values.
+
+* Broadcast: send model parameters from one rank (e.g., rank 0) to all other GPUs.
+
+* All‑gather: each GPU contributes data, and all GPUs get the concatenated result.
+
+Reduce‑scatter: combined reduce + scatter to distribute reduced chunks to each GPU.
+
 **The key mental model: NCCL = “orchestrator and optimizer” of GPU‑to‑GPU communication, built on top of whatever physical links (NVLink, NVSwitch, PCIe, RDMA) your system provides.**
