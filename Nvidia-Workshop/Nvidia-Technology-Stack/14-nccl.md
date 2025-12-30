@@ -28,6 +28,8 @@ NCCL offers simple collective API calls that correspond to typical distributed t
 
 * All‑gather: each GPU contributes data, and all GPUs get the concatenated result.
 
-Reduce‑scatter: combined reduce + scatter to distribute reduced chunks to each GPU.
+* Reduce‑scatter: combined reduce + scatter to distribute reduced chunks to each GPU.
 
 **The key mental model: NCCL = “orchestrator and optimizer” of GPU‑to‑GPU communication, built on top of whatever physical links (NVLink, NVSwitch, PCIe, RDMA) your system provides.**
+
+
