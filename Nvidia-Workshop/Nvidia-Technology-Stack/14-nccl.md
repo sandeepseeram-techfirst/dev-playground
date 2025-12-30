@@ -1,1 +1,2 @@
 ### NVIDIA Collective Communications Library (NCCL)
+NCCL is a multi‑GPU communication library that automatically chooses and optimizes how GPUs talk to each other (within a node or across nodes) using NVLink, NVSwitch, PCIe, or RDMA, exposing simple collective APIs like all‑reduce and broadcast.
