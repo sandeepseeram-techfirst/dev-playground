@@ -33,7 +33,7 @@ NCCL offers simple collective API calls that correspond to typical distributed t
 **The key mental model: NCCL = “orchestrator and optimizer” of GPU‑to‑GPU communication, built on top of whatever physical links (NVLink, NVSwitch, PCIe, RDMA) your system provides.**
 
 
-* NVLink, NVSwitch, PCIe, RDMA are physical interconnects plus drivers; they are like a high‑speed expressway network between GPUs and nodes. 
+* NVLink, NVSwitch, PCIe, RDMA are physical interconnects plus drivers; they are like a high‑speed expressway network between GPUs and nodes.
 ​
 * NCCL is a software communication library, analogous to a traffic management system that decides which route to use, when, and how to organize traffic.
 ​
