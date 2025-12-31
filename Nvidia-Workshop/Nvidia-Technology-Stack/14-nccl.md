@@ -63,5 +63,5 @@ In such large multi‑GPU scenarios, NCCL is the right tool: you include NCCL (o
 
 * Which GPUs act as relays.
 
-Which underlying transport (NVLink, NVSwitch, PCIe, RDMA) to use for each hop.
+* Which underlying transport (NVLink, NVSwitch, PCIe, RDMA) to use for each hop.
 
