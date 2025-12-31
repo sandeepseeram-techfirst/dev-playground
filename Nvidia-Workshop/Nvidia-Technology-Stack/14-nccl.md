@@ -51,5 +51,5 @@ NCCL offers simple collective API calls that correspond to typical distributed t
 ​
 * Minimizes the number of transfers and connections overall when data must reach many GPUs, not just one.
 
-
+#### Use Case Scenario 
 
