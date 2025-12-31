@@ -64,3 +64,6 @@ In such large multi‑GPU scenarios, NCCL is the right tool: you include NCCL (o
 * Which GPUs act as relays.
 
 * Which underlying transport (NVLink, NVSwitch, PCIe, RDMA) to use for each hop.
+
+For large‑scale distributed training (e.g., gradient sharing on 100–200 GPUs), NCCL‑based communication is the recommended approach, usually via your deep learning framework.
+
