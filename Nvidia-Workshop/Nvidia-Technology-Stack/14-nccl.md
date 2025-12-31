@@ -53,3 +53,15 @@ NCCL offers simple collective API calls that correspond to typical distributed t
 
 #### Use Case Scenario 
 
+* When transferring 1 GB between two GPUs, hardware like NVLink / NVSwitch / PCIe / RDMA gives very fast point‑to‑point transfer; that is where the connectivity tech shines.
+​
+* When coordinating gradient sharing among 100 or 200 GPUs, doing point‑to‑point manually becomes inefficient.
+​
+In such large multi‑GPU scenarios, NCCL is the right tool: you include NCCL (or use a framework that uses it), and it decides:
+
+* How to fan out data.
+
+* Which GPUs act as relays.
+
+Which underlying transport (NVLink, NVSwitch, PCIe, RDMA) to use for each hop.
+
