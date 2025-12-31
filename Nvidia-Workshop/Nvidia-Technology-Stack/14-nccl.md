@@ -38,3 +38,5 @@ NCCL offers simple collective API calls that correspond to typical distributed t
 * NCCL is a software communication library, analogous to a traffic management system that decides which route to use, when, and how to organize traffic.
 ​
 * Hardware focuses on how to transfer data fast (low latency, high bandwidth per transfer), while NCCL focuses on how to organize many transfers efficiently across many GPUs.
+
+
