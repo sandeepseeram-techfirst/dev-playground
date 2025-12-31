@@ -1,2 +1,2 @@
 ### Monitoring and Management 
-monitoring and management tools for NVIDIA‑based AI infrastructure.
+Monitoring and Management tools for NVIDIA‑based AI infrastructure.
