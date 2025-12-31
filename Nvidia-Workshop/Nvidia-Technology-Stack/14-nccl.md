@@ -48,8 +48,7 @@ NCCL offers simple collective API calls that correspond to typical distributed t
 
 #### NCCL:
 
-Decides which GPUs communicate, which paths to use, and how to structure multi‑GPU patterns (e.g., ring, tree).
+* Decides which GPUs communicate, which paths to use, and how to structure multi‑GPU patterns (e.g., ring, tree).
 ​
-
-Minimizes the number of transfers and connections overall when data must reach many GPUs, not just one.
+* Minimizes the number of transfers and connections overall when data must reach many GPUs, not just one.
 
