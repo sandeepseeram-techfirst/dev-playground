@@ -14,6 +14,7 @@ DCGM is not installed by default; you must install it separately (from NVIDIA or
 ​* It can be installed directly or via GPU operator in Kubernetes‑style environments.
 
 #### Metric export and integration (Prometheus/Grafana)
+
 1. DCGM itself is the monitoring/control engine; DCGM Exporter is a separate package to expose metrics via HTTP.
 ​2. DCGM Exporter runs as an agent on each node, scraping DCGM and exposing metrics for tools like Prometheus and Grafana.
 
