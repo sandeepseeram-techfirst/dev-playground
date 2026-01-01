@@ -12,3 +12,7 @@ DCGM = Data Center GPU Manager, designed for enterprise‑scale GPU health monit
 DCGM is not installed by default; you must install it separately (from NVIDIA or cloud vendor docs).
 * ​You download and install the DCGM package, then run it as a service/daemon on the node.
 ​* It can be installed directly or via GPU operator in Kubernetes‑style environments.
+
+#### Metric export and integration (Prometheus/Grafana)
+1. DCGM itself is the monitoring/control engine; DCGM Exporter is a separate package to expose metrics via HTTP.
+​2. DCGM Exporter runs as an agent on each node, scraping DCGM and exposing metrics for tools like Prometheus and Grafana.
