@@ -23,3 +23,5 @@ DCGM is not installed by default; you must install it separately (from NVIDIA or
 DCGM is cluster‑oriented: it can work across multiple nodes, as long as each node runs the DCGM agent/exporter.
 ​Data is collected centrally by Prometheus or similar, giving a cluster‑wide view.
 ​**Limitation:** DCGM is still monitoring‑focused, not a job scheduler, and cannot natively monitor multiple independent clusters as one logical unit.
+
+**The key mental model:** DCGM is your cluster‑level GPU health and policy engine, feeding metrics to Prometheus/Grafana and providing centralized control over GPU behavior across many nodes.
