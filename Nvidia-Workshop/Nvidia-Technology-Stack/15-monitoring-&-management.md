@@ -14,5 +14,4 @@ Command‑line tool to inspect and partially manage GPUs on a node (utilization,
 Data‑center‑grade monitoring/management solution for GPUs; integrates with monitoring systems and supports policies, health checks, and telemetry.
 ​
 #### Base Command Manager:
-
 Higher‑level management tool for entire NVIDIA AI systems, used for cluster‑scale operations and administration.
