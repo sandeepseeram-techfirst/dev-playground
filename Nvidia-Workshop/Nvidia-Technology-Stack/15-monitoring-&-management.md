@@ -11,7 +11,6 @@ Monitoring and Management tools for NVIDIA‑based AI infrastructure.
 Command‑line tool to inspect and partially manage GPUs on a node (utilization, memory, temperature, power, CUDA version, etc.).
 ​
 #### DCGM (Data Center GPU Manager):
-
 Data‑center‑grade monitoring/management solution for GPUs; integrates with monitoring systems and supports policies, health checks, and telemetry.
 ​
 #### Base Command Manager:
