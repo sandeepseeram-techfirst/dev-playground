@@ -8,10 +8,7 @@ DCGM = Data Center GPU Manager, designed for enterprise‑scale GPU health monit
 ​* It focuses on monitoring + configuration/policies, not on job scheduling.
 
 #### Installation and runtime model
+
 DCGM is not installed by default; you must install it separately (from NVIDIA or cloud vendor docs).
-​
-
-You download and install the DCGM package, then run it as a service/daemon on the node.
-​
-
-It can be installed directly or via GPU operator in Kubernetes‑style environments.
+* ​You download and install the DCGM package, then run it as a service/daemon on the node.
+​* It can be installed directly or via GPU operator in Kubernetes‑style environments.
