@@ -17,3 +17,8 @@ DCGM is not installed by default; you must install it separately (from NVIDIA or
 1. DCGM itself is the monitoring/control engine; DCGM Exporter is a separate package to expose metrics via HTTP.
 ​2. DCGM Exporter runs as an agent on each node, scraping DCGM and exposing metrics for tools like Prometheus and Grafana.
 
+#### Multi‑node and cluster scope
+
+DCGM is cluster‑oriented: it can work across multiple nodes, as long as each node runs the DCGM agent/exporter.
+​Data is collected centrally by Prometheus or similar, giving a cluster‑wide view.
+​**Limitation:** DCGM is still monitoring‑focused, not a job scheduler, and cannot natively monitor multiple independent clusters as one logical unit.
