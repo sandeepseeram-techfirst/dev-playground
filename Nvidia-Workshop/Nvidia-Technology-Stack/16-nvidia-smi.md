@@ -25,3 +25,5 @@ NVIDIA‑SMI is intentionally simple and has several limitations:
 ​2. Single‑node only: cannot monitor multiple nodes or provide a cluster‑wide view.
 3. No native alerting: there is no built‑in mechanism to trigger alerts when thresholds are exceeded.
 ​4. Manual / pull model: you must invoke the command each time; no continuous streaming or push metrics by default.
+
+
