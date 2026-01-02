@@ -17,3 +17,4 @@ Beyond monitoring, it can perform basic control and configuration on that node:
 * Change compute modes (e.g., default vs exclusive).
 ​
 * Terminate GPU processes if required (e.g., kill a misbehaving job).
+
