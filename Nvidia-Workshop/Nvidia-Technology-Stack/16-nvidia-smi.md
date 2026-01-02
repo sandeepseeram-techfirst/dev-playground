@@ -7,17 +7,13 @@ Stands for NVIDIA System/Server Management Interface; it runs as the nvidia-smi 
 ​Scope is one system/node only; it cannot pull data from remote nodes or aggregate a cluster.
 ​**Primary role:** quick GPU monitoring and basic management actions for GPUs on a single machine.
 
-#### What NVIDIA‑SMI can manage
+#### What NVIDIA‑SMI can manage? 
 Beyond monitoring, it can perform basic control and configuration on that node:
 ​
-
-Change GPU configuration settings, including some MIG‑related settings (where applicable).
+* Change GPU configuration settings, including some MIG‑related settings (where applicable).
 ​
-
-Set power limits for GPUs (cap max power draw).
+* Set power limits for GPUs (cap max power draw).
 ​
-
-Change compute modes (e.g., default vs exclusive).
+* Change compute modes (e.g., default vs exclusive).
 ​
-
-Terminate GPU processes if required (e.g., kill a misbehaving job).
+* Terminate GPU processes if required (e.g., kill a misbehaving job).
