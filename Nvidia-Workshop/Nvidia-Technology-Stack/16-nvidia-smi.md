@@ -6,3 +6,4 @@ NVIDIA‑SMI is a single‑node GPU monitoring and basic management CLI tool tha
 Stands for NVIDIA System/Server Management Interface; it runs as the nvidia-smi command.
 ​Scope is one system/node only; it cannot pull data from remote nodes or aggregate a cluster.
 ​**Primary role:** quick GPU monitoring and basic management actions for GPUs on a single machine.
+
