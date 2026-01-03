@@ -21,5 +21,10 @@ BCM is a separate NVIDIA product; it requires an enterprise license and is not i
    - GPU servers
    - DCGM, drivers, agents exporting metrics to BCM
 
-
-
+**[BCM Web UI sections]**
+- Clusters: utilization, health, size
+- Devices: GPUs, CPUs, DPUs, switches
+- Networking: links, health
+- Storage: NFS/Lustre/NVMe metrics
+- Jobs: status, performance, resource usage
+- Users: quotas, consumption
