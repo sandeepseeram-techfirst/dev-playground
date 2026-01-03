@@ -12,12 +12,12 @@ BCM is a separate NVIDIA product; it requires an enterprise license and is not i
 ​* It has multiple components to deploy and needs a dedicated management node, which collects data from all other nodes and presents it in dashboards and APIs.
 ​* Deployment is more complex than tools like nvidia-smi or DCGM and is intended for serious, large‑scale environments.
 
-[Management Node]
+**[Management Node]**
    - Base Command Manager services
    - Web UI + REST API
    - Integrations (Prometheus/Grafana, Slurm, Kubernetes, Run:AI)
 
-[Cluster Nodes]
+**[Cluster Nodes]**
    - GPU servers
    - DCGM, drivers, agents exporting metrics to BCM
 
