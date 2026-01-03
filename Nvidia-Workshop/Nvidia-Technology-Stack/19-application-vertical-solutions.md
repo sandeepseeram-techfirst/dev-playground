@@ -75,10 +75,10 @@ Deploy pretrained models (e.g., LLaMA, Stable Diffusion) as services behind stan
 **Example scenario**
 You have pretrained LLMs and diffusion models and want to:
 ​
-Expose them via HTTP/gRPC APIs.
+1. Expose them via HTTP/gRPC APIs.
 
-Avoid managing Triton configs, GPU placement, load balancing manually.
+2. Avoid managing Triton configs, GPU placement, load balancing manually.
 
-You use NIM to deploy them as microservices, then call them from your applications through standard APIs.
+3. You use NIM to deploy them as microservices, then call them from your applications through standard APIs.
 
 
