@@ -46,8 +46,7 @@ Content recommendations on streaming platforms (like Netflix).
 
 Personalized, low‑latency recommendations at scale.
 
-Capabilities:
-​
+**Capabilities:**​
 
 Accelerates training and inference of recommendation models on GPUs.
 
@@ -55,7 +54,7 @@ Handles recent user activity and large‑scale data to improve recommendation qu
 
 Supports large‑scale, low‑latency deployment.
 
-Example scenario
+**Example scenario**
 A large retail provider wants to personalize product suggestions for millions of users with low latency; they use Merlin for both model training and serving on GPUs.
 ​
 
