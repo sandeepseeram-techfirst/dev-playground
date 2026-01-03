@@ -17,23 +17,20 @@ Ready‑made NVIDIA AI application platforms for specific domains, so you can us
 
 #### NVIDIA Clara – Healthcare & life sciences
 Clara is an AI platform for healthcare and life sciences.
-​
 
-Main capabilities:
+**​Main capabilities:**
 ​
-
 Accelerated medical imaging: CT, MRI, pathology image analysis.
 
 Genomics: faster genome sequencing and analysis.
 
 Smart hospital AI: real‑time AI in medical devices and hospital operations.
 
-Example scenario
+**Example scenario**
 A smart hospital wants to:
 ​
+1. Speed up imaging workflows (CT/MRI reads).
 
-Speed up imaging workflows (CT/MRI reads).
+2. Accelerate genomics pipelines.
 
-Accelerate genomics pipelines.
-
-Run AI models on live streams from devices/monitors.
+3. Run AI models on live streams from devices/monitors.
