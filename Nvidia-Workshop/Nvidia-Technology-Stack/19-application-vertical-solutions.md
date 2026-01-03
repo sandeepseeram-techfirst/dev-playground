@@ -2,6 +2,7 @@
 Ready‑made NVIDIA AI application platforms for specific domains, so you can use AI without building everything on CUDA, NCCL, etc. yourself.
 
 #### Stack Visualization 
+
 [Layer 6] Apps & Vertical Solutions
    - Clara (healthcare)
    - Merlin (recommenders)
@@ -12,3 +13,5 @@ Ready‑made NVIDIA AI application platforms for specific domains, so you can us
 [Layer 3] Interconnects (NVLink, NVSwitch, PCIe, RDMA)
 [Layer 2] Systems (DGX, HGX, clusters)
 [Layer 1] GPUs & Hardware
+
+
