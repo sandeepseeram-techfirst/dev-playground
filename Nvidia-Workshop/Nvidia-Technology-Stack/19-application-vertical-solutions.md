@@ -58,5 +58,31 @@ Supports large‑scale, low‑latency deployment.
 A large retail provider wants to personalize product suggestions for millions of users with low latency; they use Merlin for both model training and serving on GPUs.
 
 
+#### ​NVIDIA NIM – NVIDIA Inference Microservices
+NIM = NVIDIA Inference Microservices.
 ​
+It is a deployment layer for AI models: “inference microservices” so you do not manage all underlying infra details.
+​
+Focus:
+​1. Serve LLMs, vision, and speech models as containerized inference services.
+2. Run those services on any cloud or on‑prem.
+3. Integrate AI into enterprise and edge applications.
+
+**Capabilities and usage**
+Deploy pretrained models (e.g., LLaMA, Stable Diffusion) as services behind standard APIs.
+​
+
+Scale inference horizontally while NIM handles the underlying GPU usage and serving stack.
+​
+
+Example scenario
+You have pretrained LLMs and diffusion models and want to:
+​
+
+Expose them via HTTP/gRPC APIs.
+
+Avoid managing Triton configs, GPU placement, load balancing manually.
+
+You use NIM to deploy them as microservices, then call them from your applications through standard APIs.
+
 
