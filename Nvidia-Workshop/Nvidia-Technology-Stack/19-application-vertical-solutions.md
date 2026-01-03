@@ -56,5 +56,7 @@ Supports large‑scale, low‑latency deployment.
 
 **Example scenario**
 A large retail provider wants to personalize product suggestions for millions of users with low latency; they use Merlin for both model training and serving on GPUs.
+
+
 ​
 
