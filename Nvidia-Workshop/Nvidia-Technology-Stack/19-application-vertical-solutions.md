@@ -70,15 +70,11 @@ Focus:
 
 **Capabilities and usage**
 Deploy pretrained models (e.g., LLaMA, Stable Diffusion) as services behind standard APIs.
+​Scale inference horizontally while NIM handles the underlying GPU usage and serving stack.
 ​
-
-Scale inference horizontally while NIM handles the underlying GPU usage and serving stack.
-​
-
-Example scenario
+**Example scenario**
 You have pretrained LLMs and diffusion models and want to:
 ​
-
 Expose them via HTTP/gRPC APIs.
 
 Avoid managing Triton configs, GPU placement, load balancing manually.
