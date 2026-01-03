@@ -29,3 +29,4 @@ BCM is a separate NVIDIA product; it requires an enterprise license and is not i
 - Jobs: status, performance, resource usage
 - Users: quotas, consumption
 
+**BCM sits at the top as the data‑center‑wide command and control system, using DCGM metrics underneath and integrating with schedulers to manage both resources and workloads end‑to‑end.**
