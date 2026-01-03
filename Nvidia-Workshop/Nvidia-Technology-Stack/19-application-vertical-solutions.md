@@ -34,3 +34,28 @@ A smart hospital wants to:
 2. Accelerate genomics pipelines.
 
 3. Run AI models on live streams from devices/monitors.
+
+#### NVIDIA Merlin – Recommendation systems
+Merlin is a framework for building large‑scale recommender systems on GPUs.
+​
+**Typical use cases:**​
+
+Product recommendations on retail / e‑commerce (like Amazon).
+
+Content recommendations on streaming platforms (like Netflix).
+
+Personalized, low‑latency recommendations at scale.
+
+Capabilities:
+​
+
+Accelerates training and inference of recommendation models on GPUs.
+
+Handles recent user activity and large‑scale data to improve recommendation quality.
+
+Supports large‑scale, low‑latency deployment.
+
+Example scenario
+A large retail provider wants to personalize product suggestions for millions of users with low latency; they use Merlin for both model training and serving on GPUs.
+​
+
