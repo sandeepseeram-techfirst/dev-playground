@@ -58,3 +58,23 @@ TensorRT takes trained models and optimizes them for a specific deployment targe
 NVIDIA Triton Inference Server (called “NVIDIA Return Inference Server” in the transcript) hosts models and exposes endpoints for predictions.
 You send input data (e.g., JSON, tensors) to Triton and receive inference results back.
 ​It supports multiple frameworks (TensorRT, PyTorch, TensorFlow, ONNX, etc.) and handles batching, versioning, and scaling.
+
+#### Steps 
+
+Step 1: Data Processing
+  - Clean, transform, augment data
+  - Tool: RAPIDS (GPU-accelerated)
+
+Step 2: Model Training
+  - Train model on processed data
+  - Tool: PyTorch / TensorFlow (GPU-optimized)
+
+Step 3: Model Optimization
+  - Quantize, prune, optimize model
+  - Tool: TensorRT
+
+Step 4: Inference / Deployment
+  - Serve model, answer prediction requests
+  - Tool: Triton Inference Server
+
+End result: A production AI service delivering predictions from your data.
