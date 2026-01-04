@@ -35,4 +35,4 @@ Goals can be higher accuracy, lower latency, or smaller footprint to fit less po
 
 4. **Inference / deployment**
 Deploy the optimized model into a production environment where it receives new inputs and returns predictions.
-​The model is now an online service or batch pipeline making real decisions (e.g., fraud alerts, recommendations, anomaly flags).
+​The model is now an online service or batch pipeline making real decisions (e.g., fraud alerts, recommendations, anomaly flags). 
