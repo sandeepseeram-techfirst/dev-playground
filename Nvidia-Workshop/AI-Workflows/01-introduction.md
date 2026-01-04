@@ -40,3 +40,6 @@ Deploy the optimized model into a production environment where it receives new i
 #### NVIDIA RAPIDS – data processing
 RAPIDS provides GPU‑accelerated libraries for dataframes, ETL, and analytics.
 ​It is optimized for NVIDIA hardware/software, so data prep (joins, filters, feature engineering) can run much faster than CPU‑only workflows.
+
+#### PyTorch / TensorFlow – model training
+NVIDIA‑optimized PyTorch and TensorFlow use CUDA, cuDNN, and NCCL under the hood, so you write normal ML code but training runs efficiently on GPUs. They are the primary recommendation in this workflow for the training stage.
