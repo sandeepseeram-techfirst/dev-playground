@@ -10,23 +10,20 @@ Clean, transform, augment, and prepare raw data so it is suitable for training.
 ​
 **Examples:**
 
-Fix missing fields in transaction logs.
+* Fix missing fields in transaction logs.
 
-Normalize numeric features; encode categorical variables.
+* Normalize numeric features; encode categorical variables.
 
-Augment medical images to improve robustness.
+* Augment medical images to improve robustness.
 
-2. Model training
+2. **Model training**
 Choose a model (from public domain or built in‑house) and teach it by feeding processed data so it learns patterns.
 ​
-
-Example: fraud detection model for credit cards trained on historical valid vs fraudulent transactions.
+**Example:** fraud detection model for credit cards trained on historical valid vs fraudulent transactions.
+​Training details depend on the data type and model architecture you pick.
 ​
 
-Training details depend on the data type and model architecture you pick.
-​
-
-3. Model optimization
+3. **Model optimization**
 Take the trained model and refine/compress it for deployment:
 
 Quantization – reduce precision of weights/activations to speed up inference and shrink model size.
