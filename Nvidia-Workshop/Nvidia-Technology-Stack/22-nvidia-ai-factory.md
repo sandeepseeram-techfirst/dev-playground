@@ -11,3 +11,4 @@ Conceptually, an AI Factory is an AI‑optimized data center that NVIDIA or part
 
 * Hybrid (mix of both).
 
+**It is not yet a simple, universally available product you can immediately purchase and use; rather, it is a direction and set of reference designs for future AI‑centric data centers that can be deployed on‑prem, in cloud, or in hybrid environments.**
