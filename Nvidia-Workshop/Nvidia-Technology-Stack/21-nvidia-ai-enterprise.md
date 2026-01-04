@@ -1,1 +1,2 @@
 ### Nvidia AI Enterprise
+NVIDIA AI Enterprise is a complete software suite (“OS for enterprise AI”) that bundles NVIDIA’s AI infrastructure, application software, and management tools so enterprises can build, run, and manage AI safely, efficiently, and at scale across cloud, data center, edge, and workstations
