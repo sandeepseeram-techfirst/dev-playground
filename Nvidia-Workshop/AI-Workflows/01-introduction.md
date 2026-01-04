@@ -54,3 +54,9 @@ TensorRT takes trained models and optimizes them for a specific deployment targe
 
 * Other graph‑level optimizations for latency and throughput.
 ​
+#### Triton Inference Server – deployment & inference
+NVIDIA Triton Inference Server (called “NVIDIA Return Inference Server” in the transcript) hosts models and exposes endpoints for predictions.
+​
+You send input data (e.g., JSON, tensors) to Triton and receive inference results back.
+​
+It supports multiple frameworks (TensorRT, PyTorch, TensorFlow, ONNX, etc.) and handles batching, versioning, and scaling.
