@@ -36,3 +36,7 @@ Goals can be higher accuracy, lower latency, or smaller footprint to fit less po
 4. **Inference / deployment**
 Deploy the optimized model into a production environment where it receives new inputs and returns predictions.
 ​The model is now an online service or batch pipeline making real decisions (e.g., fraud alerts, recommendations, anomaly flags). 
+
+#### NVIDIA RAPIDS – data processing
+RAPIDS provides GPU‑accelerated libraries for dataframes, ETL, and analytics.
+​It is optimized for NVIDIA hardware/software, so data prep (joins, filters, feature engineering) can run much faster than CPU‑only workflows.
