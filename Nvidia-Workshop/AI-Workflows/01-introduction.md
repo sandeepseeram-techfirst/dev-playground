@@ -61,19 +61,19 @@ You send input data (e.g., JSON, tensors) to Triton and receive inference result
 
 #### Steps 
 
-Step 1: Data Processing
+**Step 1: Data Processing**
   - Clean, transform, augment data
   - Tool: RAPIDS (GPU-accelerated)
 
-Step 2: Model Training
+**Step 2: Model Training**
   - Train model on processed data
   - Tool: PyTorch / TensorFlow (GPU-optimized)
 
-Step 3: Model Optimization
+**Step 3: Model Optimization**
   - Quantize, prune, optimize model
   - Tool: TensorRT
 
-Step 4: Inference / Deployment
+**Step 4: Inference / Deployment**
   - Serve model, answer prediction requests
   - Tool: Triton Inference Server
 
