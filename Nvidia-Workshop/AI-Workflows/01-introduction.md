@@ -43,3 +43,14 @@ RAPIDS provides GPU‑accelerated libraries for dataframes, ETL, and analytics.
 
 #### PyTorch / TensorFlow – model training
 NVIDIA‑optimized PyTorch and TensorFlow use CUDA, cuDNN, and NCCL under the hood, so you write normal ML code but training runs efficiently on GPUs. They are the primary recommendation in this workflow for the training stage.
+
+#### TensorRT – model optimization
+TensorRT takes trained models and optimizes them for a specific deployment target and use case.
+​It performs optimizations such as:
+
+* Layer fusion, kernel selection.
+
+* Quantization (e.g., FP32 → FP16/INT8).
+
+* Other graph‑level optimizations for latency and throughput.
+​
