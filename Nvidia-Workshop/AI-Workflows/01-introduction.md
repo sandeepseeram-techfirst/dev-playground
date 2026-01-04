@@ -26,11 +26,10 @@ Choose a model (from public domain or built in‑house) and teach it by feeding 
 3. **Model optimization**
 Take the trained model and refine/compress it for deployment:
 
-Quantization – reduce precision of weights/activations to speed up inference and shrink model size.
+**Quantization** – reduce precision of weights/activations to speed up inference and shrink model size.
 
-Pruning – remove less important weights/neurons to reduce complexity.
+**Pruning** – remove less important weights/neurons to reduce complexity.
 ​
-
 Goals can be higher accuracy, lower latency, or smaller footprint to fit less powerful hardware.
 ​
 
