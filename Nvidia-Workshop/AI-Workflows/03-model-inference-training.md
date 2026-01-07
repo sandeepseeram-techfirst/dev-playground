@@ -9,3 +9,25 @@ Model training is the long, compute‑heavy process of teaching a model from lot
 ​
 So training is slow, iterative learning; inference is fast, repeatable serving.
 ​
+
+#### Model training
+Objective: build the model by learning parameters from large datasets through multiple iterations.
+​
+**Workflow:**
+
+​* Forward pass → compute predictions on training data.
+
+* Compare with labels → compute errors (loss).
+
+* Backward pass → propagate errors and update weights.
+
+* Repeat many times (epochs) over the dataset.
+
+**Model Inference:**
+Objective: use the trained model to make predictions on new, unseen data.
+​
+Only forward pass is needed: input → model → output (no backward/weight updates).
+​
+Example: trained on many cat/dog images, then given a new image, the model outputs “cat” or “dog.”
+​
+
