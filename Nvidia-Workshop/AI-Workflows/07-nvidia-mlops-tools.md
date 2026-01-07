@@ -10,3 +10,18 @@ Goal: clean, transform, de‑bias, and augment data so models learn from good, r
 ​3. NeMo Data Curator – tools to build large, high‑quality datasets for language models and similar use cases.
 ​
 These tools use GPU acceleration to make data prep much faster than on CPUs and are tuned for NVIDIA GPUs.
+
+#### 2. Model training
+Goal: train models efficiently at scale on many GPUs and nodes, without manually handling cluster complexity.
+​
+**Key NVIDIA components:**
+
+1. NVIDIA AI Enterprise stack – enterprise bundle that includes infra and training software.
+​
+2. Base Command Platform / Manager – manage, schedule, and monitor large‑scale training jobs across GPU clusters.
+​
+3. DGX Cloud – NVIDIA’s cloud‑hosted GPU infrastructure for training.
+​
+4. Optimized PyTorch and TensorFlow – NVIDIA‑tuned builds for high‑performance GPU training.
+​
+These manage scheduling, monitoring, and management of large training jobs, so you focus on model code, not cluster plumbing.
