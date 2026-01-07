@@ -62,3 +62,16 @@ Goal: continuously monitor workloads and models, track versions, and analyze per
 3. NGC Registry (NVIDIA GPU Cloud catalog) – model and container registry to store and version models, containers, and resources.
 ​
 These enable centralized monitoring, model tracking, performance analytics, and controlled rollout of updates.
+
+#### 6. Continuous learning and updates
+Goal: automate retraining and fine‑tuning with new data so models stay accurate over time.
+​
+**Key NVIDIA tools:**
+
+1. NGC Workflows – orchestrated ML pipelines for training, retraining, and deployment.
+​
+2. TAO Toolkit – again used for transfer learning and fine‑tuning.
+​
+3. NeMo framework – for training and fine‑tuning large language and speech models.
+​
+These tools automate retraining and fine‑tuning pipelines, closing the loop for ML Ops.
