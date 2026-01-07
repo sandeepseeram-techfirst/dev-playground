@@ -11,3 +11,12 @@
 **Focus:** container life‑cycle management (start, scale, heal, decommission containers).
 ​**Used for:** AI inference workloads, microservices, and sometimes data pipelines as services.
 ​**Behavior:** services are always‑on, auto‑scaled, and kept healthy to serve continuous traffic.
+
+#### GPU integration
+**Slurm + NVIDIA GPUs** 
+1. CUDA‑aware Slurm understands multiple GPUs and their topology via an NVIDIA plugin.
+2. ​It can schedule jobs onto specific GPUs or GPU sets efficiently, aware of the underlying GPU architecture.
+​
+#### Kubernetes + NVIDIA GPUs
+1. Uses the NVIDIA GPU Operator so Kubernetes can understand and manage GPU resources.
+2. ​The operator works with DCGM metrics (GPU utilization, memory, etc.) to place workloads optimally across nodes.
