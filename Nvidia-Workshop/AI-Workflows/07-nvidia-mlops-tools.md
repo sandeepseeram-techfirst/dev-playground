@@ -36,3 +36,16 @@ Goal: optimize and compress trained models for fast, efficient inference on GPUs
 2. TAO Toolkit – higher‑level toolkit that simplifies optimization, pruning, and transfer learning/fine‑tuning.
 ​
 They automatically optimize and compress models for low‑latency inference on NVIDIA GPUs or edge devices.
+
+#### 4. Deployment & inference
+Goal: deploy optimized models into production and run inference at scale, across on‑prem, cloud, or edge.
+​
+**Key NVIDIA tools:**
+
+1. NVIDIA Triton Inference Server – scalable multi‑framework inference server.
+​
+2. NVIDIA NIM microservices – inference microservices to expose models as standard APIs.
+​
+3. Fleet Command – manage and orchestrate deployments across many edge and hybrid locations.
+​
+They support autoscaling, versioning, monitoring, and deployment in on‑prem, cloud, and edge environments.
