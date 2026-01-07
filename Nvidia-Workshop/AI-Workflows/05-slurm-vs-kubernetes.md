@@ -20,3 +20,9 @@
 #### Kubernetes + NVIDIA GPUs
 1. Uses the NVIDIA GPU Operator so Kubernetes can understand and manage GPU resources.
 2. ​The operator works with DCGM metrics (GPU utilization, memory, etc.) to place workloads optimally across nodes.
+
+#### Nvidia Integration 
+
+* Slurm leverages DCGM, NCCL, and GPU Direct RDMA plus CUDA awareness to schedule and coordinate multi‑node training efficiently.
+​
+* Kubernetes leverages the GPU Operator, DCGM, DCGM Exporter, MIG awareness, and advanced scheduling to manage GPU‑backed inference microservices with autoscaling and rebalancing.
