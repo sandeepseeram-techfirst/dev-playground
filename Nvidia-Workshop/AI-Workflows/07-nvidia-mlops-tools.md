@@ -49,3 +49,16 @@ Goal: deploy optimized models into production and run inference at scale, across
 3. Fleet Command – manage and orchestrate deployments across many edge and hybrid locations.
 ​
 They support autoscaling, versioning, monitoring, and deployment in on‑prem, cloud, and edge environments.
+
+#### 5. Monitoring, management, and model registry
+Goal: continuously monitor workloads and models, track versions, and analyze performance.
+​
+**Key NVIDIA tools:**
+
+1. Base Command Manager – centralized monitoring and management of GPU workloads and clusters.
+​
+2. Fleet Command – central control plane for distributed deployments.
+​
+3. NGC Registry (NVIDIA GPU Cloud catalog) – model and container registry to store and version models, containers, and resources.
+​
+These enable centralized monitoring, model tracking, performance analytics, and controlled rollout of updates.
