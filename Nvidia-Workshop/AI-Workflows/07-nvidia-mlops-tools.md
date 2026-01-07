@@ -25,3 +25,14 @@ Goal: train models efficiently at scale on many GPUs and nodes, without manually
 4. Optimized PyTorch and TensorFlow – NVIDIA‑tuned builds for high‑performance GPU training.
 ​
 These manage scheduling, monitoring, and management of large training jobs, so you focus on model code, not cluster plumbing.
+
+#### 3. Model optimization
+Goal: optimize and compress trained models for fast, efficient inference on GPUs and edge devices.
+​
+**Key NVIDIA tools:**
+
+1. TensorRT – compiles and optimizes models (layer fusion, kernel selection, quantization).
+​
+2. TAO Toolkit – higher‑level toolkit that simplifies optimization, pruning, and transfer learning/fine‑tuning.
+​
+They automatically optimize and compress models for low‑latency inference on NVIDIA GPUs or edge devices.
