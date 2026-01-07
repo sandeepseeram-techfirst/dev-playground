@@ -12,4 +12,6 @@ ML Ops is about running ML like a disciplined, well‑managed kitchen: standardi
 * Continuous monitoring checks model accuracy and behavior in production.
 ​
 **Result: consistent, trustworthy predictions aligned with business expectations.**
+
+MLOps applies DevOps-style continuous delivery and automation to the entire ML lifecycle—data, models, deployment, and monitoring—so ML systems run continuously, repeatably, and reliably in production.
 ​
