@@ -75,3 +75,27 @@ Goal: automate retraining and fine‑tuning with new data so models stay accurat
 3. NeMo framework – for training and fine‑tuning large language and speech models.
 ​
 These tools automate retraining and fine‑tuning pipelines, closing the loop for ML Ops.
+
+#### Nvidia MLOps Stack 
+
+1) Data Prep & Feature Engineering
+   - RAPIDS, NVTabular, NeMo Data Curator
+
+2) Model Training
+   - NVIDIA AI Enterprise, Base Command Platform/Manager
+   - DGX Cloud, NVIDIA-optimized PyTorch/TensorFlow
+
+3) Model Optimization
+   - TensorRT, TAO Toolkit
+
+4) Deployment & Inference
+   - Triton Inference Server
+   - NVIDIA NIM microservices
+   - Fleet Command (multi-site deployments)
+
+5) Monitoring & Management
+   - Base Command Manager, Fleet Command
+   - NGC Registry (models & containers)
+
+6) Continuous Learning & Updates
+   - NGC Workflows, TAO Toolkit, NeMo framework
