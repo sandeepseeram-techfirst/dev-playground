@@ -1,0 +1,2 @@
+### TFLOPS (Tera Floating Point Operations Per Second)
+TFLOPS stands for “tera floating point operations per second,” which is a measure of how many trillion floating‑point math operations a processor (like a GPU) can perform every second.
