@@ -6,4 +6,4 @@ There are three main types:
 
 **Unsupervised Learning:** Works with unlabeled data to discover hidden patterns. Used for clustering (K-Means, DBSCAN), dimensionality reduction (PCA, t-SNE), and anomaly detection.
 
-**Reinforcement Learning:** An agent learns by interacting with an environment and receiving rewards/penalties. Used in game AI, robotics, and importantly, RLHF for aligning LLMs.
+**Reinforcement Learning:** An agent learns by interacting with an environment and receiving rewards/penalties. Used in game AI, robotics, and importantly, RLHF for aligning LLMs. 
