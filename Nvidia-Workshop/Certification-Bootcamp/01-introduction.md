@@ -12,4 +12,7 @@ The examination test, and will focus on developing, integrating, and maintaining
 ​
 **Data visualization:** techniques for presenting and interpreting AI‑related data effectively.
 
+#### Key Technical Concepts 
+
+
 
