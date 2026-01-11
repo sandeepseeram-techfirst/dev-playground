@@ -14,5 +14,14 @@ The examination test, and will focus on developing, integrating, and maintaining
 
 #### Key Technical Concepts 
 
-
-
+**Machine Learning:** A branch of AI where systems learn patterns from data to make predictions or decisions without explicit rule‑based programming.
+​
+**Feedback And Loss:** The model receives numerical feedback via a loss function that measures how wrong its predictions are, guiding parameter updates.
+​
+**Data:** The core resource that provides examples and patterns; in the house‑price case, this includes information such as size, rooms, location, and sale price.
+​
+**Features:** Specific input attributes extracted from data (square footage, bedrooms, bathrooms, location) that the model uses to predict the target.
+​
+**Algorithm:** The learning procedure (e.g., linear regression, decision tree, neural network) that maps features to target values and updates itself using loss feedback.
+​
+**Supervised Learning Scenario:** Predicting house prices is framed as a supervised learning task where the model learns from labeled examples (features + known price) to predict prices for new houses.
