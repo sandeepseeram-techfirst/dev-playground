@@ -4,3 +4,11 @@ Machine learning is a branch of AI where systems learn patterns from data withou
 **Data:** described as the “fuel” for learning, providing examples and patterns.
 ​**Features:** specific attributes of the data (such as square footage, bedrooms, location) that the model uses to make predictions.
 ​**Algorithm:** the model or recipe (e.g., linear regression, decision trees, neural networks) that learns relationships between features and the target.
+
+#### AI vs. ML vs. DL 
+
+**AI** is the broadest field, covering any technique that lets computers mimic human intelligence for tasks like problem‑solving, reasoning, learning, and perception, and act autonomously on data.
+​
+**ML** is a subset of AI focused on algorithms that learn patterns from datasets and make predictions or decisions without being explicitly programmed for each task.
+​
+**DL** is a subset of ML that uses artificial neural networks to learn complex patterns from data (especially large, complex data) without explicit task‑specific programming.
