@@ -11,3 +11,5 @@
 **Model training:** Train on prepared data, tune hyperparameters, and manage overfitting (too complex, memorizes training data) and underfitting (too simple, performs poorly) using techniques such as early stopping, adjusting model complexity, and increasing data.
 ​
 **Deployment and monitoring:** Integrate the trained model into production systems (web, mobile, embedded), then continuously monitor performance and use techniques like A/B testing to compare models in real environments.
+
+#### Nvidia Tech Stack 
