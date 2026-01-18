@@ -10,12 +10,10 @@
 #### Algorithms
 
 **Decision trees:** easy to interpret and visualize but prone to overfitting.
-​
-**Logistic regression:** simple and efficient, particularly for binary classification.
-​
-**Support Vector Machines:** effective for high‑dimensional data and complex decision boundaries.
-​
-**Neural networks:** powerful and flexible but computationally expensive and data‑hungry. 
+​**Logistic regression:** simple and efficient, particularly for binary classification.
+​**Support Vector Machines:** effective for high‑dimensional data and complex decision boundaries.
+​**Neural networks:** powerful and flexible but computationally expensive and data‑hungry. 
+
 
 **Regression** 
 Regression is a supervised ML task for predicting continuous numerical values (e.g., market trends, crop yield, customer lifetime value) from structured data with features X and continuous target Y.
