@@ -12,3 +12,11 @@ Machine learning is a branch of AI where systems learn patterns from data withou
 **ML** is a subset of AI focused on algorithms that learn patterns from datasets and make predictions or decisions without being explicitly programmed for each task.
 ​
 **DL** is a subset of ML that uses artificial neural networks to learn complex patterns from data (especially large, complex data) without explicit task‑specific programming.
+
+#### Types of machine learning
+
+**Supervised learning:** learns from labeled data (inputs plus known outputs), like a student using a textbook with answer keys; examples include spam detection, house price prediction, and cat‑vs‑dog image classification.
+​
+**Unsupervised learning:** finds hidden patterns or groupings in unlabeled data, like a detective inferring structure from clues; examples include customer segmentation, similar‑article grouping, and anomaly detection.
+​
+**Reinforcement learning:** an agent interacts with an environment and learns actions that maximize reward through trial and error; examples include robot control, game‑playing AIs like AlphaGo, and self‑driving car control optimization.
