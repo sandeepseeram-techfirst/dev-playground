@@ -13,3 +13,11 @@
 **Deployment and monitoring:** Integrate the trained model into production systems (web, mobile, embedded), then continuously monitor performance and use techniques like A/B testing to compare models in real environments.
 
 #### Nvidia Tech Stack 
+
+**For data preparation:** NVIDIA RAPIDS and CUDA‑accelerated RAPIDS libraries to speed up data loading, processing, and feature engineering on GPUs.
+​
+**For model selection and training:** CUDA‑X AI, TensorRT‑related tooling, NGC catalog, and NVIDIA Deep Learning Institute resources to support efficient training workflows.
+​
+**For deployment and inference:** NVIDIA Triton Inference Server for scalable GPU deployment and TensorRT as an SDK for high‑performance deep learning inference.
+​
+**For end‑to‑end acceleration:** NVIDIA AI Enterprise and NVIDIA‑Certified Systems that provide an integrated stack to accelerate the entire ML pipeline.
