@@ -5,8 +5,7 @@ Model Selection & Training - will include the Hands on Labs
 #### Evaluation Metrics
 Evaluation metrics are quantitative measures to assess how well a ML model performs on a dataset and how well it generalizes to unseen data.
 
-
-**Metrics explained** 
+**Metrics Explained** 
 
 **Accuracy:** proportion of correct predictions out of all predictions; e.g., 80 correctly classified rows out of 100 gives 80% accuracy.
 ​
