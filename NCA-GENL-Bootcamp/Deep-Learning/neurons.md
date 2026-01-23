@@ -27,7 +27,7 @@ what an artificial neuron is and how it processes input data using weights, bias
    \]
    The output of the activation function is the neuron’s final output. 
 
-## Numerical example from the video
+## Numerical Example
 
 - Inputs: \(x_1 = 0.5\), \(x_2 = 0.8\). 
 - Weights: \(w_1 = 0.3\), \(w_2 = 0.6\). 
@@ -38,7 +38,7 @@ what an artificial neuron is and how it processes input data using weights, bias
   \][page:1]
 - Activation function used: ReLU, which in this case outputs \(0.53\) because it is positive. 
 
-## Activation functions to know for exam
+## Activation Functions
 
 - Sigmoid: Squashes values between 0 and 1, used for probabilities. 
 - ReLU: Outputs zero for negative values and the same value for positive inputs. 
