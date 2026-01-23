@@ -55,4 +55,4 @@
 - Understand the conceptual role of gradient descent as an optimization algorithm for deep learning models. 
 - Be able to explain and write the parameter update rule with learning rate and gradient. 
 - Know the differences between batch, stochastic, and mini-batch gradient descent, including pros and cons. 
-- Be aware of challenges (learning rate, local minima) and typical mitigation strategies (schedulers, Adam, momentum, mini-batches). 
+- Be aware of challenges (learning rate, local minima) and typical mitigation strategies (schedulers, Adam, momentum, mini-batches).  
