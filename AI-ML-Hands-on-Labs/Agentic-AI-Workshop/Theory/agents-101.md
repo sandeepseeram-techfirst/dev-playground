@@ -18,3 +18,7 @@ OpenAI and many other LLM providers have focused on scaling GPT-3.5-like models 
  These are systems where multiple different Agents are deployed that are each responsible for different tasks. Compared to single-agent systems, Multi-Agent systems interact with one another and might consult each other’s specialties.
 
 ![Multi-Agent-Systems](image-2.png)
+
+These Multi-Agent systems often contain specialized Agents, each equipped with different toolsets. Although workflows may differ, there is often a supervisor Agent that manages communication between, and sometimes within, Agents. In practice, the supervisor Agent tends to have the most capable LLM, as the supervisor is in charge of advanced behavior like planning, decomposing, and assigning tasks.
+
+![Multi Agent - Specialized Agents](image-3.png)
