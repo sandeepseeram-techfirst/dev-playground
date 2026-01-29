@@ -17,3 +17,4 @@
 4. **Reasoning:** An LLM or similar model works as a reasoning engine, doing chain-of-thought style inference and using techniques like RAG to ground decisions.
 
 5. **Memory:** Agents store short- and long-term context (for example, in vector stores or databases) to avoid stateless behavior and improve over multiple interactions.
+
