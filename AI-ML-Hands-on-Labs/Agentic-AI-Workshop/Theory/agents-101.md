@@ -11,3 +11,4 @@ By doing this iteratively (which is called **autoregression**), it can create en
 ![Reasoning - LLM](image-1.png)
 
 ### Reasoning Large Language Models
+OpenAI and many other LLM providers have focused on scaling GPT-3.5-like models to new heights by throwing more data, compute, and parameters at these models.
