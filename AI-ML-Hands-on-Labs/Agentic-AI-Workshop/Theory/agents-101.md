@@ -1,6 +1,6 @@
 ### Agents 101 
 
-An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
+An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators. An “agentic system” is a reasoning LLM augmented with memory, tools, and planning, embedded in workflows with a chosen degree of autonomy, from single-step tool calls with guardrails to fully autonomous behavior.
 
 
 ![Agent](image.png)
@@ -22,3 +22,4 @@ OpenAI and many other LLM providers have focused on scaling GPT-3.5-like models 
 These Multi-Agent systems often contain specialized Agents, each equipped with different toolsets. Although workflows may differ, there is often a supervisor Agent that manages communication between, and sometimes within, Agents. In practice, the supervisor Agent tends to have the most capable LLM, as the supervisor is in charge of advanced behavior like planning, decomposing, and assigning tasks.
 
 ![Multi Agent - Specialized Agents](image-3.png)
+
