@@ -7,6 +7,7 @@ In practice, the “brain” is a reasoning LLM; tools are its actuators, multim
 Reasoning LLMs extend this by “thinking out loud”: they first generate intermediate reasoning traces (“thoughts”) and then an answer, enabling better multi-step reasoning, planning, tool choice, and error correction, at the cost of more compute; “regular” LLMs are still preferred for fast, cheap answers.
 
 
+
 ![Agent](image.png)
 
 Traditionally, an LLM is a model that does nothing more than predict the next word based on a given input text. The LLM therefore predicts the next token, uses the predicted token to update its input, and then continues the predictions. 
