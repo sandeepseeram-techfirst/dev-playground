@@ -2,6 +2,8 @@
 
 An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators. An “agentic system” is a reasoning LLM augmented with memory, tools, and planning, embedded in workflows with a chosen degree of autonomy, from single-step tool calls with guardrails to fully autonomous behavior.
 
+In practice, the “brain” is a reasoning LLM; tools are its actuators, multimodal inputs (text, images, audio, etc.) serve as sensors, and the user plus digital systems form the environment in which the agent operates.
+
 
 ![Agent](image.png)
 
