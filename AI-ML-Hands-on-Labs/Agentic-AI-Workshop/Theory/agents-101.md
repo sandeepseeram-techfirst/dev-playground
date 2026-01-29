@@ -16,3 +16,4 @@ OpenAI and many other LLM providers have focused on scaling GPT-3.5-like models 
 
 ### Multi Agent Systems 
 
+![Multi-Agent-Systems](image-2.png)
