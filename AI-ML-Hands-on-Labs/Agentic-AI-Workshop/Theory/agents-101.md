@@ -13,3 +13,6 @@ By doing this iteratively (which is called **autoregression**), it can create en
 ### Reasoning Large Language Models
 
 OpenAI and many other LLM providers have focused on scaling GPT-3.5-like models to new heights by throwing more data, compute, and parameters at these models. This is called **train-time scaling**, where training these models on more data and making them larger had a proportional effect on performance. The idea was that pre-training (the first and most expensive part of training an LLM) is the fossil fuel of AI. The larger your pre-training budget, the better the resulting model will be.
+
+### Multi Agent Systems 
+
