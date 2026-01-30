@@ -4,7 +4,7 @@ An agent is anything that can be viewed as perceiving its environment through se
 
 In practice, the “brain” is a reasoning LLM; tools are its actuators, multimodal inputs (text, images, audio, etc.) serve as sensors, and the user plus digital systems form the environment in which the agent operates.
 
-Reasoning LLMs extend this by “thinking out loud”: they first generate intermediate reasoning traces (“thoughts”) and then an answer, enabling better multi-step reasoning, planning, tool choice, and error correction, at the cost of more compute; “regular” LLMs are still preferred for fast, cheap answers.
+Reasoning LLMs extend this by “thinking out loud”: they first generate intermediate reasoning traces (“thoughts”) and then an answer, enabling better multi-step reasoning, planning, tool choice, and error correction, at the cost of more compute; “regular” LLMs are still preferred for fast, cheap answers. 
 
 
 ![Agent](image.png)
