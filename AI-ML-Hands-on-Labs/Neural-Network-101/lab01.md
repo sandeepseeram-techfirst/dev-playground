@@ -11,3 +11,4 @@ tf.config.list_physical_devices('GPU')
 [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
 
 GPUs were originally designed for the significant amount of matrix mathematics used when rendering computer graphics. Neural networks also require a significant amount of matrix multiplication, making GPUs a good fit when building them.
+
