@@ -12,3 +12,5 @@ tf.config.list_physical_devices('GPU')
 
 GPUs were originally designed for the significant amount of matrix mathematics used when rendering computer graphics. Neural networks also require a significant amount of matrix multiplication, making GPUs a good fit when building them.
 
+fashion_mnist = tf.keras.datasets.fashion_mnist
+(train_images, train_labels), (valid_images, valid_labels) = fashion_mnist.load_data()
