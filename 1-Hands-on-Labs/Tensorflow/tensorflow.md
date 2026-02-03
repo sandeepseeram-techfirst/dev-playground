@@ -1,3 +1,3 @@
 ### Tensorflow
 
-TensorFlow is a powerful deep learning library that can be used to build NLP applications.
+TensorFlow is an open‑source machine learning framework from Google for building, training, and deploying models, especially deep neural networks.
