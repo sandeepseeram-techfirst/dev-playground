@@ -43,9 +43,7 @@ trains models to show step‑by‑step reasoning; this usually improves accuracy
 
 
 ##### Quantization 
-shrinks model weights from, say, 32‑bit to 8‑bit numbers after training, cutting memory and inference cost without retraining from scratch, at some quality trade‑off. 
-
-
+shrinks model weights from, say, 32‑bit to 8‑bit numbers after training, cutting memory and inference cost without retraining from scratch, at some quality trade‑off.
 
 
 
