@@ -4,7 +4,7 @@
 
 * Agentic AI is goal-driven and proactive: it decomposes high-level objectives into subtasks, chooses tools and actions, adapts as it goes, and can remember previous context.
 
-#### Key components of agency
+#### Agentic AI 
 
 1. Autonomy: Agents act without constant human supervision, perceiving the environment, making decisions, and self-monitoring (for example, a warehouse robot navigating and rerouting on its own).
 
