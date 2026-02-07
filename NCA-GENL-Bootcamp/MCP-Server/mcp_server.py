@@ -36,4 +36,4 @@ def fetch_wikipedia_info(query: str) -> dict:
 # Run the MCP server
 if __name__ == "__main__":
     print("Starting MCP Wikipedia Server...")
-    mcp.run(transport="stdio")
+    mcp.run(transport="stdio") 
