@@ -10,7 +10,6 @@ Gather relevant, high-quality data from various sources, handle privacy and bias
 
 ### Model Selection
 Choose algorithms based on problem type, data size, and interpretability. Remember there's no single best algorithm for all problems (no free lunch theorem). Distinguish between supervised (labeled data) and unsupervised (unlabeled data).
-
 ### Model Training
 Train on prepared data, tune hyperparameters, and manage overfitting (too complex, memorizes training data) and underfitting (too simple, performs poorly). Use techniques like early stopping, adjusting model complexity, and increasing data.
 
