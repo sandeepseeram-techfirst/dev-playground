@@ -1,1 +1,2 @@
 ### Agentic AI Workshop 
+Agentic AI systems are autonomous AI “agents” that can perceive their environment, set and pursue goals, plan multi-step actions, use tools, and leverage memory, going beyond simple input-output responses of traditional reactive AI.
