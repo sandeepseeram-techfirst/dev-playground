@@ -34,4 +34,4 @@ CoreDNS supports multiple DNS transport protocols out of the box:
 
 * https:// — DNS over HTTPS (DoH, RFC 8484)
 
-* grpc:// — DNS over gRPC 
+* grpc:// — DNS over gRPC
