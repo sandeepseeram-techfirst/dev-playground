@@ -25,3 +25,13 @@ When a Pod makes a DNS request (e.g., my-service.default.svc.cluster.local), the
 
 5. The cache plugin stores the response with a default TTL of 5 seconds
 
+### Key Protocols Supported
+CoreDNS supports multiple DNS transport protocols out of the box:
+
+* dns:// — plain DNS (default)
+
+* tls:// — DNS over TLS (DoT, RFC 7858)
+
+https:// — DNS over HTTPS (DoH, RFC 8484)
+
+grpc:// — DNS over gRPC
