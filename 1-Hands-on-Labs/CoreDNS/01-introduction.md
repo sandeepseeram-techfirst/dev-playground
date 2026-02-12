@@ -8,4 +8,4 @@ The entire behavior of CoreDNS is defined in a single configuration file called 
 
 * Forwarder plugins — forward queries to upstream DNS servers (e.g., for external domains)
 
-* Cache plugins — cache responses to reduce repeated upstream lookups
+* Cache plugins — cache responses to reduce repeated upstream lookups 
