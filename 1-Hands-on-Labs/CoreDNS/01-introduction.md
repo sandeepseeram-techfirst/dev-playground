@@ -8,7 +8,7 @@ The entire behavior of CoreDNS is defined in a single configuration file called 
 
 * Forwarder plugins — forward queries to upstream DNS servers (e.g., for external domains)
 
-* Cache plugins — cache responses to reduce repeated upstream lookups 
+* Cache plugins — cache responses to reduce repeated upstream lookups
 
 ### How It Works in Kubernetes
 CoreDNS runs as a Deployment in the kube-system namespace, with 2 replicas by default for high availability and load balancing. It listens on UDP port 53 and is exposed to cluster workloads via a ClusterIP Service.
