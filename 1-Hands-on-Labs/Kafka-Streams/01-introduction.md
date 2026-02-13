@@ -7,3 +7,4 @@ Unlike batch processing, Kafka Streams treats data as a continuous, unbounded fl
 1. KStream — an append-only log where each record is treated as an INSERT (new data, preserving history)
 
 2. KTable — a changelog-based snapshot of the latest value per key, similar to a database table
+
