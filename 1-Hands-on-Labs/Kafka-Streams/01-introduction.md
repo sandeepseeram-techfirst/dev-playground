@@ -9,10 +9,12 @@ Unlike batch processing, Kafka Streams treats data as a continuous, unbounded fl
 2. KTable — a changelog-based snapshot of the latest value per key, similar to a database table
 
 ### Architecture
+
 Applications are structured as a processor topology — a DAG of source processors (consuming from Kafka topics), stream processors (transforming data), and sink processors (writing results back to Kafka or external systems).
 
 ### Key Capabilities
-Stateful operations — uses local state stores backed by Kafka changelog topics for aggregations and lookups
+
+1. Stateful operations — uses local state stores backed by Kafka changelog topics for aggregations and lookups
 
 Joins — supports stream-stream, stream-table, and table-table joins on real-time data
 
