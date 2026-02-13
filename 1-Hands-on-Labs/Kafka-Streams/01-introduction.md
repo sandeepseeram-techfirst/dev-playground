@@ -23,3 +23,8 @@ Applications are structured as a processor topology — a DAG of source processo
 4. Fault tolerance & scalability — leverages Kafka's partitioning for elasticity; state is replicated via changelog topics
 
 5. Interactive queries — query the local state stores directly from your application
+
+### Why Use It Over Plain Kafka Consumers?
+
+A plain Kafka Consumer/Producer handles individual records; Kafka Streams adds stateful processing, joining, windowing, and topology management on top — making it the right choice when your logic goes beyond simple consume-and-produce.
+
