@@ -17,7 +17,7 @@ scala-cli is a modern tool that wraps scalac and does everything for you — com
 
 As of Scala 3.5.0, scala-cli became the official way to run Scala — it replaced the old scalac + scala manual workflow.
 
-$ java -version
+$ java -version 
 java version "17.0.1" 2021-10-19 LTS
 Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
