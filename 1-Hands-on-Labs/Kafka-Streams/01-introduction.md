@@ -16,10 +16,10 @@ Applications are structured as a processor topology — a DAG of source processo
 
 1. Stateful operations — uses local state stores backed by Kafka changelog topics for aggregations and lookups
 
-Joins — supports stream-stream, stream-table, and table-table joins on real-time data
+2. Joins — supports stream-stream, stream-table, and table-table joins on real-time data
 
-Windowing — time-based windowing (tumbling, hopping, session windows) for aggregations over time periods
+3. Windowing — time-based windowing (tumbling, hopping, session windows) for aggregations over time periods
 
-Fault tolerance & scalability — leverages Kafka's partitioning for elasticity; state is replicated via changelog topics
+4. Fault tolerance & scalability — leverages Kafka's partitioning for elasticity; state is replicated via changelog topics
 
-Interactive queries — query the local state stores directly from your application
+5. Interactive queries — query the local state stores directly from your application
