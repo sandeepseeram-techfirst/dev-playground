@@ -5,4 +5,3 @@ Creating network "root_default" with the default driver
 Creating zookeeper ... done
 Creating kafka     ... done
 root@host01:~$ 
-
