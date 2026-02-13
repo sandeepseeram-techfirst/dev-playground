@@ -1,0 +1,19 @@
+$ java -version
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
+
+$ curl -fL https://github.com/Virtuslab/scala-cli/releases/latest/download/scala-cli-x86_64-pc-linux.gz | gzip -d > scala-cli
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 42.4M  100 42.4M    0     0  17.2M      0  0:00:02  0:00:02 --:--:-- 26.3M
+
+$ chmod +x scala-cli
+
+$ sudo mv scala-cli /usr/local/bin/scala-cli
+
+$ scala-cli --version
+0.1.10
+$ 
