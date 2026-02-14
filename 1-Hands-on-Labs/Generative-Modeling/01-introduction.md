@@ -21,9 +21,9 @@ Training involves feeding a large dataset into the model, which adjusts its inte
 
 1. Text generation—Fake News
 2. Facial swapping—Deep Fakes
-Pose translation
-Static image animation
-Medical imaging analysis
+3. Pose translation
+4. Static image animation
+5. Medical imaging analysis
 Generating fake art
 Feature image analysis
 Restoring images and video
