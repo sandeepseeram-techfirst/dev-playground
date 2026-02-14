@@ -4,3 +4,15 @@ Generative modeling is a branch of machine learning where a model learns the und
 
 ### How It Works
 Training involves feeding a large dataset into the model, which adjusts its internal parameters to match the data's distribution. Once trained, the model can sample from that learned distribution to produce new data. 
+
+### Key Model Types
+
+1. Autoencoders (AE) — Compress data into a latent representation and reconstruct it; useful for dimensionality reduction and anomaly detection
+
+Variational Autoencoders (VAE) — Extend AEs by learning a probabilistic latent space, enabling controlled generation
+
+Generative Adversarial Networks (GANs) — Two networks (generator vs. discriminator) compete, pushing the generator to produce increasingly realistic outputs
+
+Transformers / LLMs — Predict the next token in a sequence, making them generative models for text
+
+Diffusion Models — Iteratively denoise random noise into structured data (used in image generation tools like Stable Diffusion)
