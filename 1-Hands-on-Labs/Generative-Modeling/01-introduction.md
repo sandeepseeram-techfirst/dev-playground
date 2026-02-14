@@ -31,4 +31,4 @@ Training involves feeding a large dataset into the model, which adjusts its inte
 Autoencoders are the first step to understanding generative modeling. 
 
 
-**Note: Latent representation (also called the latent space or encoding) is a compact, compressed version of your input data that captures its most essential features in a lower-dimensional form.**
+**Note: Latent representation (also called the latent space or encoding) is a compact, compressed version of your input data that captures its most essential features in a lower-dimensional form.** 
