@@ -16,3 +16,15 @@ Training involves feeding a large dataset into the model, which adjusts its inte
 4. Transformers / LLMs — Predict the next token in a sequence, making them generative models for text. 
 
 5. Diffusion Models — Iteratively denoise random noise into structured data (used in image generation tools like Stable Diffusion). 
+
+**Generative modeling is the basis for applications of:**
+
+1. Text generation—Fake News
+2. Facial swapping—Deep Fakes
+Pose translation
+Static image animation
+Medical imaging analysis
+Generating fake art
+Feature image analysis
+Restoring images and video
+Autoencoders are the first step to understanding generative modeling. 
