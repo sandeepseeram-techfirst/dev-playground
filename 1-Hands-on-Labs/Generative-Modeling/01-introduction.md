@@ -34,3 +34,8 @@ Autoencoders are the first step to understanding generative modeling.
 **Note: Latent representation (also called the latent space or encoding) is a compact, compressed version of your input data that captures its most essential features in a lower-dimensional form.** 
 
 **Think of it like summarizing a 10-page document into 5 bullet points. The summary isn't the original — but it captures the core meaning. A latent representation does the same for data like images, audio, or text.**
+
+Once you have a meaningful latent space, you can manipulate it to generate new data. 
+
+For example, interpolating between two latent vectors produces images that smoothly blend between two digits. 
+This is the key idea behind Variational Autoencoders (VAEs) and GANs. 
