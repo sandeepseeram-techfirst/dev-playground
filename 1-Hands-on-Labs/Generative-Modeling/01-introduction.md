@@ -24,7 +24,8 @@ Training involves feeding a large dataset into the model, which adjusts its inte
 3. Pose translation
 4. Static image animation
 5. Medical imaging analysis
-Generating fake art
-Feature image analysis
-Restoring images and video
+6. Generating fake art
+7. Feature image analysis
+8. Restoring images and video
+
 Autoencoders are the first step to understanding generative modeling. 
