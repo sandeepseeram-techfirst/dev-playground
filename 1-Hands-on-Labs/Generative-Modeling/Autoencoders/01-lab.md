@@ -14,3 +14,8 @@ from tensorflow.keras.datasets import mnist
 **This loads the 70 thousand image dataset into x_train and x_test. The labels for these images are y_train and y_test.**
 
  **Autoencoders use a form of learning called unsupervised or self-supervised.**
+
+ ### Step 2: 
+
+ With the data loaded, we can move on to visualizing the digits. 
+ Visualization is important in generative modeling since it confirms to us what our baseline data looks like.
