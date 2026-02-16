@@ -36,3 +36,8 @@ def plot_data(file, num_images, images, labels):
 
   file = 'contents/before.png'
   plot_data(file, 25, x_train, y_train)
+
+### Step 3: 
+With the data loaded, prepared, normalized, and visualized we can move on to building the autoencoder model.
+
+Autoencoders consist of two submodels: an encoder and a decoder. 
