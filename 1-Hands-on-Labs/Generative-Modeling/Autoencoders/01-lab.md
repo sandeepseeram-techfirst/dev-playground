@@ -19,3 +19,19 @@ from tensorflow.keras.datasets import mnist
 
  With the data loaded, we can move on to visualizing the digits. 
  Visualization is important in generative modeling since it confirms to us what our baseline data looks like.
+
+import math
+
+def plot_data(file, num_images, images, labels):
+  grid = math.ceil(math.sqrt(num_images))
+  plt.figure(figsize=(grid*2,grid*2))
+  for i in range(num_images):
+      plt.subplot(grid,grid,i+1)
+      plt.xticks([])
+      plt.yticks([])
+      plt.grid(False)     
+      plt.imshow(images[i].reshape(28,28))
+      plt.xlabel(class_names[labels[i]])      
+  plt.savefig(file)
+
+  
