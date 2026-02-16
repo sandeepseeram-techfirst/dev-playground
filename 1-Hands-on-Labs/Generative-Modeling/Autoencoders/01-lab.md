@@ -34,4 +34,5 @@ def plot_data(file, num_images, images, labels):
       plt.xlabel(class_names[labels[i]])      
   plt.savefig(file)
 
-  
+  file = 'contents/before.png'
+  plot_data(file, 25, x_train, y_train)
