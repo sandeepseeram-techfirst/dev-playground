@@ -62,3 +62,5 @@ decoded = Dense(784, activation='sigmoid')(encoded)
 autoencoder = Model(input_img, decoded)
 decoder_layer = autoencoder.layers[-1]
 decoder = Model(encoded_input, decoder_layer(encoded_input))
+
+**Notice that the input into the decoder is the output from the encoded layer. Also note that the output from the decoder is a vector of size 784, the full image.**
