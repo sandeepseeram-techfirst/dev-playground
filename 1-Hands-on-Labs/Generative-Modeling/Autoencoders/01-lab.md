@@ -73,3 +73,23 @@ We have built the model, so we can now proceed to compile and train the model.
 autoencoder.compile(optimizer='adam', loss='mse')
 
 **Notice the use of mse or Mean Squared Error for the loss. Since we are training the autoencoder on the images themselves our measure of loss will be how well the images are generated. We can do this simply by taking pixelwise comparisons using MSE for the loss.**
+
+
+>>> autoencoder.summary()
+Model: "model_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_3 (InputLayer)        [(None, 784)]             0         
+                                                                 
+ dense_1 (Dense)             (None, 32)                25120     
+                                                                 
+ dense_2 (Dense)             (None, 784)               25872     
+                                                                 
+=================================================================
+Total params: 50992 (199.19 KB)
+Trainable params: 50992 (199.19 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+>>> 
+
