@@ -41,3 +41,11 @@ def plot_data(file, num_images, images, labels):
 With the data loaded, prepared, normalized, and visualized we can move on to building the autoencoder model.
 
 Autoencoders consist of two submodels: an encoder and a decoder.  The encoder portion of the model encodes the data into some lower representation. It is then the decoder's job to rebuild the original based on the encoded representation.
+
+**First we will import some abstractions from TensorFlow/Keras for building the deep learning model:**
+
+from tensorflow.keras.layers import Input, Dense
+from tensorflow.keras.models import Model
+
+encoding_dim = 32
+
