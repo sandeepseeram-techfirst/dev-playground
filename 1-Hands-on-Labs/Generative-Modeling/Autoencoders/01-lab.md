@@ -50,9 +50,15 @@ from tensorflow.keras.models import Model
 encoding_dim = 32
 
 **We also defined the middle encoding dimension size with encoding_dim. This means we will reduce the data from a vector of 784 to 32.**
+##### Encoder 
 
 input_img = Input(shape=(784,))
 encoded = Dense(encoding_dim, activation='relu')(input_img)
 encoder = Model(input_img, encoded)
 encoded_input = Input(shape=(encoding_dim,))
 
+##### Decoder 
+decoded = Dense(784, activation='sigmoid')(encoded)
+autoencoder = Model(input_img, decoded)
+decoder_layer = autoencoder.layers[-1]
+decoder = Model(encoded_input, decoder_layer(encoded_input))
