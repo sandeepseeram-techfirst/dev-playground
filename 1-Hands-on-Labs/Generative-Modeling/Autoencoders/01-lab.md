@@ -64,3 +64,10 @@ decoder_layer = autoencoder.layers[-1]
 decoder = Model(encoded_input, decoder_layer(encoded_input))
 
 **Notice that the input into the decoder is the output from the encoded layer. Also note that the output from the decoder is a vector of size 784, the full image.**
+
+
+We have built the model, so we can now proceed to compile and train the model.
+
+**Compiling the model is fairly simple:**
+
+autoencoder.compile(optimizer='adam', loss='mse')
