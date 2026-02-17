@@ -71,3 +71,5 @@ We have built the model, so we can now proceed to compile and train the model.
 **Compiling the model is fairly simple:**
 
 autoencoder.compile(optimizer='adam', loss='mse')
+
+**Notice the use of mse or Mean Squared Error for the loss. Since we are training the autoencoder on the images themselves our measure of loss will be how well the images are generated. We can do this simply by taking pixelwise comparisons using MSE for the loss.**
