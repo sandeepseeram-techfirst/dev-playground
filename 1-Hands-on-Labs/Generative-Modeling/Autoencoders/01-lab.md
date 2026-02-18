@@ -106,3 +106,4 @@ autoencoder.fit(x_train, x_train,
 Autoencoders are the basis for much of generative modeling and encoding/embedding.
 
 The autoencoder is the basis for many advanced deep learning models from sequence to sequence encoders, generative adversarial networks, and advanced natural language processors like BERT or GPT-3.
+
