@@ -25,3 +25,9 @@ VAEs take this further by encoding inputs into a probability distribution (typic
 | Can generate new data? | No                                   | Yes                                |
 | Regularization         | None                                 | KL Divergence                      | 
 
+### The Loss Function
+VAEs optimize two objectives simultaneously:
+
+1. Reconstruction loss — How well the decoder output matches the original input
+
+2. KL Divergence — A regularization term that forces the learned latent distribution to stay close to a standard normal prior ensuring the latent space is smooth and continuous
