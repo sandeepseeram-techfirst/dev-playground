@@ -100,3 +100,6 @@ autoencoder.fit(x_train, x_train,
                 batch_size=256,
                 shuffle=True,
                 validation_data=(x_test, x_test))
+
+**Notice how the input and labels for training are the same: x_train. Again, we are training the autoencoder to replicate the images.**
+
