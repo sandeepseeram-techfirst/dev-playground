@@ -103,3 +103,4 @@ autoencoder.fit(x_train, x_train,
 
 **Notice how the input and labels for training are the same: x_train. Again, we are training the autoencoder to replicate the images.**
 
+Autoencoders are the basis for much of generative modeling and encoding/embedding.
