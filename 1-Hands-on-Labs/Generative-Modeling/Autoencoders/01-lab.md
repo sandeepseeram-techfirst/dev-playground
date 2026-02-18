@@ -104,3 +104,5 @@ autoencoder.fit(x_train, x_train,
 **Notice how the input and labels for training are the same: x_train. Again, we are training the autoencoder to replicate the images.**
 
 Autoencoders are the basis for much of generative modeling and encoding/embedding.
+
+The autoencoder is the basis for many advanced deep learning models from sequence to sequence encoders, generative adversarial networks, and advanced natural language processors like BERT or GPT-3.
