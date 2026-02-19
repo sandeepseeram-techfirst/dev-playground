@@ -16,3 +16,12 @@ VAEs take this further by encoding inputs into a probability distribution (typic
 
 4. Feature learning — The latent vectors serve as compact feature representations for classification or clustering
 
+### VAE vs. Standard Autoencoder
+
+| Feature                | Autoencoder                          | VAE                                |
+| ---------------------- | ------------------------------------ | ---------------------------------- |
+| Encoding               | Single point (deterministic)         | Distribution (probabilistic)       |
+| Latent space           | Irregular, potentially discontinuous | Smooth and structured              |
+| Can generate new data? | No                                   | Yes                                |
+| Regularization         | None                                 | KL Divergence                      | 
+
