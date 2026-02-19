@@ -4,3 +4,4 @@ A Variational Autoencoder (VAE) is a generative neural network model that learns
 
 ### The Core Idea
 A standard autoencoder compresses input data into a single fixed point in a latent space, then reconstructs it from that point. 
+VAEs take this further by encoding inputs into a probability distribution (typically Gaussian), defined by a mean and variance, rather than a single fixed vector. This probabilistic twist is what gives VAEs their generative power.
