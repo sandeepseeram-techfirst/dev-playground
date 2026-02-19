@@ -14,5 +14,5 @@ VAEs take this further by encoding inputs into a probability distribution (typic
 
 3. Data denoising and imputation — Reconstruct clean data from noisy or incomplete inputs, useful in medical imaging
 
-Feature learning — The latent vectors serve as compact feature representations for classification or clustering
+4. Feature learning — The latent vectors serve as compact feature representations for classification or clustering
 
