@@ -10,9 +10,9 @@ VAEs take this further by encoding inputs into a probability distribution (typic
 
 1. Image synthesis and data augmentation — Sample from latent space to generate new images
 
-Anomaly detection — Inputs that reconstruct poorly indicate deviations from learned distributions
+2. Anomaly detection — Inputs that reconstruct poorly indicate deviations from learned distributions
 
-Data denoising and imputation — Reconstruct clean data from noisy or incomplete inputs, useful in medical imaging
+3. Data denoising and imputation — Reconstruct clean data from noisy or incomplete inputs, useful in medical imaging
 
 Feature learning — The latent vectors serve as compact feature representations for classification or clustering
 
