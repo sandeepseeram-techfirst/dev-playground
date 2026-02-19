@@ -1,1 +1,2 @@
-### Variational Autoencoders
+### Variational Autoencoders [VAE] 
+
