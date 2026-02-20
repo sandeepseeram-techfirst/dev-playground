@@ -9,4 +9,3 @@ VAEs are used in medical imaging analysis — your own lab highlights this. In p
 1. Denoise MRI and CT scans (reconstruct clean images from noisy ones)
 2. Detect tumors and abnormalities (anomalies that don't reconstruct well)
 3. Generate synthetic patient data for training when real data is scarce (privacy-preserving)
-
