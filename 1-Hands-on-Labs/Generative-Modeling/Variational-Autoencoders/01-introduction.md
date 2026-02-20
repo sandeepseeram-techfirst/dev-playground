@@ -46,3 +46,6 @@ z = μ + σ ⋅ ϵ
 keeping the path differentiable.
 
 **Decoder** — Takes the sampled `z` and reconstructs the output, aiming for it to closely resemble the original input.
+
+
+**Note: Variational autoencoders are a cornerstone for understanding how we can measure the distributions in data.**
