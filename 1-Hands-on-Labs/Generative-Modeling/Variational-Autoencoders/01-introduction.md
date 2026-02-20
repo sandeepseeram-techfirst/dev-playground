@@ -31,3 +31,18 @@ VAEs optimize two objectives simultaneously:
 1. Reconstruction loss — How well the decoder output matches the original input.
 
 2. KL Divergence — A regularization term that forces the learned latent distribution to stay close to a standard normal prior ensuring the latent space is smooth and continuous.
+
+
+# How VAEs Work: Step by Step
+
+**Encoder** — Takes input data (e.g., an image) and outputs two vectors: a mean `μ` and a standard deviation `σ` for each dimension in the latent space.
+
+**Sampling (Reparameterization Trick)** — Instead of directly sampling (which would block backpropagation), a random noise vector `ϵ ∼ N(0,1)` is injected externally and the latent variable is computed as:
+
+```
+z = μ + σ ⋅ ϵ
+```
+
+keeping the path differentiable.
+
+**Decoder** — Takes the sampled `z` and reconstructs the output, aiming for it to closely resemble the original input.
