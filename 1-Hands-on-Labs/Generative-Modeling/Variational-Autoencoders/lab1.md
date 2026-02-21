@@ -4,3 +4,5 @@ Variational autoencoders provide a mechanism for understanding how data/images a
 
 #### Step 1: Load and Prepare Data
 
+We will first import some standard libraries like TensforFlow, numpy, and matplotlib:
+
