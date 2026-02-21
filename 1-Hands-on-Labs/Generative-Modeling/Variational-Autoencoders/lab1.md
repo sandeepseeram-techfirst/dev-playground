@@ -60,3 +60,71 @@ Variational autoencoders are similar to autoencoders in that they encode data do
 >>> x_decoded_mean = decoder_mean(h_decoded)
 >>> 
 
+>>> vae.summary()
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 784)]                0         []                            
+                                                                                                  
+ dense (Dense)               (None, 392)                  307720    ['input_1[0][0]']             
+                                                                                                  
+ dense_1 (Dense)             (None, 261)                  102573    ['dense[0][0]']               
+                                                                                                  
+ dense_2 (Dense)             (None, 256)                  67072     ['dense_1[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 2)                    514       ['dense_2[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 2)                    514       ['dense_2[0][0]']             
+                                                                                                  
+ lambda (Lambda)             (None, 2)                    0         ['dense_3[0][0]',             
+                                                                     'dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 256)                  768       ['lambda[0][0]']              
+                                                                                                  
+ dense_7 (Dense)             (None, 261)                  67077     ['dense_5[0][0]']             
+                                                                                                  
+ dense_8 (Dense)             (None, 392)                  102704    ['dense_7[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 784)                  308112    ['dense_8[0][0]']             
+                                                                                                  
+ tf.__operators__.add (TFOp  (None, 2)                    0         ['dense_4[0][0]']             
+ Lambda)                                                                                          
+                                                                                                  
+ tf.math.square (TFOpLambda  (None, 2)                    0         ['dense_3[0][0]']             
+ )                                                                                                
+                                                                                                  
+ tf.math.subtract (TFOpLamb  (None, 2)                    0         ['tf.__operators__.add[0][0]',
+ da)                                                                 'tf.math.square[0][0]']      
+                                                                                                  
+ tf.math.exp (TFOpLambda)    (None, 2)                    0         ['dense_4[0][0]']             
+                                                                                                  
+ tf.math.subtract_1 (TFOpLa  (None, 2)                    0         ['tf.math.subtract[0][0]',    
+ mbda)                                                               'tf.math.exp[0][0]']         
+                                                                                                  
+ tf.keras.backend.binary_cr  (None, 784)                  0         ['input_1[0][0]',             
+ ossentropy (TFOpLambda)                                             'dense_6[0][0]']             
+                                                                                                  
+ tf.math.reduce_sum_1 (TFOp  (None,)                      0         ['tf.math.subtract_1[0][0]']  
+ Lambda)                                                                                          
+                                                                                                  
+ tf.math.reduce_sum (TFOpLa  (None,)                      0         ['tf.keras.backend.binary_cros
+ mbda)                                                              sentropy[0][0]']              
+                                                                                                  
+ tf.math.multiply (TFOpLamb  (None,)                      0         ['tf.math.reduce_sum_1[0][0]']
+ da)                                                                                              
+                                                                                                  
+ tf.__operators__.add_1 (TF  (None,)                      0         ['tf.math.reduce_sum[0][0]',  
+ OpLambda)                                                           'tf.math.multiply[0][0]']    
+                                                                                                  
+ tf.math.reduce_mean (TFOpL  ()                           0         ['tf.__operators__.add_1[0][0]
+ ambda)                                                             ']                            
+                                                                                                  
+ add_loss (AddLoss)          ()                           0         ['tf.math.reduce_mean[0][0]'] 
+                                                                                                  
+==================================================================================================
+Total params: 957054 (3.65 MB)
+Trainable params: 957054 (3.65 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+>>> 
