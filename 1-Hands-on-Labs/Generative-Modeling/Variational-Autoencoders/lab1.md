@@ -128,3 +128,5 @@ Trainable params: 957054 (3.65 MB)
 Non-trainable params: 0 (0.00 Byte)
 __________________________________________________________________________________________________
 >>> 
+
+**The concept of controlling variation in modeling generated output is something explored continually in generative modeling.**
