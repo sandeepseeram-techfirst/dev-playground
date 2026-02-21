@@ -29,3 +29,4 @@ Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-dataset
 (10000, 784)
 >>> 
 
+#### Step 2: Building the VAE
