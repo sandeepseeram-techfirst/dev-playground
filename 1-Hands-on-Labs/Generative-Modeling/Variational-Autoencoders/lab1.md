@@ -16,3 +16,16 @@ from tensorflow.keras.models import Model
 from tensorflow.keras import backend as K
 from tensorflow.keras.datasets import mnist
 
+>>> (x_train, y_train), (x_test, y_test) = mnist.load_data()
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 1s 0us/step
+>>> x_train = x_train.astype('float32') / 255.
+>>> x_test = x_test.astype('float32') / 255.
+>>> x_train = x_train.reshape((len(x_train), np.prod(x_train.shape[1:])))
+>>> x_test = x_test.reshape((len(x_test), np.prod(x_test.shape[1:])))
+>>> print(x_train.shape)
+(60000, 784)
+>>> print(x_test.shape)
+(10000, 784)
+>>> 
+
