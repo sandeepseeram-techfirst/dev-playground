@@ -30,3 +30,4 @@ Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-dataset
 >>> 
 
 #### Step 2: Building the VAE
+Variational autoencoders are similar to autoencoders in that they encode data down to a latent or intermediary representation. VAEs differ in that they learn how that internal representation is distributed.
