@@ -14,3 +14,5 @@ Generative modeling is the basis for applications of:
 8. Restoring images and video
 
 GANs provide a foundation for building generative modeling on many varied applications.
+
+The vanilla or standard GAN is the base for many forms of GANs across a wide variety of applications in generative modeling.
