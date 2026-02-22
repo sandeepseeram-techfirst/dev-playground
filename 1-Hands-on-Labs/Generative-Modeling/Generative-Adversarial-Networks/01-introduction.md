@@ -23,4 +23,4 @@ GANs are composed of two models that adversarially compete against each other to
 
  We train both models on the evaluated loss between the real and fake (generated) images. The loss is calculated by the discriminator and is determined by how well it can pick a real or fake. A discriminator that identifies a fake image as real returns a higher loss than one that identifies a real image as real. Consequently, the generator loss is determined by how well the discriminator thinks the generated image is real. 
 
-Both models are trained in sync and over time will get better at creating real images as well as identifying the fake ones. GAN training is done best when both networks learn at the same rate. If one network becomes significantly better the other network will fail to learn the task. 
+Both models are trained in sync and over time will get better at creating real images as well as identifying the fake ones. GAN training is done best when both networks learn at the same rate. If one network becomes significantly better the other network will fail to learn the task.
