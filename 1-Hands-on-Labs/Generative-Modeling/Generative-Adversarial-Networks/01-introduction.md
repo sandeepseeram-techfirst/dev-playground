@@ -7,8 +7,8 @@ Generative modeling is the basis for applications of:
 1. Text generation—Fake News
 2. Facial swapping—Deep Fakes
 3. Pose translation
-Static image animation
-Medical imaging analysis
+4. Static image animation
+5. Medical imaging analysis
 Generating fake art
 Feature image analysis
 Restoring images and video
