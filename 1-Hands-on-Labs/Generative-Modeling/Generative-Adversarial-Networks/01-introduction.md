@@ -2,7 +2,7 @@
 
 Generative adversarial networks, **GANs**, have become the basis for many applications of generative modeling.
 
-Generative modeling is the basis for applications of:
+Generative modeling is the basis for applications of: 
 
 1. Text generation—Fake News
 2. Facial swapping—Deep Fakes
