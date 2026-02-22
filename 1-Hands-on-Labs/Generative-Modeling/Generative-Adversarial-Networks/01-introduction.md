@@ -17,4 +17,4 @@ GANs provide a foundation for building generative modeling on many varied applic
 
 **The vanilla or standard GAN is the base for many forms of GANs across a wide variety of applications in generative modeling.**
 
-GANs are composed of two models that adversarially compete against each other to build better output, fakes, and classify what real output looks like. 
+GANs are composed of two models that adversarially compete against each other to build better output, fakes, and classify what real output looks like. We often use the analogy of an art forger versus an art authenticator. The art forger (or generator) learns to create art that can pass as real to an art authenticator (or discriminator). In turn, the authenticator/discriminator learns to identify what is real and what is fake. Over time both models get better until even the fake or generated output looks real to us.
