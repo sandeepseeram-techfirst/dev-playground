@@ -16,3 +16,5 @@ Generative modeling is the basis for applications of:
 GANs provide a foundation for building generative modeling on many varied applications.
 
 **The vanilla or standard GAN is the base for many forms of GANs across a wide variety of applications in generative modeling.**
+
+GANs are composed of two models that adversarially compete against each other to build better output, fakes, and classify what real output looks like. 
