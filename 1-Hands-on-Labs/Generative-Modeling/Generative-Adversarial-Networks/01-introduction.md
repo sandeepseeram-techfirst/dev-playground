@@ -9,7 +9,8 @@ Generative modeling is the basis for applications of:
 3. Pose translation
 4. Static image animation
 5. Medical imaging analysis
-Generating fake art
-Feature image analysis
-Restoring images and video
+6. Generating fake art
+7. Feature image analysis
+8. Restoring images and video
+
 GANs provide a foundation for building generative modeling on many varied applications.
