@@ -14,7 +14,7 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 
 1. Computer Vision — image classification, object detection, image generation (think DALL-E style models)
 
-Natural Language Processing — sentiment analysis, translation, chatbots, LLMs
+2. Natural Language Processing — sentiment analysis, translation, chatbots, LLMs
 
 Generative AI — most modern LLMs (LLaMA, Mistral, etc.) are built and trained in PyTorch
 
