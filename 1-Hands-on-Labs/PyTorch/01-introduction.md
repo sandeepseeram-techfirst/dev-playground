@@ -20,6 +20,6 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 
 4. Reinforcement Learning — training AI agents to play games or control robots
 
-Scientific Research — protein folding, drug discovery, physics simulations
+5. Scientific Research — protein folding, drug discovery, physics simulations
 
 Custom ML Model Development — anything requiring a custom neural network architecture
