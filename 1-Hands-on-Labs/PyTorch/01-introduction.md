@@ -59,11 +59,11 @@ The fundamental data structure of PyTorch — everything is a tensor. A tensor i
 
 * A list of numbers → 1D tensor (vector)
 
-A table of numbers → 2D tensor (matrix)
+* A table of numbers → 2D tensor (matrix)
 
-An image (height × width × color channels) → 3D tensor
+* An image (height × width × color channels) → 3D tensor
 
-A batch of images → 4D tensor
+* A batch of images → 4D tensor
 
 This is the raw data container. Before anything else in PyTorch happens, your data must become a tensor.
 
