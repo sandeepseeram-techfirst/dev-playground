@@ -33,3 +33,4 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 | Automatic gradients   | ❌ Manual       | ✅ Built-in autograd |
 | Neural network layers | ❌ Not built-in | ✅ torch.nn module   |
 | Production deployment | Limited         | ✅ TorchScript, ONNX |
+
