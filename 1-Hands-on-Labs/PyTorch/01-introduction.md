@@ -18,7 +18,7 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 
 3. Generative AI — most modern LLMs (LLaMA, Mistral, etc.) are built and trained in PyTorch
 
-Reinforcement Learning — training AI agents to play games or control robots
+4. Reinforcement Learning — training AI agents to play games or control robots
 
 Scientific Research — protein folding, drug discovery, physics simulations
 
