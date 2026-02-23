@@ -22,4 +22,4 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 
 5. Scientific Research — protein folding, drug discovery, physics simulations
 
-Custom ML Model Development — anything requiring a custom neural network architecture
+6. Custom ML Model Development — anything requiring a custom neural network architecture
