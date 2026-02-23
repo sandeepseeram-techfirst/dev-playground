@@ -9,3 +9,17 @@ Think of it as a scientific computing library, but supercharged for AI workloads
 Before PyTorch, the dominant framework was TensorFlow (by Google), which used a static computation graph — you had to define the entire model architecture before running it. 
 
 PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning the graph is built on the fly as your code executes. This made debugging and experimentation dramatically easier, which is why researchers loved it immediately.
+
+### What is PyTorch Used For?
+
+1. Computer Vision — image classification, object detection, image generation (think DALL-E style models)
+
+Natural Language Processing — sentiment analysis, translation, chatbots, LLMs
+
+Generative AI — most modern LLMs (LLaMA, Mistral, etc.) are built and trained in PyTorch
+
+Reinforcement Learning — training AI agents to play games or control robots
+
+Scientific Research — protein folding, drug discovery, physics simulations
+
+Custom ML Model Development — anything requiring a custom neural network architecture
