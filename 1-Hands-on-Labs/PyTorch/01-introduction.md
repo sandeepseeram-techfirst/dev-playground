@@ -57,7 +57,7 @@ The fundamental data structure of PyTorch — everything is a tensor. A tensor i
 
 * A single number → 0D tensor (scalar)
 
-A list of numbers → 1D tensor (vector)
+* A list of numbers → 1D tensor (vector)
 
 A table of numbers → 2D tensor (matrix)
 
