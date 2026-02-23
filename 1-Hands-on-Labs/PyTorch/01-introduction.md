@@ -46,3 +46,5 @@ Computation Graph     ← PyTorch builds this automatically
 CUDA / cuDNN          ← runs on your NVIDIA GPU
       ↓
 GPU Hardware          ← your familiar territory!
+
+### PyTorch Core Building Blocks 
