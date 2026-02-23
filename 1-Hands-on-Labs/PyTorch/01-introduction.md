@@ -39,7 +39,7 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 
 Your Python Code
       ↓
-  PyTorch API         ← you write this
+PyTorch API           ← you write this
       ↓
 Computation Graph     ← PyTorch builds this automatically
       ↓
