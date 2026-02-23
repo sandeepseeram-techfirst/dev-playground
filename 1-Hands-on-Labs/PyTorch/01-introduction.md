@@ -16,7 +16,7 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 
 2. Natural Language Processing — sentiment analysis, translation, chatbots, LLMs
 
-Generative AI — most modern LLMs (LLaMA, Mistral, etc.) are built and trained in PyTorch
+3. Generative AI — most modern LLMs (LLaMA, Mistral, etc.) are built and trained in PyTorch
 
 Reinforcement Learning — training AI agents to play games or control robots
 
