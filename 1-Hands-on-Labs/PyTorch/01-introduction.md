@@ -51,3 +51,19 @@ GPU Hardware          ← your familiar territory!
 ### PyTorch Core Building Blocks 
 
 PyTorch is made of 5 core components.
+
+**1. Tensors (torch.Tensor)** 
+The fundamental data structure of PyTorch — everything is a tensor. A tensor is simply a multi-dimensional array, just like NumPy's array, but it can live on a GPU. 
+
+* A single number → 0D tensor (scalar)
+
+A list of numbers → 1D tensor (vector)
+
+A table of numbers → 2D tensor (matrix)
+
+An image (height × width × color channels) → 3D tensor
+
+A batch of images → 4D tensor
+
+This is the raw data container. Before anything else in PyTorch happens, your data must become a tensor.
+
