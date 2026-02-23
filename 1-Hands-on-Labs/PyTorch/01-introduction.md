@@ -25,3 +25,11 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 6. Custom ML Model Development — anything requiring a custom neural network architecture
 
 
+### NumPy vs. PyTorch 
+
+| Feature               | NumPy          | PyTorch             |
+| --------------------- | -------------- | ------------------- |
+| GPU acceleration      | ❌ CPU only     | ✅ CUDA/GPU native   |
+| Automatic gradients   | ❌ Manual       | ✅ Built-in autograd |
+| Neural network layers | ❌ Not built-in | ✅ torch.nn module   |
+| Production deployment | Limited         | ✅ TorchScript, ONNX |
