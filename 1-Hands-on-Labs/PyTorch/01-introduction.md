@@ -1,3 +1,5 @@
 ### PyTorch 
 
 PyTorch is an open-source machine learning framework developed by Meta (Facebook) AI Research, first released in 2016. It provides tools to build and train machine learning models — especially deep neural networks — using Python. 
+
+Think of it as a scientific computing library, but supercharged for AI workloads and GPU acceleration.
