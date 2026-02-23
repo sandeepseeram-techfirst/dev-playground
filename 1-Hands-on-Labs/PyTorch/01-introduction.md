@@ -47,4 +47,7 @@ CUDA / cuDNN          ← runs on your NVIDIA GPU
       ↓
 GPU Hardware          ← your familiar territory!
 
+
 ### PyTorch Core Building Blocks 
+
+PyTorch is made of 5 core components.
