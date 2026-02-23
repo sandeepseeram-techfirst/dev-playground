@@ -34,3 +34,15 @@ PyTorch introduced dynamic computation graphs (called "define-by-run"), meaning 
 | Neural network layers | ❌ Not built-in | ✅ torch.nn module   |
 | Production deployment | Limited         | ✅ TorchScript, ONNX |
 
+
+### How PyTorch fits into ML Stack
+
+Your Python Code
+      ↓
+  PyTorch API         ← you write this
+      ↓
+Computation Graph     ← PyTorch builds this automatically
+      ↓
+CUDA / cuDNN          ← runs on your NVIDIA GPU
+      ↓
+GPU Hardware          ← your familiar territory!
