@@ -67,5 +67,5 @@ The fundamental data structure of PyTorch — everything is a tensor. A tensor i
 
 This is the raw data container. Before anything else in PyTorch happens, your data must become a tensor.
 
-
-
+**2. Autograd (torch.autograd)** 
+The automatic differentiation engine. This is what makes PyTorch intelligent — it watches every mathematical operation you do on tensors, silently builds a record of them, and then can automatically compute gradients (derivatives) in reverse.
