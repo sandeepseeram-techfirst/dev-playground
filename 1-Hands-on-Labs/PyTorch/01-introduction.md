@@ -69,3 +69,16 @@ This is the raw data container. Before anything else in PyTorch happens, your da
 
 **2. Autograd (torch.autograd)** 
 The automatic differentiation engine. This is what makes PyTorch intelligent — it watches every mathematical operation you do on tensors, silently builds a record of them, and then can automatically compute gradients (derivatives) in reverse.
+
+**3. Neural Network Module (torch.nn)**
+A toolkit of pre-built neural network layers. Instead of writing matrix multiplications from scratch, you pick from ready-made components:
+
+* nn.Linear — a fully connected layer
+
+* nn.Conv2d — a convolutional layer (for images)
+
+* nn.ReLU, nn.Sigmoid — activation functions
+
+* nn.CrossEntropyLoss, nn.MSELoss — loss functions
+
+You stack these like LEGO blocks to build any model architecture.
