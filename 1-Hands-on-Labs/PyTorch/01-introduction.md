@@ -88,7 +88,7 @@ The weight update engine. After autograd computes gradients, the optimizer uses 
 
 1. optim.SGD — Stochastic Gradient Descent (the classic)
 
-2. optim.Adam — most popular, adaptive learning rate
+2. optim.Adam — most popular, adaptive learning rate 
 
 3. optim.AdamW — used in almost all modern LLMs
 
