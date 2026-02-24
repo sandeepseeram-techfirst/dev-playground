@@ -6,3 +6,4 @@ A Random Forest is an ensemble machine learning algorithm that builds many decis
 
 A single decision tree is like asking one expert — it can be wrong or biased. Random Forest is like asking hundreds of experts and taking a majority vote. This idea is grounded in Condorcet's Jury Theorem: if each model is more than 50% accurate and they are independent, combining more models increases the overall accuracy. With 11 such trees, majority voting can push accuracy to ~75% even if each tree alone is only 60% accurate.
 
+### How It Works — Step by Step
