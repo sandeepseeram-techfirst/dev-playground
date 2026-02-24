@@ -91,3 +91,10 @@ The weight update engine. After autograd computes gradients, the optimizer uses 
 2. optim.Adam — most popular, adaptive learning rate
 
 3. optim.AdamW — used in almost all modern LLMs
+
+**5. Data Utilities (torch.utils.data)**
+Tools to load and feed data into your model efficiently:
+
+1. Dataset — wraps your raw data (images, text, CSVs)
+
+2. DataLoader — automatically batches, shuffles, and feeds data to your model in parallel
