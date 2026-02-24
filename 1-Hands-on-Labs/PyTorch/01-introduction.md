@@ -82,3 +82,12 @@ A toolkit of pre-built neural network layers. Instead of writing matrix multipli
 * nn.CrossEntropyLoss, nn.MSELoss — loss functions
 
 You stack these like LEGO blocks to build any model architecture.
+
+**4. Optimizers (torch.optim)**
+The weight update engine. After autograd computes gradients, the optimizer uses them to adjust the model's weights to reduce error. Common ones:
+
+1. optim.SGD — Stochastic Gradient Descent (the classic)
+
+2. optim.Adam — most popular, adaptive learning rate
+
+3. optim.AdamW — used in almost all modern LLMs
