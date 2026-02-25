@@ -10,4 +10,8 @@ A single decision tree is like asking one expert — it can be wrong or biased. 
 
 1. **Bootstrap Sampling (Bagging):** The algorithm creates multiple random samples from the original dataset with replacement, meaning some records may appear more than once and some may be excluded entirely. This introduces diversity between trees. 
 
-2. 
+2. **Random Feature Selection:** At each node split within a tree, only a random subset of features is considered — not all columns. This prevents dominant variables from overwhelming every tree and ensures each tree learns different patterns.
+
+3. **Each Tree Predicts Independently:** Every tree produces its own prediction based on its unique data subset and feature selections.
+
+4. 
