@@ -19,3 +19,7 @@ A single decision tree is like asking one expert — it can be wrong or biased. 
 **Classification** (e.g., income > $50K or not): Final class = majority vote across all trees
 
 **Regression** (e.g., predicting a salary value): Final output = average of all tree predictions
+
+### Why It Reduces Overfitting
+
+A single decision tree tends to overfit — it memorizes the training data too well. Random Forest counters this because each tree sees different data and features, so the errors of individual trees don't align. The uncorrelated trees reduce variance collectively, making the model generalize better to unseen data.
