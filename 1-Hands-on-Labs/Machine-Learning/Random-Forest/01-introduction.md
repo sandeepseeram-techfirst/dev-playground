@@ -26,3 +26,9 @@ A single decision tree tends to overfit — it memorizes the training data too w
 
 ### Key Hyperparameters 
 
+| Hyperparameter    | What It Controls                                             |
+| ----------------- | ------------------------------------------------------------ |
+| n_estimators      | Number of trees; more trees → more stable but slower builtin |
+| max_features      | Max features considered at each split builtin                |
+| max_depth         | How deep each tree can grow                                  |
+| min_samples_split | Minimum samples needed to split a node                       |
