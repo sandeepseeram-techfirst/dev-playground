@@ -9,3 +9,5 @@ A single decision tree is like asking one expert — it can be wrong or biased. 
 ### How It Works — Step by Step
 
 1. **Bootstrap Sampling (Bagging):** The algorithm creates multiple random samples from the original dataset with replacement, meaning some records may appear more than once and some may be excluded entirely. This introduces diversity between trees. 
+
+2. 
