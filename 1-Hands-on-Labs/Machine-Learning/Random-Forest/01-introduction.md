@@ -16,6 +16,6 @@ A single decision tree is like asking one expert — it can be wrong or biased. 
 
 4. **Aggregate the Outputs:**
 
-Classification (e.g., income > $50K or not): Final class = majority vote across all trees
+**Classification** (e.g., income > $50K or not): Final class = majority vote across all trees
 
-Regression (e.g., predicting a salary value): Final output = average of all tree predictions
+**Regression** (e.g., predicting a salary value): Final output = average of all tree predictions
