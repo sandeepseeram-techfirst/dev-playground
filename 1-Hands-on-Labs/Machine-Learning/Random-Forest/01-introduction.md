@@ -24,3 +24,5 @@ A single decision tree is like asking one expert — it can be wrong or biased. 
 
 A single decision tree tends to overfit — it memorizes the training data too well. Random Forest counters this because each tree sees different data and features, so the errors of individual trees don't align. The uncorrelated trees reduce variance collectively, making the model generalize better to unseen data.
 
+### Key Hyperparameters 
+
