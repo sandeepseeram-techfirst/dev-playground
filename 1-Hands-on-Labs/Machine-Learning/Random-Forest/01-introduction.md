@@ -38,3 +38,9 @@ A single decision tree tends to overfit — it memorizes the training data too w
 
 1. Ensemble in machine learning means combining multiple models together to produce a better, more accurate prediction than any single model could on its own.
 
+| Method   | How It Works                                                       | Example                       |
+| -------- | ------------------------------------------------------------------ | ----------------------------- |
+| Bagging  | Trains models on random subsets of data in parallel, then averages | Random Forest xoriant         |
+| Boosting | Trains models sequentially; each corrects errors of the previous   | XGBoost, AdaBoost builtin     |
+| Stacking | Uses another model to learn how to best combine base model outputs | Meta-learner approach builtin |
+
