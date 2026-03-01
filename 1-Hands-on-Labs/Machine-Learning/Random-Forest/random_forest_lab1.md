@@ -8,7 +8,20 @@
 
 **matplotlib:** Matplotlib is a plotting library. We'll use it for creating plots and charts of our data.
 
+
 import numpy as np   
 import pandas as pd   
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split  
+from sklearn.ensemble import RandomForestClassifier  
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OrdinalEncoder
+from sklearn.pipeline import make_pipeline
+from sklearn.metrics import roc_auc_score, roc_curve
 
+#ensure reproducibility
+np.random.seed(123) 
+
+# To disable warnings
+import warnings  
+warnings.filterwarnings("ignore")
