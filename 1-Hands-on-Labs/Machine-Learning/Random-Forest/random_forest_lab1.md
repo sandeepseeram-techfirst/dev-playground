@@ -8,3 +8,7 @@
 
 **matplotlib:** Matplotlib is a plotting library. We'll use it for creating plots and charts of our data.
 
+import numpy as np   
+import pandas as pd   
+import matplotlib.pyplot as plt
+
