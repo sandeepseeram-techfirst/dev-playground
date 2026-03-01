@@ -32,3 +32,9 @@ A single decision tree tends to overfit — it memorizes the training data too w
 | max_features      | Max features considered at each split builtin                |
 | max_depth         | How deep each tree can grow                                  |
 | min_samples_split | Minimum samples needed to split a node                       |
+
+
+### NOTES 
+
+1. Ensemble in machine learning means combining multiple models together to produce a better, more accurate prediction than any single model could on its own.
+
