@@ -7,3 +7,4 @@
 **pandas:** Pandas is a software library for data manipulation and analysis. It offers data structures and operations for manipulating numerical tables and time series. We're using it to load and manipulate our dataset.
 
 **matplotlib:** Matplotlib is a plotting library. We'll use it for creating plots and charts of our data.
+
