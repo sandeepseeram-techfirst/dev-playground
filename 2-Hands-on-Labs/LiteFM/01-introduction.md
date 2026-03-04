@@ -20,3 +20,5 @@ LightFM is built on hybrid matrix factorization — it represents every user and
 
 5. Choose a loss function — LightFM supports WARP (Weighted Approximate-Rank Pairwise, great for ranking), BPR (Bayesian Personalized Ranking), and logistic for explicit ratings. 
 
+
+**A key strength is handling the cold-start problem — when a new user or new item has no interaction history, LightFM can still make recommendations by leveraging shared feature embeddings (e.g., genre or tags) rather than needing historical data.**
