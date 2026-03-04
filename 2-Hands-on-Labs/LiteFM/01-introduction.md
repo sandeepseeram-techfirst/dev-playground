@@ -10,13 +10,13 @@ LightFM is built on hybrid matrix factorization — it represents every user and
 
 ### Here's the core flow:
 
-1. Build an interaction matrix — rows are users, columns are items, and values represent ratings (explicit) or clicks/views (implicit feedback)
+1. Build an interaction matrix — rows are users, columns are items, and values represent ratings (explicit) or clicks/views (implicit feedback).
 
-2. Add feature matrices — optional user/item metadata (age, genre, tags) is encoded as sparse feature vectors
+2. Add feature matrices — optional user/item metadata (age, genre, tags) is encoded as sparse feature vectors.
 
-3. Train embeddings — the model learns a latent vector for each feature; a user/item's final embedding is the sum of all its feature embeddings
+3. Train embeddings — the model learns a latent vector for each feature; a user/item's final embedding is the sum of all its feature embeddings.
 
-4. Score and rank — the dot product of a user embedding and an item embedding gives a relevance score; higher scores = better recommendations
+4. Score and rank — the dot product of a user embedding and an item embedding gives a relevance score; higher scores = better recommendations.
 
-5. Choose a loss function — LightFM supports WARP (Weighted Approximate-Rank Pairwise, great for ranking), BPR (Bayesian Personalized Ranking), and logistic for explicit ratings
+5. Choose a loss function — LightFM supports WARP (Weighted Approximate-Rank Pairwise, great for ranking), BPR (Bayesian Personalized Ranking), and logistic for explicit ratings. 
 
