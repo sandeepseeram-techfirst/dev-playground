@@ -39,3 +39,4 @@ LightFM is deployed across several industries:
 
 6. Retail — Hybrid recommenders on sparse retail datasets where pure collaborative filtering fails due to limited purchase history. 
 
+**LightFM is best suited for small-to-mid-scale projects since it doesn't support distributed training, but it's highly efficient for sparse datasets common in real-world recommendation tasks.**
