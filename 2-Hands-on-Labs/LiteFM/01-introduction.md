@@ -12,7 +12,7 @@ LightFM is built on hybrid matrix factorization — it represents every user and
 
 1. Build an interaction matrix — rows are users, columns are items, and values represent ratings (explicit) or clicks/views (implicit feedback)
 
-Add feature matrices — optional user/item metadata (age, genre, tags) is encoded as sparse feature vectors
+2. Add feature matrices — optional user/item metadata (age, genre, tags) is encoded as sparse feature vectors
 
 Train embeddings — the model learns a latent vector for each feature; a user/item's final embedding is the sum of all its feature embeddings
 
