@@ -38,3 +38,4 @@ LightFM is deployed across several industries:
 5. Job/Q&A Platforms — Matching professionals to relevant job postings or questions by skill tags and past activity (e.g., Stack Overflow-style matching).
 
 6. Retail — Hybrid recommenders on sparse retail datasets where pure collaborative filtering fails due to limited purchase history. 
+
