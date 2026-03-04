@@ -29,7 +29,7 @@ LightFM is deployed across several industries:
 
 1. E-commerce — Product recommendations (e.g., "customers also bought"), targeted email campaigns for specific items, and user-to-item matching for promotions
 
-Streaming platforms — Movie, music, and content suggestions (Netflix/Spotify-style) using genre, artist, and viewing history
+2. Streaming platforms — Movie, music, and content suggestions (Netflix/Spotify-style) using genre, artist, and viewing history
 
 EdTech — Course or textbook recommendations tailored to learner profiles and past completions
 
