@@ -27,14 +27,14 @@ LightFM is built on hybrid matrix factorization — it represents every user and
 
 LightFM is deployed across several industries:
 
-1. E-commerce — Product recommendations (e.g., "customers also bought"), targeted email campaigns for specific items, and user-to-item matching for promotions
+1. E-commerce — Product recommendations (e.g., "customers also bought"), targeted email campaigns for specific items, and user-to-item matching for promotions.
 
-2. Streaming platforms — Movie, music, and content suggestions (Netflix/Spotify-style) using genre, artist, and viewing history
+2. Streaming platforms — Movie, music, and content suggestions (Netflix/Spotify-style) using genre, artist, and viewing history.
 
-EdTech — Course or textbook recommendations tailored to learner profiles and past completions
+3. EdTech — Course or textbook recommendations tailored to learner profiles and past completions. 
 
-Healthcare — Personalized wellness plans or treatment suggestions based on patient metadata
+4. Healthcare — Personalized wellness plans or treatment suggestions based on patient metadata.
 
-Job/Q&A Platforms — Matching professionals to relevant job postings or questions by skill tags and past activity (e.g., Stack Overflow-style matching)
+5. Job/Q&A Platforms — Matching professionals to relevant job postings or questions by skill tags and past activity (e.g., Stack Overflow-style matching).
 
-Retail — Hybrid recommenders on sparse retail datasets where pure collaborative filtering fails due to limited purchase history
+6. Retail — Hybrid recommenders on sparse retail datasets where pure collaborative filtering fails due to limited purchase history. 
