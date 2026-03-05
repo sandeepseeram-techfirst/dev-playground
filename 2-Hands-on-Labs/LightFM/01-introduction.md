@@ -1,4 +1,4 @@
-### LiteFM
+### LightFM
 
 LightFM is a Python library for building hybrid recommendation systems that combines collaborative filtering and content-based filtering into a single, unified model. 
 
