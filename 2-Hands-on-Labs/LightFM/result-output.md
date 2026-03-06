@@ -21,7 +21,7 @@ from lightfm.evaluation import precision_at_k
 
 
 # ============================================================
-# STEP 1: Quickstart (LightFM with built-in MovieLens data) 
+# STEP 1: Quickstart (LightFM with built-in MovieLens data)
 # ============================================================
 # This is the "hello world" of LightFM — uses the bundled dataset.
 # Only for orientation; the real lab replaces this with candy data.
