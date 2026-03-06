@@ -133,7 +133,7 @@ preds = model.predict(user_id, all_candy_ids)
 candies = pd.DataFrame({
     'item': item_encoder.classes_,
     'prediction': preds
-}).sort_values('prediction', ascending=False)
+}).sort_values('prediction', ascending=False) 
 
 print("\nTop 10 candy recommendations for", user)
 print(candies.head(10))
