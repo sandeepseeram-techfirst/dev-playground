@@ -149,7 +149,7 @@ print(top5_new)
 
 ***
 
-## How It Works — Explained Section by Section
+## How It Works — Explained Section by Section 
 
 ### Step 1 — Quickstart (orientation only)
 The LightFM library ships with the **MovieLens** dataset pre-packaged. The quickstart trains a model using the **WARP loss** (Weighted Approximate-Rank Pairwise) which is optimized for ranking — i.e., it pushes relevant items higher in predictions. The model achieves ~5.2% precision@5. This step is purely for orientation; the rest of the lab replaces it.
