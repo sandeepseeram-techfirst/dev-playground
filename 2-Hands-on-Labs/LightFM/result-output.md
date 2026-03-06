@@ -1,212 +1,211 @@
-$ python3.6
-Python 3.6.9 (default, Oct  8 2020, 12:12:24) 
-[GCC 8.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> from lightfm import LightFM
->>> from lightfm.datasets import fetch_movielens
->>> from lightfm.evaluation import precision_at_k
->>> data = fetch_movielens(min_rating=5.0)
->>> model = LightFM(loss='warp')
->>> model.fit(data['train'], epochs=30, num_threads=2)
-<lightfm.lightfm.LightFM object at 0x7f43ca9f59e8>
->>> precision_at_k(model, data['test'], k=5).mean()
-0.051783357
->>> import pandas as pd
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ModuleNotFoundError: No module named 'pandas'
->>> df = pd.read_csv("data/candy.csv")
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'pd' is not defined
->>> df.sample(5)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'df' is not defined
->>> exit()
-$ python3.6 -m pip install pandas
-Collecting pandas
-  Downloading pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
-     |████████████████████████████████| 9.5 MB 8.0 MB/s 
-Requirement already satisfied: numpy>=1.15.4 in /usr/local/lib/python3.6/dist-packages (from pandas) (1.19.5)
-Collecting python-dateutil>=2.7.3
-  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-     |████████████████████████████████| 229 kB 66.6 MB/s 
-Collecting pytz>=2017.2
-  Downloading pytz-2026.2-py2.py3-none-any.whl (510 kB)
-     |████████████████████████████████| 510 kB 67.9 MB/s 
-Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.7.3->pandas) (1.11.0)
-Installing collected packages: python-dateutil, pytz, pandas
-Successfully installed pandas-1.1.5 python-dateutil-2.9.0.post0 pytz-2026.2
-WARNING: You are using pip version 20.2.4; however, version 25.0.1 is available.
-You should consider upgrading via the '/usr/bin/python3.6 -m pip install --upgrade pip' command.
-$ ls data/
-candy.csv  stars.csv
-$ python3.6 << 'EOF'
-> import pandas as pd
-> import numpy as np
-> import scipy.sparse as sp
-> from sklearn.preprocessing import LabelEncoder
-> from lightfm import LightFM
-> from lightfm.cross_validation import random_train_test_split
-> from lightfm.evaluation import precision_at_k
-> 
-> # Step 2: Load candy data
-> df = pd.read_csv('data/candy.csv')
-> print('=== Sample of candy data (5 rows) ===')
-> print(df.sample(5))
-> print()
-> print('=== Single user zjohnson ===')
-> print(df[df['user'] == 'zjohnson'])
-> print()
-> print('=== Unique items/users ===')
-> print('Items shape:', df['item'].unique().shape)
-> print('Users shape:', df['user'].unique().shape)
-> print()
-> 
-> # Step 3: Build sparse matrix
-> ratings = np.array(df['review'])
-> users = np.array(df['user'])
-> items = np.array(df['item'])
-> 
-> # Step 4: Encode strings to integers
-> user_encoder = LabelEncoder()
-> item_encoder = LabelEncoder()
-> u = user_encoder.fit_transform(users)
-> i = item_encoder.fit_transform(items)
-> lu = len(np.unique(u))
-> li = len(np.unique(i))
-> print('=== Label Encoded ===')
-> print('Number of unique users:', lu)
-> print('Number of unique items:', li)
-> print('First 10 item classes:', item_encoder.classes_[:10])
-> print('First 10 user classes:', user_encoder.classes_[:10])
-> 
-> matrix = sp.coo_matrix((ratings, (u, i)), shape=(lu, li))
-> print()
-> print('=== Sparse matrix shape ===')
-> print(matrix.shape)
-> 
-> # Step 5: Train/test split and model
-> train, test = random_train_test_split(matrix, test_percentage=0.2)
-> model = LightFM()
-> model.fit(train)
-> print()
-> print('=== Model precision@10 ===')
-> print(precision_at_k(model, test, k=10).mean())
-> 
-> # Step 6: Predict for a user
-> user = 'zsmith'
-> user_id = user_encoder.transform([user])[0]
-> all_candy_ids = list(range(len(item_encoder.classes_)))
-> preds = model.predict(user_id, all_candy_ids)
-> 
-> candies = pd.DataFrame(zip(item_encoder.classes_, preds), columns=['item','prediction']).sort_values('prediction', ascending=False)
-> print()
-> print('=== Top 10 candy recommendations for', user, '===')
-> print(candies.head(10))
-> 
-> tried = df[df['user'] == user]['item'].values
-> top5_new = list(candies[~candies['item'].isin(tried)]['item'].values[:5])
-> print()
-> print('=== Top 5 new candies (not yet tried) for', user, '===')
-> print(top5_new)
-> EOF
-=== Sample of candy data (5 rows) ===
-                                                    item  ... review
-12519                    Hershey's Kisses Milk Chocolate  ...      4
-15979  Bouquet of Fruits Valentine Chocolate Dipped S...  ...      5
-14457                                  Brachs Candy Corn  ...      5
-3891                Starburst Tropical Fruit Chews Candy  ...      2
-5832                    Reese's Peanut Butter Cups White  ...      5
+***
 
-[5 rows x 3 columns]
+## Complete Solution Code
 
-=== Single user zjohnson ===
-                                     item      user  review
-2186                  Skittles Sour Candy  zjohnson       5
-6022   Haribo Sour Gold Bears Gummi Candy  zjohnson       5
-7919       Starburst Original Fruit Chews  zjohnson       5
-8382                Sour Patch Watermelon  zjohnson       5
-12304               Sour Patch Kids Candy  zjohnson       4
+```python
+# ============================================================
+# LightFM: Build an Explicit Feedback Recommendation Engine
+# Complete Solution Code
+# ============================================================
 
-=== Unique items/users ===
-Items shape: (142,)
-Users shape: (2531,)
+# --- Dependencies ---
+# pip install lightfm pandas scipy scikit-learn numpy
 
-=== Label Encoded ===
-Number of unique users: 2531
-Number of unique items: 142
-First 10 item classes: ['3 Musketeers Candy Bar' '3 Musketeers Miniature Bars' '5 Gum'
- 'Airheads Bites Fruit' 'Airheads White Mystery'
- 'Airheads Xtremes Sweetly Sour Candy Rainbow Berry'
- 'Almond Joy Snack Size Bites' 'Altoids Curiously Strong Cinnamon Mints'
- 'Bouquet of Fruits Valentine Chocolate Dipped Strawberries'
- 'Brachs Candy Corn']
-First 10 user classes: ['aaron67' 'aaron68' 'aaron73' 'abarker' 'abigail04' 'abigailwashington'
- 'abigailwilcox' 'abrown' 'aclarke' 'acostanoah']
+import numpy as np
+import pandas as pd
+import scipy.sparse as sp
+from sklearn.preprocessing import LabelEncoder
 
-=== Sparse matrix shape ===
-(2531, 142)
+from lightfm import LightFM
+from lightfm.cross_validation import random_train_test_split
+from lightfm.evaluation import precision_at_k
 
-=== Model precision@10 ===
-0.027780678
-Traceback (most recent call last):
-  File "<stdin>", line 57, in <module>
-  File "/usr/local/lib/python3.6/dist-packages/lightfm/lightfm.py", line 830, in predict
-    if len(user_ids) != len(item_ids):
-TypeError: object of type 'numpy.int64' has no len()
-$ python3.6 << 'EOF'
-> import pandas as pd
-> import numpy as np
-> import scipy.sparse as sp
-> from sklearn.preprocessing import LabelEncoder
-> from lightfm import LightFM
-> from lightfm.cross_validation import random_train_test_split
-> from lightfm.evaluation import precision_at_k
-> 
-> df = pd.read_csv('data/candy.csv')
-> ratings = np.array(df['review'])
-> users = np.array(df['user'])
-> items = np.array(df['item'])
-> 
-> user_encoder = LabelEncoder()
-> item_encoder = LabelEncoder()
-> u = user_encoder.fit_transform(users)
-> i = item_encoder.fit_transform(items)
-> lu = len(np.unique(u))
-> li = len(np.unique(i))
-> matrix = sp.coo_matrix((ratings, (u, i)), shape=(lu, li))
-> train, test = random_train_test_split(matrix, test_percentage=0.2)
-> model = LightFM()
-> model.fit(train)
-> 
-> # Step 6: Predict
-> user = 'zsmith'
-> user_id = int(user_encoder.transform([user])[0])
-> all_candy_ids = np.arange(len(item_encoder.classes_))
-> preds = model.predict(user_id, all_candy_ids)
-> 
-> candies = pd.DataFrame({'item': item_encoder.classes_, 'prediction': preds}).sort_values('prediction', ascending=False)
-> print('=== Top 10 candy recommendations for', user, '===')
-> print(candies.head(10))
-> 
-> tried = df[df['user'] == user]['item'].values
-> top5_new = list(candies[~candies['item'].isin(tried)]['item'].values[:5])
-> print('=== Top 5 new candies (not tried yet) ===')
-> print(top5_new)
-> EOF
-=== Top 10 candy recommendations for zsmith ===
-                                                  item  prediction
-134                                               Twix    1.356064
-108                             Snickers Chocolate Bar    1.331948
-140            Werther's Original Caramel Hard Candies    1.282892
-74                         M&Ms Peanut Chocolate Candy    1.257335
-72                           M&Ms Milk Chocolate Candy    1.201024
-53   Jolly Rancher Hard Candy Original Flavors Asso...    1.188398
-39                     Hershey's Kisses Milk Chocolate    1.157233
-16                     Creme Savers Strawberries Rolls    1.142571
-0                               3 Musketeers Candy Bar    1.136981
-139                   Warheads Extreme Sour Hard Candy    1.110595
-=== Top 5 new candies (not tried yet) ===
-['Twix', 'Snickers Chocolate Bar', "Werther's Original Caramel Hard Candies", 'M&Ms Peanut Chocolate Candy', 'M&Ms Milk Chocolate Candy']
+
+# ============================================================
+# STEP 1: Quickstart (LightFM with built-in MovieLens data)
+# ============================================================
+# This is the "hello world" of LightFM — uses the bundled dataset.
+# Only for orientation; the real lab replaces this with candy data.
+
+from lightfm.datasets import fetch_movielens
+
+data = fetch_movielens(min_rating=5.0)
+
+quickstart_model = LightFM(loss='warp')
+quickstart_model.fit(data['train'], epochs=30, num_threads=2)
+
+print("MovieLens precision@5:", precision_at_k(quickstart_model, data['test'], k=5).mean())
+# Output: ~0.0518
+
+
+# ============================================================
+# STEP 2: Candy — Load and explore the custom dataset
+# ============================================================
+# The candy.csv file has three columns: user, item, review
+# Each row = one user's star rating of one candy
+
+df = pd.read_csv("data/candy.csv")
+
+# Peek at random rows
+print(df.sample(5))
+
+# Inspect a single user's ratings
+print(df[df['user'] == 'zjohnson'])
+
+# Dataset dimensions
+print("Unique candy items:", df['item'].unique().shape)   # (142,)
+print("Unique users:", df['user'].unique().shape)          # (2531,)
+
+
+# ============================================================
+# STEP 3: Sparse — Build a sparse user-item matrix
+# ============================================================
+# LightFM expects a scipy sparse matrix, not a dense DataFrame.
+# User-item data is inherently sparse: most users rate only a
+# fraction of available items, so most cells are empty (zero).
+# Using coo_matrix (Coordinate format) is memory-efficient.
+
+# But wait — users and items are STRINGS. coo_matrix needs integers.
+# That leads to Step 4.
+
+ratings = np.array(df['review'])   # star ratings (1–5)
+users   = np.array(df['user'])     # string usernames
+items   = np.array(df['item'])     # string candy names
+
+
+# ============================================================
+# STEP 4: Strings — Encode string labels to integer indices
+# ============================================================
+# LabelEncoder maps each unique string to a unique integer.
+# e.g. 'Twix' → 134, 'zsmith' → some integer index
+# It also lets you go BACK from integer → string (inverse_transform)
+
+user_encoder = LabelEncoder()
+item_encoder = LabelEncoder()
+
+u = user_encoder.fit_transform(users)   # integer user indices
+i = item_encoder.fit_transform(items)   # integer item indices
+
+lu = len(np.unique(u))   # 2531 unique users
+li = len(np.unique(i))   # 142 unique candies
+
+# Now build the sparse matrix: shape = (num_users, num_items)
+# coo_matrix takes (data, (row_indices, col_indices))
+matrix = sp.coo_matrix((ratings, (u, i)), shape=(lu, li))
+
+print("Sparse matrix shape:", matrix.shape)   # (2531, 142)
+
+# You can inspect the encoded class names:
+print("First 10 candy names:", item_encoder.classes_[:10])
+print("First 10 user names:", user_encoder.classes_[:10])
+
+
+# ============================================================
+# STEP 5: Model — Train/test split and fit the LightFM model
+# ============================================================
+# Split: 80% train, 20% test (randomly)
+train, test = random_train_test_split(matrix, test_percentage=0.2)
+
+# Instantiate and fit the model on training data
+model = LightFM()
+model.fit(train)
+
+# Evaluate: precision@10 (how many of top-10 recommendations are relevant)
+score = precision_at_k(model, test, k=10).mean()
+print("Candy model precision@10:", score)   # ~0.0278
+
+
+# ============================================================
+# STEP 6: Predict — Generate ranked recommendations for a user
+# ============================================================
+# model.predict() does NOT take the matrix directly.
+# It needs: a scalar user_id + an array of item_ids to score.
+
+user = 'zsmith'
+
+# Encode the username to its integer ID
+user_id = int(user_encoder.transform([user])[0])
+
+# Score ALL candies for this user
+all_candy_ids = np.arange(len(item_encoder.classes_))
+preds = model.predict(user_id, all_candy_ids)
+
+# Build a ranked DataFrame of candies + scores
+candies = pd.DataFrame({
+    'item': item_encoder.classes_,
+    'prediction': preds
+}).sort_values('prediction', ascending=False)
+
+print("\nTop 10 candy recommendations for", user)
+print(candies.head(10))
+
+# IMPORTANT: Filter out candies the user has already rated!
+# Serving already-rated items as "recommendations" is bad UX.
+tried = df[df['user'] == user]['item'].values
+top5_new = list(candies[~candies['item'].isin(tried)]['item'].values[:5])
+
+print("\nTop 5 NEW candy recommendations for", user, "(not yet rated):")
+print(top5_new)
+```
+
+***
+
+## How It Works — Explained Section by Section
+
+### Step 1 — Quickstart (orientation only)
+The LightFM library ships with the **MovieLens** dataset pre-packaged. The quickstart trains a model using the **WARP loss** (Weighted Approximate-Rank Pairwise) which is optimized for ranking — i.e., it pushes relevant items higher in predictions. The model achieves ~5.2% precision@5. This step is purely for orientation; the rest of the lab replaces it.
+
+***
+
+### Step 2 — Loading the Candy Dataset
+The candy data (`candy.csv`) is in **long format** — each row is one `(user, item, review)` triple. Think of it like a spreadsheet where:
+- `user` = username string (e.g., `'zjohnson'`)
+- `item` = candy name string (e.g., `'Twix'`)
+- `review` = star rating (integer, 1–5)
+
+This is **explicit feedback** — users explicitly rated items. The dataset has **2531 users** and **142 candy items**.
+
+***
+
+### Step 3 — Why Sparse Matrices?
+A full (dense) user-item matrix would be **2531 × 142 = 359,402 cells** — but most of them are **zero** (users haven't rated most candies). Storing all those zeros wastes memory. `scipy.sparse.coo_matrix` only stores the **non-zero entries** as `(row, col, value)` triplets — very efficient. LightFM is designed to consume exactly this format.
+
+***
+
+### Step 4 — Encoding Strings to Integers
+`coo_matrix` requires **integer row/column indices**. Usernames and candy names are strings, so `LabelEncoder` maps:
+- Each unique candy → a unique integer (0 to 141)
+- Each unique user → a unique integer (0 to 2530)
+
+Crucially, `LabelEncoder` also **remembers the mapping**, so you can decode integers back to names later using `inverse_transform()` or `.classes_[]`.
+
+***
+
+### Step 5 — Training the Model
+`random_train_test_split(matrix, test_percentage=0.2)` randomly holds out 20% of the ratings for evaluation. LightFM then learns **latent embeddings** (hidden feature vectors) for every user and every item. The dot product of a user embedding and an item embedding gives the predicted score. `precision_at_k` measures: for each user in the test set, what fraction of the top-K predicted items were actually rated positively? Result: ~2.8% precision@10.
+
+***
+
+### Step 6 — Generating Recommendations
+`model.predict(user_id, item_ids)` scores every candy for a given user. The key workflow is:
+1. Encode the username string → integer using `user_encoder.transform()`
+2. Create an array of all item integer IDs (0 to 141)
+3. Call `model.predict()` → returns a score array of length 142
+4. Zip scores with candy names, sort descending → ranked recommendation list
+5. **Filter out already-rated items** before showing to the user (critical production step!)
+
+**Top 5 new candy recommendations for `zsmith`:** Twix, Snickers Chocolate Bar, Werther's Original Caramel Hard Candies, M&Ms Peanut Chocolate Candy, M&Ms Milk Chocolate Candy.
+
+***
+
+## Key Takeaways
+
+| Concept | What it does |
+|---|---|
+| `LightFM(loss='warp')` | Optimizes for ranking — best for recommendation tasks |
+| `fetch_movielens()` | Built-in dataset for quick experimentation |
+| `scipy.sparse.coo_matrix` | Memory-efficient matrix for sparse user-item data |
+| `LabelEncoder` | Converts string user/item names ↔ integer indices |
+| `random_train_test_split` | Splits ratings into train/test without data leakage |
+| `precision_at_k` | Evaluation metric: % of top-K recs that are relevant |
+| `model.predict(user_id, item_ids)` | Scores all items for one user; then you sort & filter |
