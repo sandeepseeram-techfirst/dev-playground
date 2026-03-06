@@ -13,7 +13,7 @@
 import numpy as np
 import pandas as pd
 import scipy.sparse as sp
-from sklearn.preprocessing import LabelEncoder 
+from sklearn.preprocessing import LabelEncoder
 
 from lightfm import LightFM
 from lightfm.cross_validation import random_train_test_split
