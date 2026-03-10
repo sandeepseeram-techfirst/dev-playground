@@ -6,13 +6,13 @@ Scikit-learn (often abbreviated as sklearn) is one of the most popular and widel
 
 ### Here are a few key things to know about it:
 
-1. Diverse Algorithms: It provides simple and efficient tools for predictive data analysis, including algorithms for classification, regression, clustering, and dimensionality reduction.
+1. **Diverse Algorithms:** It provides simple and efficient tools for predictive data analysis, including algorithms for classification, regression, clustering, and dimensionality reduction.
 
-2. Built on Python's Core Ecosystem: It is designed to work seamlessly with other popular scientific libraries like NumPy, SciPy, and matplotlib, which makes it very easy to integrate into your data science projects.
+2. **Built on Python's Core Ecosystem:** It is designed to work seamlessly with other popular scientific libraries like NumPy, SciPy, and matplotlib, which makes it very easy to integrate into your data science projects.
 
-3. Easy to Use: It features a consistent, user-friendly interface, which allows you to focus on the data and the logic of your machine learning models rather than spending time on complex implementation details.
+3. **Easy to Use:** It features a consistent, user-friendly interface, which allows you to focus on the data and the logic of your machine learning models rather than spending time on complex implementation details.
 
-4. Open Source: It is free to use and has a very large community supporting it, making it a standard choice for both beginners starting their machine learning journey and professionals building real-world applications.
+4. **Open Source:** It is free to use and has a very large community supporting it, making it a standard choice for both beginners starting their machine learning journey and professionals building real-world applications.
 
 ### Install scikit-learn using 
 
