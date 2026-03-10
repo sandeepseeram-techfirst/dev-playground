@@ -38,4 +38,8 @@ Successfully installed joblib-1.5.3 scikit-learn-1.7.2 threadpoolctl-3.6.0
 [notice] To update, run: python3 -m pip install --upgrade pip
 project/ $ 
 
-### Import scikit-learn as from sklearn import datasets
+### Import scikit-learn as 
+
+from sklearn import datasets
+
+Scikit-learn includes a module called datasets which contains utilities to load and fetch popular reference datasets. 
