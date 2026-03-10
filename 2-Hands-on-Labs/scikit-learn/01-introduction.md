@@ -37,3 +37,5 @@ Successfully installed joblib-1.5.3 scikit-learn-1.7.2 threadpoolctl-3.6.0
 [notice] A new release of pip is available: 24.1.2 -> 26.1.1
 [notice] To update, run: python3 -m pip install --upgrade pip
 project/ $ 
+
+### Import scikit-learn as from sklearn import datasets
