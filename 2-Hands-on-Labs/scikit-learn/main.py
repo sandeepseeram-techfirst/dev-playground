@@ -1,5 +1,4 @@
 import sklearn
 from sklearn import datasets
 
-print(sklearn._version_)
-
+print(sklearn.__version__)
