@@ -12,15 +12,15 @@ GPU memory size matters because it directly affects which models you can load an
 
 ### Parameters
 
-Parameters are the learned values inside an AI model.[1] A model with more parameters can usually represent more complex patterns, but it also needs more memory.[1]
+Parameters are the learned values inside an AI model. A model with more parameters can usually represent more complex patterns, but it also needs more memory.
 
 ### Precision
 
-Precision means how many bits are used to store each parameter.[1] Higher precision such as FP32 uses more memory, while lower precision such as FP16, INT8, or FP4 reduces memory use and can improve efficiency, though sometimes with trade-offs in accuracy.[1]
+Precision means how many bits are used to store each parameter. Higher precision such as FP32 uses more memory, while lower precision such as FP16, INT8, or FP4 reduces memory use and can improve efficiency, though sometimes with trade-offs in accuracy.
 
 ## Easy way to estimate memory
 
-The post suggests a rough estimate: multiply the number of parameters by the bytes used per parameter, then multiply again by 2 for overhead.[1] It gives the example that a 7 billion parameter model at FP16 needs about 28 GB of GPU memory: 7B × 2 bytes × 2.[1]
+Rough Estimate: multiply the number of parameters by the bytes used per parameter, then multiply again by 2 for overhead.[1] It gives the example that a 7 billion parameter model at FP16 needs about 28 GB of GPU memory: 7B × 2 bytes × 2.[1]
 
 ## Precision formats in plain language
 
