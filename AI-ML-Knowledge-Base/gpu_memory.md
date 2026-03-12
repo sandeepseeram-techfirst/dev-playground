@@ -33,7 +33,8 @@ Rough Estimate: multiply the number of parameters by the bytes used per paramete
 
 ## Why quantization matters
 
-Quantization means storing model weights in lower precision so the model takes less memory.[1] The post highlights TensorRT-LLM as a way to compress models to 8-bit or 4-bit precision so larger models can fit on smaller GPUs.[1]
+Quantization means storing model weights in lower precision so the model takes less memory.  
+TensorRT-LLM as a way to compress models to 8-bit or 4-bit precision so larger models can fit on smaller GPUs.
 
 ## Practical takeaway
 
