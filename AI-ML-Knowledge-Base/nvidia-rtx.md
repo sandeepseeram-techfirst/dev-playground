@@ -8,4 +8,4 @@ NVIDIA RTX is a class of NVIDIA GPUs and a whole platform that combines traditio
 
 * RTX GPUs started with Turing and continue through Ampere, Ada Lovelace, and Blackwell architectures, each adding newer RT and Tensor Cores.
 
-On consumer PCs, “RTX AI PCs” just means Windows machines with GeForce RTX GPUs plus the NVIDIA AI software stack to run local AI apps and models.
+* On consumer PCs, “RTX AI PCs” just means Windows machines with GeForce RTX GPUs plus the NVIDIA AI software stack to run local AI apps and models.
