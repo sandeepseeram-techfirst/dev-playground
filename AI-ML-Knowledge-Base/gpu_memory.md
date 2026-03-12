@@ -5,7 +5,8 @@ Bigger models and higher precision need more memory, so choosing the right GPU d
 
 ## Main idea
 
-Running AI locally can improve privacy, reduce latency, work offline, and lower cloud costs during experimentation.[1] The post argues that GPU memory size matters because it directly affects which models you can load and run on your system.[1]
+Running AI locally can improve privacy, reduce latency, work offline, and lower cloud costs during experimentation.
+GPU memory size matters because it directly affects which models you can load and run on your system.
 
 ## Two concepts to know
 
