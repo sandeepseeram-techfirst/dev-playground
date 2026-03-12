@@ -38,7 +38,9 @@ TensorRT-LLM as a way to compress models to 8-bit or 4-bit precision so larger m
 
 ## Practical takeaway
 
-For local AI, model size alone is not enough to judge hardware needs; precision and runtime overhead matter too.[1] In simple terms: if a model does not fit in VRAM, it will run poorly or not run at all, so reducing precision is often the first practical optimization.[1]
+For local AI, model size alone is not enough to judge hardware needs; precision and runtime overhead matter too. 
+
+In simple terms: if a model does not fit in VRAM, it will run poorly or not run at all, so reducing precision is often the first practical optimization.
 
 ## What the post recommends
 
