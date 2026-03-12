@@ -19,3 +19,11 @@ Inside an RTX GPU you effectively have three main hardware blocks working togeth
 **RT cores:** Fixed‑function blocks that accelerate BVH traversal and ray–triangle intersection, which are the core operations for real‑time ray tracing.
 
 **Tensor Cores:** Matrix‑math units optimized for mixed‑precision (FP16, INT8, FP8, etc.) operations, used to accelerate deep‑learning inference and AI‑based graphics like DLSS.
+
+### In a typical RTX game frame:
+
+CUDA and RT cores render a base image at a lower internal resolution, with ray‑traced lighting and reflections accelerated by RT cores.
+
+* Tensor Cores run a trained DL model (e.g., DLSS) to denoise, upscale, and reconstruct a higher‑resolution image, boosting FPS while maintaining visual quality.
+
+* The same Tensor Cores can be used by frameworks like TensorRT, PyTorch, or ONNX Runtime to run LLMs and diffusion models locally on an RTX PC.
