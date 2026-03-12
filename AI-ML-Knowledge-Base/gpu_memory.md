@@ -20,16 +20,16 @@ Precision means how many bits are used to store each parameter. Higher precision
 
 ## Easy way to estimate memory
 
-Rough Estimate: multiply the number of parameters by the bytes used per parameter, then multiply again by 2 for overhead.[1] It gives the example that a 7 billion parameter model at FP16 needs about 28 GB of GPU memory: 7B × 2 bytes × 2.[1]
+Rough Estimate: multiply the number of parameters by the bytes used per parameter, then multiply again by 2 for overhead. It gives the example that a 7 billion parameter model at FP16 needs about 28 GB of GPU memory: 7B × 2 bytes × 2.
 
 ## Precision formats in plain language
 
 | Format | Approx. bytes per parameter | Simple meaning |
 |--------|------------------------------|----------------|
-| FP32 / INT32 | 4 bytes [1] | Highest memory use, often used when accuracy matters most |
-| FP16 / INT16 | 2 bytes [1] | Common balance between speed, memory, and accuracy |
-| INT8 / FP8 | 1 byte [1] | Lower memory use, often good for inference |
-| INT4 / FP4 | 0.5 bytes [1] | Very compact, useful when memory is tight |
+| FP32 / INT32 | 4 bytes  | Highest memory use, often used when accuracy matters most |
+| FP16 / INT16 | 2 bytes  | Common balance between speed, memory, and accuracy |
+| INT8 / FP8 | 1 byte     | Lower memory use, often good for inference |
+| INT4 / FP4 | 0.5 bytes  | Very compact, useful when memory is tight |
 
 ## Why quantization matters
 
