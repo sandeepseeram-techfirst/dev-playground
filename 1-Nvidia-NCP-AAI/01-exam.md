@@ -28,3 +28,4 @@ The Agentic AI LLMs professional certification is an intermediate-level credenti
 | Run, Monitor & Maintain               | 5%        |
 | Safety, Ethics & Compliance           | 5%        |
 | Human-AI Interaction & Oversight      | 5%        |
+
