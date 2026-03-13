@@ -14,3 +14,17 @@ The Agentic AI LLMs professional certification is an intermediate-level credenti
 
 5. **Human, Ethical, and Compliance Considerations:** Design human-in-the-loop systems, enforce safety and compliance guardrails, and uphold responsible AI practices.
 
+### Topic Weightage 
+
+| Topic                                 | % of Exam |
+| ------------------------------------- | --------- |
+| Agent Architecture & Design           | 15%       |
+| Agent Development                     | 15%       |
+| Evaluation & Tuning                   | 13%       |
+| Deployment & Scaling                  | 13%       |
+| Cognition, Planning & Memory          | 10%       |
+| Knowledge Integration & Data Handling | 10%       |
+| NVIDIA Platform Implementation        | 7%        |
+| Run, Monitor & Maintain               | 5%        |
+| Safety, Ethics & Compliance           | 5%        |
+| Human-AI Interaction & Oversight      | 5%        |
