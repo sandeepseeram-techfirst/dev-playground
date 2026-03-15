@@ -8,3 +8,5 @@ Gemma 3n is a family of models built for multimodal use cases, meaning it can wo
 ollama pull gemma3n:e4b
 ollama run gemma3n:e4b “Summarize Shakespeare’s Hamlet”
 ''
+
+**Gemma 3n** is a compact multimodal model family that NVIDIA now supports on RTX and Jetson, making local AI more practical for PCs, edge devices, and robotics projects.
