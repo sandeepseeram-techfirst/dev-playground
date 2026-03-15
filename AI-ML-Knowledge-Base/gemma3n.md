@@ -13,3 +13,5 @@ ollama run gemma3n:e4b “Summarize Shakespeare’s Hamlet”
 
 **Gemma 3n** can be fine‑tuned, and it can absolutely be used as the core model in both agentic AI systems and RAG pipelines.
 
+
+
