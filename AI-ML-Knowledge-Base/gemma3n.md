@@ -17,7 +17,7 @@ ollama run gemma3n:e4b “Summarize Shakespeare’s Hamlet”
 
 NVIDIA explicitly points to using Gemma 3n models from Hugging Face with the open‑source NVIDIA NeMo Framework for post‑training and fine‑tuning. NeMo supports multiple fine‑tuning strategies (LoRA, PEFT, and full‑parameter fine‑tuning) to adapt the base model to enterprise‑ or project‑specific data.
 
-Practically, that means you can:
+Practically, that means you can: 
 
 1. Pull Gemma 3n (E2B/E4B) from Hugging Face.
 
