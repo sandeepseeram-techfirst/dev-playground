@@ -23,3 +23,4 @@ Practically, that means you can:
 
 2. Use NeMo (or other LLM stacks like vLLM / HF Transformers) to run supervised fine‑tuning or instruction‑tuning on your own datasets.
 
+### Using Gemma 3n for agentic AI
