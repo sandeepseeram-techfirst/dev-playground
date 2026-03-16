@@ -31,3 +31,10 @@ Agentic systems (tools, planning, multi‑step workflows) mainly need:
 
 2. Long enough context (Gemma 3n has 32K input context) for multi‑step traces and tool results.
 
+On RTX PCs and Jetson, Gemma 3n can be hosted locally (via Ollama, NeMo, or NVIDIA APIs) and wrapped with tool‑calling and orchestration frameworks (LangChain, LlamaIndex, NeMo microservices, custom agents) to build:
+
+1. Task‑oriented copilots.
+
+2. Robotics / edge agents (Jetson) that observe sensors and act.
+
+3. Local desktop assistants with tool integration (filesystem, browser, apps).
