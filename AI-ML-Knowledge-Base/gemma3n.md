@@ -24,3 +24,10 @@ Practically, that means you can:
 2. Use NeMo (or other LLM stacks like vLLM / HF Transformers) to run supervised fine‑tuning or instruction‑tuning on your own datasets.
 
 ### Using Gemma 3n for agentic AI
+
+Agentic systems (tools, planning, multi‑step workflows) mainly need:
+
+1. A capable instruction‑following LLM.
+
+2. Long enough context (Gemma 3n has 32K input context) for multi‑step traces and tool results.
+
