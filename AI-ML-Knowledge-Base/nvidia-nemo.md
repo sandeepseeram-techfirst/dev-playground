@@ -6,4 +6,7 @@ It gives you libraries, microservices, and workflows for the full lifecycle: dat
 
 **NeMo is a cloud‑native development platform for custom generative AI models: LLMs, multimodal, CV, ASR, NLP, and TTS.**
 
-It combines open‑source Python libraries (the “NeMo Framework”) with production‑oriented microservices for data processing, fine‑tuning, evaluation, RAG, safety, and observability.
+It combines open‑source Python libraries (the “NeMo Framework”) with production‑oriented microservices for data processing, fine‑tuning, evaluation, RAG, safety, and observability. 
+
+You can use it to customize NVIDIA base models (e.g., Nemotron) or other open models, then deploy them as production‑grade agentic systems.
+
