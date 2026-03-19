@@ -24,7 +24,8 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 4. **Evaluation:** run task‑specific benchmarks and custom metrics for your domain.
 
-### NeMo microservices: agents, RAG, safety, and ops
+### NeMo microservices: agents, RAG, safety, and ops 
+
 NVIDIA now positions NeMo as a toolkit for managing the AI agent lifecycle, exposed as microservices.
 
 Key services and capabilities:
