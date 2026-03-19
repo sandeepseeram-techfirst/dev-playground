@@ -58,7 +58,7 @@ Building enterprise AI assistants (internal or customer‑facing) that use custo
 
 Example: Shell used NeMo to train a chemical‑domain chatbot; domain‑adaptive pretraining and SFT gave a 30% accuracy gain versus the base model and 20% faster training via NeMo parallelism.
 
-Enterprise search and knowledge assistants
+**Enterprise search and knowledge assistants**
 Enterprise search over documents, knowledge bases, and logs using NeMo Retriever and custom LLMs for RAG.
 
 Use cases include technical support assistants, research assistants, and internal knowledge copilots.
