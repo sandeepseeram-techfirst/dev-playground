@@ -18,13 +18,13 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 1. Data collection and preprocessing: curate and clean large text/audio/image/video corpora (NeMo Curator).
 
-Pretraining: train a foundation model (or continue pretraining) using high‑performance GPU clusters.
+2. Pretraining: train a foundation model (or continue pretraining) using high‑performance GPU clusters.
 
-Fine‑tuning: apply domain‑adaptive pretraining (DAPT) and supervised fine‑tuning (SFT) on your specific domain data.
+3. Fine‑tuning: apply domain‑adaptive pretraining (DAPT) and supervised fine‑tuning (SFT) on your specific domain data.
 
-Evaluation: run task‑specific benchmarks and custom metrics for your domain.
+4. Evaluation: run task‑specific benchmarks and custom metrics for your domain.
 
-2. NeMo microservices: agents, RAG, safety, and ops
+### NeMo microservices: agents, RAG, safety, and ops
 NVIDIA now positions NeMo as a toolkit for managing the AI agent lifecycle, exposed as microservices.
 
 Key services and capabilities:
