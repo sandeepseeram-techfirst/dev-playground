@@ -63,7 +63,7 @@ Enterprise search over documents, knowledge bases, and logs using NeMo Retriever
 
 Use cases include technical support assistants, research assistants, and internal knowledge copilots.
 
-Speech and conversational AI
+**Speech and conversational AI**
 ASR: transcription services, meeting captioning, voice analytics.
 
 TTS: custom voices, multilingual voice assistants.
