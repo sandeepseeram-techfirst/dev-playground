@@ -20,9 +20,9 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 2. **Pretraining:** train a foundation model (or continue pretraining) using high‑performance GPU clusters.
 
-3. Fine‑tuning: apply domain‑adaptive pretraining (DAPT) and supervised fine‑tuning (SFT) on your specific domain data.
+3. **Fine‑tuning:** apply domain‑adaptive pretraining (DAPT) and supervised fine‑tuning (SFT) on your specific domain data.
 
-4. Evaluation: run task‑specific benchmarks and custom metrics for your domain.
+4. **Evaluation:** run task‑specific benchmarks and custom metrics for your domain.
 
 ### NeMo microservices: agents, RAG, safety, and ops
 NVIDIA now positions NeMo as a toolkit for managing the AI agent lifecycle, exposed as microservices.
