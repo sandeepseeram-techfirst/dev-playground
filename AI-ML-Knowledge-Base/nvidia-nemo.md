@@ -16,7 +16,7 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 ### Typical workflow on the framework side:
 
-1. Data collection and preprocessing: curate and clean large text/audio/image/video corpora (NeMo Curator).
+1. **Data collection and preprocessing:** curate and clean large text/audio/image/video corpora (NeMo Curator).
 
 2. Pretraining: train a foundation model (or continue pretraining) using high‑performance GPU clusters.
 
