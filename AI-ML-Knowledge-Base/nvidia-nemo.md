@@ -70,19 +70,19 @@ TTS: custom voices, multilingual voice assistants.
 
 End‑to‑end conversational agents: voice assistants, call‑center bots, and in‑car assistants using ASR + LLM + TTS pipelines.
 
-Content and code generation
+**Content and code generation**
 Text generation: summarization, report drafting, email generation, and multi‑turn content creation workflows.
 
 Multimodal: combining text, images, or video inputs for richer agents (e.g., analyzing documents plus images).
 
 Synthetic data: generating synthetic corpora or scenarios to train reasoning agents and safety systems.
 
-Domain‑specific expert models
+**Domain‑specific expert models**
 Fine‑tuned LLMs for verticals like energy, legal, healthcare, finance, etc., using DAPT + SFT workflows.
 
 Example use cases: analyzing legal contracts, assisting radiologists, or providing engineering design support.
 
-Deployment environments
+**Deployment environments**
 Clouds, data centers, and edge environments, leveraging NeMo’s cloud‑native design and microservices architecture.
 
 Integrations with high‑performance storage and networking stacks (e.g., WEKA + GPUDirect Storage) to sustain LLM training and inference throughput.
