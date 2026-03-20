@@ -1,6 +1,6 @@
 ### NVIDIA NeMo Framework
 
-**NVIDIA NeMo** is NVIDIA’s generative AI framework and toolkit for building, customizing, and deploying LLMs and multimodal “AI agents” using GPUs, both on‑prem and in the cloud. 
+**NVIDIA NeMo** is NVIDIA’s generative AI framework and toolkit for building, customizing, and deploying LLMs and multimodal “AI agents” using GPUs, both on‑prem and in the cloud.
 
 It gives you libraries, microservices, and workflows for the full lifecycle: data curation, pretraining, fine‑tuning, guardrails, and inference at scale.
 
@@ -28,9 +28,9 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 **NVIDIA now positions NeMo as a toolkit for managing the AI agent lifecycle, exposed as microservices.**
 
-Key services and capabilities:
+### Key services and capabilities:
 
-Data curation and synthetic data: NeMo Curator pipelines for cleaning data and generating synthetic datasets for training/agent scenarios.
+1. Data curation and synthetic data: NeMo Curator pipelines for cleaning data and generating synthetic datasets for training/agent scenarios.
 
 Retrieval‑augmented generation: NeMo Retriever service to plug enterprise RAG into your apps (vector search, retrieval pipelines).
 
