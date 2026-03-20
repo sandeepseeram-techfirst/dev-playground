@@ -44,7 +44,7 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 * Run NeMo services on‑prem, in private cloud, or on public cloud with GPU instances.
 
-Expose them via APIs to your applications (chatbots, assistants, backend services, robots).
+* Expose them via APIs to your applications (chatbots, assistants, backend services, robots).
 
 Continuously retrain/fine‑tune as you collect new data (continuous learning loop).
 
