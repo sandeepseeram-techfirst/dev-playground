@@ -34,9 +34,9 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 2. Retrieval‑augmented generation: NeMo Retriever service to plug enterprise RAG into your apps (vector search, retrieval pipelines).
 
-Model customization: services to fine‑tune base models (e.g., Nemotron) on your data, including RL and evaluation loops.
+3. Model customization: services to fine‑tune base models (e.g., Nemotron) on your data, including RL and evaluation loops.
 
-Guardrails and safety: NeMo Guardrails for content safety, jailbreak protection, topic control, PII masking, agentic security, and custom rule sets.
+4. Guardrails and safety: NeMo Guardrails for content safety, jailbreak protection, topic control, PII masking, agentic security, and custom rule sets.
 
 Observability: agent tracing, logging, and metrics to monitor behavior and performance in production.
 
