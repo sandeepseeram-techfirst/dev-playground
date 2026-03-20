@@ -38,11 +38,11 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 4. Guardrails and safety: NeMo Guardrails for content safety, jailbreak protection, topic control, PII masking, agentic security, and custom rule sets.
 
-Observability: agent tracing, logging, and metrics to monitor behavior and performance in production.
+5. Observability: agent tracing, logging, and metrics to monitor behavior and performance in production.
 
-Deployment pattern:
+### Deployment pattern:
 
-Run NeMo services on‑prem, in private cloud, or on public cloud with GPU instances.
+* Run NeMo services on‑prem, in private cloud, or on public cloud with GPU instances.
 
 Expose them via APIs to your applications (chatbots, assistants, backend services, robots).
 
