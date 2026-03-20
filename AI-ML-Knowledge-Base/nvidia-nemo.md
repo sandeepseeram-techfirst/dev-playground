@@ -32,7 +32,7 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 1. Data curation and synthetic data: NeMo Curator pipelines for cleaning data and generating synthetic datasets for training/agent scenarios.
 
-Retrieval‑augmented generation: NeMo Retriever service to plug enterprise RAG into your apps (vector search, retrieval pipelines).
+2. Retrieval‑augmented generation: NeMo Retriever service to plug enterprise RAG into your apps (vector search, retrieval pipelines).
 
 Model customization: services to fine‑tune base models (e.g., Nemotron) on your data, including RL and evaluation loops.
 
