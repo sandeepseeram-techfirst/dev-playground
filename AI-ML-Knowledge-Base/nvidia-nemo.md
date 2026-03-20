@@ -85,4 +85,4 @@ Example use cases: analyzing legal contracts, assisting radiologists, or providi
 **Deployment environments**
 Clouds, data centers, and edge environments, leveraging NeMo’s cloud‑native design and microservices architecture.
 
-Integrations with high‑performance storage and networking stacks (e.g., WEKA + GPUDirect Storage) to sustain LLM training and inference throughput. 
+Integrations with high‑performance storage and networking stacks (e.g., WEKA + GPUDirect Storage) to sustain LLM training and inference throughput.
