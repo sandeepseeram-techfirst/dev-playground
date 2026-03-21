@@ -19,3 +19,6 @@ If a call uses 2,000 input tokens and returns 1,000 output tokens, the billable 
 
 ### Note: Almost all providers charge separately for input tokens (your prompt/context) and output tokens (the model’s response).
 This means you pay one rate for the tokens you send in (prompt + system messages + history) and another rate for the tokens the model generates.
+
+### Inference Providers 
+Providers are just brokering access to Anthropic’s hosted endpoints and enforcing Anthropic’s usage and privacy policies alongside their own.
