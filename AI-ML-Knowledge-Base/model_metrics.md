@@ -35,6 +35,6 @@ Aggregators exist because they add extra capabilities (routing, one API, extra m
 
 **Unified API:** OpenRouter and Fireworks offer OpenAI‑style or unified APIs so you can swap models with minimal code changes.
 
-Routing and failover: OpenRouter, for example, can route across multiple providers for higher availability, better latency, or cost optimization, and even has BYOK to use your own provider keys.
+**Routing and failover:** OpenRouter, for example, can route across multiple providers for higher availability, better latency, or cost optimization, and even has BYOK to use your own provider keys.
 
 Expanded catalog: Replicate exposes a large catalog of open models you can call with simple HTTP, without managing GPUs yourself.
