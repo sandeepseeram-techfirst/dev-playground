@@ -46,14 +46,14 @@ The framework is built around “neural modules” — reusable, interconnectabl
 
 * Expose them via APIs to your applications (chatbots, assistants, backend services, robots).
 
-Continuously retrain/fine‑tune as you collect new data (continuous learning loop).
+* Continuously retrain/fine‑tune as you collect new data (continuous learning loop).
 
 For someone focused on GPU infra, NeMo is a consumer of your GPU cluster: it expects fast storage (e.g., GPUDirect‑enabled), high‑bandwidth interconnects, and can integrate with platforms like WEKA for low‑latency data access.
 
-Typical use cases
+### Typical use cases
 Here are the main buckets where NeMo is used today.
 
-AI agents and assistants
+**AI agents and assistants**
 Building enterprise AI assistants (internal or customer‑facing) that use customized LLMs, RAG, and speech/translation microservices.
 
 Example: Shell used NeMo to train a chemical‑domain chatbot; domain‑adaptive pretraining and SFT gave a 30% accuracy gain versus the base model and 20% faster training via NeMo parallelism.
