@@ -22,3 +22,5 @@ This means you pay one rate for the tokens you send in (prompt + system messages
 
 ### Inference Providers 
 Providers are just brokering access to Anthropic’s hosted endpoints and enforcing Anthropic’s usage and privacy policies alongside their own.
+
+OpenRouter, Fireworks, and Replicate all expose hosted inference endpoints for many models, often including Anthropic, OpenAI-compatible, and open‑weights models
