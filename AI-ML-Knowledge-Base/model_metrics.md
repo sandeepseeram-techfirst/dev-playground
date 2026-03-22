@@ -8,3 +8,7 @@ A token is a small chunk of text (a few characters or part of a word) that the m
 
 When providers price “per 1M tokens” and show max input/output tokens, they are counting these chunks, not whole words or characters.
 
+**Input tokens:** Everything you send to the API in that call (system prompt, user messages, tools schema, previous conversation, etc.).
+
+Output tokens: Everything the model returns in that response, up to the “Max Output Tokens” limit for that model.
+
