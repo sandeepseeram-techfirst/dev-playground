@@ -12,3 +12,7 @@ When providers price “per 1M tokens” and show max input/output tokens, they 
 
 **Output tokens:** Everything the model returns in that response, up to the “Max Output Tokens” limit for that model.
 
+**Costing Example:** 
+Suppose a model is listed as 2 USD per 1M input tokens and 8 USD per 1M output tokens.
+
+If a call uses 2,000 input tokens and returns 1,000 output tokens, the billable tokens are 3,000 total, but split by rate: 2,000 at the input price and 1,000 at the output price.
