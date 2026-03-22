@@ -10,5 +10,5 @@ When providers price “per 1M tokens” and show max input/output tokens, they 
 
 **Input tokens:** Everything you send to the API in that call (system prompt, user messages, tools schema, previous conversation, etc.).
 
-Output tokens: Everything the model returns in that response, up to the “Max Output Tokens” limit for that model.
+**Output tokens:** Everything the model returns in that response, up to the “Max Output Tokens” limit for that model.
 
