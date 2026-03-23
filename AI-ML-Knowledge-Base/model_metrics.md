@@ -55,4 +55,4 @@ is an aggregator of many inference providers and a host for your own models/endp
 
 **Typical use:** Search, RAG, recommendation, clustering, similarity (“find docs similar to this query”), not natural‑language replies.
 
-Cost pattern: Usually input‑only priced per 1M tokens; there’s no “output tokens” because the output is a fixed‑size vector, not a long text.
+**Cost pattern:** Usually input‑only priced per 1M tokens; there’s no “output tokens” because the output is a fixed‑size vector, not a long text.
