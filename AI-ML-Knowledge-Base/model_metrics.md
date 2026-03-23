@@ -29,6 +29,7 @@ Platforms like OpenRouter, Fireworks.ai, and Replicate act as “model gateways�
 OpenRouter, Fireworks, and Replicate all expose hosted inference endpoints for many models, often including Anthropic, OpenAI-compatible, and open‑weights models. They host or proxy many different models behind their own unified API, set pricing per input/output token or per second, and handle routing, billing, and sometimes load‑balancing or caching for you.
 
 ### Why aggregators exist? 
+
 Aggregators like OpenRouter, Fireworks, and Replicate act as a single API in front of many providers and models. They try to solve problems like “I don’t want to integrate 5 different vendor SDKs and auth schemes” and “I want to switch models/providers without rewriting app code.”
 
 Aggregators exist because they add extra capabilities (routing, one API, extra models, etc.) 
@@ -51,6 +52,7 @@ Aggregators exist because they add extra capabilities (routing, one API, extra m
 is an aggregator of many inference providers and a host for your own models/endpoints.
 
 ### Embedding
+
 **Purpose:** Turn text (and sometimes images/audio) into numeric vectors that capture semantic meaning.
 
 **Typical use:** Search, RAG, recommendation, clustering, similarity (“find docs similar to this query”), not natural‑language replies.
