@@ -38,3 +38,12 @@ Aggregators exist because they add extra capabilities (routing, one API, extra m
 **Routing and failover:** OpenRouter, for example, can route across multiple providers for higher availability, better latency, or cost optimization, and even has BYOK to use your own provider keys.
 
 **Expanded catalog:** Replicate exposes a large catalog of open models you can call with simple HTTP, without managing GPUs yourself.
+
+### Design Decision: An aggregator is more compelling if you:
+
+1. Want to experiment with many models/providers quickly without lots of separate integrations.
+
+Need automatic fallback/routing when a provider is down or rate‑limited, or want to route some traffic to cheaper/faster models.
+
+Like BYOK patterns (especially with OpenRouter) where you keep your Anthropic/OpenAI accounts and negotiated rates, but still use the aggregator for routing/unification.
+
