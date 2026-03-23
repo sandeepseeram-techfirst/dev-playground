@@ -43,7 +43,7 @@ Aggregators exist because they add extra capabilities (routing, one API, extra m
 
 1. Want to experiment with many models/providers quickly without lots of separate integrations.
 
-Need automatic fallback/routing when a provider is down or rate‑limited, or want to route some traffic to cheaper/faster models.
+2. Need automatic fallback/routing when a provider is down or rate‑limited, or want to route some traffic to cheaper/faster models.
 
 Like BYOK patterns (especially with OpenRouter) where you keep your Anthropic/OpenAI accounts and negotiated rates, but still use the aggregator for routing/unification.
 
