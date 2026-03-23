@@ -45,5 +45,5 @@ Aggregators exist because they add extra capabilities (routing, one API, extra m
 
 2. Need automatic fallback/routing when a provider is down or rate‑limited, or want to route some traffic to cheaper/faster models.
 
-Like BYOK patterns (especially with OpenRouter) where you keep your Anthropic/OpenAI accounts and negotiated rates, but still use the aggregator for routing/unification.
+3. Like BYOK patterns (especially with OpenRouter) where you keep your Anthropic/OpenAI accounts and negotiated rates, but still use the aggregator for routing/unification.
 
