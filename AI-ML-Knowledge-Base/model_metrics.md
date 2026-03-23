@@ -24,6 +24,7 @@ This means you pay one rate for the tokens you send in (prompt + system messages
 Providers are just brokering access to Anthropic’s hosted endpoints and enforcing Anthropic’s usage and privacy policies alongside their own.
 
 ### What these aggregators do?
+
 Platforms like OpenRouter, Fireworks.ai, and Replicate act as “model gateways” or aggregators.
 
 OpenRouter, Fireworks, and Replicate all expose hosted inference endpoints for many models, often including Anthropic, OpenAI-compatible, and open‑weights models. They host or proxy many different models behind their own unified API, set pricing per input/output token or per second, and handle routing, billing, and sometimes load‑balancing or caching for you.
