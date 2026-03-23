@@ -9,3 +9,9 @@ For agentic AI, authentication and authorization look like a layered version of 
 **Authorization:** Decide what that identity is allowed to do, at what time and in what context, usually via scopes, RBAC/ABAC, or fine‑grained policy engines.
 
 In an agentic system, the “identity” is often not just a human or app, but also the agent instance as a non‑human identity with its own permissions and logs.
+
+### Service-to-service (agent on its own behalf)
+Use API keys, client credentials, or JWTs when the agent is acting as a system, not tied to a specific human.
+
+**Example:** analytics agent pulling internal metrics with a pre‑issued service token.
+
