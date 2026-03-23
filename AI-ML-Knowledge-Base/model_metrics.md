@@ -47,3 +47,5 @@ Aggregators exist because they add extra capabilities (routing, one API, extra m
 
 3. Like BYOK patterns (especially with OpenRouter) where you keep your Anthropic/OpenAI accounts and negotiated rates, but still use the aggregator for routing/unification.
 
+### HuggingFace
+is an aggregator of many inference providers and a host for your own models/endpoints.
