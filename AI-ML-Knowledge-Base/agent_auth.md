@@ -25,3 +25,7 @@ Use OAuth/OIDC tokens that represent a specific human and are delegated to the a
 Some designs issue per‑tool capability tokens that say “this agent can call Tool A with operations X, Y, Z.”
 
 The agent is stateless regarding long‑term credentials; a broker or gateway hands it short‑lived tool tokens.
+
+### Human‑in‑the‑loop
+Human‑in‑the‑loop is increasingly common: for high‑risk actions (delete, wire transfer, production changes), the agent pauses and requests human approval, often via inline approve/deny UX or time‑boxed holds.
+
