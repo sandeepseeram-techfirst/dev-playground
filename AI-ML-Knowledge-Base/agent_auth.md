@@ -21,4 +21,7 @@ Use OAuth/OIDC tokens that represent a specific human and are delegated to the a
 
 **Example:** support agent that can read a customer’s tickets and post to one Slack channel, but not manage org settings.
 
+### Capability / tool tokens
+Some designs issue per‑tool capability tokens that say “this agent can call Tool A with operations X, Y, Z.”
 
+The agent is stateless regarding long‑term credentials; a broker or gateway hands it short‑lived tool tokens.
