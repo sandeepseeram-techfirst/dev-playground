@@ -35,4 +35,4 @@ Human‑in‑the‑loop is increasingly common: for high‑risk actions (delete,
 
 2. LLM gateways (TrueFoundry, Gravitee, etc.) centralize model and tool access: agents authenticate to the gateway, and the gateway manages provider keys, rotation, and access control.
 
-3. Specialist tools (Auth0, Aembit, Nango, etc.) add agent‑aware token brokering, ensuring agents never touch raw API credentials and only get scoped tokens. 
+3. Specialist tools (Auth0, Aembit, Nango, etc.) add agent‑aware token brokering, ensuring agents never touch raw API credentials and only get scoped tokens.
