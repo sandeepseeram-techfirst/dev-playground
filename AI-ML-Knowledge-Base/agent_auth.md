@@ -27,9 +27,9 @@ Some designs issue per‑tool capability tokens that say “this agent can call 
 The agent is stateless regarding long‑term credentials; a broker or gateway hands it short‑lived tool tokens.
 
 ### Human‑in‑the‑loop
-Human‑in‑the‑loop is increasingly common: for high‑risk actions (delete, wire transfer, production changes), the agent pauses and requests human approval, often via inline approve/deny UX or time‑boxed holds.
+Human‑in‑the‑loop is increasingly common: for high‑risk actions (delete, wire transfer, production changes), the agent pauses and requests human approval, often via inline approve/deny UX or time‑boxed holds. 
 
-### Where OAuth/OIDC and gateways fit
+### Where OAuth/OIDC and gateways fit 
 
 1. OAuth/OIDC remain the base standard for delegating access from users to agents and from agents to APIs.
 
