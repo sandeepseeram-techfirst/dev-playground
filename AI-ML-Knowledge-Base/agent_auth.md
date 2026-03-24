@@ -15,3 +15,10 @@ Use API keys, client credentials, or JWTs when the agent is acting as a system, 
 
 **Example:** analytics agent pulling internal metrics with a pre‑issued service token.
 
+
+### Delegated user access (agent on behalf of a user)
+Use OAuth/OIDC tokens that represent a specific human and are delegated to the agent with limited scopes and expiry.
+
+Example: support agent that can read a customer’s tickets and post to one Slack channel, but not manage org settings.
+
+
