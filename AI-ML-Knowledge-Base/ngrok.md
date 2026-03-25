@@ -23,7 +23,7 @@ Typical “share localhost” flow:
 
 4. ngrok prints a public URL (e.g. https://abcd-1234.ngrok.app) that anyone can hit; traffic is securely routed back to your local port.
 
-Optionally, you use the web UI to inspect and replay HTTP requests for debugging.
+5. Optionally, you use the web UI to inspect and replay HTTP requests for debugging.
 
 
 
