@@ -6,6 +6,8 @@ ngrok is a hosted reverse proxy / tunneling and API gateway service that gives y
 
 * On your side you run an agent (CLI, service, SDK, or K8s operator) that makes outgoing TLS connections to ngrok’s cloud, creating a long‑lived tunnel.
 
+* Requests that hit your ngrok URL are transported over that tunnel to the agent and then to whatever upstream (localhost, VM, k8s Service, IoT device) you’ve configured.
+
 
 
 
