@@ -17,7 +17,7 @@ Typical “share localhost” flow:
 
 1. Install ngrok agent for your OS (single binary / CLI).
 
-Authenticate the agent with your ngrok account token.
+2. Authenticate the agent with your ngrok account token.
 
 Run a command like ngrok http 3000 (or the equivalent config) to create a tunnel to your local server. The agent opens outbound TLS connections to ngrok’s cloud.
 
