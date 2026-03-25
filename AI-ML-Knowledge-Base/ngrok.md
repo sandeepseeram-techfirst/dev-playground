@@ -21,7 +21,7 @@ Typical “share localhost” flow:
 
 3. Run a command like ngrok http 3000 (or the equivalent config) to create a tunnel to your local server. The agent opens outbound TLS connections to ngrok’s cloud.
 
-ngrok prints a public URL (e.g. https://abcd-1234.ngrok.app) that anyone can hit; traffic is securely routed back to your local port.
+4. ngrok prints a public URL (e.g. https://abcd-1234.ngrok.app) that anyone can hit; traffic is securely routed back to your local port.
 
 Optionally, you use the web UI to inspect and replay HTTP requests for debugging.
 
