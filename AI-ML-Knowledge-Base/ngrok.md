@@ -25,5 +25,5 @@ Typical “share localhost” flow:
 
 5. Optionally, you use the web UI to inspect and replay HTTP requests for debugging.
 
-
-
+### Summary 
+ngrok is also positioning itself as an AI/API gateway so you can route, secure, and observe LLM traffic (e.g., cloud LLMs pulling from local tools or MCP servers) without hand-rolling ingress and auth for each environment.
