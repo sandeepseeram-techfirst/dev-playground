@@ -11,5 +11,19 @@ ngrok is a hosted reverse proxy / tunneling and API gateway service that gives y
 * Unlike a classic reverse proxy, ngrok doesn’t forward to an IP over the public internet; it always talks to your agent over outbound connections, which is how it works behind NAT and locked-down firewalls. 
 
 
+### How it works in practice
+
+Typical “share localhost” flow:
+
+1. Install ngrok agent for your OS (single binary / CLI).
+
+Authenticate the agent with your ngrok account token.
+
+Run a command like ngrok http 3000 (or the equivalent config) to create a tunnel to your local server. The agent opens outbound TLS connections to ngrok’s cloud.
+
+ngrok prints a public URL (e.g. https://abcd-1234.ngrok.app) that anyone can hit; traffic is securely routed back to your local port.
+
+Optionally, you use the web UI to inspect and replay HTTP requests for debugging.
+
 
 
