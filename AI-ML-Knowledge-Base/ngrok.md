@@ -8,6 +8,8 @@ ngrok is a hosted reverse proxy / tunneling and API gateway service that gives y
 
 * Requests that hit your ngrok URL are transported over that tunnel to the agent and then to whatever upstream (localhost, VM, k8s Service, IoT device) you’ve configured.
 
-* Unlike a classic reverse proxy, ngrok doesn’t forward to an IP over the public internet; it always talks to your agent over outbound connections, which is how it works behind NAT and locked-down firewalls.
+* Unlike a classic reverse proxy, ngrok doesn’t forward to an IP over the public internet; it always talks to your agent over outbound connections, which is how it works behind NAT and locked-down firewalls. 
+
+
 
 
