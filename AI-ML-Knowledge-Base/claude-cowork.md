@@ -11,3 +11,5 @@ Cowork requires a Claude Max subscription, which runs $100 to $200 per month.
 ### Using Cowork Skills
 Skills give Cowork native handling for office file formats: xlsx, pptx, docx, and pdf. 
 The pdf skill goes beyond basic reading to support merging, splitting, and form-filling. 
+
+**Claude in Chrome** is a browser extension that lets Claude see and interact with web pages. It can click buttons, fill forms, navigate between tabs, and take screenshots. When paired with Cowork, this means tasks can span both local files and web-based workflows.
