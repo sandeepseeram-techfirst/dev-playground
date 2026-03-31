@@ -13,3 +13,6 @@ Skills give Cowork native handling for office file formats: xlsx, pptx, docx, an
 The pdf skill goes beyond basic reading to support merging, splitting, and form-filling. 
 
 **Claude in Chrome** is a browser extension that lets Claude see and interact with web pages. It can click buttons, fill forms, navigate between tabs, and take screenshots. When paired with Cowork, this means tasks can span both local files and web-based workflows.
+
+### Connectors 
+Connectors link Claude to external services and data sources. They've been available in regular Claude chat for a while, but in Cowork, they gain a new dimension: filesystem access. A connector that pulls data from an external service can now save that data locally, or use local files as input for external actions.
