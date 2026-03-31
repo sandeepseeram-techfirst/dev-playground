@@ -7,3 +7,7 @@ Claude Cowork is an agentic tool built into the Claude desktop app that automate
 **Regular Claude is conversational. Cowork is operational.**
 
 Cowork requires a Claude Max subscription, which runs $100 to $200 per month.
+
+### Using Cowork Skills
+Skills give Cowork native handling for office file formats: xlsx, pptx, docx, and pdf. 
+The pdf skill goes beyond basic reading to support merging, splitting, and form-filling. 
