@@ -1,1 +1,2 @@
 ### Generative Adversarial Networks
+A Generative Adversarial Network (GAN) is a deep‑learning model with two neural nets—a generator and a discriminator—that compete so the generator learns to produce data indistinguishable from real samples.
