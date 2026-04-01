@@ -1,0 +1,3 @@
+### Workload Runtime
+
+**Workload Runtime** refers to the low‑level runtime that actually executes your workloads (containers, VMs, sandboxed processes, Wasm) on the nodes in your cluster, underneath Kubernetes or any higher‑level orchestrator. It works as the component that the scheduler talks to for starting, stopping, isolating, and securing workloads, often via the Kubernetes Container Runtime Interface (CRI) or similar APIs.
