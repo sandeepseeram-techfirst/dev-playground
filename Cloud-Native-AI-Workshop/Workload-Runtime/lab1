@@ -10,3 +10,6 @@ cplane-01   containerd://2.2.3
 node-01     containerd://2.2.3
 node-02     containerd://2.2.3
 root@dev-machine:workload-runtimes#
+
+**containerd is the standard, supported runtime for modern Kubernetes and is widely used in production clusters, including for GPU‑heavy workloads.**
+
