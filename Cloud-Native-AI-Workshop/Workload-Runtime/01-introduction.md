@@ -40,3 +40,32 @@ Concretely, in a K8s‑like environment:
 11. Often integrates with node‑level logging and metrics collectors used by observability tools listed elsewhere in the landscape (Prometheus, OpenTelemetry, etc.).
 
 For AI workloads this is still the same story; you’re just running GPU‑bound processes instead of generic app containers.
+
+### Workload Runtimes
+There are multiple runtimes in the market because each offers different isolation/perf trade‑offs that matter for AI‑native platforms:
+
+**containerd, CRI‑O + runc**
+
+Standard Linux container runtime stack for K8s: good performance, process‑level isolation, widely supported.
+
+**Kata Containers, Firecracker, StratoVirt**
+
+“MicroVM” / lightweight VM runtimes that add stronger isolation than plain containers while trying to stay relatively fast—useful in multi‑tenant AI clusters.
+
+**gVisor**
+
+Sandbox runtime intercepting syscalls to improve isolation, again useful for multi‑tenant or untrusted workloads.
+
+**WasmEdge Runtime**
+
+WebAssembly runtime for running workloads as Wasm modules, typically smaller and fast‑start, interesting for edge and some inference scenarios.
+
+**Singularity**
+
+Popular in HPC/scientific computing environments where users want containerized workloads without traditional Docker semantics, often used for ML/HPC jobs.
+
+**CubeSandbox, Kuasar, e2b, Daytona, etc.**
+
+Newer runtimes or platforms focusing on sandboxes, dev environments, or alternate workload models.
+
+In AI‑native infra, picking the right runtime affects cold‑start time, density, security isolation between tenants, and sometimes GPU support.
