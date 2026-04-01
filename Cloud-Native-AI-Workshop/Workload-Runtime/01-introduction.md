@@ -10,3 +10,5 @@
 
 3. Accelerator, storage, CNI, etc. plug into or sit beside the runtime to provide GPUs, volumes, and networking for those workloads.
 
+So “Workload Runtime” here is not a scheduler, not an AI framework—it’s the **execution engine.**
+
