@@ -42,7 +42,8 @@ Concretely, in a K8s‑like environment:
 For AI workloads this is still the same story; you’re just running GPU‑bound processes instead of generic app containers.
 
 ### Workload Runtimes
-There are multiple runtimes in the market because each offers different isolation/perf trade‑offs that matter for AI‑native platforms:
+
+**There are multiple workload runtimes in the market because each offers different isolation/perf trade‑offs that matter for AI‑native platforms:**
 
 **containerd, CRI‑O + runc**
 
