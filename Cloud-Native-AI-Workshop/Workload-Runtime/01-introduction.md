@@ -12,3 +12,31 @@
 
 So “Workload Runtime” here is not a scheduler, not an AI framework—it’s the **execution engine.**
 
+### How a Workload Runtime Works (Mechanics)
+Concretely, in a K8s‑like environment:
+
+**Kubelet (or similar agent) receives a Pod spec**
+
+1. The scheduler assigns a Pod to a node; kubelet on that node calls the configured runtime (e.g., containerd, CRI‑O) via CRI.
+
+2. Runtime prepares and launches the workload
+
+3. Pulls images or artifacts (container image, VM image, Wasm module, Singularity image, etc.).
+
+4. Sets up namespaces, cgroups, seccomp/AppArmor profiles, mounts, and network interfaces according to config.
+
+5. Invokes a lower‑level runtime (e.g., runc, Kata shim, Firecracker microVM, gVisor sandbox, WasmEdge VM) to actually create the process/VM/Wasm instance.
+
+6. Runtime manages lifecycle and isolation
+
+7. Start/stop/restart based on kubelet commands, health checks, and liveness/readiness probes.
+
+8. Enforces resource limits (CPU, memory, possibly GPU via device plugins), cgroup constraints, and security context (privileged, user, capabilities).
+
+9. Reporting and metrics
+
+10. Reports container state back to kubelet (Running, Terminated, etc.).
+
+11. Often integrates with node‑level logging and metrics collectors used by observability tools listed elsewhere in the landscape (Prometheus, OpenTelemetry, etc.).
+
+For AI workloads this is still the same story; you’re just running GPU‑bound processes instead of generic app containers.
