@@ -69,3 +69,14 @@ Popular in HPC/scientific computing environments where users want containerized 
 Newer runtimes or platforms focusing on sandboxes, dev environments, or alternate workload models.
 
 In AI‑native infra, picking the right runtime affects cold‑start time, density, security isolation between tenants, and sometimes GPU support.
+
+### How It Relates to AI Workloads
+In an AI‑native stack, the Workload Runtime is the piece that actually runs:
+
+1. Training jobs scheduled by Volcano/Slurm/Kubeflow Training Operator as Pods or Jobs.
+
+2. Inference servers from the “Inference / Runtime” row (vLLM, TGI, SGLang, Seldon, etc.), all of which ultimately become containers/VMs launched via the workload runtime.
+
+3. Data pipelines, feature store services, and gateways, again containerized workloads launched via the same runtime.
+
+So: AI frameworks sit at a higher layer; the workload runtime just makes sure those frameworks run reliably, securely, and efficiently on the node.
