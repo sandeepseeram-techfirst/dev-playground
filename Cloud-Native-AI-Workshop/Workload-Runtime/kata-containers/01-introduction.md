@@ -82,3 +82,4 @@ Kata’s micro‑VMs provide a good compromise: a VM boundary but tuned for fast
 It’s well‑suited for on‑demand, short‑lived workloads like serverless functions and ephemeral jobs.
 
 **Example:** A FaaS platform or internal “jobs” system that runs user‑submitted functions for data processing; by backing pods with Kata, each function invocation lives in a rapidly created micro‑VM.
+
