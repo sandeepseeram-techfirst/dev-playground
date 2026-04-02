@@ -54,7 +54,8 @@ Inference: autoscalers adjust replica count (and GPU resources) based on QPS/lat
 
 
 ### Key Use Cases and Patterns
-Here are representative use cases where Cloud Native AI shines.
+
+Here are representative use cases where Cloud Native AI shines:
 
 **1. Large‑scale model training:** 
 Organizations use Kubernetes to run large distributed training jobs for LLMs and other deep models on massive GPU clusters, scaling to thousands of nodes.
