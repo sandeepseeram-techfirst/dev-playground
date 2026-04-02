@@ -47,11 +47,11 @@ root@node-01:laborant
 Interpretation:
 
 - If the first command prints `0`, hardware virtualization is not exposed (we’d need to fix BIOS / nested virt).  
-- The second should show `kvm_intel` or `kvm_amd` loaded. [faun](https://faun.pub/running-your-first-kata-containers-on-the-kubernetes-cluster-c4c2a5f8e5c4)
+- The second should show `kvm_intel` or `kvm_amd` loaded.  
 
 Run those two commands on one worker and tell me:
 
 1) The `egrep` numeric output  
 2) The `lsmod | grep kvm` lines  
 
-Once you share that, we’ll do a short “concept checkpoint” on what these mean and then move to the next lab step.  
+ 
