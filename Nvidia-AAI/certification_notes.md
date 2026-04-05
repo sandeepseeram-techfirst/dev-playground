@@ -1,0 +1,1 @@
+# NVIDIA - AAI Certification Notes 
