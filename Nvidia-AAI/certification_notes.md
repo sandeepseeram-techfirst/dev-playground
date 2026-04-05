@@ -1,1 +1,1 @@
-# NVIDIA - AAI Certification Notes 
+# NVIDIA - Agentic AI Certification Notes 
