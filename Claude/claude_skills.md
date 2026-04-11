@@ -16,3 +16,11 @@ Skills work best for specialized knowledge that applies to specific tasks:
 3. Brand guidelines for your organization
 4. Documentation templates for specific types of docs
 5. Debugging checklists for particular frameworks
+
+
+### Key takeaways
+1. A skill is a directory containing a SKILL.md file with metadata (name, description) in frontmatter. 
+2. Claude loads only skill names and descriptions at startup, then matches incoming requests against those descriptions using semantic matching. 
+3. You get a confirmation prompt before Claude loads the full skill content into context.
+4. Priority for name conflicts: Enterprise → Personal → Project → Plugins
+5. To update a skill, edit its SKILL.md. To remove one, delete its directory. Always restart Claude Code for changes to take effect
