@@ -31,3 +31,11 @@ Brief context on why this change is needed
 ### Testing Your Skill
 
 **Claude Code loads skills at startup, so restart your session after creating one.**
+
+### Skill Priority
+If you clone a repository that has a skill with the same name as one of your personal skills, which one wins? There's a clear priority order:
+
+1. Enterprise — managed settings, highest priority
+2. Personal — your home directory (~/.claude/skills)
+3. Project — the .claude/skills directory inside a repository
+4. Plugins — installed plugins, lowest priority
