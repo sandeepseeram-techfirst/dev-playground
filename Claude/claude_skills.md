@@ -1,4 +1,5 @@
 ### Skills vs. CLAUDE.md vs. Slash Commands
+
 Claude Code has several ways to customize behavior. Skills are unique because they're automatic and task-specific. Here's how they compare:
 
 **CLAUDE.md** files load into every conversation. If you want Claude to always use TypeScript's strict mode, that goes in CLAUDE.md.
