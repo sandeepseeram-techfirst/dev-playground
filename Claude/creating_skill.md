@@ -27,3 +27,7 @@ Brief context on why this change is needed
 - Bullet points of specific changes made
 - Group related changes together
 - Mention any files deleted or renamed
+
+### Testing Your Skill
+
+**Claude Code loads skills at startup, so restart your session after creating one.**
