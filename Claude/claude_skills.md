@@ -23,4 +23,13 @@ Skills work best for specialized knowledge that applies to specific tasks:
 2. Claude loads only skill names and descriptions at startup, then matches incoming requests against those descriptions using semantic matching. 
 3. You get a confirmation prompt before Claude loads the full skill content into context.
 4. Priority for name conflicts: Enterprise → Personal → Project → Plugins
-5. To update a skill, edit its SKILL.md. To remove one, delete its directory. Always restart Claude Code for changes to take effect
+5. To update a skill, edit its SKILL.md. To remove one, delete its directory. Always restart Claude Code for changes to take effect. 
+
+Skill Priority
+If you clone a repository that has a skill with the same name as one of your personal skills, which one wins? There's a clear priority order:
+
+Enterprise — managed settings, highest priority
+Personal — your home directory (~/.claude/skills)
+Project — the .claude/skills directory inside a repository
+Plugins — installed plugins, lowest priority
+This lets organizations enforce standards through enterprise skills while still allowing individual customization. If your company has an enterprise "code-review" skill and you create a personal "code-review" skill with the same name, the enterprise version takes precedence.
