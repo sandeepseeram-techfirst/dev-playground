@@ -5,6 +5,7 @@ First, create a directory for your skill inside the skills folder. The directory
 **mkdir -p ~/.claude/skills/pr-description** 
 
 Then create a SKILL.md file inside that directory. The file has two parts separated by frontmatter dashes:
+The name identifies your skill. The description tells Claude when to use it — this is the matching criteria. Everything after the second set of dashes is the instructions Claude follows when the skill is activated.
 
 ---
 name: pr-description
