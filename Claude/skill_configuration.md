@@ -15,3 +15,11 @@ The agent skills open standard supports several fields in the SKILL.md frontmatt
 2. description (required) — Tells Claude when to use the skill. Maximum 1,024 characters. This is the most important field because Claude uses it for matching.
 3. allowed-tools (optional) — Restricts which tools Claude can use when the skill is active.
 4. model (optional) — Specifies which Claude model to use for the skill.
+
+### Example
+---
+name: codebase-onboarding
+description: Helps new developers understand the system works.
+allowed-tools: Read, Grep, Glob, Bash
+model: sonnet
+---
