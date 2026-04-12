@@ -23,3 +23,5 @@ description: Helps new developers understand the system works.
 allowed-tools: Read, Grep, Glob, Bash
 model: sonnet
 ---
+
+**If you omit allowed-tools entirely, the skill doesn't restrict anything. Claude uses its normal permission model.**
