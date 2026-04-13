@@ -11,3 +11,12 @@ The open standard suggests organizing your skill directory with:
 scripts/ — Executable code
 references/ — Additional documentation
 assets/ — Images, templates, or other data files
+
+### Using Scripts Efficiently
+Scripts in your skill directory can run without loading their contents into context. The script executes and only the output consumes tokens. The key instruction to include in your SKILL.md is to tell Claude to run the script, not read it.
+
+This is particularly useful for:
+
+Environment validation
+Data transformations that need to be consistent
+Operations that are more reliable as tested code than generated code
