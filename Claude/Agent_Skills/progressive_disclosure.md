@@ -20,5 +20,5 @@ Scripts in your skill directory can run without loading their contents into cont
 This is particularly useful for:
 
 1. Environment validation
-Data transformations that need to be consistent
-Operations that are more reliable as tested code than generated code
+2. Data transformations that need to be consistent
+3. Operations that are more reliable as tested code than generated code
