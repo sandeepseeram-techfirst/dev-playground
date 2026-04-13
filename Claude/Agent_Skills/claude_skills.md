@@ -26,7 +26,7 @@ Skills work best for specialized knowledge that applies to specific tasks:
 5. To update a skill, edit its SKILL.md. To remove one, delete its directory. Always restart Claude Code for changes to take effect. 
 
 ### Skill Priority
-If you clone a repository that has a skill with the same name as one of your personal skills, which one wins? There's a clear priority order:
+If you clone a repository that has a skill with the same name as one of your personal skills, which one wins? There's a clear priority order: 
 
 1. Enterprise — managed settings, highest priority
 2. Personal — your home directory (~/.claude/skills)
