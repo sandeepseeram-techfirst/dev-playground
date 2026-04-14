@@ -7,3 +7,16 @@
 2. Plugins: Package reusable, less project-specific skills in a plugin skills directory and distribute via marketplaces so other users can install them into Claude Code.
 
 3. Enterprise managed settings: Admins can define organization-wide skills and controls (for example using strictKnownMarketplaces) that override personal, project, and plugin skills for mandatory standards, security, and compliance.
+
+### Example: 
+
+"strictKnownMarketplaces": [
+  {
+    "source": "github",
+    "repo": "acme-corp/approved-plugins"
+  },
+  {
+    "source": "npm",
+    "package": "@acme-corp/compliance-plugins"
+  }
+]
