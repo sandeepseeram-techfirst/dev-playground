@@ -12,7 +12,7 @@ Claude Code has several ways to customize behavior. Skills are unique because th
 **Slash commands** require you to explicitly type them. Skills don't. Claude applies them when it recognizes the situation.
 
 ### When to Use Skills
-Skills work best for specialized knowledge that applies to specific tasks:
+Skills work best for specialized knowledge that applies to specific tasks: 
 
 1. Code review standards your team follows
 2. Commit message formats you prefer
