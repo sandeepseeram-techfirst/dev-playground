@@ -11,5 +11,7 @@
 3. Subagents run in isolated execution contexts — use them for delegated work. Skills add knowledge to your current conversation.
 
 4. Hooks are event-driven (fire on file saves, tool calls). Skills are request-driven (activate based on what you're asking)
-MCP servers provide external tools and integrations — a different category entirely from skills
+
+5. MCP servers provide external tools and integrations — a different category entirely from skills
+
 Each feature handles its own specialty — combine them rather than forcing everything into one approach
