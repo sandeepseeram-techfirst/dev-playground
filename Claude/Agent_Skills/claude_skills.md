@@ -36,4 +36,4 @@ If you clone a repository that has a skill with the same name as one of your per
 3. Project — the .claude/skills directory inside a repository
 4. Plugins — installed plugins, lowest priority
 
-This lets organizations enforce standards through enterprise skills while still allowing individual customization. If your company has an enterprise "code-review" skill and you create a personal "code-review" skill with the same name, the enterprise version takes precedence. 
+This lets organizations enforce standards through enterprise skills while still allowing individual customization. If your company has an enterprise "code-review" skill and you create a personal "code-review" skill with the same name, the enterprise version takes precedence.
