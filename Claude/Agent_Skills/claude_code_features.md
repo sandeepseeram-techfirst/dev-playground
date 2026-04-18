@@ -17,7 +17,7 @@
 Each feature handles its own specialty — combine them rather than forcing everything into one approach
 
 ### Putting It All Together
-A typical setup might include: 
+A typical setup might include:
 
 1. CLAUDE.md — always-on project standards
 2. Skills — task-specific expertise that loads on demand
