@@ -13,4 +13,4 @@ Kernel-level programming means writing code that runs at a very low level, close
 ### OS kernel programming
 The OS kernel is the core part of the operating system that manages hardware, memory, processes, filesystems, and networking.
 
-Kernel programming here means writing code (often as loadable kernel modules) that runs with high privilege, directly interacting with kernel subsystems to implement drivers, security modules, or system services.
+**Kernel programming here means writing code (often as loadable kernel modules) that runs with high privilege, directly interacting with kernel subsystems to implement drivers, security modules, or system services.**
