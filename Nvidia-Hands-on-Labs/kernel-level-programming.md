@@ -14,3 +14,10 @@ Kernel-level programming means writing code that runs at a very low level, close
 The OS kernel is the core part of the operating system that manages hardware, memory, processes, filesystems, and networking.
 
 **Kernel programming here means writing code (often as loadable kernel modules) that runs with high privilege, directly interacting with kernel subsystems to implement drivers, security modules, or system services.**
+
+### GPU/TPU kernel programming
+In GPU programming, a kernel is a function written to run on the GPU device and executed by many threads in parallel over large arrays of data.
+
+A host program (CPU code) launches kernels with a grid configuration; each kernel instance (thread or thread block) processes a slice of the data, all running the same code on different indices.
+
+**Frameworks like CUDA, Triton, and Pallas let you express how data is partitioned into tiles and how threads cooperate to load, compute, and store results efficiently.**
