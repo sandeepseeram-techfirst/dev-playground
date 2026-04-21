@@ -5,7 +5,7 @@ import sys
 # Ensure python-docx is installed
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'python-docx'])
 
-# Now import 
+# Now import
 from docx import Document
 from docx.shared import Inches, Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
