@@ -8,7 +8,7 @@ subprocess.check_call([sys.executable, '-m', 'ensurepip', '--upgrade'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'python-docx'])
 
 # Now import
-from docx import Document 
+from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
