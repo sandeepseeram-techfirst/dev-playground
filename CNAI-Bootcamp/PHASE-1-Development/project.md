@@ -11,3 +11,7 @@ A real company would first define the decision policy and the operational queue 
 The customer submits a claim, the intake service stores the payload, the extractor pulls text and structured fields from documents, the scorer generates a risk score, and the orchestrator applies business rules to decide whether the claim is auto-cleared or sent to an adjuster. 
 
 Every step should emit telemetry so operations, compliance, and claims teams can inspect latency, decision rate, and model behavior, which is central to cloud-native observability.
+
+A) claims intake + fraud triage
+B) claims intake + damage estimation
+C) underwriting pre-check + risk scoring
