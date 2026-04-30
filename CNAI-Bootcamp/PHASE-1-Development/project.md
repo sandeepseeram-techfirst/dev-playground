@@ -12,6 +12,6 @@ The customer submits a claim, the intake service stores the payload, the extract
 
 Every step should emit telemetry so operations, compliance, and claims teams can inspect latency, decision rate, and model behavior, which is central to cloud-native observability.
 
-A) claims intake + fraud triage
-B) claims intake + damage estimation
-C) underwriting pre-check + risk scoring
+**claims intake + fraud triage**
+**claims intake + damage estimation**
+**underwriting pre-check + risk scoring**
