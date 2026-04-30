@@ -1,4 +1,4 @@
-A typical end‑to‑end CNAI flow looks like this: 
+### A typical end‑to‑end CNAI flow looks like this: 
 
 1. **Infrastructure & Environment Provisioning**  
     Clusters, networks, GPU pools, storage classes, and supporting services (service mesh, registry, observability stack) are declared via IaC and created in one or more clouds or on‑prem environments. This provides a standardized platform where AI workloads can run as containers with consistent resource, security, and networking policies.
