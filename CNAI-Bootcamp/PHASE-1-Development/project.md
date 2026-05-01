@@ -19,6 +19,11 @@ Every step should emit telemetry so operations, compliance, and claims teams can
 #### Services 
 
 **1. Claims API (FNOL Intake Service)**
+
 This service is the entry point where the customer or broker submits a **First Notice of Loss (FNOL)**: claim type, policy number, claimant details, loss date, and supporting documents. It exposes REST endpoints to create and query claims, persists structured metadata in a database, and writes uploaded files (forms, PDFs, images) to object/storage backend.
 
+In a real-world cloud‑native system, this service would also handle authentication, basic validation, and emit events/telemetry so downstream services (extractor, scorer, workflow) can react to new claims without tight coupling.
 
+**2. Document Extractor (AI Document Processing Service)**
+
+This service takes raw claim documents (scanned forms, photos, PDFs) and extracts text and key fields, such as vehicle details, damage description, and incident narrative. In practice it would use OCR or text‑extraction models, plus simple NLP, to convert unstructured content into a normalized internal schema for later scoring
