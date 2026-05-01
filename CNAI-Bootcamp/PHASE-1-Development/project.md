@@ -28,3 +28,4 @@ In a real-world cloud‑native system, this service would also handle authentica
 
 This service takes raw claim documents (scanned forms, photos, PDFs) and extracts text and key fields, such as vehicle details, damage description, and incident narrative. In practice it would use OCR or text‑extraction models, plus simple NLP, to convert unstructured content into a normalized internal schema for later scoring.
 
+Cloud‑native document services are usually built as separate microservices with their own scaling and failure boundaries, since OCR and parsing workloads can spike and benefit from independent horizontal scaling.
