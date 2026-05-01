@@ -26,4 +26,5 @@ In a real-world cloud‑native system, this service would also handle authentica
 
 **2. Document Extractor (AI Document Processing Service)**
 
-This service takes raw claim documents (scanned forms, photos, PDFs) and extracts text and key fields, such as vehicle details, damage description, and incident narrative. In practice it would use OCR or text‑extraction models, plus simple NLP, to convert unstructured content into a normalized internal schema for later scoring
+This service takes raw claim documents (scanned forms, photos, PDFs) and extracts text and key fields, such as vehicle details, damage description, and incident narrative. In practice it would use OCR or text‑extraction models, plus simple NLP, to convert unstructured content into a normalized internal schema for later scoring.
+
