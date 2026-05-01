@@ -36,3 +36,8 @@ This service hosts the fraud and risk model: given structured claim features (fr
 
 In cloud‑native fraud pipelines, this scorer is treated as a stateless microservice, with its own observability and versioning, so models can be rolled out, canaried, and monitored without disrupting intake or orchestration.
 
+**4. Workflow Orchestrator (Triage & Routing Service)**
+
+The orchestrator applies business rules plus the model output to decide where each claim goes: auto‑approve, standard adjuster queue, or fraud investigation. It subscribes to events or calls the other services (API, extractor, scorer), maintains claim state, and pushes tasks into downstream queues or systems for human review.
+
+Cloud‑native orchestration in insurance is typically event‑driven and microservice‑based, using separate components for intake, extraction, scoring, and routing so that each can evolve independently and be monitored with clear SLIs (latency, error rate, triage accuracy).
