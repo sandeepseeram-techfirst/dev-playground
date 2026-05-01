@@ -29,3 +29,10 @@ In a real-world cloud‑native system, this service would also handle authentica
 This service takes raw claim documents (scanned forms, photos, PDFs) and extracts text and key fields, such as vehicle details, damage description, and incident narrative. In practice it would use OCR or text‑extraction models, plus simple NLP, to convert unstructured content into a normalized internal schema for later scoring.
 
 Cloud‑native document services are usually built as separate microservices with their own scaling and failure boundaries, since OCR and parsing workloads can spike and benefit from independent horizontal scaling.
+
+**3. Risk Scorer (Fraud & Severity Scoring Service)**
+
+This service hosts the fraud and risk model: given structured claim features (from the API and extractor), it computes scores like fraud likelihood, claim complexity, and severity class. It exposes a model‑serving API (e.g., HTTP/gRPC) and is deployed as a containerized inference service that can scale separately from the rest of the workflow.
+
+In cloud‑native fraud pipelines, this scorer is treated as a stateless microservice, with its own observability and versioning, so models can be rolled out, canaried, and monitored without disrupting intake or orchestration.
+
