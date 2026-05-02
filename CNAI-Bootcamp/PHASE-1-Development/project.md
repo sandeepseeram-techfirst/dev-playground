@@ -15,3 +15,10 @@ Every step should emit telemetry so operations, compliance, and claims teams can
 **claims intake + fraud triage**
 **claims intake + damage estimation**
 **underwriting pre-check + risk scoring**
+
+#### Services 
+
+**1. Claims API (FNOL Intake Service)**
+This service is the entry point where the customer or broker submits a **First Notice of Loss (FNOL)**: claim type, policy number, claimant details, loss date, and supporting documents. It exposes REST endpoints to create and query claims, persists structured metadata in a database, and writes uploaded files (forms, PDFs, images) to object/storage backend.
+
+
