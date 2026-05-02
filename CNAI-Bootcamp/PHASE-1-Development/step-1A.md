@@ -46,3 +46,8 @@ persistentvolume/pvc-ff73a10b-86a5-4d1e-a472-1bf3675b80bc   1Gi        RWO      
 NAME              READY   STATUS    RESTARTS   AGE
 pod/lp-test-pod   1/1     Running   0          29s
 laborant@dev-machine:~$ 
+
+
+laborant@dev-machine:~$ kubectl exec -it lp-test-pod -- cat /data/health.txt
+local-path-ok
+laborant@dev-machine:~$
