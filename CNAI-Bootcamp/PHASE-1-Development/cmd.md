@@ -84,3 +84,8 @@ laborant@dev-machine:~$
 
 laborant@dev-machine:~$ curl -s http://172.16.0.2:30800/
 {"service":"claims-api","version":"0.1.0","bucket":"claims-fnol"}
+
+laborant@dev-machine:~$ curl -s -X POST http://172.16.0.2:30800/bootstrap/storage
+{"bucket":"claims-fnol","status":"created"}
+
+laborant@dev-machine:~$ 
