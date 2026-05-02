@@ -51,3 +51,18 @@ laborant@dev-machine:~$
 laborant@dev-machine:~$ kubectl exec -it lp-test-pod -- cat /data/health.txt
 local-path-ok
 laborant@dev-machine:~$
+
+laborant@dev-machine:~$ kubectl create namespace cnai-lab
+namespace/cnai-lab created
+laborant@dev-machine:~$ 
+
+laborant@dev-machine:~$ kubectl get ns
+NAME                 STATUS   AGE
+cnai-lab             Active   64s
+default              Active   73m
+kube-flannel         Active   73m
+kube-node-lease      Active   73m
+kube-public          Active   73m
+kube-system          Active   73m
+local-path-storage   Active   12m
+laborant@dev-machine:~$ 
