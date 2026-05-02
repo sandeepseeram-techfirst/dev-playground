@@ -81,3 +81,6 @@ NAME         TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)                   
 claims-api   NodePort   10.111.208.84   <none>        8000:30800/TCP                  2m19s
 minio        NodePort   10.105.225.56   <none>        9000:30900/TCP,9001:30901/TCP   8m1s
 laborant@dev-machine:~$ 
+
+laborant@dev-machine:~$ curl -s http://172.16.0.2:30800/
+{"service":"claims-api","version":"0.1.0","bucket":"claims-fnol"}
