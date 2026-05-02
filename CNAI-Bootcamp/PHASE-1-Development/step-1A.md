@@ -66,3 +66,7 @@ kube-public          Active   73m
 kube-system          Active   73m
 local-path-storage   Active   12m
 laborant@dev-machine:~$ 
+
+laborant@dev-machine:~$ kubectl config set-context --current --namespace=cnai-lab
+Context "kubernetes-admin@kubernetes" modified.
+laborant@dev-machine:~$ 
