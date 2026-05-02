@@ -70,3 +70,14 @@ laborant@dev-machine:~$
 laborant@dev-machine:~$ kubectl config set-context --current --namespace=cnai-lab
 Context "kubernetes-admin@kubernetes" modified.
 laborant@dev-machine:~$ 
+
+laborant@dev-machine:~$ kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+claims-api-78ff646598-sfbxc   1/1     Running   0          42s
+minio-65c6854779-cr5mj        1/1     Running   0          6m24s
+
+laborant@dev-machine:~$ kubectl get svc
+NAME         TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)                         AGE
+claims-api   NodePort   10.111.208.84   <none>        8000:30800/TCP                  2m19s
+minio        NodePort   10.105.225.56   <none>        9000:30900/TCP,9001:30901/TCP   8m1s
+laborant@dev-machine:~$ 
