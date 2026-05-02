@@ -1,0 +1,136 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: claims-api-code
+data:
+  app.py: |
+    import os
+    from fastapi import FastAPI, HTTPException
+    import boto3
+    from botocore.client import Config
+    from botocore.exceptions import ClientError
+
+    app = FastAPI(title="Claims API", version="0.1.0")
+
+    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://minio:9000")
+    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
+    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minioadmin123")
+    CLAIMS_BUCKET = os.getenv("CLAIMS_BUCKET", "claims-fnol")
+
+    def s3_client():
+      return boto3.client(
+        "s3",
+        endpoint_url=MINIO_ENDPOINT,
+        aws_access_key_id=MINIO_ACCESS_KEY,
+        aws_secret_access_key=MINIO_SECRET_KEY,
+        config=Config(signature_version="s3v4"),
+        region_name="us-east-1",
+      )
+
+    @app.get("/health/live")
+    def live():
+      return {"status": "live"}
+
+    @app.get("/health/ready")
+    def ready():
+      try:
+        s3 = s3_client()
+        s3.list_buckets()
+        return {"status": "ready", "minio": "reachable"}
+      except Exception as e:
+        raise HTTPException(status_code=503, detail=f"minio not ready: {str(e)}")
+
+    @app.post("/bootstrap/storage")
+    def bootstrap_storage():
+      s3 = s3_client()
+      try:
+        s3.head_bucket(Bucket=CLAIMS_BUCKET)
+        return {"bucket": CLAIMS_BUCKET, "status": "already-exists"}
+      except ClientError:
+        try:
+          s3.create_bucket(Bucket=CLAIMS_BUCKET)
+          return {"bucket": CLAIMS_BUCKET, "status": "created"}
+        except Exception as e:
+          raise HTTPException(status_code=500, detail=f"failed to create bucket: {str(e)}")
+
+    @app.get("/")
+    def root():
+      return {
+        "service": "claims-api",
+        "version": "0.1.0",
+        "bucket": CLAIMS_BUCKET
+      }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: claims-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: claims-api
+  template:
+    metadata:
+      labels:
+        app: claims-api
+    spec:
+      containers:
+        - name: claims-api
+          image: python:3.11-slim
+          command:
+            - /bin/sh
+            - -c
+            - |
+              pip install --no-cache-dir fastapi uvicorn boto3 &&
+              uvicorn app:app --host 0.0.0.0 --port 8000
+          env:
+            - name: MINIO_ENDPOINT
+              value: http://minio:9000
+            - name: MINIO_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: minio-credentials
+                  key: rootUser
+            - name: MINIO_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: minio-credentials
+                  key: rootPassword
+            - name: CLAIMS_BUCKET
+              value: claims-fnol
+          ports:
+            - containerPort: 8000
+          volumeMounts:
+            - name: app-code
+              mountPath: /app
+          workingDir: /app
+          readinessProbe:
+            httpGet:
+              path: /health/ready
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /health/live
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 10
+      volumes:
+        - name: app-code
+          configMap:
+            name: claims-api-code
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: claims-api
+spec:
+  type: NodePort
+  selector:
+    app: claims-api
+  ports:
+    - port: 8000
+      targetPort: 8000
+      nodePort: 30800
