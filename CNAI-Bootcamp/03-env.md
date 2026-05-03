@@ -262,4 +262,4 @@ kube-system    kube-proxy-4d9hs                    1/1     Running   0          
 kube-system    kube-proxy-5w7xd                    1/1     Running   0          15m
 kube-system    kube-proxy-rn9wv                    1/1     Running   0          15m
 kube-system    kube-scheduler-cplane-01            1/1     Running   0          15m
-laborant@dev-machine:~$ 
+laborant@dev-machine:~$
