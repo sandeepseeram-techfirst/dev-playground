@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: claims-api-code
+data:
+  app.py: |
+    import os
+    import uuid
+    from datetime import datetime, timezone
+    from typing import Dict, List, Optional
+
+    import boto3
+    from botocore.client import Config
+    from botocore.exceptions import ClientError
+    from fastapi import FastAPI, HTTPException, UploadFile, File
+    from pydantic import BaseModel, EmailStr
+
+    app = FastAPI(title="Claims API", version="0.2.0")
+
+    MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "http://minio:9000")
+    MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
+    MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "minioadmin123")
+    CLAIMS_BUCKET = os.getenv("CLAIMS_BUCKET", "claims-fnol")
+
+    claims_store: Dict[str, dict] = {}
+
+    class Claimant(BaseModel):
+      fullName: str
+      contactPhone: str
+      contactEmail: EmailStr
+
+    class IncidentLocation(BaseModel):
+      city: str
