@@ -16,7 +16,7 @@ Every step should emit telemetry so operations, compliance, and claims teams can
 **claims intake + damage estimation**
 **underwriting pre-check + risk scoring**
 
-#### Services 
+#### Services
 
 **1. Claims API (FNOL Intake Service)**
 
