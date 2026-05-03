@@ -89,3 +89,33 @@ laborant@dev-machine:~$ curl -s -X POST http://172.16.0.2:30800/bootstrap/storag
 {"bucket":"claims-fnol","status":"created"}
 
 laborant@dev-machine:~$ 
+
+laborant@dev-machine:~$ curl -s -X POST http://172.16.0.2:30800/claims \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "policyNumber": "AUTO-123456",
+    "claimant": {
+      "fullName": "John Doe",
+      "contactPhone": "+91-9876543210",
+      "contactEmail": "john.doe@example.com"
+    },
+    "incident": {
+      "incidentType": "MOTOR_COLLISION",
+      "incidentDate": "2026-07-20T18:45:00Z",
+      "location": {
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "country": "IN"
+      },
+      "description": "Rear-ended at traffic signal, visible bumper damage."
+    },
+    "vehicle": {
+      "registrationNumber": "AP31AB1234",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2022
+    },
+    "channel": "WEB_PORTAL",
+    "reportedAt": "2026-07-20T19:00:00Z"
+  }'
+{"claimId":"CLM-CE4434656358","status":"INTAKE_RECEIVED","createdAt":"2026-07-29T17:38:16.675831+00:00"}
