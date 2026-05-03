@@ -122,4 +122,6 @@ laborant@dev-machine:~$ curl -s -X POST http://172.16.0.2:30800/claims \
 
 
 laborant@dev-machine:~$ curl -s http://172.16.0.2:30800/claims/CLM-CE4434656358
-{"claimId":"CLM-CE4434656358","status":"INTAKE_RECEIVED","createdAt":"2026-07-29T17:38:16.675831+00:00","policyNumber":"AUTO-123456","claimant":{"fullName":"John Doe","contactPhone":"+91-9876543210","contactEmail":"john.doe@example.com"},"incident":{"incidentType":"MOTOR_COLLISION","incidentDate":"2026-07-20T18:45:00+00:00","location":{"city":"Visakhapatnam","state":"Andhra Pradesh","country":"IN"},"description":"Rear-ended at traffic signal, visible bumper damage."},"vehicle":{"registrationNumber":"AP31AB1234","make":"Toyota","model":"Corolla","year":2022},"channel":"WEB_PORTAL","reportedAt":"2026-07-20T19:00:00+00:00","documents":[]}laborant@dev-machine:~$ 
+{"claimId":"CLM-CE4434656358","status":"INTAKE_RECEIVED","createdAt":"2026-07-29T17:38:16.675831+00:00","policyNumber":"AUTO-123456","claimant":{"fullName":"John Doe","contactPhone":"+91-9876543210","contactEmail":"john.doe@example.com"},"incident":{"incidentType":"MOTOR_COLLISION","incidentDate":"2026-07-20T18:45:00+00:00","location":{"city":"Visakhapatnam","state":"Andhra Pradesh","country":"IN"},"description":"Rear-ended at traffic signal, visible bumper damage."},"vehicle":{"registrationNumber":"AP31AB1234","make":"Toyota","model":"Corolla","year":2022},"channel":"WEB_PORTAL","reportedAt":"2026-07-20T19:00:00+00:00","documents":[]}
+
+laborant@dev-machine:~$ 
