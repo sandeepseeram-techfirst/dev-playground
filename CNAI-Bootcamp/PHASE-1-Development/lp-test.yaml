@@ -14,7 +14,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lp-test-pod
+  name: lp-test-pod 
   namespace: default
 spec:
   containers:
